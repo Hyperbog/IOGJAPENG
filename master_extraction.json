@@ -6810,6 +6810,14 @@
         {
           "text": "YASUHIRO KAWASAKI",
           "id": "TTL-0005"
+        },
+        {
+          "id": "TTL-0006",
+          "text": "ガイア幻想紀",
+          "source_type": "Graphical title-screen lettering; original compressed bitmap",
+          "rom_asset_offset": "0x1980A2",
+          "rom_text_offset": null,
+          "rom_byte_verified": false
         }
       ]
     },
@@ -7296,6 +7304,612 @@
         }
       ],
       "description": "Full original Japanese-release ending credits, exactly as written on the 27 on-screen cards. Latin letters are present in the Japanese release."
+    },
+    {
+      "id": "area_titles",
+      "title": "場所の画面表示タイトル／地名",
+      "entries": [
+        {
+          "id": "AREA-0001",
+          "text": "サウスケープ",
+          "rom_offset": "0x0C831E",
+          "rom_end_exclusive": "0x0C8327",
+          "raw_hex": "d4453d4743731bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0002",
+          "text": "海岸のどうくつ",
+          "rom_offset": "0x0C8359",
+          "rom_end_exclusive": "0x0C8363",
+          "raw_hex": "805880fd530e3d424ccc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0003",
+          "text": "ロブの家",
+          "rom_offset": "0x0C8387",
+          "rom_end_exclusive": "0x0C838F",
+          "raw_hex": "d46516d5538101cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0004",
+          "text": "エリックの家",
+          "rom_offset": "0x0C83BA",
+          "rom_end_exclusive": "0x0C83C4",
+          "raw_hex": "d43e626e42d5538101cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0005",
+          "text": "モリスの家",
+          "rom_offset": "0x0C83E8",
+          "rom_end_exclusive": "0x0C83F1",
+          "raw_hex": "d45d6247d5538101cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0006",
+          "text": "テムの家",
+          "rom_offset": "0x0C8446",
+          "rom_end_exclusive": "0x0C844E",
+          "raw_hex": "d44d5bd5538101cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0007",
+          "text": "エドワード城",
+          "rom_offset": "0x0C85EF",
+          "rom_end_exclusive": "0x0C85F9",
+          "raw_hex": "d43e0e66730e804ad5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0008",
+          "text": "エドワード城ろうや",
+          "rom_offset": "0x0C8655",
+          "rom_end_exclusive": "0x0C8662",
+          "raw_hex": "d43e0e66730e804ad5653d5ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0009",
+          "text": "地下水路",
+          "rom_offset": "0x0C8731",
+          "rom_end_exclusive": "0x0C873A",
+          "raw_hex": "805580c1805c811ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0010",
+          "text": "イトリー族の村",
+          "rom_offset": "0x0C8B34",
+          "rom_end_exclusive": "0x0C8B40",
+          "raw_hex": "d43c4e6273804bd553804ccc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0011",
+          "text": "リリィの家",
+          "rom_offset": "0x0C8B74",
+          "rom_end_exclusive": "0x0C8B7D",
+          "raw_hex": "d462626ad5538101cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0012",
+          "text": "月の種族のすみか",
+          "rom_offset": "0x0C8C00",
+          "rom_end_exclusive": "0x0C8C0C",
+          "raw_hex": "804d53804e804b53475a40cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0013",
+          "text": "インカのイセキ入口",
+          "rom_offset": "0x0C8C8B",
+          "rom_end_exclusive": "0x0C8C9B",
+          "raw_hex": "d43c6840d553d43c4841800f807bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0014",
+          "text": "ラライのガケ",
+          "rom_offset": "0x0C8D54",
+          "rom_end_exclusive": "0x0C8D5F",
+          "raw_hex": "d461613cd553d40043d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0015",
+          "text": "花の都 フリージア",
+          "rom_offset": "0x0C965E",
+          "rom_end_exclusive": "0x0C966C",
+          "raw_hex": "804f53805020d4566273063bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0016",
+          "text": "ドレイの収容所",
+          "rom_offset": "0x0C96D3",
+          "rom_end_exclusive": "0x0C96E0",
+          "raw_hex": "d40e643cd55381968197800ccc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0017",
+          "text": "ドレイ市場",
+          "rom_offset": "0x0C97FE",
+          "rom_end_exclusive": "0x0C9808",
+          "raw_hex": "d40e643c805d800bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0018",
+          "text": "ダイヤモンド鉱山",
+          "rom_offset": "0x0C98E5",
+          "rom_end_exclusive": "0x0C98F2",
+          "raw_hex": "d40a3c5e5d680e80518052d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0019",
+          "text": "死体置場",
+          "rom_offset": "0x0C9BBE",
+          "rom_end_exclusive": "0x0C9BC7",
+          "raw_hex": "80a680478198800bcc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0020",
+          "text": "ニールの小屋",
+          "rom_offset": "0x0C9CA9",
+          "rom_end_exclusive": "0x0C9CB4",
+          "raw_hex": "d4507363d55380538054cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0021",
+          "text": "ナスカ平原",
+          "rom_offset": "0x0C9D0B",
+          "rom_end_exclusive": "0x0C9D15",
+          "raw_hex": "d44f474080e38063d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0022",
+          "text": "空中庭園",
+          "rom_offset": "0x0C9D78",
+          "rom_end_exclusive": "0x0C9D81",
+          "raw_hex": "8004801d8199819acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0023",
+          "text": "空中庭園",
+          "rom_offset": "0x0C9E55",
+          "rom_end_exclusive": "0x0C9E5E",
+          "raw_hex": "8004801d8199819acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0024",
+          "text": "空中庭園 裏側",
+          "rom_offset": "0x0C9F13",
+          "rom_end_exclusive": "0x0C9F21",
+          "raw_hex": "8004801d8199819a20819b808ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0025",
+          "text": "空中庭園",
+          "rom_offset": "0x0C9FDD",
+          "rom_end_exclusive": "0x0C9FE6",
+          "raw_hex": "8004801d8199819acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0026",
+          "text": "空中庭園 裏側",
+          "rom_offset": "0x0CA08B",
+          "rom_end_exclusive": "0x0CA099",
+          "raw_hex": "8004801d8199819a20819b808ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0027",
+          "text": "空中庭園",
+          "rom_offset": "0x0CA155",
+          "rom_end_exclusive": "0x0CA15E",
+          "raw_hex": "8004801d8199819acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0028",
+          "text": "空中庭園 裏側",
+          "rom_offset": "0x0CA200",
+          "rom_end_exclusive": "0x0CA20E",
+          "raw_hex": "8004801d8199819a20819b808ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0029",
+          "text": "空中庭園",
+          "rom_offset": "0x0CA2F1",
+          "rom_end_exclusive": "0x0CA2FA",
+          "raw_hex": "8004801d8199819acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0030",
+          "text": "空中庭園 裏側",
+          "rom_offset": "0x0CA3F4",
+          "rom_end_exclusive": "0x0CA402",
+          "raw_hex": "8004801d8199819a20819b808ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0031",
+          "text": "ムー大陸",
+          "rom_offset": "0x0CA7B1",
+          "rom_end_exclusive": "0x0CA7BA",
+          "raw_hex": "d45b7380318057d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0032",
+          "text": "いのりの部屋",
+          "rom_offset": "0x0CAB0B",
+          "rom_end_exclusive": "0x0CAB14",
+          "raw_hex": "3c53625380868054cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0033",
+          "text": "海底トンネル",
+          "rom_offset": "0x0CAD59",
+          "rom_end_exclusive": "0x0CAD64",
+          "raw_hex": "80588059d44e685263d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0034",
+          "text": "だ天使の町",
+          "rom_offset": "0x0CAE73",
+          "rom_end_exclusive": "0x0CAE7C",
+          "raw_hex": "0a805a805b538049cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0035",
+          "text": "風の通路",
+          "rom_offset": "0x0CB25B",
+          "rom_end_exclusive": "0x0CB263",
+          "raw_hex": "804453811d811ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0036",
+          "text": "水上都市ウォータミア",
+          "rom_offset": "0x0CB52E",
+          "rom_end_exclusive": "0x0CB53F",
+          "raw_hex": "805c803a8050805dd43d6d734a5a3bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0037",
+          "text": "とばく場",
+          "rom_offset": "0x0CB5F3",
+          "rom_end_exclusive": "0x0CB5F9",
+          "raw_hex": "4e1442800bcc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0038",
+          "text": "万里の長城",
+          "rom_offset": "0x0CB802",
+          "rom_end_exclusive": "0x0CB80C",
+          "raw_hex": "805e805f538060804acc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0039",
+          "text": "大都市 エウロ",
+          "rom_offset": "0x0CBF22",
+          "rom_end_exclusive": "0x0CBF2F",
+          "raw_hex": "80318050805d20d43e3d65d5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0040",
+          "text": "ローレック株式会社",
+          "rom_offset": "0x0CBF96",
+          "rom_end_exclusive": "0x0CBFA6",
+          "raw_hex": "d46573646e42819c819d815f819ed5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0041",
+          "text": "ローレックのやしき",
+          "rom_offset": "0x0CBFD8",
+          "rom_end_exclusive": "0x0CBFE4",
+          "raw_hex": "d46573646e42d5535e4641cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0042",
+          "text": "礼拝堂",
+          "rom_offset": "0x0CC14E",
+          "rom_end_exclusive": "0x0CC155",
+          "raw_hex": "81a081a181a2cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0043",
+          "text": "山の聖域",
+          "rom_offset": "0x0CC1DE",
+          "rom_end_exclusive": "0x0CC1E6",
+          "raw_hex": "80525380618062cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0044",
+          "text": "アンコールワット入口",
+          "rom_offset": "0x0CCB5F",
+          "rom_end_exclusive": "0x0CCB6E",
+          "raw_hex": "d43b68447363666e4e800f807bd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0045",
+          "text": "外周の通路",
+          "rom_offset": "0x0CCC28",
+          "rom_end_exclusive": "0x0CCC32",
+          "raw_hex": "814f81a353811d811ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0046",
+          "text": "内周の通路",
+          "rom_offset": "0x0CD00C",
+          "rom_end_exclusive": "0x0CD016",
+          "raw_hex": "811f81a353811d811ecc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0047",
+          "text": "本堂へ向かう参道",
+          "rom_offset": "0x0CD10D",
+          "rom_end_exclusive": "0x0CD11B",
+          "raw_hex": "813d81a257810a403d81a48089cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0048",
+          "text": "本堂 １F",
+          "rom_offset": "0x0CD16E",
+          "rom_end_exclusive": "0x0CD176",
+          "raw_hex": "813d81a2207426cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0049",
+          "text": "本堂 ２F",
+          "rom_offset": "0x0CD223",
+          "rom_end_exclusive": "0x0CD22B",
+          "raw_hex": "813d81a2207526cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0050",
+          "text": "本堂 ３F",
+          "rom_offset": "0x0CD2C1",
+          "rom_end_exclusive": "0x0CD2C9",
+          "raw_hex": "813d81a2207626cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0051",
+          "text": "本堂 ４F",
+          "rom_offset": "0x0CD317",
+          "rom_end_exclusive": "0x0CD31F",
+          "raw_hex": "813d81a2207726cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0052",
+          "text": "さばくの町 ダオ",
+          "rom_offset": "0x0CD3D4",
+          "rom_end_exclusive": "0x0CD3E0",
+          "raw_hex": "45144253804920d40a3fd5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0053",
+          "text": "ピラミッド",
+          "rom_offset": "0x0CD510",
+          "rom_end_exclusive": "0x0CD518",
+          "raw_hex": "d41a615a6e0ed5cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0054",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE198",
+          "rom_end_exclusive": "0x0CE1A2",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0055",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE39C",
+          "rom_end_exclusive": "0x0CE3A6",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0056",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE3BC",
+          "rom_end_exclusive": "0x0CE3C6",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0057",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE3DC",
+          "rom_end_exclusive": "0x0CE3E6",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0058",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE3FC",
+          "rom_end_exclusive": "0x0CE406",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0059",
+          "text": "ヤミの空間",
+          "rom_offset": "0x0CE41C",
+          "rom_end_exclusive": "0x0CE426",
+          "raw_hex": "d45e5ad55380048005cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        },
+        {
+          "id": "AREA-0060",
+          "text": "おばけやしき",
+          "rom_offset": "0x0CE511",
+          "rom_end_exclusive": "0x0CE518",
+          "raw_hex": "3f14435e4641cc",
+          "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
+          "rom_byte_verified": true,
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+        }
+      ]
     }
   ],
   "version": "v17",
@@ -7343,9 +7957,9 @@
     "last_updated_utc": "2026-11-04",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
-      "entries": 1633,
+      "entries": 1694,
       "unique_entry_ids": 1633,
-      "sections": 16,
+      "sections": 17,
       "by_section": {
         "opening": 9,
         "dialogue": 1273,
@@ -7418,10 +8032,18 @@
         "unit": "original symbolic glyph identifiers",
         "kind": "source fidelity; no translation required",
         "status": "preserved"
+      },
+      {
+        "id": "R7",
+        "target": "Confirm runtime triggering and any unlisted map-title formats beyond 60 decoded area-title records",
+        "known_units": 60,
+        "unit": "decoded area-title slots",
+        "kind": "graphic / screen text audit",
+        "status": "60 byte-verified location titles; per-map runtime triggering pending"
       }
     ],
     "progress_measurement": {
-      "extracted_entries": 1633,
+      "extracted_entries": 1694,
       "known_missing_player_visible_dialogue_count": 0,
       "known_unverified_supplemental_entries": 39,
       "completeness_percentage": null,
@@ -14702,6 +15324,21 @@
         }
       ],
       "completion": "Every one of 2,450 source rows has an automated comparison classification; rows without direct exact matching require manual or ROM-level adjudication. This is NOT a finished exhaustive reconciliation."
+    },
+    "graphical_and_area_text_audit": {
+      "date": "2026-11-04",
+      "method": "Decoded the original Japanese ROM's FF-prefixed CC-terminated location-title strings in bank 0C, including D4/D5 kana controls and two-byte kanji. Compared values to existing extracted items and verified raw byte spans against original ROM.",
+      "additional_location_title_slots": 60,
+      "previously_absent_or_unindexed_slots": 35,
+      "unmapped_japanese_kanji_codes_resolved": [
+        {
+          "code": "81A3",
+          "glyph": "周",
+          "corroborated_by": "paired 外周 / 内周 location names and Japanese independent transcript"
+        }
+      ],
+      "title_logo_added": "ガイア幻想紀",
+      "runtime_caveat": "Exact titles extracted; not every possible map-trigger execution has been observed"
     }
   }
 }
