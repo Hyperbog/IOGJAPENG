@@ -5160,159 +5160,393 @@
       "entries": [
         {
           "text": "しかし 持ち物が いっぱいだった。",
-          "id": "ADD-0001"
+          "id": "ADD-0001",
+          "rom_offset": "0x01E974",
+          "rom_end_exclusive": "0x01E991",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "中は からっぽだった！",
-          "id": "ADD-0002"
+          "id": "ADD-0002",
+          "rom_offset": "0x01E9A8",
+          "rom_end_exclusive": "0x01E9BA",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "たからばこは\nかたく 閉じられていた",
-          "id": "ADD-0003"
+          "id": "ADD-0003",
+          "rom_offset": "0x01E9BA",
+          "rom_end_exclusive": "0x01E9D2",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "笛を 吹きますか？\n はい\n いいえ",
-          "id": "ADD-0004"
+          "id": "ADD-0004",
+          "rom_offset": "0x03894B",
+          "rom_end_exclusive": "0x038961",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ローラの メロディをおぼえた！",
-          "id": "ADD-0005"
+          "id": "ADD-0005",
+          "rom_offset": "0x049B55",
+          "rom_end_exclusive": "0x049B6F",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "骨つきのくんせい肉を 手に入れた！\n\nカレン：\nこれで 準備 オッケー！\nさあ 兵隊さんに 見つからない\nうちに いきましょ！",
-          "id": "ADD-0006"
+          "id": "ADD-0006",
+          "rom_offset": "0x04CC24",
+          "rom_end_exclusive": "0x04CC7D",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ろうごくのカギを 手に入れた！",
-          "id": "ADD-0007"
+          "id": "ADD-0007",
+          "rom_offset": "0x04D08C",
+          "rom_end_exclusive": "0x04D0A7",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "インカの像Aを 手に入れた。",
-          "id": "ADD-0008"
+          "id": "ADD-0008",
+          "rom_offset": "0x04EB2A",
+          "rom_end_exclusive": "0x04EB46",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "インカの像Bを 手に入れた。",
-          "id": "ADD-0009"
+          "id": "ADD-0009",
+          "rom_offset": "0x04F211",
+          "rom_end_exclusive": "0x04F232",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "リリィ：\nちょっと どこへ いくのよぉ",
-          "id": "ADD-0010"
+          "id": "ADD-0010",
+          "rom_offset": "0x058886",
+          "rom_end_exclusive": "0x0588A5",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "鉱山のカギを 見つけた！",
-          "id": "ADD-0011"
+          "id": "ADD-0011",
+          "rom_offset": "0x05DB9B",
+          "rom_end_exclusive": "0x05DBB4",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ニール：\nさーて みんな もどったところで\n本題に入ろう。\n\nニール： なるほどっ！\n白鳥座の星の数は ９コ。\n石の数も たしかに ９コだ・・・",
-          "id": "ADD-0012"
+          "id": "ADD-0012",
+          "rom_offset": "0x05F09D",
+          "rom_end_exclusive": "0x05F100",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "海底きゅうでんのカギを手に入れた！",
-          "id": "ADD-0013"
+          "id": "ADD-0013",
+          "rom_offset": "0x068DFE",
+          "rom_end_exclusive": "0x068E1D",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "じょうか石を 手に入れた！",
-          "id": "ADD-0014"
+          "id": "ADD-0014",
+          "rom_offset": "0x06926E",
+          "rom_end_exclusive": "0x069286",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
-          "id": "ADD-0015"
+          "id": "ADD-0015",
+          "rom_offset": "0x069731",
+          "rom_end_exclusive": "0x069776",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
-          "id": "ADD-0016"
+          "id": "ADD-0016",
+          "rom_offset": "0x0697D1",
+          "rom_end_exclusive": "0x069816",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
         },
         {
           "text": "テム： うっ・・・\n体が だんだん しびれてきた・・・",
-          "id": "ADD-0017"
+          "id": "ADD-0017",
+          "rom_offset": "0x079792",
+          "rom_end_exclusive": "0x0797B6",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "きれいな小石が おちている。",
-          "id": "ADD-0018"
+          "id": "ADD-0018",
+          "rom_offset": "0x07B321",
+          "rom_end_exclusive": "0x07B338",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
-          "id": "ADD-0019"
+          "id": "ADD-0019",
+          "rom_offset": "0x08920C",
+          "rom_end_exclusive": "0x08924A",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
-          "id": "ADD-0020"
+          "id": "ADD-0020",
+          "rom_offset": "0x0892D0",
+          "rom_end_exclusive": "0x08930E",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
-          "id": "ADD-0021"
+          "id": "ADD-0021",
+          "rom_offset": "0x0893C2",
+          "rom_end_exclusive": "0x089400",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
         },
         {
           "text": "ゴーゴンの花を 手に入れた！",
-          "id": "ADD-0022"
+          "id": "ADD-0022",
+          "rom_offset": "0x089CDD",
+          "rom_end_exclusive": "0x089CF9",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "黒すいしょうのめがねを 見つけた！",
-          "id": "ADD-0023"
+          "id": "ADD-0023",
+          "rom_offset": "0x089DD8",
+          "rom_end_exclusive": "0x089DF3",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "手紙と 父の手帳を 手に入れた！",
-          "id": "ADD-0024"
+          "id": "ADD-0024",
+          "rom_offset": "0x08AEF9",
+          "rom_end_exclusive": "0x08AF18",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ブラックパンサー：\nふっ とうとう 観念したか・・・",
-          "id": "ADD-0025"
+          "id": "ADD-0025",
+          "rom_offset": "0x08B8EF",
+          "rom_end_exclusive": "0x08B915",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ヒエログリフの石版を 手に入れた！",
-          "id": "ADD-0026"
+          "id": "ADD-0026",
+          "rom_offset": "0x08C405",
+          "rom_end_exclusive": "0x08C424",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "ヒントのテスト",
-          "id": "ADD-0027"
+          "id": "ADD-0027",
+          "rom_offset": "0x08D9A1",
+          "rom_end_exclusive": "0x08D9B0",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Text means 'Hint Test'; likely test/development text until player-visible event is demonstrated."
         },
         {
           "text": "黄金タイルの しきつめられた場所。\nそこには 黄金の船へ向かうとびらが\nかくされている。\n\nインカの神の歌う メロディに\n耳を かたむけてみるといい。",
-          "id": "ADD-0028"
+          "id": "ADD-0028",
+          "rom_offset": "0x08DB15",
+          "rom_end_exclusive": "0x08DB76",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "届かない場所にいる敵を たおすには\nどうすればいいのか・・・・\nエドワード城の地下での できごとを\n思いかえしてみるといい。",
-          "id": "ADD-0029"
+          "id": "ADD-0029",
+          "rom_offset": "0x08DB76",
+          "rom_end_exclusive": "0x08DBC4",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "風のふきこむカベ・・・\nそれは 石が すきまだらけで\nこわれやすい場所。\n\n見つからなければ たたいて調べる\nという方法もある。\nそこだけ 音がちがうはずだ。",
-          "id": "ADD-0030"
+          "id": "ADD-0030",
+          "rom_offset": "0x08DBC5",
+          "rom_end_exclusive": "0x08DC24",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "鉱山の 地面にある 鉄格子は\nすべて カギが かかっている。\nまずは カギを持つ ドレイを\nさがしだすことだ。",
-          "id": "ADD-0031"
+          "id": "ADD-0031",
+          "rom_offset": "0x08DC24",
+          "rom_end_exclusive": "0x08DC6F",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "表の障害物を ひっこめれば\n裏が でっぱる。\nじゃまな はしらは ひっこめる\nことだ。",
-          "id": "ADD-0032"
+          "id": "ADD-0032",
+          "rom_offset": "0x08DCD0",
+          "rom_end_exclusive": "0x08DD06",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "地面にある スイッチ。\nそれは 人間の重さでは おしこむ\nことが できない。",
-          "id": "ADD-0033"
+          "id": "ADD-0033",
+          "rom_offset": "0x08DD06",
+          "rom_end_exclusive": "0x08DD39",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "ピラミッドは ６つのブロックに\nわかれている。\n\nそれぞれの地域を これまでに\n手に入れた ヤミの力を 最大限に\n利用して 進むがよい。",
-          "id": "ADD-0034"
+          "id": "ADD-0034",
+          "rom_offset": "0x08DFE5",
+          "rom_end_exclusive": "0x08E03F",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
         },
         {
           "text": "オーラのたまを 手に入れた！",
-          "id": "ADD-0035"
+          "id": "ADD-0035",
+          "rom_offset": "0x08E8EE",
+          "rom_end_exclusive": "0x08E905",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "すいしょうの指輪を 手に入れた！",
-          "id": "ADD-0036"
+          "id": "ADD-0036",
+          "rom_offset": "0x09990B",
+          "rom_end_exclusive": "0x099928",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "independently_located_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "すい星が 地球のそばを かすめる\nたびに 生物は げき的な 進化を\nとげてきたのだ・・・",
-          "id": "ADD-0037"
+          "id": "ADD-0037",
+          "rom_offset": "0x0999FC",
+          "rom_end_exclusive": "0x099A31",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "鉱山のカギを 手にいれた！",
-          "id": "ADD-0038"
+          "id": "ADD-0038",
+          "rom_offset": "0x0AA733",
+          "rom_end_exclusive": "0x0AA74D",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         },
         {
           "text": "リフトのカギを 手にいれた！",
-          "id": "ADD-0039"
+          "id": "ADD-0039",
+          "rom_offset": "0x0AA794",
+          "rom_end_exclusive": "0x0AA7AF",
+          "byte_verified_against_japanese_rom": true,
+          "source_kind": "inline_script_text",
+          "gameplay_reachability": "not proven by gameplay trace",
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
         }
       ]
     },
@@ -7139,11 +7373,11 @@
     "exact_known_remaining_work": [
       {
         "id": "R1",
-        "target": "Resolve in-game execution paths, conditions, and scene attribution for supplemental dialogue",
+        "target": "Gameplay trigger and visibility verification for byte-verified supplementary scripts",
         "known_units": 39,
-        "unit": "supplemental entries",
-        "kind": "reachability and attribution audit",
-        "status": "unverified or partially traced"
+        "unit": "ROM source-verified entries; 8 hint/test entries warrant particular attention",
+        "kind": "runtime reachability audit",
+        "status": "39/39 ROM source-verified; 0/39 independently traced through emulator; developer hint block flagged"
       },
       {
         "id": "R2",
@@ -7199,6 +7433,28 @@
       "symbolic_glyphs": "Preserve original identifiers; do not infer Egyptian meaning.",
       "translations": "Not included; Japanese extraction only."
     },
-    "imported_from": "Gaia_Gensouki_Japanese_InGame_Text_v17.json"
+    "imported_from": "Gaia_Gensouki_Japanese_InGame_Text_v17.json",
+    "supplementary_dialogue_audit": {
+      "date": "2026-11-04",
+      "entries_source_span_verified": 39,
+      "entries_with_distinct_source_offsets": 39,
+      "display_text_repetitions_preserved": [
+        "ADD-0015 / ADD-0016",
+        "ADD-0019 / ADD-0020 / ADD-0021"
+      ],
+      "gameplay_access_verified_by_emulator": 0,
+      "byte_source_proof": "Compared each original source byte span to the 2 MiB Japanese ROM used for the v13 extraction; all matched. This verifies extraction, NOT that the scripts are executed in normal gameplay.",
+      "distinct_manual_review_flags": [
+        "ADD-0027",
+        "ADD-0028",
+        "ADD-0029",
+        "ADD-0030",
+        "ADD-0031",
+        "ADD-0032",
+        "ADD-0033",
+        "ADD-0034"
+      ],
+      "player_visibility_status": "Unresolved without tracing event triggers / runtime."
+    }
   }
 }
