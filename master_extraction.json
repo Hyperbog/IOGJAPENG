@@ -1,7 +1,7 @@
 {
-  "title": "ガイア幻想紀 — 日本語ゲーム内テキスト（v15 抽出補完）",
+  "title": "ガイア幻想紀 — 日本語ゲーム内テキスト（マスター抽出）",
   "scope": "Player-visible text of the original Japanese Super Famicom game: 16 categories. Staff roll decoded from its original ROM bytes; numeric zero glyph corrected in digit context.",
-  "source_dataset": "Gaia_Gensouki_Japanese_InGame_Text_v15_Audited.json",
+  "source_dataset": "Gaia_Gensouki_Japanese_InGame_Text_v17.json",
   "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
   "excluded_debug_only_records": 5,
   "sections": [
@@ -7131,7 +7131,9 @@
         "staff_roll": 27
       },
       "entries_with_direct_rom_offset_in_this_file": 47,
-      "entries_without_direct_rom_offset_in_this_file": 1586
+      "entries_without_direct_rom_offset_in_this_file": 1586,
+      "unique_text_values": 1464,
+      "entries_with_explicit_speaker_field": 61
     },
     "completion_state": "Substantial Japanese player-visible text extracted; exhaustive in-game coverage has not been established.",
     "exact_known_remaining_work": [
@@ -7196,6 +7198,7 @@
       "source_priority": "Original JP ROM > direct ROM capture > independent transcription (cross-check only).",
       "symbolic_glyphs": "Preserve original identifiers; do not infer Egyptian meaning.",
       "translations": "Not included; Japanese extraction only."
-    }
+    },
+    "imported_from": "Gaia_Gensouki_Japanese_InGame_Text_v17.json"
   }
 }
