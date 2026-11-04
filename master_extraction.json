@@ -7995,11 +7995,11 @@
       },
       {
         "id": "R2",
-        "target": "Adjudicate independent transcription rows not exactly matched to extracted ROM text",
-        "known_units": 865,
-        "unit": "reference rows (classified 370 strong fragments, 359 partial, 79 no overlap, 21 short, 36 Roman)",
-        "kind": "source reconciliation",
-        "status": "36/36 reference chapters scanned; 1,585 exact, 865 require adjudication"
+        "target": "Adjudicate independent transcription rows that cannot yet be matched verbatim to the original ROM-derived master",
+        "known_units": 812,
+        "unit": "reference rows (some are formatting differences, missing game text, or transcription errors)",
+        "kind": "independent cross-check",
+        "status": "36/36 chapters compared; 1638 directly matched after current recovery; 812 still need context/ROM adjudication"
       },
       {
         "id": "R3",
@@ -8138,8 +8138,10 @@
               "row": "B21",
               "status": "no_overlap",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "ガイア幻想紀"
+              "master_id": "TTL-0006",
+              "source_text": "ガイア幻想紀",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B25",
@@ -8257,8 +8259,10 @@
               "row": "B117",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "テムの家"
+              "master_id": "DLG-0266",
+              "source_text": "テムの家",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B131",
@@ -8351,7 +8355,15 @@
               "master_id": null,
               "source_text": "けっ。ちっともつれやしねえ…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 59,
+            "strong_fragments": 13,
+            "partial": 17,
+            "no_overlap": 2,
+            "short_ambiguous": 1,
+            "roman": 0
+          }
         },
         {
           "chapter": 2,
@@ -8415,7 +8427,15 @@
               "master_id": null,
               "source_text": "言葉のとおり人間の能力を越えた力…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 40,
+            "strong_fragments": 3,
+            "partial": 3,
+            "no_overlap": 1,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 3,
@@ -8539,8 +8559,10 @@
               "row": "B73",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "いやーーーーーーーーーっ！！！"
+              "master_id": "DLG-0164",
+              "source_text": "いやーーーーーーーーーっ！！！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B83",
@@ -8619,7 +8641,15 @@
               "master_id": null,
               "source_text": "ロブ：今日教会の勉強も休みだし..何か面白いことねえかなあ。"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 53,
+            "strong_fragments": 9,
+            "partial": 14,
+            "no_overlap": 3,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 4,
@@ -8729,8 +8759,10 @@
               "row": "B83",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "それっ！"
+              "master_id": "DLG-0280",
+              "source_text": "それっ！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B85",
@@ -8753,7 +8785,15 @@
               "master_id": null,
               "source_text": "エドワード王后：オバサンですってっ？！！！"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 38,
+            "strong_fragments": 5,
+            "partial": 7,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 5,
@@ -8954,8 +8994,10 @@
               "row": "B114",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "地下水路"
+              "master_id": "AREA-0009",
+              "source_text": "地下水路",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B124",
@@ -9069,7 +9111,15 @@
               "master_id": null,
               "source_text": "リリィ：あっ。長老さまが呼んでる…あたし行かなくちゃ。"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 56,
+            "strong_fragments": 21,
+            "partial": 16,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 6,
@@ -9214,8 +9264,10 @@
               "row": "B101",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "テム：うん！"
+              "master_id": "DLG-0209",
+              "source_text": "テム：うん！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B119",
@@ -9259,7 +9311,15 @@
               "master_id": null,
               "source_text": "カレン：あら、テムはあたしのおともだちよね？！ ／ うん、もちろんさ ／ よくわかんねえやし…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 54,
+            "strong_fragments": 6,
+            "partial": 16,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 7,
@@ -9421,7 +9481,15 @@
               "master_id": null,
               "source_text": "テム：あーあすねちゃった…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 76,
+            "strong_fragments": 10,
+            "partial": 10,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 8,
@@ -9545,8 +9613,10 @@
               "row": "B81",
               "status": "partial",
               "approximate_overlap": 0.667,
-              "master_id": null,
-              "source_text": "インカのイセキ入口"
+              "master_id": "AREA-0013",
+              "source_text": "インカのイセキ入口",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B87",
@@ -9576,7 +9646,15 @@
               "master_id": null,
               "source_text": "リリィ：やれやれ。これだものおじょうさまは…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 43,
+            "strong_fragments": 13,
+            "partial": 6,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 9,
@@ -9717,7 +9795,15 @@
               "master_id": null,
               "source_text": "まものの気配が消えテムの変身が解けてゆく…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 19,
+            "strong_fragments": 9,
+            "partial": 9,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 10,
@@ -9837,7 +9923,15 @@
               "master_id": null,
               "source_text": "うわあぁぁぁぁぁんモリスが食べられちゃったようヒックヒック…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 60,
+            "strong_fragments": 9,
+            "partial": 6,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 11,
@@ -9884,8 +9978,10 @@
               "row": "B46",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "あらっ？"
+              "master_id": "DLG-0451",
+              "source_text": "あらっ？",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B50",
@@ -10076,7 +10172,15 @@
               "master_id": null,
               "source_text": "テム：とつぜんボクはひざからがくっとくずれ落ち意識が遠のいていった…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 58,
+            "strong_fragments": 18,
+            "partial": 9,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 12,
@@ -10126,7 +10230,15 @@
               "master_id": null,
               "source_text": "こうして二人は花の都フリージアヘ向かう…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 22,
+            "strong_fragments": 1,
+            "partial": 2,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 13,
@@ -10250,8 +10362,10 @@
               "row": "B88",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "バシッ！！！！！！"
+              "master_id": "DLG-0485",
+              "source_text": "バシッ！！！！！！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B90",
@@ -10393,7 +10507,15 @@
               "master_id": null,
               "source_text": "そしたら見つかっちゃってこんなことになっちゃって…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 76,
+            "strong_fragments": 14,
+            "partial": 18,
+            "no_overlap": 3,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 14,
@@ -10496,8 +10618,10 @@
               "row": "B68",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "死体置場"
+              "master_id": "AREA-0019",
+              "source_text": "死体置場",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B72",
@@ -10541,7 +10665,15 @@
               "master_id": null,
               "source_text": "笛をもっていない…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 42,
+            "strong_fragments": 6,
+            "partial": 10,
+            "no_overlap": 1,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 15,
@@ -10668,7 +10800,15 @@
               "master_id": null,
               "source_text": "ニールっていう名前の人らしいんだけど…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 18,
+            "strong_fragments": 11,
+            "partial": 5,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 16,
@@ -10725,7 +10865,15 @@
               "master_id": null,
               "source_text": "一行はナスカのさばくへと向かうのであった…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 45,
+            "strong_fragments": 4,
+            "partial": 1,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 17,
@@ -10831,7 +10979,15 @@
               "master_id": null,
               "source_text": "砂のなかに何かタイルのようなものがうまっている…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 32,
+            "strong_fragments": 9,
+            "partial": 3,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 18,
@@ -10850,8 +11006,10 @@
               "row": "B3",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "空中庭園"
+              "master_id": "DLG-0613",
+              "source_text": "空中庭園",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B5",
@@ -10923,7 +11081,15 @@
               "master_id": null,
               "source_text": "ニールはすごい発明家だが彼の作品にはいつもどこかしらぬけているところがある…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 24,
+            "strong_fragments": 5,
+            "partial": 5,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 19,
@@ -11183,7 +11349,15 @@
               "master_id": null,
               "source_text": "リリィ：長い通路だよね….これほんとにムー大陸につづいてるのかな…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 29,
+            "strong_fragments": 18,
+            "partial": 13,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 20,
@@ -11202,8 +11376,10 @@
               "row": "B3",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "ムー大陸"
+              "master_id": "DLG-0621",
+              "source_text": "ムー大陸",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B7",
@@ -11216,8 +11392,10 @@
               "row": "B11",
               "status": "no_overlap",
               "approximate_overlap": 0.333,
-              "master_id": null,
-              "source_text": "いのりの部屋"
+              "master_id": "AREA-0032",
+              "source_text": "いのりの部屋",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B21",
@@ -11408,7 +11586,15 @@
               "master_id": null,
               "source_text": "いっしょにくらしてた人たちがはなればなれになってしかも片方は海の底なんて…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 50,
+            "strong_fragments": 13,
+            "partial": 13,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 21,
@@ -11584,7 +11770,15 @@
               "master_id": null,
               "source_text": "カレン：モリス….かわいそうに….."
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 43,
+            "strong_fragments": 12,
+            "partial": 10,
+            "no_overlap": 1,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 22,
@@ -11624,8 +11818,10 @@
               "row": "B18",
               "status": "no_overlap",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "カレン：何が”テム行こっ”よっ！"
+              "master_id": "DLG-0733",
+              "source_text": "カレン：何が”テム行こっ”よっ！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B24",
@@ -11711,7 +11907,15 @@
               "master_id": null,
               "source_text": "テム：たましいをぬかれたようにまるで意識がない…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 50,
+            "strong_fragments": 10,
+            "partial": 5,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 23,
@@ -11751,8 +11955,10 @@
               "row": "B40",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "正解じゃ！"
+              "master_id": "DLG-0774",
+              "source_text": "正解じゃ！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B54",
@@ -11894,7 +12100,15 @@
               "master_id": null,
               "source_text": "ロブ：リリィは水上都市でたん生日を向えることになるんだよな…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 57,
+            "strong_fragments": 6,
+            "partial": 12,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 24,
@@ -12039,8 +12253,10 @@
               "row": "B126",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "うーんうーん"
+              "master_id": "DLG-0634",
+              "source_text": "うーんうーん",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B132",
@@ -12196,7 +12412,15 @@
               "master_id": null,
               "source_text": "追しん：あそうそう…リリィにふられちまったよ。"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 75,
+            "strong_fragments": 19,
+            "partial": 18,
+            "no_overlap": 3,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 25,
@@ -12243,15 +12467,19 @@
               "row": "B22",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "まって！！"
+              "master_id": "DLG-0249",
+              "source_text": "まって！！",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B30",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "さ行こっ。"
+              "master_id": "DLG-0632",
+              "source_text": "さ行こっ。",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B36",
@@ -12386,7 +12614,15 @@
               "master_id": null,
               "source_text": "ずっといっしょにいられたらいいね…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 28,
+            "strong_fragments": 10,
+            "partial": 10,
+            "no_overlap": 3,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 26,
@@ -12555,7 +12791,15 @@
               "master_id": null,
               "source_text": "わけはね…ロブから聞いて。"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 49,
+            "strong_fragments": 9,
+            "partial": 10,
+            "no_overlap": 3,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 27,
@@ -12857,7 +13101,15 @@
               "master_id": null,
               "source_text": "アン：カレンを大切にしてあげてね…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 94,
+            "strong_fragments": 21,
+            "partial": 18,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 28,
@@ -13005,7 +13257,15 @@
               "master_id": null,
               "source_text": "なんとかしてドレイ貿易をやめさせたいし、それにはまずドレイ貿易を始めた会社が動くべきだと思う…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 38,
+            "strong_fragments": 5,
+            "partial": 11,
+            "no_overlap": 2,
+            "short_ambiguous": 1,
+            "roman": 0
+          }
         },
         {
           "chapter": 29,
@@ -13279,7 +13539,15 @@
               "master_id": null,
               "source_text": "ペギー…なんてやさしい子なの…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 30,
+            "strong_fragments": 11,
+            "partial": 19,
+            "no_overlap": 7,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 30,
@@ -13298,15 +13566,19 @@
               "row": "B6",
               "status": "partial",
               "approximate_overlap": 0.667,
-              "master_id": null,
-              "source_text": "アンコールワット入口"
+              "master_id": "AREA-0044",
+              "source_text": "アンコールワット入口",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B10",
               "status": "no_overlap",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "外周の通路"
+              "master_id": "AREA-0045",
+              "source_text": "外周の通路",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B12",
@@ -13354,8 +13626,10 @@
               "row": "B30",
               "status": "no_overlap",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "内周の通路"
+              "master_id": "AREA-0046",
+              "source_text": "内周の通路",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B34",
@@ -13375,8 +13649,10 @@
               "row": "B42",
               "status": "no_overlap",
               "approximate_overlap": 0.2,
-              "master_id": null,
-              "source_text": "本堂へ向かう参道"
+              "master_id": "AREA-0047",
+              "source_text": "本堂へ向かう参道",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B44",
@@ -13403,15 +13679,19 @@
               "row": "B62",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "本堂１F"
+              "master_id": "AREA-0048",
+              "source_text": "本堂１F",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B64",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "本堂２F"
+              "master_id": "AREA-0049",
+              "source_text": "本堂２F",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B70",
@@ -13452,15 +13732,19 @@
               "row": "B86",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "本堂３F"
+              "master_id": "AREA-0050",
+              "source_text": "本堂３F",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B88",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "本堂４F"
+              "master_id": "AREA-0051",
+              "source_text": "本堂４F",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B90",
@@ -13546,7 +13830,15 @@
               "master_id": null,
               "source_text": "少女はだまって赤い宝石をさしだした。おれいのつもりなのだろう.."
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 50,
+            "strong_fragments": 11,
+            "partial": 13,
+            "no_overlap": 2,
+            "short_ambiguous": 1,
+            "roman": 1
+          }
         },
         {
           "chapter": 31,
@@ -13659,7 +13951,15 @@
               "master_id": null,
               "source_text": "いざ取り引きとなるとなんだかふんぎりがつかないんだ。やっぱり人に値段はつけられないよなあ…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 49,
+            "strong_fragments": 7,
+            "partial": 7,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 32,
@@ -13933,7 +14233,15 @@
               "master_id": null,
               "source_text": "ニール：そうか….やっぱりどうしても行くんだな？"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 43,
+            "strong_fragments": 13,
+            "partial": 18,
+            "no_overlap": 6,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 33,
@@ -14130,7 +14438,15 @@
               "master_id": null,
               "source_text": "この星をもとの姿にもどせるのはそなただけ。私はすべてののぞみをそなたにたくそう…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 35,
+            "strong_fragments": 13,
+            "partial": 10,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         },
         {
           "chapter": 34,
@@ -14215,7 +14531,15 @@
               "master_id": null,
               "source_text": "この星に危険がせまっている。さあバベルの塔へもどり先を急ぐがいい…"
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 10,
+            "strong_fragments": 5,
+            "partial": 5,
+            "no_overlap": 0,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 35,
@@ -14342,7 +14666,15 @@
               "master_id": null,
               "source_text": "テムとカレンの心が重なったとき光とヤミが一つになったときそこに大いなる力が生まれる.."
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 26,
+            "strong_fragments": 11,
+            "partial": 3,
+            "no_overlap": 2,
+            "short_ambiguous": 0,
+            "roman": 0
+          }
         },
         {
           "chapter": 36,
@@ -14494,15 +14826,19 @@
               "row": "B118",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "The Illusion of GAIA / STAFF"
+              "master_id": "STF-0001",
+              "source_text": "The Illusion of GAIA / STAFF",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B120",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Original Story / MARIKO OHARA"
+              "master_id": "STF-0002",
+              "source_text": "Original Story / MARIKO OHARA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B122",
@@ -14515,189 +14851,239 @@
               "row": "B124",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Game Designer / TOMOYOSHI MIYAZAKI"
+              "master_id": "STF-0004",
+              "source_text": "Game Designer / TOMOYOSHI MIYAZAKI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B126",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Program Director / MASAYA HASHIMOTO"
+              "master_id": "STF-0005",
+              "source_text": "Program Director / MASAYA HASHIMOTO",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B128",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Main Programmer / AKIRA KITANOHARA"
+              "master_id": "STF-0006",
+              "source_text": "Main Programmer / AKIRA KITANOHARA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B130",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Background Designer / HISASHI YOKOTA"
+              "master_id": "STF-0007",
+              "source_text": "Background Designer / HISASHI YOKOTA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B132",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Object Designer / JUNICHI ISHIDA / HITOSHI ARIGA"
+              "master_id": "STF-0008",
+              "source_text": "Object Designer / JUNICHI ISHIDA / HITOSHI ARIGA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B134",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Graphic Designer / NAOKO SUZUKI / TAKAHIRO OHURA / KOUJI YOKOTA"
+              "master_id": "STF-0009",
+              "source_text": "Graphic Designer / NAOKO SUZUKI / TAKAHIRO OHURA / KOUJI YOKOTA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B136",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Sound Composer / YASUHIRO KAWASAKI"
+              "master_id": "STF-0010",
+              "source_text": "Sound Composer / YASUHIRO KAWASAKI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B138",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Quintet Staff / TATSUO HASHIMOTO / SHIGEMI KITA / REIKO TAKEBAYASHI"
+              "master_id": "STF-0011",
+              "source_text": "Quintet Staff / TATSUO HASHIMOTO / SHIGEMI KITA / REIKO TAKEBAYASHI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B140",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "ENIX Staff / YUKINOBU CHIDA / TAKAO KAWAGUCHI / KEIJI HONDA"
+              "master_id": "STF-0012",
+              "source_text": "ENIX Staff / YUKINOBU CHIDA / TAKAO KAWAGUCHI / KEIJI HONDA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B142",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Art Direction / TOORU MAKI / HIDEKI YAMAMOTO / TAKASHI OOTSUKA"
+              "master_id": "STF-0013",
+              "source_text": "Art Direction / TOORU MAKI / HIDEKI YAMAMOTO / TAKASHI OOTSUKA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B144",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Art Direction / SHINJI FUTAMI / YASUKO SEKIGUCHI"
+              "master_id": "STF-0014",
+              "source_text": "Art Direction / SHINJI FUTAMI / YASUKO SEKIGUCHI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B146",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Technical Support / SADAO YAHAGI / KENJIRO KANO"
+              "master_id": "STF-0015",
+              "source_text": "Technical Support / SADAO YAHAGI / KENJIRO KANO",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B148",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Special Thanks / YUTAKA SASAKI / TAKESHI IIDA / HIDEYUKI OIKAKE"
+              "master_id": "STF-0016",
+              "source_text": "Special Thanks / YUTAKA SASAKI / TAKESHI IIDA / HIDEYUKI OIKAKE",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B150",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Special Thanks / HIROFUMI KURODA / AKITAKA SHIGENO / JUN YUKUYOSHI"
+              "master_id": "STF-0017",
+              "source_text": "Special Thanks / HIROFUMI KURODA / AKITAKA SHIGENO / JUN YUKUYOSHI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B152",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Special Thanks / YUMIKO TSUKUDA / HIDEYUKI OHWADA / MINORU KAKIZAWA"
+              "master_id": "STF-0018",
+              "source_text": "Special Thanks / YUMIKO TSUKUDA / HIDEYUKI OHWADA / MINORU KAKIZAWA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B154",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Special Thanks / NAOHITO SUGINAKA / KENJI TANIUCHI"
+              "master_id": "STF-0019",
+              "source_text": "Special Thanks / NAOHITO SUGINAKA / KENJI TANIUCHI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B156",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Director / MASAYA HASHIMOTO"
+              "master_id": "STF-0005",
+              "source_text": "Director / MASAYA HASHIMOTO",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B158",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Assistant Producer / KAZUNORI TAKADO"
+              "master_id": "STF-0021",
+              "source_text": "Assistant Producer / KAZUNORI TAKADO",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B160",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Producer / YASUYUKI SONE"
+              "master_id": "STF-0022",
+              "source_text": "Producer / YASUYUKI SONE",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B162",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Publisher / YASUHIRO FUKUSHIMA"
+              "master_id": "STF-0023",
+              "source_text": "Publisher / YASUHIRO FUKUSHIMA",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B164",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Copyright / 1993 ENIX / 1993 QUINTET"
+              "master_id": "STF-0024",
+              "source_text": "Copyright / 1993 ENIX / 1993 QUINTET",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B166",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Copyright / 1993 MARIKO OHARA / 1993 MOTO HAGIO / 1993 YASUHIRO KAWASAKI"
+              "master_id": "STF-0025",
+              "source_text": "Copyright / 1993 MARIKO OHARA / 1993 MOTO HAGIO / 1993 YASUHIRO KAWASAKI",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B168",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Licensed by NINTENDO"
+              "master_id": "STF-0026",
+              "source_text": "Licensed by NINTENDO",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B170",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "Thank you for playing"
+              "master_id": "STF-0027",
+              "source_text": "Thank you for playing",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             },
             {
               "row": "B176",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
-              "source_text": "END"
+              "master_id": "STF-0026",
+              "source_text": "END",
+              "reclassified": "exact",
+              "reclassification_reason": "Whole source row matched a current master text entry after punctuation and case normalization."
             }
-          ]
+          ],
+          "updated_counts": {
+            "exact": 67,
+            "strong_fragments": 10,
+            "partial": 5,
+            "no_overlap": 4,
+            "short_ambiguous": 0,
+            "roman": 1
+          }
         }
       ],
       "no_overlap_candidates": [
-        {
-          "chapter": 1,
-          "row": "B21",
-          "status": "no_overlap",
-          "approximate_overlap": 0,
-          "master_id": null,
-          "source_text": "ガイア幻想紀"
-        },
         {
           "chapter": 1,
           "row": "B73",
@@ -14940,14 +15326,6 @@
         },
         {
           "chapter": 20,
-          "row": "B11",
-          "status": "no_overlap",
-          "approximate_overlap": 0.333,
-          "master_id": null,
-          "source_text": "いのりの部屋"
-        },
-        {
-          "chapter": 20,
           "row": "B29",
           "status": "no_overlap",
           "approximate_overlap": 0,
@@ -14969,14 +15347,6 @@
           "approximate_overlap": 0,
           "master_id": null,
           "source_text": "カレン：モリス….かわいそうに….."
-        },
-        {
-          "chapter": 22,
-          "row": "B18",
-          "status": "no_overlap",
-          "approximate_overlap": 0,
-          "master_id": null,
-          "source_text": "カレン：何が”テム行こっ”よっ！"
         },
         {
           "chapter": 23,
@@ -15172,35 +15542,11 @@
         },
         {
           "chapter": 30,
-          "row": "B10",
-          "status": "no_overlap",
-          "approximate_overlap": 0,
-          "master_id": null,
-          "source_text": "外周の通路"
-        },
-        {
-          "chapter": 30,
-          "row": "B30",
-          "status": "no_overlap",
-          "approximate_overlap": 0,
-          "master_id": null,
-          "source_text": "内周の通路"
-        },
-        {
-          "chapter": 30,
           "row": "B34",
           "status": "no_overlap",
           "approximate_overlap": 0.308,
           "master_id": null,
           "source_text": "ヤミの力アースクエイカーが使えるようになった！"
-        },
-        {
-          "chapter": 30,
-          "row": "B42",
-          "status": "no_overlap",
-          "approximate_overlap": 0.2,
-          "master_id": null,
-          "source_text": "本堂へ向かう参道"
         },
         {
           "chapter": 30,
@@ -15323,7 +15669,396 @@
           "source_text": "カレン：うん….."
         }
       ],
-      "completion": "Every one of 2,450 source rows has an automated comparison classification; rows without direct exact matching require manual or ROM-level adjudication. This is NOT a finished exhaustive reconciliation."
+      "completion": "Every one of 2,450 source rows has an automated comparison classification; rows without direct exact matching require manual or ROM-level adjudication. This is NOT a finished exhaustive reconciliation.",
+      "updated_totals": {
+        "exact": 1638,
+        "strong_fragments": 370,
+        "partial": 357,
+        "no_overlap": 73,
+        "short_ambiguous": 3,
+        "roman": 9,
+        "source_rows": 2450
+      },
+      "reclassification_date": "2026-11-04",
+      "reclassified_rows": [
+        {
+          "chapter": 1,
+          "row": "B21",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "TTL-0006"
+        },
+        {
+          "chapter": 1,
+          "row": "B117",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0266"
+        },
+        {
+          "chapter": 3,
+          "row": "B73",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0164"
+        },
+        {
+          "chapter": 4,
+          "row": "B83",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0280"
+        },
+        {
+          "chapter": 5,
+          "row": "B114",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0009"
+        },
+        {
+          "chapter": 6,
+          "row": "B101",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0209"
+        },
+        {
+          "chapter": 8,
+          "row": "B81",
+          "old": "partial",
+          "new": "exact",
+          "id": "AREA-0013"
+        },
+        {
+          "chapter": 11,
+          "row": "B46",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0451"
+        },
+        {
+          "chapter": 13,
+          "row": "B88",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0485"
+        },
+        {
+          "chapter": 14,
+          "row": "B68",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0019"
+        },
+        {
+          "chapter": 18,
+          "row": "B3",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0613"
+        },
+        {
+          "chapter": 20,
+          "row": "B3",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0621"
+        },
+        {
+          "chapter": 20,
+          "row": "B11",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "AREA-0032"
+        },
+        {
+          "chapter": 22,
+          "row": "B18",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "DLG-0733"
+        },
+        {
+          "chapter": 23,
+          "row": "B40",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0774"
+        },
+        {
+          "chapter": 24,
+          "row": "B126",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0634"
+        },
+        {
+          "chapter": 25,
+          "row": "B22",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0249"
+        },
+        {
+          "chapter": 25,
+          "row": "B30",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "DLG-0632"
+        },
+        {
+          "chapter": 30,
+          "row": "B6",
+          "old": "partial",
+          "new": "exact",
+          "id": "AREA-0044"
+        },
+        {
+          "chapter": 30,
+          "row": "B10",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "AREA-0045"
+        },
+        {
+          "chapter": 30,
+          "row": "B30",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "AREA-0046"
+        },
+        {
+          "chapter": 30,
+          "row": "B42",
+          "old": "no_overlap",
+          "new": "exact",
+          "id": "AREA-0047"
+        },
+        {
+          "chapter": 30,
+          "row": "B62",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0048"
+        },
+        {
+          "chapter": 30,
+          "row": "B64",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0049"
+        },
+        {
+          "chapter": 30,
+          "row": "B86",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0050"
+        },
+        {
+          "chapter": 30,
+          "row": "B88",
+          "old": "short_ambiguous",
+          "new": "exact",
+          "id": "AREA-0051"
+        },
+        {
+          "chapter": 36,
+          "row": "B118",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0001"
+        },
+        {
+          "chapter": 36,
+          "row": "B120",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0002"
+        },
+        {
+          "chapter": 36,
+          "row": "B124",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0004"
+        },
+        {
+          "chapter": 36,
+          "row": "B126",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0005"
+        },
+        {
+          "chapter": 36,
+          "row": "B128",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0006"
+        },
+        {
+          "chapter": 36,
+          "row": "B130",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0007"
+        },
+        {
+          "chapter": 36,
+          "row": "B132",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0008"
+        },
+        {
+          "chapter": 36,
+          "row": "B134",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0009"
+        },
+        {
+          "chapter": 36,
+          "row": "B136",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0010"
+        },
+        {
+          "chapter": 36,
+          "row": "B138",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0011"
+        },
+        {
+          "chapter": 36,
+          "row": "B140",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0012"
+        },
+        {
+          "chapter": 36,
+          "row": "B142",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0013"
+        },
+        {
+          "chapter": 36,
+          "row": "B144",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0014"
+        },
+        {
+          "chapter": 36,
+          "row": "B146",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0015"
+        },
+        {
+          "chapter": 36,
+          "row": "B148",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0016"
+        },
+        {
+          "chapter": 36,
+          "row": "B150",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0017"
+        },
+        {
+          "chapter": 36,
+          "row": "B152",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0018"
+        },
+        {
+          "chapter": 36,
+          "row": "B154",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0019"
+        },
+        {
+          "chapter": 36,
+          "row": "B156",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0005"
+        },
+        {
+          "chapter": 36,
+          "row": "B158",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0021"
+        },
+        {
+          "chapter": 36,
+          "row": "B160",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0022"
+        },
+        {
+          "chapter": 36,
+          "row": "B162",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0023"
+        },
+        {
+          "chapter": 36,
+          "row": "B164",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0024"
+        },
+        {
+          "chapter": 36,
+          "row": "B166",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0025"
+        },
+        {
+          "chapter": 36,
+          "row": "B168",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0026"
+        },
+        {
+          "chapter": 36,
+          "row": "B170",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0027"
+        },
+        {
+          "chapter": 36,
+          "row": "B176",
+          "old": "roman",
+          "new": "exact",
+          "id": "STF-0026"
+        }
+      ],
+      "reference_quality_notes": [
+        "The independent workbook contains typographic mistakes, spacing inconsistencies, repeated screenshots, and combined menu strings; non-exact comparison is not evidence a string is absent from ROM.",
+        "Roman-alphabet credit cards were initially excluded from Japanese-script exact matching; this pass aligns them against ROM-derived staff-roll cards.",
+        "Roman spelling differences are kept as a source disagreement, never silently substituted for original ROM lettering.",
+        "Area titles recovered directly from bank 0C have been added to the master and matched against corresponding reference rows."
+      ]
     },
     "graphical_and_area_text_audit": {
       "date": "2026-11-04",
