@@ -5166,7 +5166,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Inventory full response",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "中は からっぽだった！",
@@ -5176,7 +5179,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Empty treasure chest",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "たからばこは\nかたく 閉じられていた",
@@ -5186,7 +5192,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Locked treasure chest",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "笛を 吹きますか？\n はい\n いいえ",
@@ -5196,7 +5205,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Flute action choice",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ローラの メロディをおぼえた！",
@@ -5206,7 +5218,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Lola melody obtained",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "骨つきのくんせい肉を 手に入れた！\n\nカレン：\nこれで 準備 オッケー！\nさあ 兵隊さんに 見つからない\nうちに いきましょ！",
@@ -5216,7 +5231,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Castle prison food rescue",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ろうごくのカギを 手に入れた！",
@@ -5226,7 +5244,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Castle prison key",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "インカの像Aを 手に入れた。",
@@ -5236,7 +5257,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Inca statue A",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "インカの像Bを 手に入れた。",
@@ -5246,7 +5270,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Inca statue B",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "リリィ：\nちょっと どこへ いくのよぉ",
@@ -5256,7 +5283,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Lily at Inca ruins",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "鉱山のカギを 見つけた！",
@@ -5266,7 +5296,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Diamond Mine key",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ニール：\nさーて みんな もどったところで\n本題に入ろう。\n\nニール： なるほどっ！\n白鳥座の星の数は ９コ。\n石の数も たしかに ９コだ・・・",
@@ -5276,7 +5309,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Neil and Nazca star-map briefing",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "海底きゅうでんのカギを手に入れた！",
@@ -5286,7 +5322,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Undersea Palace key",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "じょうか石を 手に入れた！",
@@ -5296,7 +5335,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Purification stone",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
@@ -5306,7 +5348,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
+          "context_hint": "Mu Prayer Statue copy A",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
@@ -5316,7 +5361,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
+          "context_hint": "Mu Prayer Statue copy B",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "テム： うっ・・・\n体が だんだん しびれてきた・・・",
@@ -5326,7 +5374,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Watermia paralysis / glass challenge",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "きれいな小石が おちている。",
@@ -5336,7 +5387,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Great Wall necklace stone",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -5346,7 +5400,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
+          "context_hint": "Stone girl restoration copy A",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -5356,7 +5413,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
+          "context_hint": "Stone girl restoration copy B",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -5366,7 +5426,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records."
+          "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
+          "context_hint": "Stone girl restoration copy C",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ゴーゴンの花を 手に入れた！",
@@ -5376,7 +5439,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Gorgon flower",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "黒すいしょうのめがねを 見つけた！",
@@ -5386,7 +5452,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Black crystal glasses",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "手紙と 父の手帳を 手に入れた！",
@@ -5396,7 +5465,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Lola and Bill letter and father's journal",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ブラックパンサー：\nふっ とうとう 観念したか・・・",
@@ -5406,7 +5478,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Black Panther / Jackal event",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ヒエログリフの石版を 手に入れた！",
@@ -5416,7 +5491,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Hieroglyph stone tablet",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ヒントのテスト",
@@ -5426,7 +5504,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Text means 'Hint Test'; likely test/development text until player-visible event is demonstrated."
+          "audit_comment": "Text means 'Hint Test'; likely test/development text until player-visible event is demonstrated.",
+          "context_hint": "Gaia hint test string - likely developmental",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "黄金タイルの しきつめられた場所。\nそこには 黄金の船へ向かうとびらが\nかくされている。\n\nインカの神の歌う メロディに\n耳を かたむけてみるといい。",
@@ -5436,7 +5517,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: Inca tiles",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "届かない場所にいる敵を たおすには\nどうすればいいのか・・・・\nエドワード城の地下での できごとを\n思いかえしてみるといい。",
@@ -5446,7 +5530,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: ranged attacks",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "風のふきこむカベ・・・\nそれは 石が すきまだらけで\nこわれやすい場所。\n\n見つからなければ たたいて調べる\nという方法もある。\nそこだけ 音がちがうはずだ。",
@@ -5456,7 +5543,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: weak wall",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "鉱山の 地面にある 鉄格子は\nすべて カギが かかっている。\nまずは カギを持つ ドレイを\nさがしだすことだ。",
@@ -5466,7 +5556,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: Diamond Mine grate",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "表の障害物を ひっこめれば\n裏が でっぱる。\nじゃまな はしらは ひっこめる\nことだ。",
@@ -5476,7 +5569,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: front/back obstacles",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "地面にある スイッチ。\nそれは 人間の重さでは おしこむ\nことが できない。",
@@ -5486,7 +5582,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: floor switch",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "ピラミッドは ６つのブロックに\nわかれている。\n\nそれぞれの地域を これまでに\n手に入れた ヤミの力を 最大限に\n利用して 進むがよい。",
@@ -5496,7 +5595,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed."
+          "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
+          "context_hint": "Gaia hint: Pyramid sections",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "オーラのたまを 手に入れた！",
@@ -5506,7 +5608,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Aura Sphere obtained",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "すいしょうの指輪を 手に入れた！",
@@ -5516,7 +5621,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "independently_located_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Crystal Ring obtained",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "すい星が 地球のそばを かすめる\nたびに 生物は げき的な 進化を\nとげてきたのだ・・・",
@@ -5526,7 +5634,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Comet exposition",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "鉱山のカギを 手にいれた！",
@@ -5536,7 +5647,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Diamond Mine key alternative",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         },
         {
           "text": "リフトのカギを 手にいれた！",
@@ -5546,7 +5660,10 @@
           "byte_verified_against_japanese_rom": true,
           "source_kind": "inline_script_text",
           "gameplay_reachability": "not proven by gameplay trace",
-          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded."
+          "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
+          "context_hint": "Lift key obtained",
+          "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
+          "confirmed_player_visible": null
         }
       ]
     },
@@ -7980,66 +8097,58 @@
       },
       "entries_with_direct_rom_offset_in_this_file": 47,
       "entries_without_direct_rom_offset_in_this_file": 1586,
-      "unique_text_values": 1464,
+      "unique_text_values": 1495,
       "entries_with_explicit_speaker_field": 61
     },
     "completion_state": "Substantial Japanese player-visible text extracted; exhaustive in-game coverage has not been established.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
-        "target": "Gameplay trigger and visibility verification for byte-verified supplementary scripts",
+        "target": "Prove executable/gameplay reachability for supplementary scripts",
         "known_units": 39,
-        "unit": "ROM source-verified entries; 8 hint/test entries warrant particular attention",
-        "kind": "runtime reachability audit",
-        "status": "39/39 ROM source-verified; 0/39 independently traced through emulator; developer hint block flagged"
+        "unit": "ROM-source verified entries",
+        "kind": "emulator event-trace requirement",
+        "status": "39/39 source-matched and context-labeled; 0 verified through gameplay; 8 in hint/test group"
       },
       {
         "id": "R2",
-        "target": "Adjudicate independent transcription rows that cannot yet be matched verbatim to the original ROM-derived master",
+        "target": "Reconcile independent reference rows not exact in current master",
         "known_units": 812,
-        "unit": "reference rows (some are formatting differences, missing game text, or transcription errors)",
-        "kind": "independent cross-check",
-        "status": "36/36 chapters compared; 1638 directly matched after current recovery; 812 still need context/ROM adjudication"
+        "unit": "non-exact 36-chapter transcription rows",
+        "kind": "manual Japanese/ROM discrepancy review",
+        "status": "2,450/2,450 scanned; 1,638 direct exact; remaining rows include segmentation, typos, graphical text, and possibly undiscovered lines"
       },
       {
         "id": "R3",
-        "target": "Trace dynamic dialogue assembly, variable substitution, all scripted branches, and optional gameplay outcomes",
-        "known_units": null,
-        "unit": "execution paths not exhaustively enumerated",
-        "kind": "potential undiscovered text",
-        "status": "not fully audited"
+        "target": "Identify graphical text on remaining signs and overlays",
+        "known_units": 5,
+        "unit": "named Roman-letter candidate groups",
+        "kind": "graphic tilemap/source reconstruction",
+        "status": "Not found in contiguous ROM ASCII; not verified as directly sourced glyphs"
       },
       {
         "id": "R4",
-        "target": "Reconcile all extracted Japanese lines against the independent 36-chapter transcription and identify omissions or duplicates",
-        "known_units": 36,
-        "unit": "reference chapters to compare",
-        "kind": "independent completeness check",
-        "status": "selective comparisons done; exhaustive line-level reconciliation pending"
+        "target": "Exhaustive execution of all conditional branches and runtime-generated prompts",
+        "known_units": null,
+        "unit": "execution paths",
+        "kind": "requires controllable SNES emulator and save-state coverage",
+        "status": "not fully auditable in this static-only run"
       },
       {
         "id": "R5",
-        "target": "Recover exact ROM addresses and source bytes for text entries lacking embedded provenance in the master JSON",
+        "target": "Recover original byte addresses in older main dialogue records",
         "known_units": 1586,
-        "unit": "entries lacking a direct ROM offset in this master file",
-        "kind": "source attribution, not necessarily missing text",
-        "status": "reference source-audit material exists but not joined comprehensively"
+        "unit": "previously recorded master entries lacking direct source offsets",
+        "kind": "provenance enrichment, not missing dialogue",
+        "status": "earlier v13 source audit contains source spans that have not yet been merged into all master records"
       },
       {
         "id": "R6",
-        "target": "Retain the six glyphs in the hieroglyphic inscription as original uninterpreted symbols",
+        "target": "Preserve six hieroglyphic symbols without interpretation",
         "known_units": 6,
-        "unit": "original symbolic glyph identifiers",
-        "kind": "source fidelity; no translation required",
+        "unit": "original glyph IDs",
+        "kind": "source fidelity",
         "status": "preserved"
-      },
-      {
-        "id": "R7",
-        "target": "Confirm runtime triggering and any unlisted map-title formats beyond 60 decoded area-title records",
-        "known_units": 60,
-        "unit": "decoded area-title slots",
-        "kind": "graphic / screen text audit",
-        "status": "60 byte-verified location titles; per-map runtime triggering pending"
       }
     ],
     "progress_measurement": {
@@ -8076,7 +8185,10 @@
         "ADD-0033",
         "ADD-0034"
       ],
-      "player_visibility_status": "Unresolved without tracing event triggers / runtime."
+      "player_visibility_status": "Unresolved without tracing event triggers / runtime.",
+      "context_labels_assigned": 39,
+      "event_trigger_confirmed_count": 0,
+      "context_provenance": "Neighboring extracted script blocks in original Japanese ROM; no emulator available for execution-path proof."
     },
     "chapter_reconciliation": {
       "source": "Azarem/IOGRetranslation/Gaia Gensouki.xlsx; original JP transcription column B (all 36 tabs)",
@@ -16074,6 +16186,73 @@
       ],
       "title_logo_added": "ガイア幻想紀",
       "runtime_caveat": "Exact titles extracted; not every possible map-trigger execution has been observed"
+    },
+    "runtime_and_graphics_status": {
+      "reviewed_on": "2026-11-04",
+      "rom_static_text_forms_covered": [
+        "normal Japanese dialogue/control streams",
+        "item, skill, and menu strings",
+        "overworld place names and travel choices",
+        "save slot text and location names",
+        "9 ROM-sourced prologue passages",
+        "27 original Japanese staff-roll cards",
+        "60 FF/CC area-title labels with kana-switch control codes",
+        "compressed Japanese graphical title lettering",
+        "font-sheet PLAYER / ENEMY labels"
+      ],
+      "confirmed_new_additions_this_audit": 61,
+      "visual_asset_inventory_prior_pass": 30,
+      "examined_additional_script_start_signatures": 11863,
+      "extra_nontext_false_positives_from_prior_pass": 6,
+      "suspected_graphic_text_not_verified": [
+        {
+          "text": "Itory",
+          "type": "English-on-screen label candidate",
+          "source": "reference chapter 07"
+        },
+        {
+          "text": "Diamond Valley",
+          "type": "English-on-screen label candidate",
+          "source": "reference chapter 14"
+        },
+        {
+          "text": "NEELE'S COTAGE",
+          "type": "English-on-screen label candidate",
+          "source": "reference chapter 16"
+        },
+        {
+          "text": "NASCA",
+          "type": "English-on-screen label candidate",
+          "source": "reference chapter 17"
+        },
+        {
+          "text": "FORCE / ENEMY / ITEM",
+          "type": "UI lettering grouping",
+          "source": "reference chapter 05"
+        }
+      ],
+      "suspected_external_reference_errors_or_variants": [
+        {
+          "jp": "記録おわった…",
+          "rom_evidence": "記録は おわった・・・",
+          "classification": "workbook wording omits は; ROM has save-completion text"
+        },
+        {
+          "jp": "エドワード王后",
+          "rom_evidence": "エドワード王妃",
+          "classification": "speaker transcription variant"
+        }
+      ],
+      "direct_byte_search_results": "Candidate English visual labels were not found as contiguous ASCII in original JP ROM; this does not rule out font-encoded or bitmap text.",
+      "runtime_execution_path_completeness": "Cannot be established with static ROM scanning alone; no SNES emulator and gameplay-state trace available in this run.",
+      "graphic_assets_completeness": "30 previously catalogued assets were decoded. A full image-composed scene atlas and all possible tilemap rendering states were not available, so not exhaustive.",
+      "verified_gap": "60 additional area labels and 1 graphical game title added",
+      "outstanding_check_types": [
+        "ROM-backed sprite/tilemap composition for remaining suspected English signs and labels",
+        "runtime path verification of 39 supplemental texts (especially hint test)",
+        "adjudication of 36-chapter reference rows without direct matching",
+        "emulator-based exhaustive scene/branch observation"
+      ]
     }
   }
 }
