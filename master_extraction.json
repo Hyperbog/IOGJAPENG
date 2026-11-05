@@ -8993,6 +8993,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x01E974",
+            "source_rom_end_exclusive": "0x01E991",
+            "hirom_cpu_bus_start_candidate": "0xC1E974",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC1E991",
+            "source_length_bytes": 29,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9011,6 +9025,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x01E9A8",
+            "source_rom_end_exclusive": "0x01E9BA",
+            "hirom_cpu_bus_start_candidate": "0xC1E9A8",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC1E9BA",
+            "source_length_bytes": 18,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9029,6 +9057,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x01E9BA",
+            "source_rom_end_exclusive": "0x01E9D2",
+            "hirom_cpu_bus_start_candidate": "0xC1E9BA",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC1E9D2",
+            "source_length_bytes": 24,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9047,6 +9089,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x03894B",
+            "source_rom_end_exclusive": "0x038961",
+            "hirom_cpu_bus_start_candidate": "0xC3894B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC38961",
+            "source_length_bytes": 22,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9065,6 +9121,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x049B55",
+            "source_rom_end_exclusive": "0x049B6F",
+            "hirom_cpu_bus_start_candidate": "0xC49B55",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC49B6F",
+            "source_length_bytes": 26,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9083,6 +9153,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 2,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x04CC24",
+            "source_rom_end_exclusive": "0x04CC7D",
+            "hirom_cpu_bus_start_candidate": "0xC4CC24",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC4CC7D",
+            "source_length_bytes": 89,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9101,6 +9185,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 2,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x04D08C",
+            "source_rom_end_exclusive": "0x04D0A7",
+            "hirom_cpu_bus_start_candidate": "0xC4D08C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC4D0A7",
+            "source_length_bytes": 27,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9119,6 +9217,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x04EB2A",
+            "source_rom_end_exclusive": "0x04EB46",
+            "hirom_cpu_bus_start_candidate": "0xC4EB2A",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC4EB46",
+            "source_length_bytes": 28,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9137,6 +9249,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 2,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x04F211",
+            "source_rom_end_exclusive": "0x04F232",
+            "hirom_cpu_bus_start_candidate": "0xC4F211",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC4F232",
+            "source_length_bytes": 33,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9155,6 +9281,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x058886",
+            "source_rom_end_exclusive": "0x0588A5",
+            "hirom_cpu_bus_start_candidate": "0xC58886",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC588A5",
+            "source_length_bytes": 31,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9173,6 +9313,20 @@
             "absolute_24bit_pointer_occurrences": 1,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x05DB9B",
+            "source_rom_end_exclusive": "0x05DBB4",
+            "hirom_cpu_bus_start_candidate": "0xC5DB9B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC5DBB4",
+            "source_length_bytes": 25,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9191,6 +9345,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x05F09D",
+            "source_rom_end_exclusive": "0x05F100",
+            "hirom_cpu_bus_start_candidate": "0xC5F09D",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC5F100",
+            "source_length_bytes": 99,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9209,6 +9377,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x068DFE",
+            "source_rom_end_exclusive": "0x068E1D",
+            "hirom_cpu_bus_start_candidate": "0xC68DFE",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC68E1D",
+            "source_length_bytes": 31,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9227,6 +9409,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x06926E",
+            "source_rom_end_exclusive": "0x069286",
+            "hirom_cpu_bus_start_candidate": "0xC6926E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC69286",
+            "source_length_bytes": 24,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9245,6 +9441,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x069731",
+            "source_rom_end_exclusive": "0x069776",
+            "hirom_cpu_bus_start_candidate": "0xC69731",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC69776",
+            "source_length_bytes": 69,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9263,6 +9473,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0697D1",
+            "source_rom_end_exclusive": "0x069816",
+            "hirom_cpu_bus_start_candidate": "0xC697D1",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC69816",
+            "source_length_bytes": 69,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9281,6 +9505,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x079792",
+            "source_rom_end_exclusive": "0x0797B6",
+            "hirom_cpu_bus_start_candidate": "0xC79792",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC797B6",
+            "source_length_bytes": 36,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9299,6 +9537,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x07B321",
+            "source_rom_end_exclusive": "0x07B338",
+            "hirom_cpu_bus_start_candidate": "0xC7B321",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC7B338",
+            "source_length_bytes": 23,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9317,6 +9569,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08920C",
+            "source_rom_end_exclusive": "0x08924A",
+            "hirom_cpu_bus_start_candidate": "0xC8920C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8924A",
+            "source_length_bytes": 62,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9335,6 +9601,20 @@
             "absolute_24bit_pointer_occurrences": 1,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0892D0",
+            "source_rom_end_exclusive": "0x08930E",
+            "hirom_cpu_bus_start_candidate": "0xC892D0",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8930E",
+            "source_length_bytes": 62,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9353,6 +9633,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0893C2",
+            "source_rom_end_exclusive": "0x089400",
+            "hirom_cpu_bus_start_candidate": "0xC893C2",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC89400",
+            "source_length_bytes": 62,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9371,6 +9665,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x089CDD",
+            "source_rom_end_exclusive": "0x089CF9",
+            "hirom_cpu_bus_start_candidate": "0xC89CDD",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC89CF9",
+            "source_length_bytes": 28,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9389,6 +9697,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x089DD8",
+            "source_rom_end_exclusive": "0x089DF3",
+            "hirom_cpu_bus_start_candidate": "0xC89DD8",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC89DF3",
+            "source_length_bytes": 27,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9407,6 +9729,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08AEF9",
+            "source_rom_end_exclusive": "0x08AF18",
+            "hirom_cpu_bus_start_candidate": "0xC8AEF9",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8AF18",
+            "source_length_bytes": 31,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9425,6 +9761,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08B8EF",
+            "source_rom_end_exclusive": "0x08B915",
+            "hirom_cpu_bus_start_candidate": "0xC8B8EF",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8B915",
+            "source_length_bytes": 38,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9443,6 +9793,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 6,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08C405",
+            "source_rom_end_exclusive": "0x08C424",
+            "hirom_cpu_bus_start_candidate": "0xC8C405",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8C424",
+            "source_length_bytes": 31,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9461,6 +9825,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08D9A1",
+            "source_rom_end_exclusive": "0x08D9B0",
+            "hirom_cpu_bus_start_candidate": "0xC8D9A1",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8D9B0",
+            "source_length_bytes": 15,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9479,6 +9857,20 @@
             "absolute_24bit_pointer_occurrences": 1,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DB15",
+            "source_rom_end_exclusive": "0x08DB76",
+            "hirom_cpu_bus_start_candidate": "0xC8DB15",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DB76",
+            "source_length_bytes": 97,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9497,6 +9889,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DB76",
+            "source_rom_end_exclusive": "0x08DBC4",
+            "hirom_cpu_bus_start_candidate": "0xC8DB76",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DBC4",
+            "source_length_bytes": 78,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9515,6 +9921,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DBC5",
+            "source_rom_end_exclusive": "0x08DC24",
+            "hirom_cpu_bus_start_candidate": "0xC8DBC5",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DC24",
+            "source_length_bytes": 95,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9533,6 +9953,20 @@
             "absolute_24bit_pointer_occurrences": 1,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DC24",
+            "source_rom_end_exclusive": "0x08DC6F",
+            "hirom_cpu_bus_start_candidate": "0xC8DC24",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DC6F",
+            "source_length_bytes": 75,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9551,6 +9985,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 2,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DCD0",
+            "source_rom_end_exclusive": "0x08DD06",
+            "hirom_cpu_bus_start_candidate": "0xC8DCD0",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DD06",
+            "source_length_bytes": 54,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9569,6 +10017,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DD06",
+            "source_rom_end_exclusive": "0x08DD39",
+            "hirom_cpu_bus_start_candidate": "0xC8DD06",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8DD39",
+            "source_length_bytes": 51,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9587,6 +10049,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08DFE5",
+            "source_rom_end_exclusive": "0x08E03F",
+            "hirom_cpu_bus_start_candidate": "0xC8DFE5",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8E03F",
+            "source_length_bytes": 90,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9605,6 +10081,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x08E8EE",
+            "source_rom_end_exclusive": "0x08E905",
+            "hirom_cpu_bus_start_candidate": "0xC8E8EE",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC8E905",
+            "source_length_bytes": 23,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9623,6 +10113,20 @@
             "absolute_24bit_pointer_occurrences": 1,
             "same_bank_16bit_address_occurrences": 0,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x09990B",
+            "source_rom_end_exclusive": "0x099928",
+            "hirom_cpu_bus_start_candidate": "0xC9990B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC99928",
+            "source_length_bytes": 29,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9641,6 +10145,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0999FC",
+            "source_rom_end_exclusive": "0x099A31",
+            "hirom_cpu_bus_start_candidate": "0xC999FC",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xC99A31",
+            "source_length_bytes": 53,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9659,6 +10177,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 2,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0AA733",
+            "source_rom_end_exclusive": "0x0AA74D",
+            "hirom_cpu_bus_start_candidate": "0xCAA733",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCAA74D",
+            "source_length_bytes": 26,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         },
         {
@@ -9677,6 +10209,20 @@
             "absolute_24bit_pointer_occurrences": 0,
             "same_bank_16bit_address_occurrences": 1,
             "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          },
+          "runtime_trace_target": {
+            "source_rom_start": "0x0AA794",
+            "source_rom_end_exclusive": "0x0AA7AF",
+            "hirom_cpu_bus_start_candidate": "0xCAA794",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCAA7AF",
+            "source_length_bytes": 27,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
         }
       ]
@@ -11448,7 +11994,21 @@
           "raw_hex": "d4453d4743731bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C831E",
+            "source_rom_end_exclusive": "0x0C8327",
+            "hirom_cpu_bus_start_candidate": "0xCC831E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8327",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0002",
@@ -11458,7 +12018,21 @@
           "raw_hex": "805880fd530e3d424ccc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8359",
+            "source_rom_end_exclusive": "0x0C8363",
+            "hirom_cpu_bus_start_candidate": "0xCC8359",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8363",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0003",
@@ -11468,7 +12042,21 @@
           "raw_hex": "d46516d5538101cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8387",
+            "source_rom_end_exclusive": "0x0C838F",
+            "hirom_cpu_bus_start_candidate": "0xCC8387",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC838F",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0004",
@@ -11478,7 +12066,21 @@
           "raw_hex": "d43e626e42d5538101cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C83BA",
+            "source_rom_end_exclusive": "0x0C83C4",
+            "hirom_cpu_bus_start_candidate": "0xCC83BA",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC83C4",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0005",
@@ -11488,7 +12090,21 @@
           "raw_hex": "d45d6247d5538101cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C83E8",
+            "source_rom_end_exclusive": "0x0C83F1",
+            "hirom_cpu_bus_start_candidate": "0xCC83E8",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC83F1",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0006",
@@ -11498,7 +12114,21 @@
           "raw_hex": "d44d5bd5538101cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8446",
+            "source_rom_end_exclusive": "0x0C844E",
+            "hirom_cpu_bus_start_candidate": "0xCC8446",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC844E",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0007",
@@ -11508,7 +12138,21 @@
           "raw_hex": "d43e0e66730e804ad5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C85EF",
+            "source_rom_end_exclusive": "0x0C85F9",
+            "hirom_cpu_bus_start_candidate": "0xCC85EF",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC85F9",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0008",
@@ -11518,7 +12162,21 @@
           "raw_hex": "d43e0e66730e804ad5653d5ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8655",
+            "source_rom_end_exclusive": "0x0C8662",
+            "hirom_cpu_bus_start_candidate": "0xCC8655",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8662",
+            "source_length_bytes": 13,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0009",
@@ -11528,7 +12186,21 @@
           "raw_hex": "805580c1805c811ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8731",
+            "source_rom_end_exclusive": "0x0C873A",
+            "hirom_cpu_bus_start_candidate": "0xCC8731",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC873A",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0010",
@@ -11538,7 +12210,21 @@
           "raw_hex": "d43c4e6273804bd553804ccc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8B34",
+            "source_rom_end_exclusive": "0x0C8B40",
+            "hirom_cpu_bus_start_candidate": "0xCC8B34",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8B40",
+            "source_length_bytes": 12,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0011",
@@ -11548,7 +12234,21 @@
           "raw_hex": "d462626ad5538101cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8B74",
+            "source_rom_end_exclusive": "0x0C8B7D",
+            "hirom_cpu_bus_start_candidate": "0xCC8B74",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8B7D",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0012",
@@ -11558,7 +12258,21 @@
           "raw_hex": "804d53804e804b53475a40cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8C00",
+            "source_rom_end_exclusive": "0x0C8C0C",
+            "hirom_cpu_bus_start_candidate": "0xCC8C00",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8C0C",
+            "source_length_bytes": 12,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0013",
@@ -11568,7 +12282,21 @@
           "raw_hex": "d43c6840d553d43c4841800f807bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8C8B",
+            "source_rom_end_exclusive": "0x0C8C9B",
+            "hirom_cpu_bus_start_candidate": "0xCC8C8B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8C9B",
+            "source_length_bytes": 16,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0014",
@@ -11578,7 +12306,21 @@
           "raw_hex": "d461613cd553d40043d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C8D54",
+            "source_rom_end_exclusive": "0x0C8D5F",
+            "hirom_cpu_bus_start_candidate": "0xCC8D54",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC8D5F",
+            "source_length_bytes": 11,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0015",
@@ -11588,7 +12330,21 @@
           "raw_hex": "804f53805020d4566273063bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C965E",
+            "source_rom_end_exclusive": "0x0C966C",
+            "hirom_cpu_bus_start_candidate": "0xCC965E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC966C",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0016",
@@ -11598,7 +12354,21 @@
           "raw_hex": "d40e643cd55381968197800ccc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C96D3",
+            "source_rom_end_exclusive": "0x0C96E0",
+            "hirom_cpu_bus_start_candidate": "0xCC96D3",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC96E0",
+            "source_length_bytes": 13,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0017",
@@ -11608,7 +12378,21 @@
           "raw_hex": "d40e643c805d800bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C97FE",
+            "source_rom_end_exclusive": "0x0C9808",
+            "hirom_cpu_bus_start_candidate": "0xCC97FE",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9808",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0018",
@@ -11618,7 +12402,21 @@
           "raw_hex": "d40a3c5e5d680e80518052d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C98E5",
+            "source_rom_end_exclusive": "0x0C98F2",
+            "hirom_cpu_bus_start_candidate": "0xCC98E5",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC98F2",
+            "source_length_bytes": 13,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0019",
@@ -11628,7 +12426,21 @@
           "raw_hex": "80a680478198800bcc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9BBE",
+            "source_rom_end_exclusive": "0x0C9BC7",
+            "hirom_cpu_bus_start_candidate": "0xCC9BBE",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9BC7",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0020",
@@ -11638,7 +12450,21 @@
           "raw_hex": "d4507363d55380538054cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9CA9",
+            "source_rom_end_exclusive": "0x0C9CB4",
+            "hirom_cpu_bus_start_candidate": "0xCC9CA9",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9CB4",
+            "source_length_bytes": 11,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0021",
@@ -11648,7 +12474,21 @@
           "raw_hex": "d44f474080e38063d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9D0B",
+            "source_rom_end_exclusive": "0x0C9D15",
+            "hirom_cpu_bus_start_candidate": "0xCC9D0B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9D15",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0022",
@@ -11658,7 +12498,21 @@
           "raw_hex": "8004801d8199819acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9D78",
+            "source_rom_end_exclusive": "0x0C9D81",
+            "hirom_cpu_bus_start_candidate": "0xCC9D78",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9D81",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0023",
@@ -11668,7 +12522,21 @@
           "raw_hex": "8004801d8199819acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9E55",
+            "source_rom_end_exclusive": "0x0C9E5E",
+            "hirom_cpu_bus_start_candidate": "0xCC9E55",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9E5E",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0024",
@@ -11678,7 +12546,21 @@
           "raw_hex": "8004801d8199819a20819b808ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9F13",
+            "source_rom_end_exclusive": "0x0C9F21",
+            "hirom_cpu_bus_start_candidate": "0xCC9F13",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9F21",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0025",
@@ -11688,7 +12570,21 @@
           "raw_hex": "8004801d8199819acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C9FDD",
+            "source_rom_end_exclusive": "0x0C9FE6",
+            "hirom_cpu_bus_start_candidate": "0xCC9FDD",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC9FE6",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0026",
@@ -11698,7 +12594,21 @@
           "raw_hex": "8004801d8199819a20819b808ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA08B",
+            "source_rom_end_exclusive": "0x0CA099",
+            "hirom_cpu_bus_start_candidate": "0xCCA08B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA099",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0027",
@@ -11708,7 +12618,21 @@
           "raw_hex": "8004801d8199819acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA155",
+            "source_rom_end_exclusive": "0x0CA15E",
+            "hirom_cpu_bus_start_candidate": "0xCCA155",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA15E",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0028",
@@ -11718,7 +12642,21 @@
           "raw_hex": "8004801d8199819a20819b808ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA200",
+            "source_rom_end_exclusive": "0x0CA20E",
+            "hirom_cpu_bus_start_candidate": "0xCCA200",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA20E",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0029",
@@ -11728,7 +12666,21 @@
           "raw_hex": "8004801d8199819acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA2F1",
+            "source_rom_end_exclusive": "0x0CA2FA",
+            "hirom_cpu_bus_start_candidate": "0xCCA2F1",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA2FA",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0030",
@@ -11738,7 +12690,21 @@
           "raw_hex": "8004801d8199819a20819b808ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA3F4",
+            "source_rom_end_exclusive": "0x0CA402",
+            "hirom_cpu_bus_start_candidate": "0xCCA3F4",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA402",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0031",
@@ -11748,7 +12714,21 @@
           "raw_hex": "d45b7380318057d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CA7B1",
+            "source_rom_end_exclusive": "0x0CA7BA",
+            "hirom_cpu_bus_start_candidate": "0xCCA7B1",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCA7BA",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0032",
@@ -11758,7 +12738,21 @@
           "raw_hex": "3c53625380868054cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CAB0B",
+            "source_rom_end_exclusive": "0x0CAB14",
+            "hirom_cpu_bus_start_candidate": "0xCCAB0B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCAB14",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0033",
@@ -11768,7 +12762,21 @@
           "raw_hex": "80588059d44e685263d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CAD59",
+            "source_rom_end_exclusive": "0x0CAD64",
+            "hirom_cpu_bus_start_candidate": "0xCCAD59",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCAD64",
+            "source_length_bytes": 11,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0034",
@@ -11778,7 +12786,21 @@
           "raw_hex": "0a805a805b538049cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CAE73",
+            "source_rom_end_exclusive": "0x0CAE7C",
+            "hirom_cpu_bus_start_candidate": "0xCCAE73",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCAE7C",
+            "source_length_bytes": 9,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0035",
@@ -11788,7 +12810,21 @@
           "raw_hex": "804453811d811ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CB25B",
+            "source_rom_end_exclusive": "0x0CB263",
+            "hirom_cpu_bus_start_candidate": "0xCCB25B",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCB263",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0036",
@@ -11798,7 +12834,21 @@
           "raw_hex": "805c803a8050805dd43d6d734a5a3bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CB52E",
+            "source_rom_end_exclusive": "0x0CB53F",
+            "hirom_cpu_bus_start_candidate": "0xCCB52E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCB53F",
+            "source_length_bytes": 17,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0037",
@@ -11808,7 +12858,21 @@
           "raw_hex": "4e1442800bcc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CB5F3",
+            "source_rom_end_exclusive": "0x0CB5F9",
+            "hirom_cpu_bus_start_candidate": "0xCCB5F3",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCB5F9",
+            "source_length_bytes": 6,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0038",
@@ -11818,7 +12882,21 @@
           "raw_hex": "805e805f538060804acc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CB802",
+            "source_rom_end_exclusive": "0x0CB80C",
+            "hirom_cpu_bus_start_candidate": "0xCCB802",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCB80C",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0039",
@@ -11828,7 +12906,21 @@
           "raw_hex": "80318050805d20d43e3d65d5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CBF22",
+            "source_rom_end_exclusive": "0x0CBF2F",
+            "hirom_cpu_bus_start_candidate": "0xCCBF22",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCBF2F",
+            "source_length_bytes": 13,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0040",
@@ -11838,7 +12930,21 @@
           "raw_hex": "d46573646e42819c819d815f819ed5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CBF96",
+            "source_rom_end_exclusive": "0x0CBFA6",
+            "hirom_cpu_bus_start_candidate": "0xCCBF96",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCBFA6",
+            "source_length_bytes": 16,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0041",
@@ -11848,7 +12954,21 @@
           "raw_hex": "d46573646e42d5535e4641cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CBFD8",
+            "source_rom_end_exclusive": "0x0CBFE4",
+            "hirom_cpu_bus_start_candidate": "0xCCBFD8",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCBFE4",
+            "source_length_bytes": 12,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0042",
@@ -11858,7 +12978,21 @@
           "raw_hex": "81a081a181a2cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CC14E",
+            "source_rom_end_exclusive": "0x0CC155",
+            "hirom_cpu_bus_start_candidate": "0xCCC14E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCC155",
+            "source_length_bytes": 7,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0043",
@@ -11868,7 +13002,21 @@
           "raw_hex": "80525380618062cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CC1DE",
+            "source_rom_end_exclusive": "0x0CC1E6",
+            "hirom_cpu_bus_start_candidate": "0xCCC1DE",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCC1E6",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0044",
@@ -11878,7 +13026,21 @@
           "raw_hex": "d43b68447363666e4e800f807bd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CCB5F",
+            "source_rom_end_exclusive": "0x0CCB6E",
+            "hirom_cpu_bus_start_candidate": "0xCCCB5F",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCCB6E",
+            "source_length_bytes": 15,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0045",
@@ -11888,7 +13050,21 @@
           "raw_hex": "814f81a353811d811ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CCC28",
+            "source_rom_end_exclusive": "0x0CCC32",
+            "hirom_cpu_bus_start_candidate": "0xCCCC28",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCCC32",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0046",
@@ -11898,7 +13074,21 @@
           "raw_hex": "811f81a353811d811ecc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD00C",
+            "source_rom_end_exclusive": "0x0CD016",
+            "hirom_cpu_bus_start_candidate": "0xCCD00C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD016",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0047",
@@ -11908,7 +13098,21 @@
           "raw_hex": "813d81a257810a403d81a48089cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD10D",
+            "source_rom_end_exclusive": "0x0CD11B",
+            "hirom_cpu_bus_start_candidate": "0xCCD10D",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD11B",
+            "source_length_bytes": 14,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0048",
@@ -11918,7 +13122,21 @@
           "raw_hex": "813d81a2207426cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD16E",
+            "source_rom_end_exclusive": "0x0CD176",
+            "hirom_cpu_bus_start_candidate": "0xCCD16E",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD176",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0049",
@@ -11928,7 +13146,21 @@
           "raw_hex": "813d81a2207526cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD223",
+            "source_rom_end_exclusive": "0x0CD22B",
+            "hirom_cpu_bus_start_candidate": "0xCCD223",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD22B",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0050",
@@ -11938,7 +13170,21 @@
           "raw_hex": "813d81a2207626cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD2C1",
+            "source_rom_end_exclusive": "0x0CD2C9",
+            "hirom_cpu_bus_start_candidate": "0xCCD2C1",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD2C9",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0051",
@@ -11948,7 +13194,21 @@
           "raw_hex": "813d81a2207726cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD317",
+            "source_rom_end_exclusive": "0x0CD31F",
+            "hirom_cpu_bus_start_candidate": "0xCCD317",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD31F",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0052",
@@ -11958,7 +13218,21 @@
           "raw_hex": "45144253804920d40a3fd5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD3D4",
+            "source_rom_end_exclusive": "0x0CD3E0",
+            "hirom_cpu_bus_start_candidate": "0xCCD3D4",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD3E0",
+            "source_length_bytes": 12,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0053",
@@ -11968,7 +13242,21 @@
           "raw_hex": "d41a615a6e0ed5cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CD510",
+            "source_rom_end_exclusive": "0x0CD518",
+            "hirom_cpu_bus_start_candidate": "0xCCD510",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCD518",
+            "source_length_bytes": 8,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0054",
@@ -11978,7 +13266,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE198",
+            "source_rom_end_exclusive": "0x0CE1A2",
+            "hirom_cpu_bus_start_candidate": "0xCCE198",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE1A2",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0055",
@@ -11988,7 +13290,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE39C",
+            "source_rom_end_exclusive": "0x0CE3A6",
+            "hirom_cpu_bus_start_candidate": "0xCCE39C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE3A6",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0056",
@@ -11998,7 +13314,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE3BC",
+            "source_rom_end_exclusive": "0x0CE3C6",
+            "hirom_cpu_bus_start_candidate": "0xCCE3BC",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE3C6",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0057",
@@ -12008,7 +13338,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE3DC",
+            "source_rom_end_exclusive": "0x0CE3E6",
+            "hirom_cpu_bus_start_candidate": "0xCCE3DC",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE3E6",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0058",
@@ -12018,7 +13362,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE3FC",
+            "source_rom_end_exclusive": "0x0CE406",
+            "hirom_cpu_bus_start_candidate": "0xCCE3FC",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE406",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0059",
@@ -12028,7 +13386,21 @@
           "raw_hex": "d45e5ad55380048005cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE41C",
+            "source_rom_end_exclusive": "0x0CE426",
+            "hirom_cpu_bus_start_candidate": "0xCCE41C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE426",
+            "source_length_bytes": 10,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         },
         {
           "id": "AREA-0060",
@@ -12038,7 +13410,21 @@
           "raw_hex": "3f14435e4641cc",
           "source_format": "ROM region 0C: FF-prefixed in-game location-title string ending CC; D4/D5 kana mode controls",
           "rom_byte_verified": true,
-          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced"
+          "on_screen_reachability": "title-string format identified; per-map runtime trigger not individually traced",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CE511",
+            "source_rom_end_exclusive": "0x0CE518",
+            "hirom_cpu_bus_start_candidate": "0xCCE511",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCE518",
+            "source_length_bytes": 7,
+            "watch_type": "SNES system bus ROM data read (candidate, not a validated code breakpoint)",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
+          }
         }
       ]
     }
@@ -12123,7 +13509,7 @@
         "known_units": 39,
         "unit": "ROM-source verified entries",
         "kind": "emulator event-trace requirement",
-        "status": "39/39 source-matched and context-labeled; 0 verified through gameplay; 8 in hint/test group"
+        "status": "39/39 previously source-matched; 39 watch ranges added with candidate HiROM bus addresses; 0 of 39 runtime-reachability confirmations; 8 Gaia hint/test entries require targeted branch probes"
       },
       {
         "id": "R2",
@@ -12139,7 +13525,7 @@
         "known_units": 5,
         "unit": "named Roman-letter candidate groups",
         "kind": "graphic tilemap/source reconstruction",
-        "status": "Not found in contiguous ROM ASCII; not verified as directly sourced glyphs"
+        "status": "Four Roman-letter map labels independently supported in original-version world-map rip and/or Japanese playthrough, but compressed ROM tilemap/pointer offsets and runtime screenshots not acquired; FORCE/ENEMY evidence exists, ITEM unverified."
       },
       {
         "id": "R4",
@@ -12147,7 +13533,7 @@
         "known_units": null,
         "unit": "execution paths",
         "kind": "requires controllable SNES emulator and save-state coverage",
-        "status": "not fully auditable in this static-only run"
+        "status": "Runtime bus/ROM target addresses prepared for 39 supplemental dialogue and 60 area-title entries, and branch disambiguation plans for 23 ambiguous reference rows. No original Japanese ROM or running emulator available: 0 executed paths."
       },
       {
         "id": "R6",
@@ -14665,7 +16051,37 @@
                   "preferred_source_id": "DLG-0305",
                   "narrowed_source_ids": null,
                   "explanation": "The reference's complete locked-door sentence and speaker match this entry; the longer alternatives only contain the shared clause.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "The reference's complete locked-door sentence and speaker match this entry; the longer alternatives only contain the shared clause.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0305",
+                        "rom_offset": "0x04D4C9",
+                        "system_bus_candidate": "0xC4D4C9"
+                      },
+                      {
+                        "id": "DLG-0542",
+                        "rom_offset": "0x05D6D4",
+                        "system_bus_candidate": "0xC5D6D4"
+                      },
+                      {
+                        "id": "ADD-0031",
+                        "rom_offset": "0x08DC24",
+                        "system_bus_candidate": "0xC8DC24"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -17607,7 +19023,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "corresponding_followup_variant",
+                    "discriminating_question": "After the initial skeleton line, does the scene continue with the note held in the skeleton's hand (DLG-0388), or a trap explanation (DLG-0389)?",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0388",
+                        "rom_offset": "0x0583B0",
+                        "system_bus_candidate": "0xC583B0"
+                      },
+                      {
+                        "id": "DLG-0389",
+                        "rom_offset": "0x058474",
+                        "system_bus_candidate": "0xC58474"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -18301,7 +19742,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "embedded_vs_standalone",
+                    "discriminating_question": "Is the line preceded by Karen's remark that the hero was unconscious (DLG-0445), or does the standalone passage begin at DLG-0446?",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0445",
+                        "rom_offset": "0x05A802",
+                        "system_bus_candidate": "0xC5A802"
+                      },
+                      {
+                        "id": "DLG-0446",
+                        "rom_offset": "0x05A832",
+                        "system_bus_candidate": "0xC5A832"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -20631,7 +22097,32 @@
                       "source_text_clue": "ろうごくのカギを いただいて"
                     }
                   ],
-                  "secondary_reference": "https://wikiwiki.jp/text/ガイア幻想紀/フリージア～ダイヤモンド鉱山"
+                  "secondary_reference": "https://wikiwiki.jp/text/ガイア幻想紀/フリージア～ダイヤモンド鉱山",
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "An independent Japanese original-game text archive labels the two variants by whether the player possesses かぜのメロディ. This corroborates both ROM-derived texts as legitimate conditional variants, not one missing line. No emulator path executed.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0549",
+                        "rom_offset": "0x05DA3B",
+                        "system_bus_candidate": "0xC5DA3B"
+                      },
+                      {
+                        "id": "DLG-0550",
+                        "rom_offset": "0x05DABD",
+                        "system_bus_candidate": "0xC5DABD"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -20667,7 +22158,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Two distinct missing-flute messages DLG-0032 and DLG-0047; test action/context at scene.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0032",
+                        "rom_offset": "0x038A71",
+                        "system_bus_candidate": "0xC38A71"
+                      },
+                      {
+                        "id": "DLG-0047",
+                        "rom_offset": "0x038E06",
+                        "system_bus_candidate": "0xC38E06"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             }
@@ -21442,7 +22958,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Distinct byte-identical Eric lines at DLG-0609/DLG-0610; record the actual source bus read for the event.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0609",
+                        "rom_offset": "0x05F7C4",
+                        "system_bus_candidate": "0xC5F7C4"
+                      },
+                      {
+                        "id": "DLG-0610",
+                        "rom_offset": "0x05F7EE",
+                        "system_bus_candidate": "0xC5F7EE"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -21501,7 +23042,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "short_vs_long_scene_block",
+                    "discriminating_question": "Is Neil's star observation emitted as part of the earlier briefing ADD-0012 or from later DLG-0592?",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0592",
+                        "rom_offset": "0x05F0C5",
+                        "system_bus_candidate": "0xC5F0C5"
+                      },
+                      {
+                        "id": "ADD-0012",
+                        "rom_offset": "0x05F09D",
+                        "system_bus_candidate": "0xC5F09D"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -22866,7 +24432,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicated_pickup_script",
+                    "discriminating_question": "Prayer statue text repeats in ADD-0015/ADD-0016; test each actual pickup/room state separately.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "ADD-0015",
+                        "rom_offset": "0x069731",
+                        "system_bus_candidate": "0xC69731"
+                      },
+                      {
+                        "id": "ADD-0016",
+                        "rom_offset": "0x0697D1",
+                        "system_bus_candidate": "0xC697D1"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -26321,7 +27912,32 @@
                     "ABI-0003"
                   ],
                   "explanation": "The same chapter identifies the acquired ability, excluding other abilities sharing this instruction. Acquisition-vs-description variants remain ambiguous.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "The same chapter identifies the acquired ability, excluding other abilities sharing this instruction. Acquisition-vs-description variants remain ambiguous.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1223",
+                        "rom_offset": "0x09A358",
+                        "system_bus_candidate": "0xC9A358"
+                      },
+                      {
+                        "id": "DLG-1224",
+                        "rom_offset": "0x09A36C",
+                        "system_bus_candidate": "0xC9A36C"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -26449,7 +28065,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "embedded_vs_standalone",
+                    "discriminating_question": "Does Rob's whisper follow the full stone hand-off script DLG-0887 or standalone continuation DLG-0888?",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0887",
+                        "rom_offset": "0x07B5BD",
+                        "system_bus_candidate": "0xC7B5BD"
+                      },
+                      {
+                        "id": "DLG-0888",
+                        "rom_offset": "0x07B60C",
+                        "system_bus_candidate": "0xC7B60C"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -26485,7 +28126,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "embedded_vs_standalone",
+                    "discriminating_question": "Does Rob's request occur during DLG-0887 stone exchange or in later standalone DLG-0888?",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0887",
+                        "rom_offset": "0x07B5BD",
+                        "system_bus_candidate": "0xC7B5BD"
+                      },
+                      {
+                        "id": "DLG-0888",
+                        "rom_offset": "0x07B60C",
+                        "system_bus_candidate": "0xC7B60C"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -27595,7 +29261,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Both DLG-0927 and DLG-0929 contain the same report of prisoners under the chapel. Capture branch/frame and address.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0927",
+                        "rom_offset": "0x07C752",
+                        "system_bus_candidate": "0xC7C752"
+                      },
+                      {
+                        "id": "DLG-0929",
+                        "rom_offset": "0x07C7E3",
+                        "system_bus_candidate": "0xC7C7E3"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -27948,7 +29639,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Both DLG-0949 and DLG-0952 have queue dialogue; identify NPC and repeat-dialogue flag with bus reads.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0949",
+                        "rom_offset": "0x07CFF5",
+                        "system_bus_candidate": "0xC7CFF5"
+                      },
+                      {
+                        "id": "DLG-0952",
+                        "rom_offset": "0x07D068",
+                        "system_bus_candidate": "0xC7D068"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -27984,7 +29700,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Both DLG-0935 and DLG-0940 have identical response; capture NPC choice and frame.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0935",
+                        "rom_offset": "0x07CA1A",
+                        "system_bus_candidate": "0xC7CA1A"
+                      },
+                      {
+                        "id": "DLG-0940",
+                        "rom_offset": "0x07CB52",
+                        "system_bus_candidate": "0xC7CB52"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -28586,7 +30327,32 @@
                     "ABI-0005"
                   ],
                   "explanation": "The same chapter identifies the acquired ability, excluding other abilities sharing this instruction. Acquisition-vs-description variants remain ambiguous.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "The same chapter identifies the acquired ability, excluding other abilities sharing this instruction. Acquisition-vs-description variants remain ambiguous.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1227",
+                        "rom_offset": "0x09A487",
+                        "system_bus_candidate": "0xC9A487"
+                      },
+                      {
+                        "id": "DLG-1228",
+                        "rom_offset": "0x09A49A",
+                        "system_bus_candidate": "0xC9A49A"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -29515,7 +31281,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Male character sad-face message occurs at two distinct ROM spans; test dialogue state.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1012",
+                        "rom_offset": "0x088CB3",
+                        "system_bus_candidate": "0xC88CB3"
+                      },
+                      {
+                        "id": "DLG-1018",
+                        "rom_offset": "0x088EA7",
+                        "system_bus_candidate": "0xC88EA7"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -29689,7 +31480,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Boy sad-face message occurs at two distinct ROM spans; test dialogue state.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1021",
+                        "rom_offset": "0x088F98",
+                        "system_bus_candidate": "0xC88F98"
+                      },
+                      {
+                        "id": "DLG-1024",
+                        "rom_offset": "0x0890A2",
+                        "system_bus_candidate": "0xC890A2"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -29931,7 +31747,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "corresponding_followup_variant",
+                    "discriminating_question": "Notebook held by explorer (DLG-1046) versus diary lying nearby (DLG-1048). Correlate text following shared intro.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1046",
+                        "rom_offset": "0x089E1E",
+                        "system_bus_candidate": "0xC89E1E"
+                      },
+                      {
+                        "id": "DLG-1048",
+                        "rom_offset": "0x08A028",
+                        "system_bus_candidate": "0xC8A028"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -30104,7 +31945,32 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1225",
+                        "rom_offset": "0x09A3FF",
+                        "system_bus_candidate": "0xC9A3FF"
+                      },
+                      {
+                        "id": "DLG-1226",
+                        "rom_offset": "0x09A414",
+                        "system_bus_candidate": "0xC9A414"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -30672,7 +32538,37 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "duplicate_same_text",
+                    "discriminating_question": "Language barrier line has three source instances DLG-1027/1029/1032; observe each encounter separately.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1027",
+                        "rom_offset": "0x08924A",
+                        "system_bus_candidate": "0xC8924A"
+                      },
+                      {
+                        "id": "DLG-1029",
+                        "rom_offset": "0x08930E",
+                        "system_bus_candidate": "0xC8930E"
+                      },
+                      {
+                        "id": "DLG-1032",
+                        "rom_offset": "0x089400",
+                        "system_bus_candidate": "0xC89400"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -31323,7 +33219,52 @@
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
                   "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "six_identical_tablet_sources",
+                    "discriminating_question": "Six hieroglyph tablets have identical Japanese wording but six separate offsets DLG-1105 through DLG-1110. Trace which tablet actor uses each.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-1105",
+                        "rom_offset": "0x08C3AA",
+                        "system_bus_candidate": "0xC8C3AA"
+                      },
+                      {
+                        "id": "DLG-1106",
+                        "rom_offset": "0x08C464",
+                        "system_bus_candidate": "0xC8C464"
+                      },
+                      {
+                        "id": "DLG-1107",
+                        "rom_offset": "0x08C4FF",
+                        "system_bus_candidate": "0xC8C4FF"
+                      },
+                      {
+                        "id": "DLG-1108",
+                        "rom_offset": "0x08C59A",
+                        "system_bus_candidate": "0xC8C59A"
+                      },
+                      {
+                        "id": "DLG-1109",
+                        "rom_offset": "0x08C635",
+                        "system_bus_candidate": "0xC8C635"
+                      },
+                      {
+                        "id": "DLG-1110",
+                        "rom_offset": "0x08C6D0",
+                        "system_bus_candidate": "0xC8C6D0"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -32987,7 +34928,32 @@
                   "preferred_source_id": "DLG-1173",
                   "narrowed_source_ids": null,
                   "explanation": "Late-game chapter context points toward the Babel/return-to-tower passage; similar short sentence also exists earlier. Not runtime validated.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "Late-game chapter context points toward the Babel/return-to-tower passage; similar short sentence also exists earlier. Not runtime validated.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0665",
+                        "rom_offset": "0x069579",
+                        "system_bus_candidate": "0xC69579"
+                      },
+                      {
+                        "id": "DLG-1173",
+                        "rom_offset": "0x08F40A",
+                        "system_bus_candidate": "0xC8F40A"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -33523,7 +35489,32 @@
                   "preferred_source_id": "DLG-0006",
                   "narrowed_source_ids": null,
                   "explanation": "The reference explicitly names シャドウ; the competing entry is narrated by フリーダン.",
-                  "scene_observed_in_emulator": false
+                  "scene_observed_in_emulator": false,
+                  "runtime_disambiguation": {
+                    "hypothesis_kind": "source_variant_requires_runtime",
+                    "discriminating_question": "The reference explicitly names シャドウ; the competing entry is narrated by フリーダン.",
+                    "candidate_system_bus_addresses": [
+                      {
+                        "id": "DLG-0005",
+                        "rom_offset": "0x00D945",
+                        "system_bus_candidate": "0xC0D945"
+                      },
+                      {
+                        "id": "DLG-0006",
+                        "rom_offset": "0x00D96E",
+                        "system_bus_candidate": "0xC0D96E"
+                      }
+                    ],
+                    "execution_status": "not_observed",
+                    "provenance": "Master Japanese ROM offsets (prior extraction), not new debugger hits",
+                    "required_evidence": [
+                      "matching original JP ROM SHA-256",
+                      "checkpoint/save-state and input route",
+                      "read or trace source ROM address with PC+frame",
+                      "screenshot of exact displayed text",
+                      "branch condition and scene actor ID"
+                    ]
+                  }
                 }
               }
             },
@@ -35545,22 +37536,38 @@
         {
           "text": "Itory",
           "type": "English-on-screen label candidate",
-          "source": "reference chapter 07"
+          "source": "reference chapter 07",
+          "graphic_provenance": "original_JP_version_world_map_rip_supported",
+          "direct_rom_tilemap_source_verified": false,
+          "emulator_playback_verified": false,
+          "visual_evidence_url": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
         },
         {
           "text": "Diamond Valley",
           "type": "English-on-screen label candidate",
-          "source": "reference chapter 14"
+          "source": "reference chapter 14",
+          "graphic_provenance": "original_JP_version_world_map_rip_supported",
+          "direct_rom_tilemap_source_verified": false,
+          "emulator_playback_verified": false,
+          "visual_evidence_url": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
         },
         {
           "text": "NEELE'S COTAGE",
           "type": "English-on-screen label candidate",
-          "source": "reference chapter 16"
+          "source": "reference chapter 16",
+          "graphic_provenance": "original_JP_version_world_map_rip_supported",
+          "direct_rom_tilemap_source_verified": false,
+          "emulator_playback_verified": false,
+          "visual_evidence_url": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
         },
         {
           "text": "NASCA",
           "type": "English-on-screen label candidate",
-          "source": "reference chapter 17"
+          "source": "reference chapter 17",
+          "graphic_provenance": "original_JP_version_world_map_rip_supported",
+          "direct_rom_tilemap_source_verified": false,
+          "emulator_playback_verified": false,
+          "visual_evidence_url": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
         },
         {
           "text": "FORCE / ENEMY / ITEM",
@@ -35678,6 +37685,133 @@
           "ITEM"
         ],
         "partially_supported_ui_group": "FORCE occurs in the ROM-derived inline interface text master; ENEMY has Japanese gameplay screenshot support; ITEM remains unlocated."
+      },
+      "original_version_world_map_visual_evidence_2026_11_05": {
+        "source_description": "A publicly indexed sprite rip titled 'Map (Gaia Gensouki)' shows the Roman-letter map markings in the original-Japanese-version asset. An independent playthrough of the Japanese game shows Itory and notes Neele as printed on the map.",
+        "reference_type": "reconstructed/uncompressed map artwork image and Japanese game screenshot commentary, not bytes from the user-supplied original ROM",
+        "candidate_labels": [
+          {
+            "reference_text": "Itory",
+            "external_asset": "Map (Gaia Gensouki)",
+            "evidence_level": "japanese_playthrough_screenshot_and_original_version_map_rip",
+            "sources": [
+              "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+              "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/page-2"
+            ],
+            "rom_pointer_verified": false,
+            "runtime_tilemap_observed_here": false
+          },
+          {
+            "reference_text": "Diamond Valley",
+            "external_asset": "Map (Gaia Gensouki)",
+            "evidence_level": "original_version_labeled_rip",
+            "sources": [
+              "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
+            ],
+            "rom_pointer_verified": false,
+            "runtime_tilemap_observed_here": false
+          },
+          {
+            "reference_text": "NEELE'S COTAGE",
+            "external_asset": "Map (Gaia Gensouki)",
+            "evidence_level": "original_version_labeled_rip_and_japanese_playthrough_map_comment",
+            "sources": [
+              "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+              "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/page-3"
+            ],
+            "rom_pointer_verified": false,
+            "runtime_tilemap_observed_here": false
+          },
+          {
+            "reference_text": "NASCA",
+            "external_asset": "Map (Gaia Gensouki)",
+            "evidence_level": "original_version_labeled_rip",
+            "sources": [
+              "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
+            ],
+            "rom_pointer_verified": false,
+            "runtime_tilemap_observed_here": false
+          }
+        ],
+        "confidence": "Supports original-Japanese-version graphic provenance for four reference labels. Does NOT prove direct ROM location, exact tilemap index, or in-emulator hit in this session.",
+        "unresolved_combined_ui_label": "FORCE / ENEMY / ITEM: original master includes FORCE and ENEMY visual evidence; ITEM tilemap remains unverified.",
+        "source_technical_notes": [
+          "Map label lettering is graphical; contiguous ASCII ROM search is insufficient to rule it out.",
+          "GaiaLabs documents game-specific LZSS-compressed map graphics and arrangements.",
+          "Published ROM map lists many compressed map graphic ranges and a bank 0C map-title data region; data-format notes may describe another regional ROM and are not independently JP-byte verified."
+        ],
+        "data_sources": [
+          "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/page-2",
+          "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/page-3",
+          "https://datacrystal.tcrf.net/wiki/Illusion_of_Gaia/ROM_map",
+          "https://github.com/Azarem/GaiaLabs"
+        ]
+      },
+      "runtime_trace_instrumentation_2026_11_05": {
+        "original_japanese_rom_sha256_required": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "rom_available_in_current_session": false,
+        "emulator_with_rom_running": false,
+        "frames_executed": 0,
+        "gameplay_hits_recorded": 0,
+        "state_screenshots_new": 0,
+        "source_ranges_instrumented": {
+          "supplementary_dialogue": 39,
+          "area_title_strings": 60,
+          "ambiguous_reference_rows": 23,
+          "ambiguous_rows_with_candidate_bus_addresses": 23
+        },
+        "snes_offset_to_cpu_bus_assumption": "headerless HiROM offset + 0xC00000; verify ROM header/mapper in target emulator before setting breakpoints",
+        "emulator_method": "BizHawk Lua event.on_bus_read (if exposed by selected SNES core), or debugger ROM-read breakpoint with PC, frame, memory address and screenshot; bus reads alone cannot prove text displayed; some graphics may be DMA/decompressed.",
+        "initial_probes": [
+          {
+            "id": "ADD-0027",
+            "rom_offset": "0x08D9A1",
+            "bus_address_candidate": "0xC8D9A1",
+            "condition": "Gaia hint-test, potentially development-only"
+          },
+          {
+            "id": "ADD-0015",
+            "rom_offset": "0x069731",
+            "bus_address_candidate": "0xC69731",
+            "condition": "Mu prayer statue first/second pickup"
+          },
+          {
+            "id": "ADD-0016",
+            "rom_offset": "0x0697D1",
+            "bus_address_candidate": "0xC697D1",
+            "condition": "Mu prayer statue first/second pickup"
+          },
+          {
+            "id": "ADD-0011",
+            "rom_offset": "0x05DB9B",
+            "bus_address_candidate": "0xC5DB9B",
+            "condition": "Diamond mine key acquisition"
+          },
+          {
+            "id": "AREA-0001",
+            "rom_offset": "0x0C831E",
+            "bus_address_candidate": "0xCC831E",
+            "condition": "South Cape map transition"
+          }
+        ],
+        "required_capture_fields": [
+          "original_rom_sha256",
+          "emulator_and_core_build",
+          "checkpoint_or_savestate_sha256",
+          "input_route_or_movie",
+          "SNES CPU PC and cycle/frame",
+          "source ROM read bus address and length",
+          "displayed string or full tilemap screenshot",
+          "scene map ID and event flag(s)",
+          "multiple reads and branch alternatives"
+        ],
+        "false_positive_risks": [
+          "A CPU read may be a prefetch or non-display-related data access.",
+          "Compressed graphical titles can be read without direct CPU reads at the decoded literal offset.",
+          "Repeated messages are deliberately duplicated; same display text cannot establish source address.",
+          "Original JP ROM not present, so none of the candidate bus values was tested."
+        ]
       }
     },
     "dialogue_provenance_reconciliation": {
