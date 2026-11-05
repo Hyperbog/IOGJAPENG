@@ -93,14 +93,34 @@
           "id": "DLG-0005",
           "rom_offset": "0x00D945",
           "rom_end_exclusive": "0x00D96E",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 45 D9",
+            "matching_script_sites": [
+              "0x00D8F6"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "シャドウ：\n気がつくと そこは 見覚えのある\n場所だった・・・",
           "id": "DLG-0006",
           "rom_offset": "0x00D96E",
           "rom_end_exclusive": "0x00D996",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 6E D9",
+            "matching_script_sites": [
+              "0x00D8FC"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "HP（体力）が 上がった！",
@@ -282,7 +302,17 @@
           "id": "DLG-0032",
           "rom_offset": "0x038A71",
           "rom_end_exclusive": "0x038A81",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 71 8A",
+            "matching_script_sites": [
+              "0x038941"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "笛を 吹くのをやめた。",
@@ -387,7 +417,18 @@
           "id": "DLG-0047",
           "rom_offset": "0x038E06",
           "rom_end_exclusive": "0x038E15",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 06 8E",
+            "matching_script_sites": [
+              "0x038B0B",
+              "0x038DA0"
+            ],
+            "match_count": 2,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "テムは 思い出のメロディを\n静かに ふきはじめた。\n\nしかし 何もおこらなかった・・・",
@@ -2193,7 +2234,17 @@
           "id": "DLG-0305",
           "rom_offset": "0x04D4C9",
           "rom_end_exclusive": "0x04D4EA",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF C9 D4",
+            "matching_script_sites": [
+              "0x04D4C0"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "テム： このコケは 数え切れない\nほどの しゅうじんたちを\n見てきたんだろうな・・・\n\n彼らも このコケを\n心のささえにして\nくらしていたのかもしれない・・・",
@@ -2774,14 +2825,34 @@
           "id": "DLG-0388",
           "rom_offset": "0x0583B0",
           "rom_end_exclusive": "0x05845E",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF B0 83",
+            "matching_script_sites": [
+              "0x0583AB"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "インカの 黄金船を 求めた\n探険家だろうか・・・？\n\nトラップに かかって\n命を 落としたんだ・・・・",
           "id": "DLG-0389",
           "rom_offset": "0x058474",
           "rom_end_exclusive": "0x0584B7",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 74 84",
+            "matching_script_sites": [
+              "0x05846F"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "遺体は 何か 手帳のようなものを\nもっているようだ・・・\n\n  インカについてわかったこと\n\nインカ地方には 文字が 存在\nしなかった。\nそのため 人々は 音で 言い伝えを\n後世に 残したようである。\n\n私は インカの谷風が メロディを\nかなでていることに 気がつき\nその解読に 成功した。\n\n「黄金の しきつめられた部屋にて\n われを となえよ・・・」\n谷風がかなでるメロディを そこで\n吹けということだろうか・・・",
@@ -3173,14 +3244,32 @@
           "id": "DLG-0445",
           "rom_offset": "0x05A802",
           "rom_end_exclusive": "0x05A88B",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 02 A8",
+            "matching_script_sites": [
+              "0x05A1BC"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "ひょう流の話は 本で読んだこと\nあるけど まさか 自分が そうなる\nなんて 思ってもみなかった・・・\n\n災難って とつぜんに\nおとずれるものなのね。",
           "id": "DLG-0446",
           "rom_offset": "0x05A832",
           "rom_end_exclusive": "0x05A88B",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 32 A8",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          }
         },
         {
           "text": "カレン：\nくよくよしたって しかたないわよ。\n\n先のことは 考えないで\nひょう流を 楽しんじゃおっ。\n\nもう おなか ぺこぺこ。\nお城の地下から もってきた お肉で\nお昼ごはんに しましょ。",
@@ -3852,7 +3941,17 @@
           "id": "DLG-0542",
           "rom_offset": "0x05D6D4",
           "rom_end_exclusive": "0x05D6F6",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF D4 D6",
+            "matching_script_sites": [
+              "0x05D6CF"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "イムス：\nどうか くさりを 切って下さいっ！",
@@ -3901,14 +4000,34 @@
           "id": "DLG-0549",
           "rom_offset": "0x05DA3B",
           "rom_end_exclusive": "0x05DABD",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 3B DA",
+            "matching_script_sites": [
+              "0x05D947"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "思い出のメロディを おぼえた！\n\nサムス：\nひとつ お願いがあるんですが・・・\n\nあなたと 出会えた 思い出に\nろうごくのカギを いただいて\nいいですよね。\n\nきっと 今後 使うことは\nないはずですから。",
           "id": "DLG-0550",
           "rom_offset": "0x05DABD",
           "rom_end_exclusive": "0x05DB34",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF BD DA",
+            "matching_script_sites": [
+              "0x05D937"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "あなたのことは 一生忘れませんよ。",
@@ -4202,7 +4321,17 @@
           "id": "DLG-0592",
           "rom_offset": "0x05F0C5",
           "rom_end_exclusive": "0x05F100",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF C5 F0",
+            "matching_script_sites": [
+              "0x05EE4B"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "すると 最近 見え始めたっていう\n赤い星の 場所は・・・？\n\n コンドルの頭\n コンドルの右足\n コンドルの左足\n コンドルのしっぽ",
@@ -4321,14 +4450,34 @@
           "id": "DLG-0609",
           "rom_offset": "0x05F7C4",
           "rom_end_exclusive": "0x05F7EE",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF C4 F7",
+            "matching_script_sites": [
+              "0x05F790"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "エリック：\n何が おこるんだろう・・・\nワクワクしちゃうなあ。",
           "id": "DLG-0610",
           "rom_offset": "0x05F7EE",
           "rom_end_exclusive": "0x05F818",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF EE F7",
+            "matching_script_sites": [
+              "0x05F795"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "クッククククク・・・・",
@@ -4713,7 +4862,15 @@
           "id": "DLG-0665",
           "rom_offset": "0x069579",
           "rom_end_exclusive": "0x0695A0",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 79 95",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          }
         },
         {
           "text": "ポケットの中から\nリリィが 話しかけてきた。\n\nリリィ： 長い通路だよね・・・・\nこれ ほんとに ムー大陸に\nつづいてるのかな・・・",
@@ -6267,14 +6424,34 @@
           "id": "DLG-0887",
           "rom_offset": "0x07B5BD",
           "rom_end_exclusive": "0x07B654",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF BD B5",
+            "matching_script_sites": [
+              "0x07B521"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "ロブが 小声で ささやく・・・\n\nロブ：\nテム・・・ ちょっとの間だけ\nリリィと ２人にしてくれないか？",
           "id": "DLG-0888",
           "rom_offset": "0x07B60C",
           "rom_end_exclusive": "0x07B654",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 0C B6",
+            "matching_script_sites": [
+              "0x07B535"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "ロブ：\nこの石の おかげで おれは\n助かったんだよな・・・\n\n実は これ リリィのために 作った\nネックレス だったんだ・・・",
@@ -6547,7 +6724,17 @@
           "id": "DLG-0927",
           "rom_offset": "0x07C752",
           "rom_end_exclusive": "0x07C788",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 52 C7",
+            "matching_script_sites": [
+              "0x07C70B"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "となりの会社には 荷物が たくさん\nつんであるでしょう？\n\nときどき 中から うなり声のする\n荷物が 運ばれていったりするの。\n何だか 気味が悪いわ・・・",
@@ -6561,7 +6748,17 @@
           "id": "DLG-0929",
           "rom_offset": "0x07C7E3",
           "rom_end_exclusive": "0x07C819",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF E3 C7",
+            "matching_script_sites": [
+              "0x07C715"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "店員： お帰りですか？\nありがとうございました。",
@@ -6603,7 +6800,17 @@
           "id": "DLG-0935",
           "rom_offset": "0x07CA1A",
           "rom_end_exclusive": "0x07CA30",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 1A CA",
+            "matching_script_sites": [
+              "0x07C9AE"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "ごめんなさい・・・\nお一人様 ひとつかぎりにしてるの。",
@@ -6638,7 +6845,17 @@
           "id": "DLG-0940",
           "rom_offset": "0x07CB52",
           "rom_end_exclusive": "0x07CB68",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 52 CB",
+            "matching_script_sites": [
+              "0x07CA83"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "会社の人：\nあわわ・・・・\nなんだ 子供か・・・・\n\nおじさんたちは お仕事の話を\nしてるんだから あっちへいって\nなさい！",
@@ -6701,7 +6918,17 @@
           "id": "DLG-0949",
           "rom_offset": "0x07CFF5",
           "rom_end_exclusive": "0x07D021",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF F5 CF",
+            "matching_script_sites": [
+              "0x07CFBE"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "わたしなんか もう 何回 ならんで\nいることか。",
@@ -6722,7 +6949,17 @@
           "id": "DLG-0952",
           "rom_offset": "0x07D068",
           "rom_end_exclusive": "0x07D094",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 68 D0",
+            "matching_script_sites": [
+              "0x07CFCD"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "このお店では 命の薬とかいうものが\n売られているんだよ。\n\n本当に 効くのかどうかは わからんが\n長く生きたいという 気持ちは\nだれでも もっているからね。",
@@ -7142,7 +7379,17 @@
           "id": "DLG-1012",
           "rom_offset": "0x088CB3",
           "rom_end_exclusive": "0x088CC9",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF B3 8C",
+            "matching_script_sites": [
+              "0x088C4E"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "男は 何か ちっぽけな食べ物を\nさしだした・・・\n\n食べてみますか？\n はい\n いいえ",
@@ -7184,7 +7431,17 @@
           "id": "DLG-1018",
           "rom_offset": "0x088EA7",
           "rom_end_exclusive": "0x088EBD",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF A7 8E",
+            "matching_script_sites": [
+              "0x088E1B"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "少年は 北東の方角を\n指さしている・・・\n\n地図を 見せてみますか？\n はい\n いいえ",
@@ -7205,7 +7462,17 @@
           "id": "DLG-1021",
           "rom_offset": "0x088F98",
           "rom_end_exclusive": "0x088FB0",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 98 8F",
+            "matching_script_sites": [
+              "0x088F09"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "少年は テムのそでを ひっぱった。\nどこかへ 連れていきたいのだろう。\n\nついていきますか？\n はい\n いいえ",
@@ -7226,7 +7493,17 @@
           "id": "DLG-1024",
           "rom_offset": "0x0890A2",
           "rom_end_exclusive": "0x0890BA",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF A2 90",
+            "matching_script_sites": [
+              "0x08903A"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "少年は ガイ骨にむかって\n目に なみだを ためている・・・\n\nこの ガイ骨は 肉親だったのか？\nそれとも 友達だったのだろうか？",
@@ -7247,7 +7524,17 @@
           "id": "DLG-1027",
           "rom_offset": "0x08924A",
           "rom_end_exclusive": "0x08925D",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 4A 92",
+            "matching_script_sites": [
+              "0x0891EC"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "少女の石像が ひっそりと\nたたずんでいる。",
@@ -7261,7 +7548,17 @@
           "id": "DLG-1029",
           "rom_offset": "0x08930E",
           "rom_end_exclusive": "0x089321",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 0E 93",
+            "matching_script_sites": [
+              "0x0892B0"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "少女は だまって 赤い宝石を\nさしだした。\nおれいの つもりなのだろう・・\n\nテムは 赤い宝石を 手に入れた！",
@@ -7282,7 +7579,17 @@
           "id": "DLG-1032",
           "rom_offset": "0x089400",
           "rom_end_exclusive": "0x089413",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 00 94",
+            "matching_script_sites": [
+              "0x0893A2"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "カレン：\n今さっき この村の人たちと\n身ぶり手ぶりで お話してたのね。\n\nそしたらね。\n森に 動物がもどってきたみたい。\nこれで みんな 共食い することも\nなくなるわよね。",
@@ -7380,7 +7687,17 @@
           "id": "DLG-1046",
           "rom_offset": "0x089E1E",
           "rom_end_exclusive": "0x089E82",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 1E 9E",
+            "matching_script_sites": [
+              "0x089E04"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "我々は ジャングルを 分けいり\n原住民の村落へ たどりついた。\n言葉は通じないが 親切な 村人は\nとまっていけと手招きしてくれる。\n\nよく朝 目覚めてみると\n私と 隊長のフリーゼルしか\nいないではないか・・・\n\nそこは 何と 人食い人種の村で\nあったのだ！\n\n骨になった 仲間を 横目に\nにげだした 隊長と 私は、\nジャングルを さまよい続け そして\nアンコールワットを 発見した。\n\nここには 神がすみ 永遠の命が\n手に入るという うわさだったが\n目に うつったのは まものの姿\nだけであった・・・\n\nそして今 私も 仲間のもとへ\n旅立とうとしている・・・\n私が この世から いなくなって\n悲しむ人は いるのだろうか・・？",
@@ -7394,7 +7711,17 @@
           "id": "DLG-1048",
           "rom_offset": "0x08A028",
           "rom_end_exclusive": "0x08A088",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 28 A0",
+            "matching_script_sites": [
+              "0x08A00E"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "アンコールワット 調査記録\n\n      フリーゼル\n\nアンコールワットは 神が住むと\nうわさされる寺院である。\n\n私は ついに 本堂まで たどりつき\nその２階で 光の間に はばまれた。\n\n最上階で 神に会見するには ここを\n通らねばならないのだが あまりに\n光が強く 通路がまったく見えない。\n\nかつて 神に 会うために\n黒すいしょうで作った メガネが\n使われていたという言い伝えもある。\n\n私は 本堂へと続く参道の 付近で\nいっしゅん 地面に黒光りするものを\n見かけたが まものに はばまれ\nその場を後にせざるをえなかった。\n\nもしかすると あれが 言い伝えの\nメガネだったのかもしれない・・・\n\nここまで来ながら 残念だ・・・\n私の子供が この意志をついで\nくれることをいのって・・・",
@@ -7793,42 +8120,102 @@
           "id": "DLG-1105",
           "rom_offset": "0x08C3AA",
           "rom_end_exclusive": "0x08C405",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF AA C3",
+            "matching_script_sites": [
+              "0x08C38D"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "かべに おさめられた 石版がある。\nこれが ダオの町で 聞いた\nヒエログリフという 文字か・・？\n\nこの石版は はずしてもっていく\nことにしよう。",
           "id": "DLG-1106",
           "rom_offset": "0x08C464",
           "rom_end_exclusive": "0x08C4BF",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 64 C4",
+            "matching_script_sites": [
+              "0x08C44B"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "かべに おさめられた 石版がある。\nこれが ダオの町で 聞いた\nヒエログリフという 文字か・・？\n\nこの石版は はずしてもっていく\nことにしよう。",
           "id": "DLG-1107",
           "rom_offset": "0x08C4FF",
           "rom_end_exclusive": "0x08C55A",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF FF C4",
+            "matching_script_sites": [
+              "0x08C4E6"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "かべに おさめられた 石版がある。\nこれが ダオの町で 聞いた\nヒエログリフという 文字か・・？\n\nこの石版は はずしてもっていく\nことにしよう。",
           "id": "DLG-1108",
           "rom_offset": "0x08C59A",
           "rom_end_exclusive": "0x08C5F5",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 9A C5",
+            "matching_script_sites": [
+              "0x08C59A"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "かべに おさめられた 石版がある。\nこれが ダオの町で 聞いた\nヒエログリフという 文字か・・？\n\nこの石版は はずしてもっていく\nことにしよう。",
           "id": "DLG-1109",
           "rom_offset": "0x08C635",
           "rom_end_exclusive": "0x08C690",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 35 C6",
+            "matching_script_sites": [
+              "0x08C61C"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "かべに おさめられた 石版がある。\nこれが ダオの町で 聞いた\nヒエログリフという 文字か・・？\n\nこの石版は はずしてもっていく\nことにしよう。",
           "id": "DLG-1110",
           "rom_offset": "0x08C6D0",
           "rom_end_exclusive": "0x08C72B",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF D0 C6",
+            "matching_script_sites": [
+              "0x08C6B7"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "何も おこらない・・・\nならべ方を まちがえたんだろうか？\nもう一度 最初から やってみよう。",
@@ -8269,7 +8656,17 @@
           "id": "DLG-1173",
           "rom_offset": "0x08F40A",
           "rom_end_exclusive": "0x08F487",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 0A F4",
+            "matching_script_sites": [
+              "0x08F2A8"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "気がつくと ぼくは 不思議な\nやかたの 入口に たたずんでいた。",
@@ -8619,42 +9016,102 @@
           "id": "DLG-1223",
           "rom_offset": "0x09A358",
           "rom_end_exclusive": "0x09A3E0",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 58 A3",
+            "matching_script_sites": [
+              "0x09A34A"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "スピンダッシュは 自分が\n高速回転し 敵をはじきとばすことが\nできる。\n\nその反動を 利用して 坂を\nかけあがることもできるであろう。\nこうげきボタンで 力をため\nLRを こうごにおすがよい・・・",
           "id": "DLG-1224",
           "rom_offset": "0x09A36C",
           "rom_end_exclusive": "0x09A3E0",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 6C A3",
+            "matching_script_sites": [
+              "0x09A351"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "アースクエイカーを 手にいれた！\n\nアースクエイカーは じしんを\nおこすことができる。\n\n敵は しばらくの間 停止するのだ。\n飛びおりている最中に\nこうげきボタンをおすがよい・・・",
           "id": "DLG-1225",
           "rom_offset": "0x09A3FF",
           "rom_end_exclusive": "0x09A468",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF FF A3",
+            "matching_script_sites": [
+              "0x09A3F1"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "アースクエイカーは じしんを\nおこすことができる。\n\n敵は しばらくの間 停止するのだ。\n飛びおりている最中に\nこうげきボタンをおすがよい・・・",
           "id": "DLG-1226",
           "rom_offset": "0x09A414",
           "rom_end_exclusive": "0x09A468",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 14 A4",
+            "matching_script_sites": [
+              "0x09A3F8"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "オーラバリアを 手にいれた！\n\nこの力は 自分の まわりに\nオーラでできた バリアをはることが\nできる。\n\nこうげきボタンで 力をため\nLRを こうごにおすがよい・・・",
           "id": "DLG-1227",
           "rom_offset": "0x09A487",
           "rom_end_exclusive": "0x09A4E9",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 87 A4",
+            "matching_script_sites": [
+              "0x09A479"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "この力は 自分の まわりに\nオーラでできた バリアをはることが\nできる。\n\nこうげきボタンで 力をため\nLRを こうごにおすがよい・・・",
           "id": "DLG-1228",
           "rom_offset": "0x09A49A",
           "rom_end_exclusive": "0x09A4E9",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 9A A4",
+            "matching_script_sites": [
+              "0x09A480"
+            ],
+            "match_count": 1,
+            "state": "static_script_pointer_pattern_found",
+            "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          }
         },
         {
           "text": "オーラの玉を もっていくがよい・・\n\nシャドウの体は 実体のない体。\nこの玉を かかげれば\nたちどころに 体を 水のように\nすることができるのだ。",
@@ -9491,6 +9948,14 @@
             "source_range_in_bounds": true,
             "decoded_script_identity": "prior independent JP extraction",
             "runtime_display_observed": false
+          },
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 9D F0",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
           }
         },
         {
@@ -9620,6 +10085,14 @@
             "source_range_in_bounds": true,
             "decoded_script_identity": "prior independent JP extraction",
             "runtime_display_observed": false
+          },
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 31 97",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
           }
         },
         {
@@ -9663,6 +10136,14 @@
             "source_range_in_bounds": true,
             "decoded_script_identity": "prior independent JP extraction",
             "runtime_display_observed": false
+          },
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF D1 97",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
           }
         },
         {
@@ -10308,6 +10789,14 @@
             "source_range_in_bounds": true,
             "decoded_script_identity": "prior independent JP extraction",
             "runtime_display_observed": false
+          },
+          "original_rom_static_cop_pointer_scan_2026_11_05": {
+            "method": "Search 2 MiB original Japanese ROM within the source's 64-KiB bank for exact bytes 02 BF followed by little-endian source low-16 address; interpret as structural script-pointer candidate, not an executed 65816 trace.",
+            "expected_pattern_hex": "02 BF 24 DC",
+            "matching_script_sites": [],
+            "match_count": 0,
+            "state": "not_found_with_this_specific_pattern",
+            "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
           }
         },
         {
@@ -14494,7 +14983,7 @@
       ]
     }
   ],
-  "version": "v17",
+  "version": "v18",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -17239,6 +17728,36 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 5,
+                    "reference_row": "B16",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0305",
+                        "source_rom_offset": "0x04D4C9",
+                        "script_reference_sites": [
+                          "0x04D4C0"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0542",
+                        "source_rom_offset": "0x05D6D4",
+                        "script_reference_sites": [
+                          "0x05D6CF"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "ADD-0031",
+                        "source_rom_offset": "0x08DC24",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -20336,6 +20855,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 9,
+                    "reference_row": "B23",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0388",
+                        "source_rom_offset": "0x0583B0",
+                        "script_reference_sites": [
+                          "0x0583AB"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0389",
+                        "source_rom_offset": "0x058474",
+                        "script_reference_sites": [
+                          "0x05846F"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -21055,6 +21598,28 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 11,
+                    "reference_row": "B10",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0445",
+                        "source_rom_offset": "0x05A802",
+                        "script_reference_sites": [
+                          "0x05A1BC"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0446",
+                        "source_rom_offset": "0x05A832",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -23590,6 +24155,37 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 14,
+                    "reference_row": "B114",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0549",
+                        "source_rom_offset": "0x05DA3B",
+                        "script_reference_sites": [
+                          "0x05D947"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0550",
+                        "source_rom_offset": "0x05DABD",
+                        "script_reference_sites": [
+                          "0x05D937"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used.",
+                    "variant_pair": {
+                      "wind_melody_variant": "DLG-0549",
+                      "wind_melody_cop_site": "0x05D947",
+                      "no_wind_melody_variant": "DLG-0550",
+                      "no_wind_melody_cop_site": "0x05D937",
+                      "branch_condition": "Inventory-based branch is supported by independent transcript but was not re-derived from a complete executable control-flow trace."
+                    }
                   }
                 }
               }
@@ -23651,6 +24247,31 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 14,
+                    "reference_row": "B122",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0032",
+                        "source_rom_offset": "0x038A71",
+                        "script_reference_sites": [
+                          "0x038941"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0047",
+                        "source_rom_offset": "0x038E06",
+                        "script_reference_sites": [
+                          "0x038B0B",
+                          "0x038DA0"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -24475,6 +25096,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 17,
+                    "reference_row": "B45",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0609",
+                        "source_rom_offset": "0x05F7C4",
+                        "script_reference_sites": [
+                          "0x05F790"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0610",
+                        "source_rom_offset": "0x05F7EE",
+                        "script_reference_sites": [
+                          "0x05F795"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -24559,6 +25204,28 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 17,
+                    "reference_row": "B65",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0592",
+                        "source_rom_offset": "0x05F0C5",
+                        "script_reference_sites": [
+                          "0x05EE4B"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "ADD-0012",
+                        "source_rom_offset": "0x05F09D",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -25949,6 +26616,26 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 20,
+                    "reference_row": "B21",
+                    "source_checks": [
+                      {
+                        "id": "ADD-0015",
+                        "source_rom_offset": "0x069731",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      },
+                      {
+                        "id": "ADD-0016",
+                        "source_rom_offset": "0x0697D1",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -29487,6 +30174,58 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 25,
+                    "reference_row": "B42",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1223",
+                        "source_rom_offset": "0x09A358",
+                        "script_reference_sites": [
+                          "0x09A34A"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1224",
+                        "source_rom_offset": "0x09A36C",
+                        "script_reference_sites": [
+                          "0x09A351"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1227",
+                        "source_rom_offset": "0x09A487",
+                        "script_reference_sites": [
+                          "0x09A479"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1228",
+                        "source_rom_offset": "0x09A49A",
+                        "script_reference_sites": [
+                          "0x09A480"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "ABI-0003",
+                        "source_rom_offset": null,
+                        "script_reference_sites": [],
+                        "status": "source_address_unavailable"
+                      },
+                      {
+                        "id": "ABI-0005",
+                        "source_rom_offset": null,
+                        "script_reference_sites": [],
+                        "status": "source_address_unavailable"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -29640,6 +30379,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 25,
+                    "reference_row": "B66",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0887",
+                        "source_rom_offset": "0x07B5BD",
+                        "script_reference_sites": [
+                          "0x07B521"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0888",
+                        "source_rom_offset": "0x07B60C",
+                        "script_reference_sites": [
+                          "0x07B535"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -29701,6 +30464,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 25,
+                    "reference_row": "B68",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0887",
+                        "source_rom_offset": "0x07B5BD",
+                        "script_reference_sites": [
+                          "0x07B521"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0888",
+                        "source_rom_offset": "0x07B60C",
+                        "script_reference_sites": [
+                          "0x07B535"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -30856,6 +31643,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 27,
+                    "reference_row": "B88",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0927",
+                        "source_rom_offset": "0x07C752",
+                        "script_reference_sites": [
+                          "0x07C70B"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0929",
+                        "source_rom_offset": "0x07C7E3",
+                        "script_reference_sites": [
+                          "0x07C715"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -31234,6 +32045,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 27,
+                    "reference_row": "B192",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0949",
+                        "source_rom_offset": "0x07CFF5",
+                        "script_reference_sites": [
+                          "0x07CFBE"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0952",
+                        "source_rom_offset": "0x07D068",
+                        "script_reference_sites": [
+                          "0x07CFCD"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -31295,6 +32130,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 27,
+                    "reference_row": "B208",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0935",
+                        "source_rom_offset": "0x07CA1A",
+                        "script_reference_sites": [
+                          "0x07C9AE"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0940",
+                        "source_rom_offset": "0x07CB52",
+                        "script_reference_sites": [
+                          "0x07CA83"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -31942,6 +32801,58 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 28,
+                    "reference_row": "B38",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1223",
+                        "source_rom_offset": "0x09A358",
+                        "script_reference_sites": [
+                          "0x09A34A"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1224",
+                        "source_rom_offset": "0x09A36C",
+                        "script_reference_sites": [
+                          "0x09A351"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1227",
+                        "source_rom_offset": "0x09A487",
+                        "script_reference_sites": [
+                          "0x09A479"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1228",
+                        "source_rom_offset": "0x09A49A",
+                        "script_reference_sites": [
+                          "0x09A480"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "ABI-0003",
+                        "source_rom_offset": null,
+                        "script_reference_sites": [],
+                        "status": "source_address_unavailable"
+                      },
+                      {
+                        "id": "ABI-0005",
+                        "source_rom_offset": null,
+                        "script_reference_sites": [],
+                        "status": "source_address_unavailable"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -32949,6 +33860,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 29,
+                    "reference_row": "B86",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1012",
+                        "source_rom_offset": "0x088CB3",
+                        "script_reference_sites": [
+                          "0x088C4E"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1018",
+                        "source_rom_offset": "0x088EA7",
+                        "script_reference_sites": [
+                          "0x088E1B"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -33148,6 +34083,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 29,
+                    "reference_row": "B110",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1021",
+                        "source_rom_offset": "0x088F98",
+                        "script_reference_sites": [
+                          "0x088F09"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1024",
+                        "source_rom_offset": "0x0890A2",
+                        "script_reference_sites": [
+                          "0x08903A"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -33430,6 +34389,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 30,
+                    "reference_row": "B14",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1046",
+                        "source_rom_offset": "0x089E1E",
+                        "script_reference_sites": [
+                          "0x089E04"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1048",
+                        "source_rom_offset": "0x08A028",
+                        "script_reference_sites": [
+                          "0x08A00E"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -33628,6 +34611,36 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 30,
+                    "reference_row": "B40",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1225",
+                        "source_rom_offset": "0x09A3FF",
+                        "script_reference_sites": [
+                          "0x09A3F1"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1226",
+                        "source_rom_offset": "0x09A414",
+                        "script_reference_sites": [
+                          "0x09A3F8"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "ABI-0006",
+                        "source_rom_offset": null,
+                        "script_reference_sites": [],
+                        "status": "source_address_unavailable"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -34238,6 +35251,38 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 30,
+                    "reference_row": "B136",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1027",
+                        "source_rom_offset": "0x08924A",
+                        "script_reference_sites": [
+                          "0x0891EC"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1029",
+                        "source_rom_offset": "0x08930E",
+                        "script_reference_sites": [
+                          "0x0892B0"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1032",
+                        "source_rom_offset": "0x089400",
+                        "script_reference_sites": [
+                          "0x0893A2"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -35020,6 +36065,62 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 32,
+                    "reference_row": "B42",
+                    "source_checks": [
+                      {
+                        "id": "DLG-1105",
+                        "source_rom_offset": "0x08C3AA",
+                        "script_reference_sites": [
+                          "0x08C38D"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1106",
+                        "source_rom_offset": "0x08C464",
+                        "script_reference_sites": [
+                          "0x08C44B"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1107",
+                        "source_rom_offset": "0x08C4FF",
+                        "script_reference_sites": [
+                          "0x08C4E6"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1108",
+                        "source_rom_offset": "0x08C59A",
+                        "script_reference_sites": [
+                          "0x08C59A"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1109",
+                        "source_rom_offset": "0x08C635",
+                        "script_reference_sites": [
+                          "0x08C61C"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-1110",
+                        "source_rom_offset": "0x08C6D0",
+                        "script_reference_sites": [
+                          "0x08C6B7"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -36767,6 +37868,28 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 34,
+                    "reference_row": "B36",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0665",
+                        "source_rom_offset": "0x069579",
+                        "script_reference_sites": [],
+                        "status": "pattern_not_found_indirect_or_embedded_possible"
+                      },
+                      {
+                        "id": "DLG-1173",
+                        "source_rom_offset": "0x08F40A",
+                        "script_reference_sites": [
+                          "0x08F2A8"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -37348,6 +38471,30 @@
                       "screenshot of exact displayed text",
                       "branch condition and scene actor ID"
                     ]
+                  },
+                  "original_rom_static_cop_pointer_followup_2026_11_05": {
+                    "chapter": 36,
+                    "reference_row": "B4",
+                    "source_checks": [
+                      {
+                        "id": "DLG-0005",
+                        "source_rom_offset": "0x00D945",
+                        "script_reference_sites": [
+                          "0x00D8F6"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      },
+                      {
+                        "id": "DLG-0006",
+                        "source_rom_offset": "0x00D96E",
+                        "script_reference_sites": [
+                          "0x00D8FC"
+                        ],
+                        "status": "source_pointer_pattern_found"
+                      }
+                    ],
+                    "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
+                    "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
                   }
                 }
               }
@@ -39439,6 +40586,57 @@
         "unchanged_exact_verbatim_reference_matches": 1641,
         "caveat": "Classifying a reference as a fragment of a ROM-derived script or as an instance of a template is not equivalent to proving a runtime branch or byte-exact equality of the workbook transcription. Underlying old categories are retained for audit history.",
         "note": "All 37 prior challenging rows individually annotated. A few references are incomplete excerpts, contain probable typos, or present screen text as combined UI fields. Unresolved values, printed ellipses and rasterized item labels are still retained as unverified."
+      },
+      "original_rom_script_pointer_audit_2026_11_05": {
+        "source": "User-uploaded Gaia Gensouki (Japan)(2).sfc",
+        "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "scene_rows_reviewed": 23,
+        "distinct_candidate_records": 53,
+        "candidates_with_rom_offsets": 50,
+        "candidates_without_rom_offsets": 3,
+        "candidates_with_same_bank_02_BF_pattern": 44,
+        "candidates_without_that_pattern": 6,
+        "unique_annotated_entry_records": 50,
+        "method": "Raw original-ROM same-bank byte search for 02 BF + source-address little-endian lower 16 bits; record all matching sites for relevant scene candidates.",
+        "uncovered_source_ids": [
+          "ADD-0031",
+          "DLG-0446",
+          "ADD-0012",
+          "ADD-0015",
+          "ADD-0016",
+          "DLG-0665"
+        ],
+        "source_ids_without_rom_offsets": [
+          "ABI-0003",
+          "ABI-0005",
+          "ABI-0006"
+        ],
+        "execution_status": "static-only; no ROM code executed; conditional reachability, actor IDs, and rendered dialogue not proved.",
+        "outcomes": "44 script-reference patterns documented. No unresolved scene row upgraded to gameplay-confirmed; existing matched text/source IDs remain unchanged."
+      },
+      "identical_tablet_source_verification_2026_11_05": {
+        "chapter": 32,
+        "row": "B42",
+        "source_ids": [
+          "DLG-1105",
+          "DLG-1106",
+          "DLG-1107",
+          "DLG-1108",
+          "DLG-1109",
+          "DLG-1110"
+        ],
+        "source_span_size_bytes_each": 91,
+        "all_six_source_spans_byte_identical": true,
+        "shared_span_sha256": "2d664b27ebefd637a2ff488a552bd3a0da6ea5b0d258881b7d2c08631aadbaa6",
+        "distinct_same_bank_script_sites": [
+          "0x08C38D",
+          "0x08C44B",
+          "0x08C4E6",
+          "0x08C581",
+          "0x08C61C",
+          "0x08C6B7"
+        ],
+        "meaning": "Six identical literal text payloads at separate ROM offsets are referenced by six separate COP-style source-pointer patterns. Which in-game tablet actor triggers each source remains unproven."
       }
     },
     "graphical_and_area_text_audit": {
