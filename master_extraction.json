@@ -13425,6 +13425,102 @@
             "observed_scene": null,
             "acceptance_test": "A CPU bus read of the source range during the relevant save-state branch, correlated with on-screen exact text or map-title tilemap and a recorded frame/PC."
           }
+        },
+        {
+          "id": "AREA-0061",
+          "text": "教会",
+          "rom_offset": "0x0C84A5",
+          "rom_end_exclusive": "0x0C84AA",
+          "raw_hex": "808a815fcc",
+          "source_format": "Original Japanese HiROM bank 0C FF-prefixed location-title data terminating with CC",
+          "rom_byte_verified": true,
+          "verified_against_original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+          "source_provenance": "Direct bytes from user's original Japanese SFC ROM; mapped characters cross-checked against established in-game area-title glyph encodings and independent reference row.",
+          "original_glyph_codes": {
+            "808A": "教",
+            "815F": "会"
+          },
+          "prior_reference_chapter": 1,
+          "prior_reference_row": "B29",
+          "on_screen_reachability": "ROM location-title source verified; no emulator scene trigger observed",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0C84A5",
+            "source_rom_end_exclusive": "0x0C84AA",
+            "hirom_cpu_bus_start_candidate": "0xCC84A5",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCC84AA",
+            "source_length_bytes": 5,
+            "watch_type": "ROM data read candidate; text rendering not observed",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
+          }
+        },
+        {
+          "id": "AREA-0062",
+          "text": "客間",
+          "rom_offset": "0x0CC00F",
+          "rom_end_exclusive": "0x0CC014",
+          "raw_hex": "819f8005cc",
+          "source_format": "Original Japanese HiROM bank 0C FF-prefixed location-title data terminating with CC",
+          "rom_byte_verified": true,
+          "verified_against_original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+          "source_provenance": "Direct bytes from user's original Japanese SFC ROM; mapped characters cross-checked against established in-game area-title glyph encodings and independent reference row.",
+          "original_glyph_codes": {
+            "8005": "間",
+            "819F": "客"
+          },
+          "prior_reference_chapter": 28,
+          "prior_reference_row": "B74",
+          "on_screen_reachability": "ROM location-title source verified; no emulator scene trigger observed",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CC00F",
+            "source_rom_end_exclusive": "0x0CC014",
+            "hirom_cpu_bus_start_candidate": "0xCCC00F",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCC014",
+            "source_length_bytes": 5,
+            "watch_type": "ROM data read candidate; text rendering not observed",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
+          }
+        },
+        {
+          "id": "AREA-0063",
+          "text": "中庭",
+          "rom_offset": "0x0CCF8C",
+          "rom_end_exclusive": "0x0CCF91",
+          "raw_hex": "801d8199cc",
+          "source_format": "Original Japanese HiROM bank 0C FF-prefixed location-title data terminating with CC",
+          "rom_byte_verified": true,
+          "verified_against_original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+          "source_provenance": "Direct bytes from user's original Japanese SFC ROM; mapped characters cross-checked against established in-game area-title glyph encodings and independent reference row.",
+          "original_glyph_codes": {
+            "8199": "庭",
+            "801D": "中"
+          },
+          "prior_reference_chapter": 30,
+          "prior_reference_row": "B12",
+          "on_screen_reachability": "ROM location-title source verified; no emulator scene trigger observed",
+          "runtime_trace_target": {
+            "source_rom_start": "0x0CCF8C",
+            "source_rom_end_exclusive": "0x0CCF91",
+            "hirom_cpu_bus_start_candidate": "0xCCCF8C",
+            "hirom_cpu_bus_end_exclusive_candidate": "0xCCCF91",
+            "source_length_bytes": 5,
+            "watch_type": "ROM data read candidate; text rendering not observed",
+            "status": "not_executed",
+            "frame_hit": null,
+            "program_counter": null,
+            "screenshot_proof": null,
+            "observed_scene": null,
+            "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
+          }
         }
       ]
     }
@@ -13474,8 +13570,8 @@
     "last_updated_utc": "2026-11-05",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
-      "entries": 1694,
-      "unique_entry_ids": 1694,
+      "entries": 1697,
+      "unique_entry_ids": 1697,
       "sections": 17,
       "by_section": {
         "opening": 9,
@@ -13494,11 +13590,11 @@
         "title_credits": 6,
         "screen_labels": 2,
         "staff_roll": 27,
-        "area_titles": 60
+        "area_titles": 63
       },
-      "entries_with_direct_rom_offset_in_this_file": 1419,
+      "entries_with_direct_rom_offset_in_this_file": 1422,
       "entries_without_direct_rom_offset_in_this_file": 275,
-      "unique_text_values": 1495,
+      "unique_text_values": 1498,
       "entries_with_explicit_speaker_field": 61
     },
     "completion_state": "Substantial Japanese player-visible text extracted; exhaustive in-game coverage has not been established.",
@@ -13509,7 +13605,7 @@
         "known_units": 39,
         "unit": "ROM-source verified entries",
         "kind": "emulator event-trace requirement",
-        "status": "39/39 previously source-matched; 39 watch ranges added with candidate HiROM bus addresses; 0 of 39 runtime-reachability confirmations; 8 Gaia hint/test entries require targeted branch probes"
+        "status": "All 39 source spans independently located in exact matching original ROM (27 C0, 12 CC endings). Game runtime reachability unproven: no SNES emulator executed."
       },
       {
         "id": "R2",
@@ -13517,7 +13613,7 @@
         "known_units": 812,
         "unit": "non-exact 36-chapter transcription rows",
         "kind": "manual Japanese/ROM discrepancy review",
-        "status": "Second-stage static adjudication recorded for all 183 prior unresolved rows; 40 remain lacking full source correlation; 23 previously multiply matched rows reviewed, no emulator traces"
+        "status": "New matching original Japanese ROM resolves 3 previously missing chapter room-title references as AREA-0061–0063; 1,641/2,450 chapter rows now exact; 37 second-stage statically unresolved cases require more review."
       },
       {
         "id": "R3",
@@ -13533,7 +13629,7 @@
         "known_units": null,
         "unit": "execution paths",
         "kind": "requires controllable SNES emulator and save-state coverage",
-        "status": "Runtime bus/ROM target addresses prepared for 39 supplemental dialogue and 60 area-title entries, and branch disambiguation plans for 23 ambiguous reference rows. No original Japanese ROM or running emulator available: 0 executed paths."
+        "status": "Exact original Japanese ROM now present and hash-verified, all 39 supplemental and 63 area-title source targets can be read statically. No emulator/runtime execution available in this environment; 0 observed paths."
       },
       {
         "id": "R6",
@@ -13545,7 +13641,7 @@
       }
     ],
     "progress_measurement": {
-      "extracted_entries": 1694,
+      "extracted_entries": 1697,
       "known_missing_player_visible_dialogue_count": 0,
       "known_unverified_supplemental_entries": 39,
       "completeness_percentage": null,
@@ -13777,7 +13873,7 @@
               "row": "B29",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "AREA-0061",
               "source_text": "教会",
               "nearest_master_id": null,
               "nearest_trigram_similarity": 0,
@@ -13791,13 +13887,28 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "source_or_runtime_unresolved",
-                  "matched_master_ids": [],
+                  "category": "original_rom_area_title_byte_verified",
+                  "matched_master_ids": [
+                    "AREA-0061"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
-                  "evidence": "No adequate source identity proved by this pass; requires further original-ROM/control-flow or gameplay-screen evidence.",
-                  "independent_original_rom_re_read": false,
+                  "evidence": "Exact recovered original Japanese ROM title bytes, FF framing and CC terminator; reference row matches Japanese title. Runtime scene not observed.",
+                  "independent_original_rom_re_read": true,
                   "emulator_observed": false
                 }
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "The original ROM contains an FF-prefixed, CC-terminated area title with precisely decoded Japanese name at a verified original-ROM offset.",
+              "direct_japanese_rom_recovery": {
+                "master_id": "AREA-0061",
+                "source_offset": "0x0C84A5",
+                "source_bytes": "808a815fcc",
+                "sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "glyph_codes": {
+                  "808A": "教",
+                  "815F": "会"
+                },
+                "screen_display_not_executed": true
               }
             },
             {
@@ -30598,7 +30709,7 @@
               "row": "B74",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "AREA-0062",
               "source_text": "客間",
               "nearest_master_id": null,
               "nearest_trigram_similarity": 0,
@@ -30612,13 +30723,28 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_room_label",
-                  "matched_master_ids": [],
+                  "category": "original_rom_area_title_byte_verified",
+                  "matched_master_ids": [
+                    "AREA-0062"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
-                  "evidence": "Room name recorded in secondary transcript; not yet located as directly sourced game text or independently verified rendered tile label.",
-                  "independent_original_rom_re_read": false,
+                  "evidence": "Exact recovered original Japanese ROM title bytes, FF framing and CC terminator; reference row matches Japanese title. Runtime scene not observed.",
+                  "independent_original_rom_re_read": true,
                   "emulator_observed": false
                 }
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "The original ROM contains an FF-prefixed, CC-terminated area title with precisely decoded Japanese name at a verified original-ROM offset.",
+              "direct_japanese_rom_recovery": {
+                "master_id": "AREA-0062",
+                "source_offset": "0x0CC00F",
+                "source_bytes": "819f8005cc",
+                "sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "glyph_codes": {
+                  "8005": "間",
+                  "819F": "客"
+                },
+                "screen_display_not_executed": true
               }
             },
             {
@@ -31692,7 +31818,7 @@
               "row": "B12",
               "status": "short_ambiguous",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "AREA-0063",
               "source_text": "中庭",
               "nearest_master_id": null,
               "nearest_trigram_similarity": 0,
@@ -31706,13 +31832,28 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_room_label",
-                  "matched_master_ids": [],
+                  "category": "original_rom_area_title_byte_verified",
+                  "matched_master_ids": [
+                    "AREA-0063"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
-                  "evidence": "Room name recorded in secondary transcript; not yet located as directly sourced game text or independently verified rendered tile label.",
-                  "independent_original_rom_re_read": false,
+                  "evidence": "Exact recovered original Japanese ROM title bytes, FF framing and CC terminator; reference row matches Japanese title. Runtime scene not observed.",
+                  "independent_original_rom_re_read": true,
                   "emulator_observed": false
                 }
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "The original ROM contains an FF-prefixed, CC-terminated area title with precisely decoded Japanese name at a verified original-ROM offset.",
+              "direct_japanese_rom_recovery": {
+                "master_id": "AREA-0063",
+                "source_offset": "0x0CCF8C",
+                "source_bytes": "801d8199cc",
+                "sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "glyph_codes": {
+                  "8199": "庭",
+                  "801D": "中"
+                },
+                "screen_display_not_executed": true
               }
             },
             {
@@ -36821,13 +36962,13 @@
           "source_text": "カレン：うん….."
         }
       ],
-      "completion": "All 2,450 independent chapter rows triaged; 812 non-exact reference rows compared to master. Of the 183 rows previously without full contiguous coverage, all now carry second-stage static-review records; 40 remain lacking fully supported source identity, and no exhaustive runtime proof is established.",
+      "completion": "36 chapters, 2,450 source rows reviewed; current exact text reference matches 1,641 after restoring 3 original-JP ROM area-title strings; 809 remain non-exact by comparison category. Of the previous 40 uncorrelated static cases, 3 have now been resolved as new area-title strings; 37 remain. Actual emulator execution-path coverage is not established.",
       "updated_totals": {
-        "exact": 1638,
+        "exact": 1641,
         "strong_fragments": 370,
         "partial": 357,
         "no_overlap": 73,
-        "short_ambiguous": 3,
+        "short_ambiguous": 0,
         "roman": 9,
         "source_rows": 2450
       },
@@ -37464,24 +37605,36 @@
         "category_counts": {
           "probable_transcription_difference": 48,
           "composite_all_components_in_master": 42,
-          "source_or_runtime_unresolved": 24,
+          "source_or_runtime_unresolved": 23,
           "dynamic_numeric_template_match": 15,
           "short_excerpt_found": 6,
           "composite_partially_represented": 7,
           "short_excerpt_in_master": 26,
           "unverified_graphical_label": 4,
           "dynamic_ability_template_match": 6,
-          "unverified_room_label": 2,
+          "unverified_room_label": 0,
           "unreadable_reference_placeholder": 1,
           "unmapped_original_hieroglyphs": 1,
-          "unverified_numeric_screen_label": 1
+          "unverified_numeric_screen_label": 1,
+          "original_rom_area_title_byte_verified": 3
         },
-        "still_not_fully_correlated_by_static_evidence": 40,
+        "still_not_fully_correlated_by_static_evidence": 37,
         "method": "Second-stage full master comparison of 183 previously unresolved rows. Normalize Japanese Unicode (NFKC), whitespace/punctuation, compare numeric template variables and individual slash-separated fields, identify likely scribal/transcription differences via local edit distance, and leave non-text or graphic placeholders unverified.",
         "original_rom_re_read": false,
         "emulator_run": false,
         "caveat": "No independent original ROM was available to execute or re-extract in this pass. Reported IDs are comparisons against previously ROM-verified records. Fuzzy transcription differences, composite UI fields, and runtime values are not direct execution evidence.",
-        "independent_secondary_reference": "https://wikiwiki.jp/text/ガイア幻想紀/アイテム"
+        "independent_secondary_reference": "https://wikiwiki.jp/text/ガイア幻想紀/アイテム",
+        "original_rom_recovery_addendum": {
+          "new_area_title_ids": [
+            "AREA-0061",
+            "AREA-0062",
+            "AREA-0063"
+          ],
+          "recovery_count": 3,
+          "source_original_rom_verified": true,
+          "remaining_prior_unresolved": 37,
+          "rom_hash": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
+        }
       },
       "scene_attribution_review_2026_11_05": {
         "reviewed_rows": 23,
@@ -37498,6 +37651,35 @@
         "remaining_without_unique_attribution": 21,
         "caveat": "23 source-duplicate groups reviewed: two textually unique, one externally documented pair of conditional variants, one probable by chapter context, two narrowed to ability families. The remaining duplicate groups lack independently proven runtime reachability.",
         "conditional_branches_documented_by_independent_reference": 1
+      },
+      "last_original_rom_recovery_2026_11_05": {
+        "earlier_reference_exact": 1638,
+        "after_direct_rom_recovery_exact": 1641,
+        "resolved": [
+          {
+            "chapter": 1,
+            "row": "B29",
+            "text": "教会",
+            "id": "AREA-0061",
+            "offset": "0x0C84A5"
+          },
+          {
+            "chapter": 28,
+            "row": "B74",
+            "text": "客間",
+            "id": "AREA-0062",
+            "offset": "0x0CC00F"
+          },
+          {
+            "chapter": 30,
+            "row": "B12",
+            "text": "中庭",
+            "id": "AREA-0063",
+            "offset": "0x0CCF8C"
+          }
+        ],
+        "source": "User-provided unheadered Japanese 2MiB ROM, hash identical to established original",
+        "runtime_execution_proof": false
       }
     },
     "graphical_and_area_text_audit": {
@@ -37650,7 +37832,9 @@
         "external_screenshot_visual_proof_added": [
           "PLAYER",
           "ENEMY"
-        ]
+        ],
+        "original_japanese_rom_available_now": true,
+        "original_rom_access_note": "Originally unavailable during second-stage review, now supplied and independently SHA-256 verified; emulator remains unavailable."
       },
       "external_graphic_crosscheck_2026_11_05": {
         "verification_method": "Visual inspection of published Japanese-version gameplay screenshots, not tilemap data or a locally executed emulator",
@@ -37750,14 +37934,14 @@
       },
       "runtime_trace_instrumentation_2026_11_05": {
         "original_japanese_rom_sha256_required": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
-        "rom_available_in_current_session": false,
+        "rom_available_in_current_session": true,
         "emulator_with_rom_running": false,
         "frames_executed": 0,
         "gameplay_hits_recorded": 0,
         "state_screenshots_new": 0,
         "source_ranges_instrumented": {
           "supplementary_dialogue": 39,
-          "area_title_strings": 60,
+          "area_title_strings": 63,
           "ambiguous_reference_rows": 23,
           "ambiguous_rows_with_candidate_bus_addresses": 23
         },
@@ -37812,6 +37996,84 @@
           "Repeated messages are deliberately duplicated; same display text cannot establish source address.",
           "Original JP ROM not present, so none of the candidate bus values was tested."
         ]
+      },
+      "direct_original_japanese_rom_audit_2026_11_05": {
+        "original_japanese_rom_now_available": true,
+        "rom_file_size_bytes": 2097152,
+        "rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "file_has_copier_header": false,
+        "snes_internal_header_title": "GAIA GENSOUKI 1 JPN",
+        "snes_mapping_mode_hex": "0x31",
+        "stored_snes_checksum": "0xBCB3",
+        "stored_checksum_complement": "0x434C",
+        "checksum_invariant_verified": true,
+        "actual_rom_byte_sum_mod_65536": "0xBCB3",
+        "summary": "All 60 previously indexed title raw hex sequences reproduced exactly from ROM, all with FF immediately preceding and CC at the end. Three additional Japanese area titles recovered from same structure. All 39 supplementary dialogue source ranges are in-bounds and terminate as documented (27 C0, 12 CC).",
+        "previously_indexed_area_titles_exact_bytes": 60,
+        "previously_indexed_area_titles_correct_ff_prefix": 60,
+        "previously_indexed_area_titles_correct_cc_terminator": 60,
+        "newly_extracted_area_titles": 3,
+        "all_indexed_area_titles": 63,
+        "supplementary_source_ranges_read_from_rom": 39,
+        "supplementary_source_range_bounds_valid": 39,
+        "supplementary_script_terminator_counts": {
+          "0xC0": 27,
+          "0xCC": 12
+        },
+        "independently_counted_source_pointer_hits": {
+          "entry_count_with_raw_3byte_absolute_reference": 5,
+          "entry_count_with_raw_2byte_same_bank_reference": 19,
+          "caveat": "Pointer patterns alone do not prove executable references or player-visible events. Several raw matches fall in graphics or other data regions. No PPU/screen runtime trace occurred."
+        },
+        "title_region_scan": {
+          "scanned_file_region": "0x0C8000-0x0CFFFF",
+          "raw_ff_to_cc_patterns_within_34_bytes": 243,
+          "previously_indexed_meaningful_title_records": 60,
+          "recovered_meaningful_title_records": 3,
+          "remaining_nonempty_ff_cc_candidates": [
+            {
+              "offset": "0x0C8216",
+              "raw_hex": "34253334202d2130cc",
+              "status": "not decoded; not yet classified as on-screen text"
+            },
+            {
+              "offset": "0x0CA293",
+              "raw_hex": "c38a1bcc",
+              "status": "may contain control code or non-title data; not classified as player-visible"
+            }
+          ],
+          "null_or_empty_candidate_count": 178,
+          "caveat": "FF/CC candidate scanning is a heuristic over a bounded title-bank region; not an exhaustive graphics or runtime-text decoder."
+        },
+        "duplicate_source_exact_byte_comparisons": [
+          {
+            "ids": [
+              "ADD-0015",
+              "ADD-0016"
+            ],
+            "byte_length_each": 69,
+            "all_equal": true
+          },
+          {
+            "ids": [
+              "ADD-0019",
+              "ADD-0020",
+              "ADD-0021"
+            ],
+            "byte_length_each": 62,
+            "all_equal": true
+          },
+          {
+            "ids": [
+              "ADD-0011",
+              "ADD-0038"
+            ],
+            "all_equal": false,
+            "semantic_variants": true
+          }
+        ],
+        "emulator_executed": false,
+        "runtime_text_hits_recorded": 0
       }
     },
     "dialogue_provenance_reconciliation": {
