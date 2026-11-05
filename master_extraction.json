@@ -3269,6 +3269,19 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "shared_suffix_target_found",
+            "control_site": "0x05A7FF",
+            "exact_control_bytes": "D3 32 A8",
+            "branch_target": "0x05A832",
+            "reference_source": "DLG-0444 end (immediately preceding DLG-0445)",
+            "shared_text_context": "Target lies inside longer DLG-0445 text at 0x05A802–0x05A88B and equals start of overlapping DLG-0446 suffix.",
+            "inference": "Direct same-bank D3 address-operand match establishing a script tail-join between textual variants.",
+            "unproven": "D3 opcode handler semantics and which gameplay choice reaches either variant were not independently traced.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -4010,6 +4023,51 @@
             "match_count": 1,
             "state": "static_script_pointer_pattern_found",
             "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "item_gated_dialogue_branch_reconstructed_statically",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "event_condition_site": "0x05D932",
+            "exact_conditional_bytes": "02 D6 08 47 D9",
+            "interpreted_control": "COP-style D6, item selector 0x08, same-bank target 0xD947",
+            "item_0x08": {
+              "master_id": "ITN-0008",
+              "text": "かぜのメロディ"
+            },
+            "item_0x02": {
+              "master_id": "ITN-0002",
+              "text": "ろうごくのカギ"
+            },
+            "without_wind_melody": {
+              "source_id": "DLG-0550",
+              "source_rom_offset": "0x05DABD",
+              "script_reference_site": "0x05D937",
+              "script_reference_bytes": "02 BF BD DA",
+              "item_removal_site": "0x05D93B",
+              "item_removal_bytes": "02 D5 02",
+              "source_text_omits_wind_melody": true
+            },
+            "with_wind_melody": {
+              "source_id": "DLG-0549",
+              "source_rom_offset": "0x05DA3B",
+              "script_reference_site": "0x05D947",
+              "script_reference_bytes": "02 BF 3B DA",
+              "item_removal_sites": [
+                {
+                  "site": "0x05D94B",
+                  "bytes": "02 D5 02",
+                  "item_id": "0x02"
+                },
+                {
+                  "site": "0x05D94E",
+                  "bytes": "02 D5 08",
+                  "item_id": "0x08"
+                }
+              ],
+              "source_text_mentions_wind_melody": true
+            },
+            "corroboration": "D6 item 0x08 transfer target lands at source DLG-0549; the other linear path calls DLG-0550. D5 0x08 appears only on the branch where that item is present. Item ordering matches both indexed Japanese item names and independent Japanese transcript.",
+            "unverified": "Full native COP dispatcher behavior, actual NPC/actor map ID, runtime path reachability and rendered text have not been executed or observed."
           }
         },
         {
@@ -4027,6 +4085,51 @@
             "match_count": 1,
             "state": "static_script_pointer_pattern_found",
             "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "item_gated_dialogue_branch_reconstructed_statically",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "event_condition_site": "0x05D932",
+            "exact_conditional_bytes": "02 D6 08 47 D9",
+            "interpreted_control": "COP-style D6, item selector 0x08, same-bank target 0xD947",
+            "item_0x08": {
+              "master_id": "ITN-0008",
+              "text": "かぜのメロディ"
+            },
+            "item_0x02": {
+              "master_id": "ITN-0002",
+              "text": "ろうごくのカギ"
+            },
+            "without_wind_melody": {
+              "source_id": "DLG-0550",
+              "source_rom_offset": "0x05DABD",
+              "script_reference_site": "0x05D937",
+              "script_reference_bytes": "02 BF BD DA",
+              "item_removal_site": "0x05D93B",
+              "item_removal_bytes": "02 D5 02",
+              "source_text_omits_wind_melody": true
+            },
+            "with_wind_melody": {
+              "source_id": "DLG-0549",
+              "source_rom_offset": "0x05DA3B",
+              "script_reference_site": "0x05D947",
+              "script_reference_bytes": "02 BF 3B DA",
+              "item_removal_sites": [
+                {
+                  "site": "0x05D94B",
+                  "bytes": "02 D5 02",
+                  "item_id": "0x02"
+                },
+                {
+                  "site": "0x05D94E",
+                  "bytes": "02 D5 08",
+                  "item_id": "0x08"
+                }
+              ],
+              "source_text_mentions_wind_melody": true
+            },
+            "corroboration": "D6 item 0x08 transfer target lands at source DLG-0549; the other linear path calls DLG-0550. D5 0x08 appears only on the branch where that item is present. Item ordering matches both indexed Japanese item names and independent Japanese transcript.",
+            "unverified": "Full native COP dispatcher behavior, actual NPC/actor map ID, runtime path reachability and rendered text have not been executed or observed."
           }
         },
         {
@@ -4870,6 +4973,22 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "repeated_24bit_text_operand_found",
+            "pointer_bytes": "CF 79 95 86",
+            "pointer_target_cpu": "0x869579",
+            "pointer_target_rom": "0x069579",
+            "static_sites": [
+              "0x069460",
+              "0x0694B5",
+              "0x069504"
+            ],
+            "inference": "Three separate script/text control sequences contain the exact same 24-bit operand for this dialogue record; no 02 BF needed.",
+            "unproven": "CF instruction/format behavior, in-game actor association and execution branch for each site.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -9956,6 +10075,32 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "contiguous_composite_text_not_independently_called",
+            "source_start": "0x05F09D",
+            "source_end_exclusive": "0x05F100",
+            "structural_components": [
+              {
+                "start": "0x05F09D",
+                "end_exclusive": "0x05F0C5",
+                "description": "Neil opening text, starts D7 C2 06"
+              },
+              {
+                "start": "0x05F0C5",
+                "end_exclusive": "0x05F100",
+                "description": "Neil followup text, starts D7 C2 06, also extracted as DLG-0592"
+              }
+            ],
+            "nearby_sourced_message": "DLG-0592",
+            "known_direct_02_BF_reference_for_latter": "0x05EE4B",
+            "separate_direct_source_pointer_for_additional_entry": "not_found",
+            "misleading_possible_24bit_match": "0x0B6E71 contains 9D F0 85 but is outside same script bank amid unverified non-script data; not treated as source call.",
+            "inference": "Existing ADD-0012 combines contiguous separately delimited messages; it is not an independently verified scene invocation.",
+            "unproven": "Direct code path to the first message and whether both messages render together.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -10093,6 +10238,21 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "long_address_event_target_found",
+            "event_site": "0x069725",
+            "exact_control_bytes": "02 19 17 31 97 86",
+            "operand": "0x869731",
+            "rom_address": "0x069731",
+            "same_sequence_followup_reference_site": "0x06972C",
+            "followup_bytes": "02 BF 76 97",
+            "followup_rom_address": "0x069776",
+            "inference": "Long address operand directly matches prayer-statue source start; following same-bank BF reference targets continuation immediately after first text block.",
+            "unproven": "Which in-game statue/room/actor activates this entry, and the 02 19 opcode handler's full behavior.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -10144,6 +10304,18 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "long_address_event_target_found",
+            "event_site": "0x0697CA",
+            "exact_control_bytes": "02 19 17 D1 97 86",
+            "operand": "0x8697D1",
+            "rom_address": "0x0697D1",
+            "inference": "Long address operand directly matches second prayer-statue source start, despite absence of an 02 BF reference to the entry start.",
+            "unproven": "Which in-game statue/room/actor activates the second entry; conditional execution remains untested.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -10797,6 +10969,40 @@
             "match_count": 0,
             "state": "not_found_with_this_specific_pattern",
             "note": "No exact same-bank 02 BF reference; this does not imply the text is inaccessible. Alternate references, embedded text, and indirect execution remain possible."
+          },
+          "original_rom_controlflow_followup_2026_11_05": {
+            "category": "shared_hints_script_group_not_independently_resolved",
+            "inbound_direct_source_pointer": "not_identified",
+            "source_start": "0x08DC24",
+            "preceding_message_end_byte": "0x08DC23 = CC",
+            "entry_bytes_start": "CF 6F D9 88",
+            "shared_anchor_rom_offset": "0x08D96F",
+            "repeated_shared_anchor_prefix": "CF 6F D9 88",
+            "shared_prefix_occurrence_count": 17,
+            "shared_prefix_rom_sites": [
+              "0x08D9B0",
+              "0x08DA31",
+              "0x08DA98",
+              "0x08DB15",
+              "0x08DB76",
+              "0x08DBC5",
+              "0x08DC24",
+              "0x08DC6F",
+              "0x08DCD0",
+              "0x08DD06",
+              "0x08DD3B",
+              "0x08DDD2",
+              "0x08DE39",
+              "0x08DEA9",
+              "0x08DF19",
+              "0x08DFE5",
+              "0x08E307"
+            ],
+            "inference": "One of a group of hint messages with a repeated CF-prefixed 24-bit operand pointing to the same 0x08D96F anchor; the occurrence at 0x08DC24 is itself the beginning of this text block, not evidence of an independent caller.",
+            "unproven": "Which NPC / script branch selects this hint, or whether 0xCF directly invokes text, remains unresolved.",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
+            "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
           }
         },
         {
@@ -14983,7 +15189,7 @@
       ]
     }
   ],
-  "version": "v18",
+  "version": "v19",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -24186,6 +24392,15 @@
                       "no_wind_melody_cop_site": "0x05D937",
                       "branch_condition": "Inventory-based branch is supported by independent transcript but was not re-derived from a complete executable control-flow trace."
                     }
+                  },
+                  "original_rom_static_item_branch_2026_11_05": {
+                    "classification": "conditional_variants_and_branch_destination_byte_verified",
+                    "branch_site": "0x05D932",
+                    "selected_item": "0x08 / かぜのメロディ",
+                    "without_item_source_id": "DLG-0550",
+                    "with_item_source_id": "DLG-0549",
+                    "confidence": "ROM control-reference verified, opcode semantics corroborated by removal sequence and item table; runtime not executed",
+                    "runtime_execution_proof": false
                   }
                 }
               }
@@ -40637,6 +40852,91 @@
           "0x08C6B7"
         ],
         "meaning": "Six identical literal text payloads at separate ROM offsets are referenced by six separate COP-style source-pointer patterns. Which in-game tablet actor triggers each source remains unproven."
+      },
+      "original_rom_controlflow_reconstruction_2026_11_05": {
+        "source": "Gaia Gensouki (Japan)(2).sfc, 2MiB unheadered Japanese ROM",
+        "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "analyzed_source_ids": [
+          "ADD-0031",
+          "DLG-0446",
+          "ADD-0012",
+          "ADD-0015",
+          "ADD-0016",
+          "DLG-0665"
+        ],
+        "source_records_with_non_BF_operand_links": [
+          "DLG-0446",
+          "ADD-0015",
+          "ADD-0016",
+          "DLG-0665"
+        ],
+        "source_records_with_structural_grouping_but_no_independent_source_link": [
+          "ADD-0031",
+          "ADD-0012"
+        ],
+        "wind_melody_branch": {
+          "category": "item_gated_dialogue_branch_reconstructed_statically",
+          "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+          "event_condition_site": "0x05D932",
+          "exact_conditional_bytes": "02 D6 08 47 D9",
+          "interpreted_control": "COP-style D6, item selector 0x08, same-bank target 0xD947",
+          "item_0x08": {
+            "master_id": "ITN-0008",
+            "text": "かぜのメロディ"
+          },
+          "item_0x02": {
+            "master_id": "ITN-0002",
+            "text": "ろうごくのカギ"
+          },
+          "without_wind_melody": {
+            "source_id": "DLG-0550",
+            "source_rom_offset": "0x05DABD",
+            "script_reference_site": "0x05D937",
+            "script_reference_bytes": "02 BF BD DA",
+            "item_removal_site": "0x05D93B",
+            "item_removal_bytes": "02 D5 02",
+            "source_text_omits_wind_melody": true
+          },
+          "with_wind_melody": {
+            "source_id": "DLG-0549",
+            "source_rom_offset": "0x05DA3B",
+            "script_reference_site": "0x05D947",
+            "script_reference_bytes": "02 BF 3B DA",
+            "item_removal_sites": [
+              {
+                "site": "0x05D94B",
+                "bytes": "02 D5 02",
+                "item_id": "0x02"
+              },
+              {
+                "site": "0x05D94E",
+                "bytes": "02 D5 08",
+                "item_id": "0x08"
+              }
+            ],
+            "source_text_mentions_wind_melody": true
+          },
+          "corroboration": "D6 item 0x08 transfer target lands at source DLG-0549; the other linear path calls DLG-0550. D5 0x08 appears only on the branch where that item is present. Item ordering matches both indexed Japanese item names and independent Japanese transcript.",
+          "unverified": "Full native COP dispatcher behavior, actual NPC/actor map ID, runtime path reachability and rendered text have not been executed or observed."
+        },
+        "findings_summary": {
+          "distinct_sources_revisited": 6,
+          "non_BF_address_link_categories_identified": 4,
+          "not_independently_linked_to_a_scene": 2,
+          "scene_actor_map_ids_newly_confirmed": 0,
+          "conditional_dialogue_branches_statically_attributed": 1
+        },
+        "limits": [
+          "Exact 65816/COP dispatch and script-engine opcode handlers not fully disassembled.",
+          "Address operands and text adjacency alone cannot prove a reachable event path.",
+          "No actual SNES code was executed, no save state played, and no screenshots or PPU tilemaps were observed."
+        ],
+        "next_static_targets": [
+          "Disassemble or interpret COP D3, D5, D6, 19 and CF control handlers at their code dispatch sites.",
+          "Recover hint-selection index or event dispatch for ADD-0031.",
+          "Trace inbound caller/reference to first submessage of ADD-0012.",
+          "Map prayer statue event records to distinct map object IDs, keeping six hieroglyph tablets separate."
+        ]
       }
     },
     "graphical_and_area_text_audit": {
