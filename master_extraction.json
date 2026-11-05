@@ -39894,6 +39894,41 @@
         },
         "notes": "Only exact contiguous sequences were searched. Rasterized or separately composited lettering can evade both searches; negative search is not evidence that the label is never displayed.",
         "without_original_rom_emulator_execution": true
+      },
+      "executable_probe_prepared_2026_11_05": {
+        "tool": "BizHawk Lua ROM-data bus-read candidate probe",
+        "local_artifact_filename": "Gaia_JP_BizHawk_Trace.lua",
+        "local_artifact_sha256": "d1f2a754bd56aaa7142aca0be19ead1f5253e4ff5e8381b0bb9a9ee2845cd6cd",
+        "source_git_repository_file_added": false,
+        "probe_input_source": "Canonical master_extraction.json identifiers and source offsets, with independently verified original Japanese ROM",
+        "probe_target_counts": {
+          "supplementary_dialogue": 39,
+          "area_title_strings": 63,
+          "distinct_dialogue_sources_from_23_ambiguous_chapter_rows": 46,
+          "total_unique_source_ids": 148
+        },
+        "bus_read_hook_candidates_max": 592,
+        "method": "Register first two ROM-byte reads at each target's HiROM C0 and 40 mirror; log frame, source ID, bus address and PC where exposed; queue a screenshot at frame-end; reload states and branch test manually.",
+        "prerequisites": [
+          "BizHawk with SNES core supporting on_bus_read",
+          "matching original Japanese ROM loaded",
+          "user save states or controllable gameplay branch triggers"
+        ],
+        "code_api_sources": [
+          "https://tasvideos.org/Bizhawk/LuaFunctions",
+          "https://github.com/TASEmulators/BizHawk/issues/3813"
+        ],
+        "unsupported_claims_prohibited": [
+          "A registered callback is not a gameplay hit",
+          "A source ROM read alone is not proof that text was displayed",
+          "No full PPU tilemap was captured",
+          "The probe cannot substitute for full playthrough branch coverage"
+        ],
+        "local_lua_syntax_tested": false,
+        "actual_emulator_execution_verified": false,
+        "actual_frame_count": 0,
+        "actual_rom_reads_observed": 0,
+        "caveat": "This helper is a separate local downloadable artifact only; the GitHub repository retains the single master JSON file and main branch. No emulator installed in current environment and the script could not be executed or runtime-debugged."
       }
     },
     "dialogue_provenance_reconciliation": {
