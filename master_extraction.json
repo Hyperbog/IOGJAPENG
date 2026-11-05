@@ -4427,7 +4427,14 @@
           "id": "DLG-0591",
           "rom_offset": "0x05EF8A",
           "rom_end_exclusive": "0x05F09D",
-          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM."
+          "source_provenance": "Aligned by original extraction script order (1264 text-normalized exact; nine editorial/numeric differences), byte spans separately verified against original Japanese ROM.",
+          "shared_prefix_rom_verification_2026_11_05": {
+            "duplicate_in": "ADD-0012",
+            "source": "0x05EF8A",
+            "duplicate": "0x05F09D",
+            "byte_count": 40,
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
+          }
         },
         {
           "text": "ニール： なるほどっ！\n白鳥座の星の数は ９コ。\n石の数も たしかに ９コだ・・・",
@@ -4449,6 +4456,12 @@
             "finding": "COP BF at 0x05EE4B prints this text at 0x05F0C5.",
             "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
             "runtime_verified": false
+          },
+          "embedded_source_rom_verification_2026_11_05": {
+            "embedded_in": "ADD-0012",
+            "start": "0x05F0C5",
+            "direct_COP_BF_site": "0x05EE4B",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
           }
         },
         {
@@ -10126,6 +10139,25 @@
             "finding": "Composite spans 0x05F09D–0x05F100; latter 0x05F0C5–0x05F100 is separately called by COP BF at 0x05EE4B as DLG-0592. No standalone COP BF to 0x05F09D located.",
             "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
             "runtime_verified": false
+          },
+          "indirect_source_reachability_2026_11_05": {
+            "target": "ADD-0012",
+            "source_start": "0x05F09D",
+            "end_exclusive": "0x05F100",
+            "source_length_bytes": 99,
+            "same_intro_bytes_as_DLG_0591": 40,
+            "duplicate_intro_source": "0x05EF8A",
+            "internal_suffix_source_id": "DLG-0592",
+            "internal_suffix_start": "0x05F0C5",
+            "internal_suffix_direct_COP_BF_site": "0x05EE4B",
+            "first_clause_independent_caller_found": false,
+            "absent_exact_calls": [
+              "02 BF 9D F0",
+              "D3 9D F0",
+              "CF 9D F0 85"
+            ],
+            "note": "One contiguous 99-byte record with an interior addressable suffix; no terminator separates the two clauses",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
           }
         },
         {
@@ -10281,7 +10313,7 @@
           },
           "original_rom_event_ownership_2026_11_05": {
             "source_id": "ADD-0015",
-            "event_routine_start": "0x069700",
+            "event_routine_start": "0x069701",
             "item_id": "0x12",
             "item_name_id": "ITN-0018",
             "already_owned_flag_test": "0x79",
@@ -10294,7 +10326,37 @@
             "callback_rom": "0x069731",
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "map_actor_id": null,
-            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only"
+            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only",
+            "previous_provisional_routine_start": "0x069700",
+            "map_object_record_start": "0x0CAA5D",
+            "map_object_callback_cpu": "0x869701",
+            "area_attribution": "Mu"
+          },
+          "original_rom_map_object_ownership_2026_11_05": {
+            "id": "ADD-0015",
+            "table_offset": "0x0CAA5D",
+            "raw_hex": "2F 3A 00 01 97 86 00",
+            "raw_position": [
+              "0x2F",
+              "0x3A"
+            ],
+            "attribute": "0x00",
+            "pointer_location": "0x0CAA60",
+            "cpu_callback": "0x869701",
+            "rom_callback": "0x069701",
+            "group_header": "0x0CAA46",
+            "state_flag": "0x79",
+            "area": "ムー大陸 / Mu",
+            "evidence": "Exact seven-byte object record with a little-endian CPU callback matching script-bank 86",
+            "coordinate_units_confirmed": false,
+            "numerical_map_id_confirmed": false,
+            "object_id_confirmed": false,
+            "independent_area_corroboration": [
+              "https://i-njoy.net/gaia_23.html",
+              "https://wikiwiki.jp/text/ガイア幻想紀/海底宮殿～ムー大陸～海底トンネル"
+            ],
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "emulator_executed": false
           }
         },
         {
@@ -10361,7 +10423,7 @@
           },
           "original_rom_event_ownership_2026_11_05": {
             "source_id": "ADD-0016",
-            "event_routine_start": "0x0697A8",
+            "event_routine_start": "0x0697A9",
             "item_id": "0x12",
             "item_name_id": "ITN-0018",
             "already_owned_flag_test": "0x7F",
@@ -10374,7 +10436,37 @@
             "callback_rom": "0x0697D1",
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "map_actor_id": null,
-            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only"
+            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only",
+            "previous_provisional_routine_start": "0x0697A8",
+            "map_object_record_start": "0x0CAC59",
+            "map_object_callback_cpu": "0x8697A9",
+            "area_attribution": "Mu"
+          },
+          "original_rom_map_object_ownership_2026_11_05": {
+            "id": "ADD-0016",
+            "table_offset": "0x0CAC59",
+            "raw_hex": "2A 3E 30 A9 97 86 00",
+            "raw_position": [
+              "0x2A",
+              "0x3E"
+            ],
+            "attribute": "0x30",
+            "pointer_location": "0x0CAC5C",
+            "cpu_callback": "0x8697A9",
+            "rom_callback": "0x0697A9",
+            "group_header": "0x0CAB9B",
+            "state_flag": "0x7F",
+            "area": "ムー大陸 / Mu",
+            "evidence": "Exact seven-byte object record with a little-endian CPU callback matching script-bank 86",
+            "coordinate_units_confirmed": false,
+            "numerical_map_id_confirmed": false,
+            "object_id_confirmed": false,
+            "independent_area_corroboration": [
+              "https://i-njoy.net/gaia_23.html",
+              "https://wikiwiki.jp/text/ガイア幻想紀/海底宮殿～ムー大陸～海底トンネル"
+            ],
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "emulator_executed": false
           }
         },
         {
@@ -11067,6 +11159,36 @@
             "finding": "One of the 17 contiguous hint-text blocks using text CF shared prefix to 0x08D96F; current verified 34-case dialogue dispatcher does not call this block.",
             "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
             "runtime_verified": false
+          },
+          "indirect_source_reachability_2026_11_05": {
+            "target": "ADD-0031",
+            "source_offset": "0x08DC24",
+            "current_dispatcher": "34-case index selection at 0x08D654, table 0x08D65A",
+            "catalog_size": 17,
+            "directly_selected_in_catalog": 10,
+            "not_selected": [
+              "0x08DB15",
+              "0x08DB76",
+              "0x08DBC5",
+              "0x08DC24",
+              "0x08DCD0",
+              "0x08DD06",
+              "0x08DFE5"
+            ],
+            "direct_caller_found": false,
+            "checked_patterns": [
+              "02 BF 24 DC",
+              "D3 24 DC",
+              "CF 24 DC 88",
+              "24 DC 88"
+            ],
+            "same_bank_low16_match_count": 0,
+            "misleading_other_bank_low16_sites": [
+              "0x000DC12",
+              "0x01DAA4"
+            ],
+            "conclusion": "Original text exists; player-facing reachability and originating event remain unproven",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
           }
         },
         {
@@ -15253,7 +15375,7 @@
       ]
     }
   ],
-  "version": "v20",
+  "version": "v21",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -41102,7 +41224,7 @@
           "prayer_statues": [
             {
               "source_id": "ADD-0015",
-              "event_routine_start": "0x069700",
+              "event_routine_start": "0x069701",
               "item_id": "0x12",
               "item_name_id": "ITN-0018",
               "already_owned_flag_test": "0x79",
@@ -41112,11 +41234,15 @@
               "event_creation_site": "0x069725",
               "event_type": "0x17",
               "callback_cpu": "0x869731",
-              "callback_rom": "0x069731"
+              "callback_rom": "0x069731",
+              "previous_provisional_routine_start": "0x069700",
+              "map_object_record_start": "0x0CAA5D",
+              "map_object_callback_cpu": "0x869701",
+              "area_attribution": "Mu, distinct map object; numeric map ID not proven"
             },
             {
               "source_id": "ADD-0016",
-              "event_routine_start": "0x0697A8",
+              "event_routine_start": "0x0697A9",
               "item_id": "0x12",
               "item_name_id": "ITN-0018",
               "already_owned_flag_test": "0x7F",
@@ -41126,7 +41252,11 @@
               "event_creation_site": "0x0697CA",
               "event_type": "0x17",
               "callback_cpu": "0x8697D1",
-              "callback_rom": "0x0697D1"
+              "callback_rom": "0x0697D1",
+              "previous_provisional_routine_start": "0x0697A8",
+              "map_object_record_start": "0x0CAC59",
+              "map_object_callback_cpu": "0x8697A9",
+              "area_attribution": "Mu, distinct map object; numeric map ID not proven"
             }
           ],
           "limits": "Two distinct state-flagged item pickup routines and their child execution tasks are proven. Neither map ID, world coordinate, nor specific statue object's identity has been established by the native script references."
@@ -41398,6 +41528,127 @@
           "Any independent event execution referencing ADD-0012 initial composite segment",
           "Real emulator observation/PPU tilemap verification"
         ]
+      },
+      "original_rom_map_object_and_indirect_text_audit_2026_11_05": {
+        "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "method": "Byte-exact callback/pointer and content scanning of uploaded original Japanese ROM; outside sources used only for Mu geographical context.",
+        "map_object_records": [
+          {
+            "id": "ADD-0015",
+            "table_offset": "0x0CAA5D",
+            "raw_hex": "2F 3A 00 01 97 86 00",
+            "raw_position": [
+              "0x2F",
+              "0x3A"
+            ],
+            "attribute": "0x00",
+            "pointer_location": "0x0CAA60",
+            "cpu_callback": "0x869701",
+            "rom_callback": "0x069701",
+            "group_header": "0x0CAA46",
+            "state_flag": "0x79"
+          },
+          {
+            "id": "ADD-0016",
+            "table_offset": "0x0CAC59",
+            "raw_hex": "2A 3E 30 A9 97 86 00",
+            "raw_position": [
+              "0x2A",
+              "0x3E"
+            ],
+            "attribute": "0x30",
+            "pointer_location": "0x0CAC5C",
+            "cpu_callback": "0x8697A9",
+            "rom_callback": "0x0697A9",
+            "group_header": "0x0CAB9B",
+            "state_flag": "0x7F"
+          }
+        ],
+        "area": "ムー大陸 / Mu",
+        "area_sources": [
+          "https://i-njoy.net/gaia_23.html",
+          "https://wikiwiki.jp/text/ガイア幻想紀/海底宮殿～ムー大陸～海底トンネル"
+        ],
+        "map_ids_unresolved": true,
+        "position_units_unresolved": true,
+        "actor_ids_unresolved": true,
+        "note": "v20 provisional event-start offsets 0x069700 and 0x0697A8 have been corrected to exact map-object callbacks 0x069701 and 0x0697A9; the preceding byte is the text's C0 terminator.",
+        "hint_inventory": {
+          "total": 17,
+          "directly_selected": [
+            "0x08D9B0",
+            "0x08DA31",
+            "0x08DA98",
+            "0x08DC6F",
+            "0x08DD3B",
+            "0x08DDD2",
+            "0x08DE39",
+            "0x08DEA9",
+            "0x08DF19",
+            "0x08E307"
+          ],
+          "unselected": [
+            "0x08DB15",
+            "0x08DB76",
+            "0x08DBC5",
+            "0x08DC24",
+            "0x08DCD0",
+            "0x08DD06",
+            "0x08DFE5"
+          ],
+          "total_direct_dispatcher_targets": 12,
+          "target": {
+            "target": "ADD-0031",
+            "source_offset": "0x08DC24",
+            "current_dispatcher": "34-case index selection at 0x08D654, table 0x08D65A",
+            "catalog_size": 17,
+            "directly_selected_in_catalog": 10,
+            "not_selected": [
+              "0x08DB15",
+              "0x08DB76",
+              "0x08DBC5",
+              "0x08DC24",
+              "0x08DCD0",
+              "0x08DD06",
+              "0x08DFE5"
+            ],
+            "direct_caller_found": false,
+            "checked_patterns": [
+              "02 BF 24 DC",
+              "D3 24 DC",
+              "CF 24 DC 88",
+              "24 DC 88"
+            ],
+            "same_bank_low16_match_count": 0,
+            "misleading_other_bank_low16_sites": [
+              "0x000DC12",
+              "0x01DAA4"
+            ],
+            "conclusion": "Original text exists; player-facing reachability and originating event remain unproven",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
+          }
+        },
+        "neil": {
+          "target": "ADD-0012",
+          "source_start": "0x05F09D",
+          "end_exclusive": "0x05F100",
+          "source_length_bytes": 99,
+          "same_intro_bytes_as_DLG_0591": 40,
+          "duplicate_intro_source": "0x05EF8A",
+          "internal_suffix_source_id": "DLG-0592",
+          "internal_suffix_start": "0x05F0C5",
+          "internal_suffix_direct_COP_BF_site": "0x05EE4B",
+          "first_clause_independent_caller_found": false,
+          "absent_exact_calls": [
+            "02 BF 9D F0",
+            "D3 9D F0",
+            "CF 9D F0 85"
+          ],
+          "note": "One contiguous 99-byte record with an interior addressable suffix; no terminator separates the two clauses",
+          "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0"
+        },
+        "runtime_execution_proven": false,
+        "additional_text_records": 0
       }
     },
     "graphical_and_area_text_audit": {
