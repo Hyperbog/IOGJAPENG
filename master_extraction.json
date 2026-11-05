@@ -3254,6 +3254,11 @@
             "match_count": 1,
             "state": "static_script_pointer_pattern_found",
             "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "Contains target suffix 0x05A832 which is reached by D3 text transfer from 0x05A7FF.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -3282,6 +3287,11 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "Text D3 at 0x05A7FF transfers rendering into 0x05A832, a shared suffix within DLG-0445; not a distinct COP script event.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -4434,6 +4444,11 @@
             "match_count": 1,
             "state": "static_script_pointer_pattern_found",
             "note": "Direct original-ROM byte-pattern match; code reachability, actor, and branch conditions not yet proved."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "COP BF at 0x05EE4B prints this text at 0x05F0C5.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -4989,6 +5004,11 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "Three inline text CF references at 0x069460,0x0694B5,0x069504 include the shared text at 0x069579; wrappers not yet mapped to unique NPC IDs.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -10101,6 +10121,11 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "Composite spans 0x05F09D–0x05F100; latter 0x05F0C5–0x05F100 is separately called by COP BF at 0x05EE4B as DLG-0592. No standalone COP BF to 0x05F09D located.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -10253,6 +10278,23 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "original_rom_event_ownership_2026_11_05": {
+            "source_id": "ADD-0015",
+            "event_routine_start": "0x069700",
+            "item_id": "0x12",
+            "item_name_id": "ITN-0018",
+            "already_owned_flag_test": "0x79",
+            "flag_set_site": "0x06971C",
+            "flag_set": "0x79",
+            "add_item_site": "0x069717",
+            "event_creation_site": "0x069725",
+            "event_type": "0x17",
+            "callback_cpu": "0x869731",
+            "callback_rom": "0x069731",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "map_actor_id": null,
+            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only"
           }
         },
         {
@@ -10316,6 +10358,23 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "original_rom_event_ownership_2026_11_05": {
+            "source_id": "ADD-0016",
+            "event_routine_start": "0x0697A8",
+            "item_id": "0x12",
+            "item_name_id": "ITN-0018",
+            "already_owned_flag_test": "0x7F",
+            "flag_set_site": "0x0697C1",
+            "flag_set": "0x7F",
+            "add_item_site": "0x0697BC",
+            "event_creation_site": "0x0697CA",
+            "event_type": "0x17",
+            "callback_cpu": "0x8697D1",
+            "callback_rom": "0x0697D1",
+            "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "map_actor_id": null,
+            "provenance": "Original-ROM COP 19, D4, CC and linked inventory/flag handlers; static execution path only"
           }
         },
         {
@@ -11003,6 +11062,11 @@
             "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
             "evidence_type": "literal original ROM byte patterns and independently cross-referenced existing master source spans; no emulator execution",
             "certainty_note": "A matching address operand proves a syntactic or structural reference candidate, not automatic execution."
+          },
+          "native_script_and_text_control_review_2026_11_05": {
+            "finding": "One of the 17 contiguous hint-text blocks using text CF shared prefix to 0x08D96F; current verified 34-case dialogue dispatcher does not call this block.",
+            "evidence_kind": "Original-ROM bytes cross-checked against native COP and text-renderer dispatch handlers.",
+            "runtime_verified": false
           }
         },
         {
@@ -15189,7 +15253,7 @@
       ]
     }
   ],
-  "version": "v19",
+  "version": "v20",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -21826,6 +21890,11 @@
                     ],
                     "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
                     "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
+                  },
+                  "opcode_event_ownership_2026_11_05": {
+                    "fact": "DLG-0446 is a shared text tail reached via text D3 at 0x05A7FF; DLG-0445 is a longer independently addressable text at 0x05A802.",
+                    "direct_rom_evidence": true,
+                    "unique_scene_actor_confirmed": false
                   }
                 }
               }
@@ -25441,6 +25510,11 @@
                     ],
                     "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
                     "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
+                  },
+                  "opcode_event_ownership_2026_11_05": {
+                    "fact": "COP BF 05EE4B references DLG-0592 at 0x05F0C5. ADD-0012 combines immediately preceding repeated Neil text and the same suffix; no unique independent caller to 0x05F09D.",
+                    "direct_rom_evidence": true,
+                    "unique_scene_actor_confirmed": false
                   }
                 }
               }
@@ -26851,6 +26925,11 @@
                     ],
                     "result": "Text source cross-references strengthened; no scene/actor assignment or gameplay branch execution inferred.",
                     "method": "Original unheadered 2-MiB JP ROM, exact 02 BF low-16-bit same-bank pattern; no emulator used."
+                  },
+                  "opcode_event_ownership_2026_11_05": {
+                    "fact": "ADD-0015 and ADD-0016 are callback targets of distinct prayer-statue pickup scripts. State flags 0x79 vs 0x7F; map room/actor unresolved.",
+                    "direct_rom_evidence": true,
+                    "unique_scene_actor_confirmed": false
                   }
                 }
               }
@@ -40936,6 +41015,388 @@
           "Recover hint-selection index or event dispatch for ADD-0031.",
           "Trace inbound caller/reference to first submessage of ADD-0012.",
           "Map prayer statue event records to distinct map object IDs, keeping six hieroglyph tablets separate."
+        ]
+      },
+      "cop_and_event_ownership_audit_2026_11_05": {
+        "version": "2026-11-05-v20",
+        "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "cpu_native_cop": {
+          "vector_rom_offset": "0x00FFE4",
+          "vector_bytes": "07 80",
+          "trampoline_rom_offset": "0x008007",
+          "dispatcher_rom_offset": "0x00857D",
+          "handler_table_rom_offset": "0x008595",
+          "dispatch_proof": "Native COP handler extracts signature, doubles index and jumps through 16-bit jump table via 7C 95 85.",
+          "handlers": {
+            "19": {
+              "rom_offset": "0x0088D9",
+              "effect": "Allocates new execution object/task with JSL $80B5AF; writes task type to object +0x26, callback low word to +0x20 and callback bank to +0x22; does not itself establish the map NPC ID."
+            },
+            "BF": {
+              "rom_offset": "0x00A9EB",
+              "effect": "Reads 16-bit same-bank text pointer; calls JSL $82B05F rendering interpreter."
+            },
+            "CC": {
+              "rom_offset": "0x00ABF2",
+              "effect": "Reads flag index; JSR $80B168 sets corresponding bit in WRAM $0A00 bitmap."
+            },
+            "CF": {
+              "rom_offset": "0x00AC21",
+              "effect": "Reads 16-bit flag index; JSR $80B189 clears corresponding bit in WRAM $0A00 bitmap; NOT the same as raw text CF."
+            },
+            "D3": {
+              "rom_offset": "0x00AC88",
+              "effect": "Flag-test/conditional script-control handler invoking $80B1AC; distinct from text control D3."
+            },
+            "D4": {
+              "rom_offset": "0x00ACB6",
+              "effect": "Reads item ID; JSL $83E458 attempts to add item; branches to supplied target when inventory operation fails."
+            },
+            "D5": {
+              "rom_offset": "0x00ACD8",
+              "effect": "Reads item ID; JSL $83E54E removes it from inventory if found."
+            },
+            "D6": {
+              "rom_offset": "0x00ACE9",
+              "effect": "Reads item ID; JSL $83E574 tests inventory; carry clear on found -> supplied 16-bit branch target, carry set on absent -> skips target and proceeds linearly."
+            },
+            "D9": {
+              "rom_offset": "0x00AD45",
+              "effect": "Loads table index through address operand and indirect-jumps through second 16-bit dispatch table operand; proven by 08D654 02 D9 00 00 5A D6."
+            }
+          },
+          "item_lookup": {
+            "routine": "0x03E574",
+            "inventory_array": "0x0AB4",
+            "slot_count": 16,
+            "item_present": "CLC",
+            "item_absent": "SEC"
+          },
+          "inventory_remove": {
+            "routine": "0x03E54E",
+            "slot_count": 16,
+            "matched_slot_zeroed": true
+          },
+          "state_flag_bitmap": {
+            "base": "WRAM 0x0A00",
+            "mask_table_rom_offset": "0x00B1CE",
+            "flag_set": "0x00B168",
+            "flag_clear": "0x00B189",
+            "flag_test": "0x00B1AC"
+          }
+        },
+        "text_renderer": {
+          "dispatcher_rom_offset": "0x02B05F",
+          "command_table_rom_offset": "0x02B094",
+          "control_CF": {
+            "handler_rom_offset": "0x02B1A8",
+            "meaning": "Inline inclusion: loads 24-bit pointer from current text stream, switches data bank, recursively invokes renderer, restores caller and advances 3 operand bytes."
+          },
+          "control_D3": {
+            "handler_rom_offset": "0x02B4FB",
+            "meaning": "Intra-bank tail transfer: LDA 0,Y; TAY; RTS; render resumes at 16-bit offset. It is not native COP D3."
+          },
+          "distinction": "Raw text command bytes CF/D3 without preceding 02 are not COP commands."
+        },
+        "event_ownership": {
+          "prayer_statues": [
+            {
+              "source_id": "ADD-0015",
+              "event_routine_start": "0x069700",
+              "item_id": "0x12",
+              "item_name_id": "ITN-0018",
+              "already_owned_flag_test": "0x79",
+              "flag_set_site": "0x06971C",
+              "flag_set": "0x79",
+              "add_item_site": "0x069717",
+              "event_creation_site": "0x069725",
+              "event_type": "0x17",
+              "callback_cpu": "0x869731",
+              "callback_rom": "0x069731"
+            },
+            {
+              "source_id": "ADD-0016",
+              "event_routine_start": "0x0697A8",
+              "item_id": "0x12",
+              "item_name_id": "ITN-0018",
+              "already_owned_flag_test": "0x7F",
+              "flag_set_site": "0x0697C1",
+              "flag_set": "0x7F",
+              "add_item_site": "0x0697BC",
+              "event_creation_site": "0x0697CA",
+              "event_type": "0x17",
+              "callback_cpu": "0x8697D1",
+              "callback_rom": "0x0697D1"
+            }
+          ],
+          "limits": "Two distinct state-flagged item pickup routines and their child execution tasks are proven. Neither map ID, world coordinate, nor specific statue object's identity has been established by the native script references."
+        },
+        "hint_dispatcher": {
+          "search_loop_rom_offset": "0x08D63B",
+          "source_key_table_rom_offset": "0x08D94B",
+          "compared_game_state_ram": "0x0B12",
+          "index_dispatch_cop_rom_offset": "0x08D654",
+          "indirect_16bit_table_rom_offset": "0x08D65A",
+          "cases": [
+            {
+              "slot": 0,
+              "state_value": "0x01",
+              "entry_rom_offset": "0x08D729",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 1,
+              "state_value": "0x0B",
+              "entry_rom_offset": "0x08D72C",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08D9B0"
+            },
+            {
+              "slot": 2,
+              "state_value": "0x15",
+              "entry_rom_offset": "0x08D733",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DA31"
+            },
+            {
+              "slot": 3,
+              "state_value": "0x1E",
+              "entry_rom_offset": "0x08D73A",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DA98"
+            },
+            {
+              "slot": 4,
+              "state_value": "0x26",
+              "entry_rom_offset": "0x08D741",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 5,
+              "state_value": "0x28",
+              "entry_rom_offset": "0x08D744",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 6,
+              "state_value": "0x34",
+              "entry_rom_offset": "0x08D747",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 7,
+              "state_value": "0x3D",
+              "entry_rom_offset": "0x08D74A",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 8,
+              "state_value": "0x40",
+              "entry_rom_offset": "0x08D74D",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 9,
+              "state_value": "0x42",
+              "entry_rom_offset": "0x08D750",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DC6F"
+            },
+            {
+              "slot": 10,
+              "state_value": "0x4C",
+              "entry_rom_offset": "0x08D757",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 11,
+              "state_value": "0x51",
+              "entry_rom_offset": "0x08D75A",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 12,
+              "state_value": "0x54",
+              "entry_rom_offset": "0x08D75D",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 13,
+              "state_value": "0x56",
+              "entry_rom_offset": "0x08D760",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 14,
+              "state_value": "0x5A",
+              "entry_rom_offset": "0x08D763",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 15,
+              "state_value": "0x60",
+              "entry_rom_offset": "0x08D766",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DD3B"
+            },
+            {
+              "slot": 16,
+              "state_value": "0x62",
+              "entry_rom_offset": "0x08D76D",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DDD2"
+            },
+            {
+              "slot": 17,
+              "state_value": "0x6C",
+              "entry_rom_offset": "0x08D774",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 18,
+              "state_value": "0x7C",
+              "entry_rom_offset": "0x08D777",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 19,
+              "state_value": "0x85",
+              "entry_rom_offset": "0x08D77A",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 20,
+              "state_value": "0x86",
+              "entry_rom_offset": "0x08D77D",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DE39"
+            },
+            {
+              "slot": 21,
+              "state_value": "0x99",
+              "entry_rom_offset": "0x08D784",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 22,
+              "state_value": "0xA1",
+              "entry_rom_offset": "0x08D787",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 23,
+              "state_value": "0xA3",
+              "entry_rom_offset": "0x08D78A",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 24,
+              "state_value": "0xA7",
+              "entry_rom_offset": "0x08D78D",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DEA9"
+            },
+            {
+              "slot": 25,
+              "state_value": "0xAC",
+              "entry_rom_offset": "0x08D794",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 26,
+              "state_value": "0xB6",
+              "entry_rom_offset": "0x08D797",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 27,
+              "state_value": "0xB8",
+              "entry_rom_offset": "0x08D79A",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DF19"
+            },
+            {
+              "slot": 28,
+              "state_value": "0xBB",
+              "entry_rom_offset": "0x08D7A1",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08DF5F"
+            },
+            {
+              "slot": 29,
+              "state_value": "0xC3",
+              "entry_rom_offset": "0x08D7A8",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 30,
+              "state_value": "0xCC",
+              "entry_rom_offset": "0x08D7AB",
+              "action": "special_conditional",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 31,
+              "state_value": "0xE0",
+              "entry_rom_offset": "0x08D7FE",
+              "action": "jump_to_common_exit",
+              "text_source_rom_offset": null
+            },
+            {
+              "slot": 32,
+              "state_value": "0xE3",
+              "entry_rom_offset": "0x08D801",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08E201"
+            },
+            {
+              "slot": 33,
+              "state_value": "0x12",
+              "entry_rom_offset": "0x08D808",
+              "action": "cop_BF_print",
+              "text_source_rom_offset": "0x08E307"
+            }
+          ],
+          "totals": {
+            "indexed_cases": 34,
+            "cases_with_direct_text": 12,
+            "common_exit_cases": 21,
+            "special_conditional_cases": 1
+          },
+          "ADD_0031_status": "Valid encoded text at 0x08DC24 but absent from all 34 direct selected targets and no exact 02 BF source pointer found. Other indirect paths not excluded."
+        },
+        "novel_correspondence_findings": {
+          "DLG-0446": "Text D3 at 0x05A7FF transfers rendering into 0x05A832, a shared suffix within DLG-0445; not a distinct COP script event.",
+          "DLG-0665": "Three inline text CF references at 0x069460,0x0694B5,0x069504 include the shared text at 0x069579; wrappers not yet mapped to unique NPC IDs.",
+          "ADD-0012": "Composite spans 0x05F09D–0x05F100; latter 0x05F0C5–0x05F100 is separately called by COP BF at 0x05EE4B as DLG-0592. No standalone COP BF to 0x05F09D located.",
+          "ADD-0031": "One of the 17 contiguous hint-text blocks using text CF shared prefix to 0x08D96F; current verified 34-case dialogue dispatcher does not call this block."
+        },
+        "runtime_execution_proof": false,
+        "unresolved": [
+          "Original map/NPC ownership for the two prayer statue pickups and the three CF wrappers",
+          "Source callback for hint ADD-0031 outside the recovered 34-case dispatcher",
+          "Any independent event execution referencing ADD-0012 initial composite segment",
+          "Real emulator observation/PPU tilemap verification"
         ]
       }
     },
