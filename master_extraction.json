@@ -20609,15 +20609,29 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "scene_attribution_review": {
-                  "classification": "duplicate_or_branch_undetermined",
+                  "classification": "conditional_branch_identified_from_independent_transcript",
                   "source_candidates": [
                     "DLG-0549",
                     "DLG-0550"
                   ],
                   "preferred_source_id": null,
                   "narrowed_source_ids": null,
-                  "explanation": "Two or more master records contain this text. Transcript wording does not uniquely identify which conditional branch or source instance executes.",
-                  "scene_observed_in_emulator": false
+                  "explanation": "An independent Japanese original-game text archive labels the two variants by whether the player possesses かぜのメロディ. This corroborates both ROM-derived texts as legitimate conditional variants, not one missing line. No emulator path executed.",
+                  "scene_observed_in_emulator": false,
+                  "condition_key": "Inventory contains かぜのメロディ",
+                  "branches": [
+                    {
+                      "when": "Has Wind Melody",
+                      "source_id": "DLG-0549",
+                      "source_text_clue": "ろうごくのカギと 風のメロディを いただいて"
+                    },
+                    {
+                      "when": "Does not have Wind Melody",
+                      "source_id": "DLG-0550",
+                      "source_text_clue": "ろうごくのカギを いただいて"
+                    }
+                  ],
+                  "secondary_reference": "https://wikiwiki.jp/text/ガイア幻想紀/フリージア～ダイヤモンド鉱山"
                 }
               }
             },
@@ -35482,7 +35496,8 @@
         "reviewed_rows": 23,
         "category_counts": {
           "unique_textual_context_supported": 2,
-          "duplicate_or_branch_undetermined": 18,
+          "duplicate_or_branch_undetermined": 17,
+          "conditional_branch_identified_from_independent_transcript": 1,
           "ability_family_narrowed": 2,
           "probable_chapter_context": 1
         },
@@ -35490,7 +35505,8 @@
         "ability_family_narrowed_rows": 2,
         "probable_chapter_context_rows": 1,
         "remaining_without_unique_attribution": 21,
-        "caveat": "23 candidate groups reviewed. Two uniquely identifiable by source text/speaker context; one probable by chapter context; two restricted to ability family. None emulator-traced."
+        "caveat": "23 source-duplicate groups reviewed: two textually unique, one externally documented pair of conditional variants, one probable by chapter context, two narrowed to ability families. The remaining duplicate groups lack independently proven runtime reachability.",
+        "conditional_branches_documented_by_independent_reference": 1
       }
     },
     "graphical_and_area_text_audit": {
@@ -35623,7 +35639,45 @@
           "SNES emulator debugger, scripted save-state and branch coverage, to prove active scene reachability",
           "Original Japanese graphical tilemaps/screenshots for English/room label candidates"
         ],
-        "note": "Textual cross-reference work was performed. No on-device runtime observation or original graphical asset reconstruction was performed in this step."
+        "note": "Textual cross-reference work was performed. No on-device runtime observation or original graphical asset reconstruction was performed in this step.",
+        "external_screenshot_visual_proof_added": [
+          "PLAYER",
+          "ENEMY"
+        ]
+      },
+      "external_graphic_crosscheck_2026_11_05": {
+        "verification_method": "Visual inspection of published Japanese-version gameplay screenshots, not tilemap data or a locally executed emulator",
+        "confirmed_displayed_labels": [
+          "PLAYER",
+          "ENEMY"
+        ],
+        "screenshot_sources": [
+          {
+            "page": "https://note.com/sei_ver1/n/n84113beb42df",
+            "image": "https://assets.st-note.com/img/1682778592656-yT5006YElx.jpg",
+            "visible": [
+              "PLAYER",
+              "ENEMY"
+            ]
+          },
+          {
+            "page": "https://www.sohu.com/a/897188263_122311428",
+            "image": "https://q3.itc.cn/q_70/images03/20250521/56cfc979a5b848dfa56161b48a2c096e.jpeg",
+            "visible": [
+              "PLAYER",
+              "ENEMY"
+            ]
+          }
+        ],
+        "evidence_limitations": "The screenshot demonstrates displayed glyphs in Japanese gameplay but does not identify original ROM tile/glyph pointers. No verified on-screen Japanese screenshot for Itory, Diamond Valley, NEELE'S COTAGE, NASCA, or ITEM was located.",
+        "unverified_original_english_label_candidates": [
+          "Itory",
+          "Diamond Valley",
+          "NEELE'S COTAGE",
+          "NASCA",
+          "ITEM"
+        ],
+        "partially_supported_ui_group": "FORCE occurs in the ROM-derived inline interface text master; ENEMY has Japanese gameplay screenshot support; ITEM remains unlocated."
       }
     },
     "dialogue_provenance_reconciliation": {
