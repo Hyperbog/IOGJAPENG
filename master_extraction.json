@@ -8988,7 +8988,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Inventory full response",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "中は からっぽだった！",
@@ -9001,7 +9006,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Empty treasure chest",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "たからばこは\nかたく 閉じられていた",
@@ -9014,7 +9024,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Locked treasure chest",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "笛を 吹きますか？\n はい\n いいえ",
@@ -9027,7 +9042,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Flute action choice",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ローラの メロディをおぼえた！",
@@ -9040,7 +9060,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Lola melody obtained",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "骨つきのくんせい肉を 手に入れた！\n\nカレン：\nこれで 準備 オッケー！\nさあ 兵隊さんに 見つからない\nうちに いきましょ！",
@@ -9053,7 +9078,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Castle prison food rescue",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 2,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ろうごくのカギを 手に入れた！",
@@ -9066,7 +9096,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Castle prison key",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 2,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "インカの像Aを 手に入れた。",
@@ -9079,7 +9114,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Inca statue A",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "インカの像Bを 手に入れた。",
@@ -9092,7 +9132,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Inca statue B",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 2,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "リリィ：\nちょっと どこへ いくのよぉ",
@@ -9105,7 +9150,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Lily at Inca ruins",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "鉱山のカギを 見つけた！",
@@ -9118,7 +9168,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Diamond Mine key",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 1,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ニール：\nさーて みんな もどったところで\n本題に入ろう。\n\nニール： なるほどっ！\n白鳥座の星の数は ９コ。\n石の数も たしかに ９コだ・・・",
@@ -9131,7 +9186,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Neil and Nazca star-map briefing",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "海底きゅうでんのカギを手に入れた！",
@@ -9144,7 +9204,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Undersea Palace key",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "じょうか石を 手に入れた！",
@@ -9157,7 +9222,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Purification stone",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
@@ -9170,7 +9240,12 @@
           "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
           "context_hint": "Mu Prayer Statue copy A",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "いのりの像を 見つけた！\nいのりの像・・・\nどこかに 同じ名前の部屋が\nなかっただろうか・・・",
@@ -9183,7 +9258,12 @@
           "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
           "context_hint": "Mu Prayer Statue copy B",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "テム： うっ・・・\n体が だんだん しびれてきた・・・",
@@ -9196,7 +9276,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Watermia paralysis / glass challenge",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "きれいな小石が おちている。",
@@ -9209,7 +9294,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Great Wall necklace stone",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -9222,7 +9312,12 @@
           "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
           "context_hint": "Stone girl restoration copy A",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -9235,7 +9330,12 @@
           "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
           "context_hint": "Stone girl restoration copy B",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 1,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "なんと 石像が\n人間の 少女の姿に なった！\n\n少女は 目に うっすらと\nなみだを うかべている・・・",
@@ -9248,7 +9348,12 @@
           "audit_comment": "Identical displayed wording at distinct ROM locations; keep separate source records.",
           "context_hint": "Stone girl restoration copy C",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ゴーゴンの花を 手に入れた！",
@@ -9261,7 +9366,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Gorgon flower",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "黒すいしょうのめがねを 見つけた！",
@@ -9274,7 +9384,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Black crystal glasses",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "手紙と 父の手帳を 手に入れた！",
@@ -9287,7 +9402,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Lola and Bill letter and father's journal",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ブラックパンサー：\nふっ とうとう 観念したか・・・",
@@ -9300,7 +9420,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Black Panther / Jackal event",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ヒエログリフの石版を 手に入れた！",
@@ -9313,7 +9438,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Hieroglyph stone tablet",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 6,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ヒントのテスト",
@@ -9326,7 +9456,12 @@
           "audit_comment": "Text means 'Hint Test'; likely test/development text until player-visible event is demonstrated.",
           "context_hint": "Gaia hint test string - likely developmental",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "黄金タイルの しきつめられた場所。\nそこには 黄金の船へ向かうとびらが\nかくされている。\n\nインカの神の歌う メロディに\n耳を かたむけてみるといい。",
@@ -9339,7 +9474,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: Inca tiles",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 1,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "届かない場所にいる敵を たおすには\nどうすればいいのか・・・・\nエドワード城の地下での できごとを\n思いかえしてみるといい。",
@@ -9352,7 +9492,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: ranged attacks",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "風のふきこむカベ・・・\nそれは 石が すきまだらけで\nこわれやすい場所。\n\n見つからなければ たたいて調べる\nという方法もある。\nそこだけ 音がちがうはずだ。",
@@ -9365,7 +9510,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: weak wall",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "鉱山の 地面にある 鉄格子は\nすべて カギが かかっている。\nまずは カギを持つ ドレイを\nさがしだすことだ。",
@@ -9378,7 +9528,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: Diamond Mine grate",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 1,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "表の障害物を ひっこめれば\n裏が でっぱる。\nじゃまな はしらは ひっこめる\nことだ。",
@@ -9391,7 +9546,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: front/back obstacles",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 2,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "地面にある スイッチ。\nそれは 人間の重さでは おしこむ\nことが できない。",
@@ -9404,7 +9564,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: floor switch",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "ピラミッドは ６つのブロックに\nわかれている。\n\nそれぞれの地域を これまでに\n手に入れた ヤミの力を 最大限に\n利用して 進むがよい。",
@@ -9417,7 +9582,12 @@
           "audit_comment": "Hint-style message near 'Hint Test' code; player access is not confirmed.",
           "context_hint": "Gaia hint: Pyramid sections",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "オーラのたまを 手に入れた！",
@@ -9430,7 +9600,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Aura Sphere obtained",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "すいしょうの指輪を 手に入れた！",
@@ -9443,7 +9618,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Crystal Ring obtained",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 1,
+            "same_bank_16bit_address_occurrences": 0,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "すい星が 地球のそばを かすめる\nたびに 生物は げき的な 進化を\nとげてきたのだ・・・",
@@ -9456,7 +9636,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Comet exposition",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "鉱山のカギを 手にいれた！",
@@ -9469,7 +9654,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Diamond Mine key alternative",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 2,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         },
         {
           "text": "リフトのカギを 手にいれた！",
@@ -9482,7 +9672,12 @@
           "audit_comment": "ROM text source verified. No definitive event-trigger trace recorded.",
           "context_hint": "Lift key obtained",
           "context_source": "Inferred from neighboring Japanese ROM script strings and original byte placement; not an observed gameplay trace.",
-          "confirmed_player_visible": null
+          "confirmed_player_visible": null,
+          "static_pointer_evidence": {
+            "absolute_24bit_pointer_occurrences": 0,
+            "same_bank_16bit_address_occurrences": 1,
+            "method": "Search original JP ROM for little-endian SNES HiROM 24-bit absolute address (C0+bank), plus matching 16-bit address in same 64KiB bank. A count is a raw-byte occurrence, not a validated executable call."
+          }
         }
       ]
     },
@@ -11999,7 +12194,23 @@
       "player_visibility_status": "Unresolved without tracing event triggers / runtime.",
       "context_labels_assigned": 39,
       "event_trigger_confirmed_count": 0,
-      "context_provenance": "Neighboring extracted script blocks in original Japanese ROM; no emulator available for execution-path proof."
+      "context_provenance": "Neighboring extracted script blocks in original Japanese ROM; no emulator available for execution-path proof.",
+      "static_pointer_scan": {
+        "date": "2026-11-04",
+        "source": "Original 2 MiB Japanese ROM",
+        "entries_examined": 39,
+        "absolute_pointer_hits": 5,
+        "bank_local_16bit_hits": 29,
+        "direct_jumps_proven": 0,
+        "interpretation": "Nonzero pattern hit is only a candidate code reference; zero is NOT evidence of unreachable text because relative/indirect calls exist.",
+        "hint_test_entry": {
+          "id": "ADD-0027",
+          "rom_offset": "0x08D9A1",
+          "absolute_pointer_hits": 0,
+          "same_bank_16bit_hits": 0,
+          "classification": "possible development hint/test string; reachability unresolved"
+        }
+      }
     },
     "chapter_reconciliation": {
       "source": "Azarem/IOGRetranslation/Gaia Gensouki.xlsx; original JP transcription column B (all 36 tabs)",
@@ -22722,7 +22933,8 @@
         "runtime path verification of 39 supplemental texts (especially hint test)",
         "adjudication of 36-chapter reference rows without direct matching",
         "emulator-based exhaustive scene/branch observation"
-      ]
+      ],
+      "static_code_pointer_check": "All 39 supplementary entries checked for direct 24-bit HiROM pointer-byte patterns and bank-local 16-bit patterns. This is a weak static indicator and does not prove or disprove gameplay reachability."
     },
     "dialogue_provenance_reconciliation": {
       "aligned": 1273,
