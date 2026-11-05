@@ -14582,7 +14582,7 @@
         "known_units": 812,
         "unit": "non-exact 36-chapter transcription rows",
         "kind": "manual Japanese/ROM discrepancy review",
-        "status": "New matching original Japanese ROM resolves 3 previously missing chapter room-title references as AREA-0061–0063; 1,641/2,450 chapter rows now exact; 37 second-stage statically unresolved cases require more review."
+        "status": "All 37 difficult cases now have original-ROM source/text, composite/template, graphic provenance or unresolved-specific dispositions. 21 have direct script/template source correspondence, 5 graphic/symbol evidence, 11 still need further original runtime/source attribution. Exact workbook equivalence remains 1,641/2,450; nonexact classifications retained."
       },
       {
         "id": "R3",
@@ -14590,7 +14590,7 @@
         "known_units": 5,
         "unit": "named Roman-letter candidate groups",
         "kind": "graphic tilemap/source reconstruction",
-        "status": "Four Roman-letter map labels independently supported in original-version world-map rip and/or Japanese playthrough, but compressed ROM tilemap/pointer offsets and runtime screenshots not acquired; FORCE/ENEMY evidence exists, ITEM unverified."
+        "status": "Original-JP TEST MAP title at 0x0C8216 excluded as likely development-only; 0x0CA293 proved binary-table false positive. ITEM still lacks exact source tilemap/proven rendering."
       },
       {
         "id": "R4",
@@ -14598,7 +14598,7 @@
         "known_units": null,
         "unit": "execution paths",
         "kind": "requires controllable SNES emulator and save-state coverage",
-        "status": "Exact original Japanese ROM now present and hash-verified, all 39 supplemental and 63 area-title source targets can be read statically. No emulator/runtime execution available in this environment; 0 observed paths."
+        "status": "Matching Japanese ROM has been SHA-256 verified and candidate breakpoints prepared. No SNES emulator binary/core was available to execute gameplay in container; 0 runtime observations. Callback plan remains pending."
       },
       {
         "id": "R6",
@@ -15875,6 +15875,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0013",
+                  "UI-0012"
+                ],
+                "reason": "Inventory text uses a button placeholder; reference instantiates it as B. The inventory heading is separately indexed.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0013",
+                    "rom_offset": "01E5A2",
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0012",
+                    "rom_offset": "01E574",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -15978,6 +16004,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004",
+                  "UI-0012"
+                ],
+                "reason": "Status description is stored as a suffix; the character name and status heading are separately generated.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0012",
+                    "rom_offset": "01E574",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -16600,6 +16652,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "reference_typo_plus_travel_menu_composite",
+                "matched_master_ids": [
+                  "UI-0005",
+                  "DLG-0099"
+                ],
+                "reason": "The reference question omits す in むかいますか; the question, cancel option, and Edward Castle destination are separately represented.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0005",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "DLG-0099",
+                    "rom_offset": "0x03B179",
+                    "rom_end_exclusive": "0x03B18D"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -17259,6 +17337,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-0301"
+                ],
+                "reason": "The flute addresses Tem in the existing castle-prison message.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0301",
+                    "rom_offset": "0x04D178",
+                    "rom_end_exclusive": "0x04D1C6"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             },
             {
@@ -17774,6 +17872,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "ui_graphic_item_segment_not_rom_located",
+                "matched_master_ids": [
+                  "UI-0030",
+                  "LBL-0002"
+                ],
+                "reason": "FORCE is literal ROM ASCII at 0x01E77A and ENEMY has visual-raster evidence; neither literal ASCII nor the 0x21.. alphabet coding of ITEM appears contiguous in the matching Japanese ROM. It may be graphically constructed.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0030",
+                    "rom_offset": "01E77A",
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "LBL-0002",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -18006,6 +18130,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004"
+                ],
+                "reason": "Freedan's name is an inserted status-screen field, followed by the common description.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -18109,6 +18253,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "workbook_literal_not_recovered",
+                "matched_master_ids": [],
+                "reason": "Reference has Tem asking おばあさんを知ってるの; no matching master line. Original-ROM scan for contiguous kana code sequence おばあさん returned no hit. Different coding/control segmentation remains possible.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -18326,6 +18482,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-0289"
+                ],
+                "reason": "Karen names Peggy and calls her cute during her Edward Castle escape dialogue.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0289",
+                    "rom_offset": "0x04C967",
+                    "rom_end_exclusive": "0x04CA50"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             },
             {
@@ -18807,6 +18983,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "transcription_discrepancy_original_rom_preferred",
+                "matched_master_ids": [
+                  "DLG-0203"
+                ],
+                "reason": "The reference ends the second choice as よくわかんねえやし; the original reads よくわかんねえや. Do not copy the extra し.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0203",
+                    "rom_offset": "0x04A7B4",
+                    "rom_end_exclusive": "0x04A7F1"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             }
           ],
@@ -18857,6 +19053,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "original_version_graphical_evidence_without_rom_tilemap",
+                "matched_master_ids": [],
+                "reason": "Roman-letter label Itory is documented by the original-version world-map rip, but its compressed ROM tilemap and this-session execution are not proven.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -21046,6 +21254,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [
+                  "DLG-0456"
+                ],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0456",
+                    "rom_offset": "0x05ACA5",
+                    "rom_end_exclusive": "0x05ACBD"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -21142,6 +21370,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [
+                  "DLG-0456"
+                ],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0456",
+                    "rom_offset": "0x05ACA5",
+                    "rom_end_exclusive": "0x05ACBD"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -21710,6 +21958,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-0468"
+                ],
+                "reason": "The Freesia travel narration occurs within the existing exchange about the dog Turbo.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0468",
+                    "rom_offset": "0x05B3A3",
+                    "rom_end_exclusive": "0x05B428"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             }
           ],
@@ -22227,6 +22495,38 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004",
+                  "ABN-0001",
+                  "UI-0011"
+                ],
+                "reason": "The displayed menu combines the status template, ability name and menu labels.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "ABN-0001",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0011",
+                    "rom_offset": "01E551",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -22504,6 +22804,44 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004",
+                  "ABN-0001",
+                  "UI-0012",
+                  "UI-0011"
+                ],
+                "reason": "Multi-field status menu; text already represented as separate labels and a common template.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "ABN-0001",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0012",
+                    "rom_offset": "01E574",
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0011",
+                    "rom_offset": "01E551",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -22669,6 +23007,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "original_version_graphical_evidence_without_rom_tilemap",
+                "matched_master_ids": [],
+                "reason": "Roman-letter label Diamond Valley is documented by the original-version world-map rip, but its compressed ROM tilemap and this-session execution are not proven.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -22869,6 +23219,44 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004",
+                  "ABN-0004",
+                  "UI-0012",
+                  "UI-0011"
+                ],
+                "reason": "Freedan ability and name are runtime/menu fields combined with the common status template.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "ABN-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0012",
+                    "rom_offset": "01E574",
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0011",
+                    "rom_offset": "01E551",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -23747,6 +24135,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "original_version_graphical_evidence_without_rom_tilemap",
+                "matched_master_ids": [],
+                "reason": "Roman-letter label NEELE'S COTAGE is documented by the original-version world-map rip, but its compressed ROM tilemap and this-session execution are not proven.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -23912,6 +24312,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "original_version_graphical_evidence_without_rom_tilemap",
+                "matched_master_ids": [],
+                "reason": "Roman-letter label NASCA is documented by the original-version world-map rip, but its compressed ROM tilemap and this-session execution are not proven.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -27417,6 +27829,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -27575,6 +27999,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [
+                  "DLG-0456"
+                ],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0456",
+                    "rom_offset": "0x05ACA5",
+                    "rom_end_exclusive": "0x05ACBD"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -28872,6 +29316,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "item_name_plus_description_combined",
+                "matched_master_ids": [
+                  "ITN-0023",
+                  "ITD-0024"
+                ],
+                "reason": "The necklace stone name and its item-description text are separate existing source fields.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "ITN-0023",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "ITD-0024",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -29329,6 +29799,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "abbreviated_speaker_excerpt_not_uniquely_attributed",
+                "matched_master_ids": [
+                  "DLG-0887"
+                ],
+                "reason": "Rob's あっ is a truncation of あっ その石は; reference alone cannot prove an independent script or runtime branch.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0887",
+                    "rom_offset": "0x07B5BD",
+                    "rom_end_exclusive": "0x07B654"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -31225,6 +31715,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "transcription_discrepancy_original_rom_preferred",
+                "matched_master_ids": [
+                  "DLG-0991"
+                ],
+                "reason": "The reference's 不思議場な所 conflicts with the original 不思議な場所. Source has the coherent in-game wording.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0991",
+                    "rom_offset": "0x07E283",
+                    "rom_end_exclusive": "0x07E2F1"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -31507,6 +32017,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0019",
+                  "ITN-0024"
+                ],
+                "reason": "Reference substitutes item 遺書 into the existing discard-confirmation template.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0019",
+                    "rom_offset": "01E694",
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "ITN-0024",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -31603,6 +32139,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -33432,6 +33980,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "transcript_placeholder_excluded",
+                "matched_master_ids": [],
+                "reason": "(UNREADABLE) is a secondary-transcription placeholder, not an original Japanese game-text string.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -33823,6 +34383,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "original_symbol_ids_preserved_not_unicode_equivalent",
+                "matched_master_ids": [
+                  "DLG-0096"
+                ],
+                "reason": "Master stores the six unique original glyph IDs 80DB..80E0; the transcript's Egyptian Unicode shapes have not been shown to be equivalent to those glyph bitmaps. The following prose is in the original source.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0096",
+                    "rom_offset": "0x039B32",
+                    "rom_end_exclusive": "0x039C55"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -33902,6 +34482,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "DLG-1077"
+                ],
+                "reason": "The 93-hit score is the runtime instance of VALUE_C6:0300AC0A in the original award message.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-1077",
+                    "rom_offset": "0x08AD1C",
+                    "rom_end_exclusive": "0x08AD77"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -33929,6 +34529,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "DLG-1076"
+                ],
+                "reason": "The 91-hit score is the runtime instance of VALUE_C6:0300AC0A in the original end-of-challenge message.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-1076",
+                    "rom_offset": "0x08ACE8",
+                    "rom_end_exclusive": "0x08AD1C"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -34224,6 +34844,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "template_or_runtime_composite_supported",
+                "matched_master_ids": [
+                  "UI-0004",
+                  "UI-0011"
+                ],
+                "reason": "Shadow status is the common suffix following a runtime-generated character name.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "UI-0004",
+                    "rom_offset": null,
+                    "rom_end_exclusive": null
+                  },
+                  {
+                    "id": "UI-0011",
+                    "rom_offset": "01E551",
+                    "rom_end_exclusive": null
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -34415,6 +35061,32 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "two_source_messages_combined_runtime_unverified",
+                "matched_master_ids": [
+                  "DLG-0001",
+                  "ADD-0001"
+                ],
+                "reason": "Red jewel found and full inventory have independently verified original-ROM source spans; the combined output and exact trigger remain unexecuted.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0001",
+                    "rom_offset": "0x00C7E8",
+                    "rom_end_exclusive": "0x00C7FF"
+                  },
+                  {
+                    "id": "ADD-0001",
+                    "rom_offset": "0x01E974",
+                    "rom_end_exclusive": "0x01E991"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -34722,6 +35394,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-1242"
+                ],
+                "reason": "Karen's short address to Tem is present in the source dialogue.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-1242",
+                    "rom_offset": "0x09BBF1",
+                    "rom_end_exclusive": "0x09BC15"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             },
             {
@@ -35207,6 +35899,18 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "unverified_numeric_source",
+                "matched_master_ids": [],
+                "reason": "Number 10995 is a standalone reference datum, not located as a direct ASCII string in the original ROM; possible visual/UI computation or non-game annotation remains unverified.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -36381,6 +37085,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "punctuation_only_scene_attribution_unproved",
+                "matched_master_ids": [
+                  "DLG-0456"
+                ],
+                "reason": "Reference contains only ellipses or a speaker plus ellipses. Identical-looking punctuation is insufficient to attribute an executable source address.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-0456",
+                    "rom_offset": "0x05ACA5",
+                    "rom_end_exclusive": "0x05ACBD"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "source_attribution_or_rendering_recovery_not_exhaustive"
               }
             },
             {
@@ -36982,6 +37706,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-1242"
+                ],
+                "reason": "The same short Karen line is source-present, although independent playback at this chapter is not observed.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-1242",
+                    "rom_offset": "0x09BBF1",
+                    "rom_end_exclusive": "0x09BC15"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             },
             {
@@ -37032,6 +37776,26 @@
                   "independent_original_rom_re_read": false,
                   "emulator_observed": false
                 }
+              },
+              "original_rom_followup": {
+                "classification": "source_excerpt_located",
+                "matched_master_ids": [
+                  "DLG-1243"
+                ],
+                "reason": "Karen's short agreement occurs within the final dialogue after Tem speaks.",
+                "confidence": "source_correspondence_only",
+                "source_locations": [
+                  {
+                    "id": "DLG-1243",
+                    "rom_offset": "0x09BC15",
+                    "rom_end_exclusive": "0x09BC55"
+                  }
+                ],
+                "source_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+                "source_evidence": "Existing master extracted from exact source ROM; selected 14 dialogue/additional source span boundaries independently rechecked against user-uploaded ROM this turn",
+                "emulator_frame": null,
+                "screen_observation_confirmed": false,
+                "status": "original_script_source_present"
               }
             },
             {
@@ -38649,6 +39413,32 @@
         ],
         "source": "User-provided unheadered Japanese 2MiB ROM, hash identical to established original",
         "runtime_execution_proof": false
+      },
+      "original_rom_followup_2026_11_05": {
+        "reviewed_previous_hard_cases": 37,
+        "counts_by_disposition": {
+          "source_excerpt_located": 6,
+          "transcription_discrepancy_original_rom_preferred": 2,
+          "template_or_runtime_composite_supported": 10,
+          "item_name_plus_description_combined": 1,
+          "two_source_messages_combined_runtime_unverified": 1,
+          "reference_typo_plus_travel_menu_composite": 1,
+          "abbreviated_speaker_excerpt_not_uniquely_attributed": 1,
+          "original_version_graphical_evidence_without_rom_tilemap": 4,
+          "ui_graphic_item_segment_not_rom_located": 1,
+          "punctuation_only_scene_attribution_unproved": 6,
+          "original_symbol_ids_preserved_not_unicode_equivalent": 1,
+          "workbook_literal_not_recovered": 1,
+          "transcript_placeholder_excluded": 1,
+          "unverified_numeric_source": 1
+        },
+        "prior_37_rows_with_source_or_template_identified": 21,
+        "prior_37_rows_with_external_graphic_or_original_glyph_evidence": 5,
+        "prior_37_rows_still_needing_direct_runtime_or_primary_source_attribution": 11,
+        "unchanged_reference_total": 2450,
+        "unchanged_exact_verbatim_reference_matches": 1641,
+        "caveat": "Classifying a reference as a fragment of a ROM-derived script or as an instance of a template is not equivalent to proving a runtime branch or byte-exact equality of the workbook transcription. Underlying old categories are retained for audit history.",
+        "note": "All 37 prior challenging rows individually annotated. A few references are incomplete excerpts, contain probable typos, or present screen text as combined UI fields. Unresolved values, printed ellipses and rasterized item labels are still retained as unverified."
       }
     },
     "graphical_and_area_text_audit": {
@@ -38964,7 +39754,8 @@
           "Compressed graphical titles can be read without direct CPU reads at the decoded literal offset.",
           "Repeated messages are deliberately duplicated; same display text cannot establish source address.",
           "Original JP ROM not present, so none of the candidate bus values was tested."
-        ]
+        ],
+        "blocking_reason": "No compatible SNES emulator/core available in this execution container, and no outbound network/binary download path for installation. Only static original-ROM comparisons performed."
       },
       "direct_original_japanese_rom_audit_2026_11_05": {
         "original_japanese_rom_now_available": true,
@@ -39049,6 +39840,60 @@
           "recovered_area_title_records": 3,
           "status": "Static source bytes inspected; per-entry evidence recorded. No new runtime observation."
         }
+      },
+      "remaining_two_ff_cc_candidate_resolution_2026_11_05": {
+        "original_japanese_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+        "prior_candidate_total": 2,
+        "results": [
+          {
+            "start_offset": "0x0C8215",
+            "payload_start_offset": "0x0C8216",
+            "end_exclusive": "0x0C821F",
+            "raw_hex": "ff34253334202d2130cc",
+            "decoded": "TEST MAP",
+            "classification": "valid_encoded_roman_title_but_development_or_test_label",
+            "player_visible_in_standard_game": false,
+            "runtime_trigger_proven": false,
+            "action": "excluded_from_player_visible_master; preserved as audit evidence",
+            "alphabet_mapping": "0x21=A,0x25=E,0x2D=M,0x30=P,0x33=S,0x34=T,0x20=space"
+          },
+          {
+            "start_offset": "0x0CA292",
+            "payload_start_offset": "0x0CA293",
+            "end_exclusive": "0x0CA297",
+            "raw_hex": "ffc38a1bcc",
+            "classification": "binary_table_false_positive",
+            "reason": "FF C3 8A 1B C6 through CE repeats at nearby offsets; the apparent CC at 0x0CA296 is the low byte of a varying table field, not a displayed string terminator",
+            "adjacent_series_ff_offsets": [
+              "0x0CA25C",
+              "0x0CA265",
+              "0x0CA26E",
+              "0x0CA277",
+              "0x0CA280",
+              "0x0CA289",
+              "0x0CA292",
+              "0x0CA29B",
+              "0x0CA2A4"
+            ],
+            "action": "excluded_from_text_extraction"
+          }
+        ],
+        "no_new_player_visible_entries": true
+      },
+      "original_rom_additional_string_scans_2026_11_05": {
+        "raw_ascii_queries": {
+          "FORCE": 1,
+          "ENEMY": 0,
+          "ITEM": 0,
+          "TEST MAP": 0
+        },
+        "encoded_latin_font_queries": {
+          "TEST MAP": 1,
+          "ITEM": 0,
+          "ENEMY": 0
+        },
+        "notes": "Only exact contiguous sequences were searched. Rasterized or separately composited lettering can evade both searches; negative search is not evidence that the label is never displayed.",
+        "without_original_rom_emulator_execution": true
       }
     },
     "dialogue_provenance_reconciliation": {
