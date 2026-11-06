@@ -13912,39 +13912,129 @@
       "entries": [
         {
           "text": "サイコダッシュ",
-          "id": "ABN-0001"
+          "id": "ABN-0001",
+          "rom_offset": "0x01E318",
+          "rom_end_exclusive": "0x01E322",
+          "source_hex": "948b939926c795c92000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 1,
+          "pointer_site": "0x01E302",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "サイコスライダー",
-          "id": "ABN-0002"
+          "id": "ABN-0002",
+          "rom_offset": "0x01E322",
+          "rom_end_exclusive": "0x01E32C",
+          "source_hex": "948b9396b08b99265b00",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 2,
+          "pointer_site": "0x01E304",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "スピンダッシュ",
-          "id": "ABN-0003"
+          "id": "ABN-0003",
+          "rom_offset": "0x01E32C",
+          "rom_end_exclusive": "0x01E337",
+          "source_hex": "96a427b79926c795c92000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 3,
+          "pointer_site": "0x01E306",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "ダークフライヤー",
-          "id": "ABN-0004"
+          "id": "ABN-0004",
+          "rom_offset": "0x01E338",
+          "rom_end_exclusive": "0x01E342",
+          "source_hex": "99265b91a5b08bad5b00",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 5,
+          "pointer_site": "0x01E30A",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "オーラバリア",
-          "id": "ABN-0005"
+          "id": "ABN-0005",
+          "rom_offset": "0x01E342",
+          "rom_end_exclusive": "0x01E34C",
+          "source_hex": "8e5bb0a326b18a202000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 6,
+          "pointer_site": "0x01E30C",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "アースクエイカー",
-          "id": "ABN-0006"
+          "id": "ABN-0006",
+          "rom_offset": "0x01E34C",
+          "rom_end_exclusive": "0x01E355",
+          "source_hex": "8a5b96918d8b8f5b00",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 7,
+          "pointer_site": "0x01E30E",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "ディフェンサー",
-          "id": "ABN-0007"
+          "id": "ABN-0007",
+          "rom_offset": "0x01E356",
+          "rom_end_exclusive": "0x01E360",
+          "source_hex": "9c26c3a5c5b7945b2000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 9,
+          "pointer_site": "0x01E312",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "ダークコーラー",
-          "id": "ABN-0008"
+          "id": "ABN-0008",
+          "rom_offset": "0x01E360",
+          "rom_end_exclusive": "0x01E36A",
+          "source_hex": "99265b91935bb05b2000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 10,
+          "pointer_site": "0x01E314",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみ4",
-          "id": "ABN-0009"
+          "id": "ABN-0009",
+          "rom_offset": "0x01E36A",
+          "rom_end_exclusive": "0x01E36F",
+          "source_hex": "7f7b342000",
+          "source_kind": "original_JP_ROM_ability_name_pointer_table",
+          "pointer_table_start": "0x01E300",
+          "pointer_slot": 11,
+          "pointer_site": "0x01E316",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         }
       ]
     },
@@ -13954,43 +14044,143 @@
       "entries": [
         {
           "text": "てきに たいあたりする、\nはかいできる しょうがいぶつもある、",
-          "id": "ABD-0001"
+          "id": "ABD-0001",
+          "rom_offset": "0x01E389",
+          "rom_end_exclusive": "0x01E3AD",
+          "source_hex": "0d6e6271206b5d5c6b836884250d75615d6e2662842067c05e61265d77266d7e5c842500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 1,
+          "pointer_site": "0x01E371",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "スライディングこうげきを おこなう、\nせまいつうろを とおりぬけられる、",
-          "id": "ABD-0002"
+          "id": "ABD-0002",
+          "rom_offset": "0x01E3AD",
+          "rom_end_exclusive": "0x01E3D6",
+          "source_hex": "0d96b08b9c26c3b79126655e64266288206065705e250d697a5d6d5e8688206f608372648285842500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 2,
+          "pointer_site": "0x01E373",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "かいてんしながら たいあたりする、\nはんどうで さかを のぼれる、",
-          "id": "ABD-0003"
+          "id": "ABD-0003",
+          "rom_offset": "0x01E3D6",
+          "rom_end_exclusive": "0x01E3FD",
+          "source_hex": "0d615d6e896770612682206b5d5c6b836884250d75896f265e6e26206661882074792685842500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 3,
+          "pointer_site": "0x01E375",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "けんから しょうげきはが とぶ、",
-          "id": "ABD-0004"
+          "id": "ABD-0004",
+          "rom_offset": "0x01E3FE",
+          "rom_end_exclusive": "0x01E413",
+          "source_hex": "0d648961822067c05e642662756126206f77262500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 5,
+          "pointer_site": "0x01E379",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヤミの バリアが じぶんのまわりを\nかいてんする、",
-          "id": "ABD-0005"
+          "id": "ABD-0005",
+          "rom_offset": "0x01E413",
+          "rom_end_exclusive": "0x01E432",
+          "source_hex": "0dada97420a326b18a6126206726772689747a8783880d615d6e8968842500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 6,
+          "pointer_site": "0x01E37B",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "じしんをおこし てきを うごけなく\nする、",
-          "id": "ABD-0006"
+          "id": "ABD-0006",
+          "rom_offset": "0x01E432",
+          "rom_end_exclusive": "0x01E44B",
+          "source_hex": "0d6726678988606567206e6288205e65266470630d68842500",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 7,
+          "pointer_site": "0x01E37D",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみ1",
-          "id": "ABD-0007"
+          "id": "ABD-0007",
+          "rom_offset": "0x01E44C",
+          "rom_end_exclusive": "0x01E451",
+          "source_hex": "7f7b312000",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 9,
+          "pointer_site": "0x01E381",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみ1",
-          "id": "ABD-0008"
+          "id": "ABD-0008",
+          "rom_offset": "0x01E451",
+          "rom_end_exclusive": "0x01E456",
+          "source_hex": "7f7b312000",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 10,
+          "pointer_site": "0x01E383",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみ1",
-          "id": "ABD-0009"
+          "id": "ABD-0009",
+          "rom_offset": "0x01E456",
+          "rom_end_exclusive": "0x01E45B",
+          "source_hex": "7f7b312000",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 11,
+          "pointer_site": "0x01E385",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみ1",
-          "id": "ABD-0010"
+          "id": "ABD-0010",
+          "rom_offset": "0x01E45B",
+          "rom_end_exclusive": "0x01E460",
+          "source_hex": "7f7b312000",
+          "source_kind": "original_JP_ROM_ability_description_pointer_table",
+          "pointer_table_start": "0x01E36F",
+          "pointer_slot": 12,
+          "pointer_site": "0x01E387",
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         }
       ]
     },
@@ -14526,19 +14716,51 @@
       "entries": [
         {
           "text": "フリーダン",
-          "id": "UI-0001"
+          "id": "UI-0001",
+          "rom_offset": "0x01E46D",
+          "rom_end_exclusive": "0x01E474",
+          "source_hex": "a5b15b9926b700",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "ボタンで\nつかうことができます、",
-          "id": "UI-0002"
+          "id": "UI-0002",
+          "rom_offset": "0x01E5CA",
+          "rom_end_exclusive": "0x01E5DF",
+          "source_hex": "a72699b76e260d6d615e656f61266e26627a682500",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "substring_fragment",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを えらんで けってい\nしてください、",
-          "id": "UI-0003"
+          "id": "UI-0003",
+          "rom_offset": "0x01E60D",
+          "rom_end_exclusive": "0x01E62C",
+          "source_hex": "03000196057e6c7e7488205f82896e262064bd6e5d0d676e636b26665d2500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "のじょうたいです\nけっていボタンで\nヤミのちからのせつめいが\nひょうじされます",
-          "id": "UI-0004"
+          "id": "UI-0004",
+          "rom_offset": "0x01E71F",
+          "rom_end_exclusive": "0x01E758",
+          "source_hex": "03000196050460e481d40a746726c05e6b5d6e26680d64bd6e5da72699b76e260dada9746c618274696d7d5d61260d76c05e672666857a6800",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_dynamic_prefix",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "どこへ むかいますか？",
@@ -14568,121 +14790,281 @@
           "text": "もちもの\nやみのちから",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E551",
-          "id": "UI-0011"
+          "id": "UI-0011",
+          "rom_offset": "0x01E551",
+          "rom_end_exclusive": "0x01E56D",
+          "source_hex": "03000108037e6c7e74018e030462da81c60a0164017f7b746c618200",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "two_segment_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちもの\n ならべかえ\n すてる\n じょうたい",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E574",
-          "id": "UI-0012"
+          "id": "UI-0012",
+          "rom_offset": "0x01E574",
+          "rom_end_exclusive": "0x01E594",
+          "source_hex": "0300018605207e6c7e740d2070827826615f0d20686e840d206726c05e6b5d00",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを そうびします、\nそうびしたものは 〈指定ボタン〉ボタンで\nつかうことができます、",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E5A2",
-          "id": "UI-0013"
+          "id": "UI-0013",
+          "rom_offset": "0x01E5A2",
+          "rom_end_exclusive": "0x01E5DF",
+          "source_hex": "03000196057e6c7e7488206a5e7626677a68250d6a5e7626676b7e747520031404dfe581260b0300a72699b76e260d6d615e656f61266e26627a682500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_dynamic_button",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを ならべかえます、",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E5E7",
-          "id": "UI-0014"
+          "id": "UI-0014",
+          "rom_offset": "0x01E5E7",
+          "rom_end_exclusive": "0x01E5FC",
+          "source_hex": "03000196057e6c7e74882070827826615f7a682500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを すてます、",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E5FC",
-          "id": "UI-0015"
+          "id": "UI-0015",
+          "rom_offset": "0x01E5FC",
+          "rom_end_exclusive": "0x01E60D",
+          "source_hex": "03000196057e6c7e748820686e7a682500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "どれと どれを こうかんしますか？\n１つめを えらんでください、",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E62C",
-          "id": "UI-0016"
+          "id": "UI-0016",
+          "rom_offset": "0x01E62C",
+          "rom_end_exclusive": "0x01E656",
+          "source_hex": "03000196056f26856f206f26858820655e6189677a68613f0d316d7d88205f82896e26636b26665d2500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "２つめを えらんでください、",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E656",
-          "id": "UI-0017"
+          "id": "UI-0017",
+          "rom_offset": "0x01E656",
+          "rom_end_exclusive": "0x01E66C",
+          "source_hex": "0300019605326d7d88205f82896e26636b26665d2500",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "どの もちものを すてますか？",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E66C",
-          "id": "UI-0018"
+          "id": "UI-0018",
+          "rom_offset": "0x01E66C",
+          "rom_end_exclusive": "0x01E682",
+          "source_hex": "03000196056f2674207e6c7e748820686e7a68613f00",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "〈アイテム名〉を すてますか？\n   いいえ\n   はい",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E694",
-          "id": "UI-0019"
+          "id": "UI-0019",
+          "rom_offset": "0x01E694",
+          "rom_end_exclusive": "0x01E6B5",
+          "source_hex": "03000196050462da81e80a8820686e7a68613f0d2020205d5d5f0d202020755d00",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_dynamic_item_name",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを\nそうびする",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E6B5",
-          "id": "UI-0020"
+          "id": "UI-0020",
+          "rom_offset": "0x01E6B5",
+          "rom_end_exclusive": "0x01E6C7",
+          "source_hex": "03000186057e6c7e74880d6a5e7626688400",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちもの\nならびかえ",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E6C7",
-          "id": "UI-0021"
+          "id": "UI-0021",
+          "rom_offset": "0x01E6C7",
+          "rom_end_exclusive": "0x01E6D8",
+          "source_hex": "03000186057e6c7e740d70827626615f00",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "もちものを\nすてる",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E6D8",
-          "id": "UI-0022"
+          "id": "UI-0022",
+          "rom_offset": "0x01E6D8",
+          "rom_end_exclusive": "0x01E6E7",
+          "source_hex": "03000186057e6c7e74880d686e8400",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やみのちから\nせつめい",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E6E7",
-          "id": "UI-0023"
+          "id": "UI-0023",
+          "rom_offset": "0x01E6E7",
+          "rom_end_exclusive": "0x01E6FA",
+          "source_hex": "03000186057f7b746c61820d696d7d5d000300",
+          "source_kind": "original_JP_ROM_inline_menu_script_window",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "inline_menu_script",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "STYLE",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E501",
-          "id": "UI-0024"
+          "id": "UI-0024",
+          "rom_offset": "0x01E501",
+          "rom_end_exclusive": "0x01E506",
+          "source_hex": "5354594c45",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "HP",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E514",
-          "id": "UI-0025"
+          "id": "UI-0025",
+          "rom_offset": "0x01E514",
+          "rom_end_exclusive": "0x01E516",
+          "source_hex": "4850",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "DP",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E519",
-          "id": "UI-0026"
+          "id": "UI-0026",
+          "rom_offset": "0x01E519",
+          "rom_end_exclusive": "0x01E51B",
+          "source_hex": "4450",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "STR",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E51E",
-          "id": "UI-0027"
+          "id": "UI-0027",
+          "rom_offset": "0x01E51E",
+          "rom_end_exclusive": "0x01E521",
+          "source_hex": "535452",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "DEF",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E524",
-          "id": "UI-0028"
+          "id": "UI-0028",
+          "rom_offset": "0x01E524",
+          "rom_end_exclusive": "0x01E527",
+          "source_hex": "444546",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "PAUSE",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E76F",
-          "id": "UI-0029"
+          "id": "UI-0029",
+          "rom_offset": "0x01E76F",
+          "rom_end_exclusive": "0x01E775",
+          "source_hex": "504155534500",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "FORCE",
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E77A",
-          "id": "UI-0030"
+          "id": "UI-0030",
+          "rom_offset": "0x01E77A",
+          "rom_end_exclusive": "0x01E780",
+          "source_hex": "464f52434500",
+          "source_kind": "original_JP_ROM_inline_menu_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_window_classification": "literal_ascii",
+          "source_byte_scope": "ROM bytes preserve script opcodes and dynamic substitutions where present; a window is not a contiguous literal and is not runtime proof",
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "id": "UI-0031",
@@ -17860,7 +18242,7 @@
       ]
     }
   ],
-  "version": "v31",
+  "version": "v32",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -17928,16 +18310,16 @@
         "area_titles": 63,
         "world_map_graphic_labels": 22
       },
-      "entries_with_direct_rom_offset_in_this_file": 1600,
-      "entries_without_direct_rom_offset_in_this_file": 120,
+      "entries_with_direct_rom_offset_in_this_file": 1643,
+      "entries_without_direct_rom_offset_in_this_file": 77,
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61,
       "entries_with_compound_direct_ROM_source_segments": 6,
-      "entries_with_any_original_ROM_byte_source_provenance": 1606,
-      "entries_without_verified_original_ROM_source_provenance": 114,
-      "source_offset_inventory_correction": "v31: 112 additional item-menu entries (48 names, 64 descriptions) verified against ROM tables 0x01DA62 and 0x01DD51. 1,600 contiguous verified byte spans and 6 composite two-segment ability sources. Metadata totals recounted directly from annotated entries."
+      "entries_with_any_original_ROM_byte_source_provenance": 1649,
+      "entries_without_verified_original_ROM_source_provenance": 71,
+      "source_offset_inventory_correction": "v32: 19 ability source records (9 names, 10 descriptions) verified against ROM pointer tables, plus 24 menu UI source windows and literal spans. 1,643 entries now have ROM-start annotations and 6 have verified compound segment sources; 71 without verified direct source. Inline windows include control opcodes and dynamic inserts, rather than being standalone text literals."
     },
-    "completion_state": "1,720 retained Japanese player-facing text entries. v31: 48 item names and 64 item descriptions have verified original-Japanese ROM offsets, full source bytes and pointer slots; 1,600 direct contiguous byte spans plus six composite two-segment ability instructions (1,606 total source-attributed; 114 remain without verified original ROM byte provenance). 94 glyph-code mappings crosschecked without conflicts. Runtime reachability and exhaustive graphics/conditional branch coverage are not proven.",
+    "completion_state": "1,720 Japanese player-facing entries retained. v32 attributes 19 ability texts via name/description pointer tables at 0x01E300/0x01E36F and 24 UI messages/labels via exact original-ROM inline script windows or literal substrings. 1,643 direct source/window annotations plus six segmented ability instruction entries; 71 without verified ROM byte attribution. Native emulator execution and exhaustive graphical/conditional branch coverage remain incomplete.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -46116,6 +46498,61 @@
       "newly_added_text_entries": 0,
       "new_original_rom_source_annotations": 112,
       "local_source_audit_sha256": "019a0fe42811cebec12b420896b9bc62c3f41903a0ee44f7f5099ecb135f16de"
+    },
+    "original_rom_menu_ui_ability_reconstruction_2026_11_06": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "ability_names": {
+        "pointer_table": "0x01E300",
+        "slots": 12,
+        "matched_existing_entries": 9,
+        "empty_slot_indices": [
+          0,
+          4,
+          8
+        ],
+        "source_bytes_verified": 9
+      },
+      "ability_descriptions": {
+        "pointer_table": "0x01E36F",
+        "slots": 13,
+        "matched_existing_entries": 10,
+        "empty_slot_indices": [
+          4,
+          8
+        ],
+        "slot_0_reuses_item_description": "0x01DDD1",
+        "repeated_placeholder_yami1_indices": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "source_bytes_verified": 10
+      },
+      "menu_UI": {
+        "source_attributed_records": 24,
+        "literal_labels_and_fragments": 9,
+        "inline_control_windows": 15,
+        "remaining_unattributed_ids": [
+          "UI-0005",
+          "UI-0006",
+          "UI-0007",
+          "UI-0008",
+          "UI-0009",
+          "UI-0010",
+          "UI-0031"
+        ],
+        "note": "UI-0002 is already a literal substring of UI-0013. UI-0011 has separated text segments. UI-0004, UI-0013 and UI-0019 have runtime-variable insertions; complete on-screen strings were not independently executed."
+      },
+      "overlap_note": "UI-0008–UI-0010 are represented inside the existing composite DLG-1263, DLG-1269, DLG-1270, DLG-1273 transcriptions, but not individually byte-localized; do not count as verified new byte-source starts.",
+      "direct_literal_names_and_descriptions_aligned": 19,
+      "total_new_ROM_source_annotations": 43,
+      "new_distinct_player_facing_text_records": 0,
+      "scanned_with_native_emulator": false,
+      "audit_files_local_sha256": {
+        "ability": "2cbf10ee23b09383b991558d85bbb3a179b20f61c8e7ac1a0806cdc0c8a505c7",
+        "ui": "2021e013c5a3083b48c98eeeeee89cfa440fbaabd7c2ea79920b400614d338c9"
+      }
     }
   }
 }
