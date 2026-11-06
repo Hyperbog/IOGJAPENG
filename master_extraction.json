@@ -12834,10 +12834,104 @@
           "graphical_bpp": 4,
           "decompression_verified_independent_bit_readers": 2,
           "roman_to_japanese_title_text_transcribed_visually": true,
-          "potential_24bit_pointer_site": "0x15452C",
+          "potential_24bit_pointer_site": null,
           "potential_24bit_pointer_bytes": "A2 80 D9",
           "pointer_execution_confirmed": false,
-          "runtime_visual_proof": false
+          "runtime_visual_proof": false,
+          "graphical_rom_metadata_verified": true,
+          "rom_asset_pointer_sites": [
+            "0x0DAB0B",
+            "0x0DAF1A"
+          ],
+          "rom_asset_pointer_cpu_addresses": [
+            "0x9980A2",
+            "0x9980A2"
+          ],
+          "title_scene_ids": [
+            "0xE5",
+            "0xFC"
+          ],
+          "original_japanese_metadata_schema": "GaiaLabs JP scene mapdef: bitmap opcode 03, palette opcode 04, tileset opcode 05, tilemap opcode 06",
+          "tileset_source_rom_offset": "0x1B1A28",
+          "tileset_decompressed_bytes": 2048,
+          "tileset_decompressed_sha256": "e13057d86a053e69a54671f7193febc442ef8e2350172ecfb912cd1c47a1ba97",
+          "palette_source_rom_offset": "0x1E595E",
+          "map_layers_by_scene": {
+            "scene_e5": {
+              "scene_id": "0xE5",
+              "metadata_start": "0x0DAAFD",
+              "metadata_end_exclusive": "0x0DAB2B",
+              "title_asset_pointer_site": "0x0DAB0B",
+              "palette_pointer_site": "0x0DAB13",
+              "metatile_pointer_site": "0x0DAB1B",
+              "tilemap_pointer_sites": [
+                "0x0DAB20",
+                "0x0DAB25"
+              ],
+              "tilemap_sources": [
+                "0x1F6C61",
+                "0x1F7B61"
+              ],
+              "map_sha256": [
+                "f694b6d0ff51ee471d25e0abc2d2fe6adc4ae1879ebe16b61a65c76ec6ee2fec",
+                "f5e9fdfe65a66cc2c3774b9233c05665a6cb78a079c676a634933990b9c5afbb"
+              ],
+              "compressed_stream_source_sizes": [
+                133,
+                93
+              ],
+              "expanded_bytes_per_map": [
+                257,
+                257
+              ]
+            },
+            "scene_fc": {
+              "scene_id": "0xFC",
+              "metadata_start": "0x0DAF0C",
+              "metadata_end_exclusive": "0x0DAF4E",
+              "title_asset_pointer_site": "0x0DAF1A",
+              "palette_pointer_site": "0x0DAF22",
+              "metatile_pointer_site": "0x0DAF2A",
+              "tilemap_pointer_sites": [
+                "0x0DAF2F",
+                "0x0DAF34"
+              ],
+              "tilemap_sources": [
+                "0x1F6DF0",
+                "0x1F761A"
+              ],
+              "map_sha256": [
+                "de5a854e8118cd738c63d4cb1715e28343e007c03752fb9c801c0426f3f8d28f",
+                "256b6d822304295b19be304c8067079982761455454819f76d83f26c4ccb8a49"
+              ],
+              "compressed_stream_source_sizes": [
+                129,
+                117
+              ],
+              "expanded_bytes_per_map": [
+                257,
+                257
+              ],
+              "additional_bitmap": {
+                "source": "0x160824",
+                "pointer_site": "0x0DAF3B",
+                "decompressed_bytes": 8192,
+                "content": "Character/figure sprite graphics, not additional text",
+                "source_sha256": "8d6a3f9a19f45b90cbb9f184f5f5307afbfe2e89e26133b4418298f8703c58fb"
+              },
+              "additional_palette": {
+                "source": "0x1F4E1A",
+                "pointer_site": "0x0DAF43"
+              },
+              "additional_spritemap": {
+                "source": "0x1E40C2",
+                "pointer_site": "0x0DAF4A",
+                "decompressed_bytes": 596
+              }
+            }
+          },
+          "rejected_incidental_pointer_pattern_site": "0x15452C",
+          "rejected_pattern_reason": "Three-byte sequence A2 80 D9 occurs inside compressed data beginning 0x1543D0, so it is not a validated reference. Two structurally parsed scene metadata pointers A2 80 99 are independently verified."
         }
       ]
     },
@@ -15854,7 +15948,7 @@
       ]
     }
   ],
-  "version": "v24",
+  "version": "v25",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15896,7 +15990,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-05",
+    "last_updated_utc": "2026-11-06",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -15927,7 +16021,7 @@
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61
     },
-    "completion_state": "Original Japanese world-map graphic lettering recovered as 22 additional distinct entries. The entire game's runtime/graphics text corpus is not proven exhaustively covered.",
+    "completion_state": "1,720 extracted entries. Original title graphics have exact scene 0xE5/0xFC source pointers and four decoded tilemaps. Script-level branch harness tested 44 vectors. Complete native emulator execution, world-map tilemap provenance and all player-visible text coverage remain unproven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -15959,7 +16053,7 @@
         "known_units": null,
         "unit": "execution paths",
         "kind": "requires controllable SNES emulator and save-state coverage",
-        "status": "Matching Japanese ROM has been SHA-256 verified and candidate breakpoints prepared. No SNES emulator binary/core was available to execute gameplay in container; 0 runtime observations. Callback plan remains pending."
+        "status": "Native SNES frame execution remains 0. 34 hint-dispatch cases, 8 reward-branch combinations, and 2 Wind Melody paths were exercised by a ROM-backed symbolic Python harness (44 test vectors). This is branch logic verification only; no running game execution or PPU screenshots."
       },
       {
         "id": "R6",
@@ -15975,7 +16069,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "External original-JP graphic rip transcribed; asset's own ROM tilemap offsets and per-label runtime hits not yet demonstrated."
+        "status": "Original title scene E5 and FC palette/bitmap/tileset/two-layer pointers now byte-proven (separate title screen system). Twenty-two original-Japanese world-map Roman labels still need their own ROM map tilemap/palette pointers and in-game display observation."
       },
       {
         "id": "R8",
@@ -15984,6 +16078,14 @@
         "unit": "screenshot/transcript-corroborated UI word",
         "kind": "ROM graphics pointer and emulator verification",
         "status": "Transcribed from source Japanese playthrough; no ROM-source offset or locally executed PPU capture."
+      },
+      {
+        "id": "R9",
+        "target": "Determine final scene 0xFF metadata opcode 0x12 and extend game-specific scene parser",
+        "known_units": 1,
+        "unit": "unparsed final scene metadata record",
+        "kind": "ROM scene metadata format reconstruction",
+        "status": "230 scene records fully parsed; 0xFF metadata record begins at 0x0DAFA7, unknown opcode 0x12 at 0x0DAFD0. 231 unique IDs encountered, no frame observations."
       }
     ],
     "progress_measurement": {
@@ -42882,6 +42984,251 @@
       ],
       "event_read_observed": false,
       "comment": "Re-read exact original ROM bytes; preserve v21 interpretation and runtime caveat."
+    },
+    "title_graphics_pointer_and_metatile_reconstruction_2026_11_05": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "decompression_source": "Original Japanese SFC ROM, Quintet LZ; crosschecked against GaiaLabs JP scene metadata definitions",
+      "source_schema_url": "https://github.com/Azarem/GaiaLabs/blob/master/GaiaLib/db/jp/structs.json",
+      "gfx_asset_offset": "0x1980A2",
+      "gfx_compressed_bytes_consumed": 9003,
+      "gfx_decompressed_bytes": 16384,
+      "metatile_table_rom_offset": "0x1B1A28",
+      "metatile_decompressed_bytes": 2048,
+      "metatile_entries": 256,
+      "metatile_descriptor_size_bytes": 8,
+      "palette_offset": "0x1E595E",
+      "palette_size_bytes": 256,
+      "format": "SNES RGB555 / 4bpp",
+      "tilemap_format_hypothesis": "257 expanded bytes; first 256 interpreted as 16x16 array of 16x16 metatile indices; final byte purpose not determined",
+      "scenes": [
+        {
+          "scene_id": "0xE5",
+          "metadata_start": "0x0DAAFD",
+          "metadata_end_exclusive": "0x0DAB2B",
+          "title_asset_pointer_site": "0x0DAB0B",
+          "palette_pointer_site": "0x0DAB13",
+          "metatile_pointer_site": "0x0DAB1B",
+          "tilemap_pointer_sites": [
+            "0x0DAB20",
+            "0x0DAB25"
+          ],
+          "tilemap_sources": [
+            "0x1F6C61",
+            "0x1F7B61"
+          ],
+          "map_sha256": [
+            "f694b6d0ff51ee471d25e0abc2d2fe6adc4ae1879ebe16b61a65c76ec6ee2fec",
+            "f5e9fdfe65a66cc2c3774b9233c05665a6cb78a079c676a634933990b9c5afbb"
+          ],
+          "compressed_stream_source_sizes": [
+            133,
+            93
+          ],
+          "expanded_bytes_per_map": [
+            257,
+            257
+          ]
+        },
+        {
+          "scene_id": "0xFC",
+          "metadata_start": "0x0DAF0C",
+          "metadata_end_exclusive": "0x0DAF4E",
+          "title_asset_pointer_site": "0x0DAF1A",
+          "palette_pointer_site": "0x0DAF22",
+          "metatile_pointer_site": "0x0DAF2A",
+          "tilemap_pointer_sites": [
+            "0x0DAF2F",
+            "0x0DAF34"
+          ],
+          "tilemap_sources": [
+            "0x1F6DF0",
+            "0x1F761A"
+          ],
+          "map_sha256": [
+            "de5a854e8118cd738c63d4cb1715e28343e007c03752fb9c801c0426f3f8d28f",
+            "256b6d822304295b19be304c8067079982761455454819f76d83f26c4ccb8a49"
+          ],
+          "compressed_stream_source_sizes": [
+            129,
+            117
+          ],
+          "expanded_bytes_per_map": [
+            257,
+            257
+          ],
+          "additional_bitmap": {
+            "source": "0x160824",
+            "pointer_site": "0x0DAF3B",
+            "decompressed_bytes": 8192,
+            "content": "Character/figure sprite graphics, not additional text",
+            "source_sha256": "8d6a3f9a19f45b90cbb9f184f5f5307afbfe2e89e26133b4418298f8703c58fb"
+          },
+          "additional_palette": {
+            "source": "0x1F4E1A",
+            "pointer_site": "0x0DAF43"
+          },
+          "additional_spritemap": {
+            "source": "0x1E40C2",
+            "pointer_site": "0x0DAF4A",
+            "decompressed_bytes": 596
+          }
+        }
+      ],
+      "two_title_scene_ids_found": true,
+      "static_rendered_evidence": "Scene 0xFC secondary layer visibly contains graphical Japanese title lettering, reconstructed from original ROM metatiles and palette",
+      "note": "The layer image is static and not a PPU-rendered frame; scroll, priority, OAM, and register state unknown.",
+      "raw_pointer_false_positive_rejected": "0x15452C (inside different compressed stream starting 0x1543D0)",
+      "exact_layer_source_offsets_proven": true,
+      "original_rom_cpu_read_observed": false,
+      "observed_runtime_frames": 0
+    },
+    "scene_metadata_catalog_2026_11_05": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "table_start": "0x0D8000",
+      "mapdef_16bit_id_and_discriminated_opcode_structure": true,
+      "records_encountered": 231,
+      "fully_terminated_records": 230,
+      "final_partial_record_id": "0xFF",
+      "last_partial_record_start": "0x0DAFA7",
+      "parse_stopped_at": "0x0DAFD0",
+      "unrecognized_opcode": "0x12",
+      "known_bitmap_references": 316,
+      "known_palette_references": 275,
+      "known_music_references": 233,
+      "known_tileset_references": 300,
+      "known_tilemap_references": 384,
+      "known_spritemap_references": 56,
+      "known_meta17_references": 1,
+      "all_parsed_reference_targets_in_original_rom_bounds": true,
+      "scene_0xE5": {
+        "scene_id": "0xE5",
+        "metadata_start": "0x0DAAFD",
+        "metadata_end_exclusive": "0x0DAB2B",
+        "title_asset_pointer_site": "0x0DAB0B",
+        "palette_pointer_site": "0x0DAB13",
+        "metatile_pointer_site": "0x0DAB1B",
+        "tilemap_pointer_sites": [
+          "0x0DAB20",
+          "0x0DAB25"
+        ],
+        "tilemap_sources": [
+          "0x1F6C61",
+          "0x1F7B61"
+        ],
+        "map_sha256": [
+          "f694b6d0ff51ee471d25e0abc2d2fe6adc4ae1879ebe16b61a65c76ec6ee2fec",
+          "f5e9fdfe65a66cc2c3774b9233c05665a6cb78a079c676a634933990b9c5afbb"
+        ],
+        "compressed_stream_source_sizes": [
+          133,
+          93
+        ],
+        "expanded_bytes_per_map": [
+          257,
+          257
+        ]
+      },
+      "scene_0xFC": {
+        "scene_id": "0xFC",
+        "metadata_start": "0x0DAF0C",
+        "metadata_end_exclusive": "0x0DAF4E",
+        "title_asset_pointer_site": "0x0DAF1A",
+        "palette_pointer_site": "0x0DAF22",
+        "metatile_pointer_site": "0x0DAF2A",
+        "tilemap_pointer_sites": [
+          "0x0DAF2F",
+          "0x0DAF34"
+        ],
+        "tilemap_sources": [
+          "0x1F6DF0",
+          "0x1F761A"
+        ],
+        "map_sha256": [
+          "de5a854e8118cd738c63d4cb1715e28343e007c03752fb9c801c0426f3f8d28f",
+          "256b6d822304295b19be304c8067079982761455454819f76d83f26c4ccb8a49"
+        ],
+        "compressed_stream_source_sizes": [
+          129,
+          117
+        ],
+        "expanded_bytes_per_map": [
+          257,
+          257
+        ],
+        "additional_bitmap": {
+          "source": "0x160824",
+          "pointer_site": "0x0DAF3B",
+          "decompressed_bytes": 8192,
+          "content": "Character/figure sprite graphics, not additional text",
+          "source_sha256": "8d6a3f9a19f45b90cbb9f184f5f5307afbfe2e89e26133b4418298f8703c58fb"
+        },
+        "additional_palette": {
+          "source": "0x1F4E1A",
+          "pointer_site": "0x0DAF43"
+        },
+        "additional_spritemap": {
+          "source": "0x1E40C2",
+          "pointer_site": "0x0DAF4A",
+          "decompressed_bytes": 596
+        }
+      },
+      "execution_coverage": "ZERO PPU frames. This catalog enumerates static scene descriptors and pointers; not successful in-game scene visits.",
+      "no_exhaustive_gameplay_scene_coverage_claim": true
+    },
+    "cop_symbolic_branch_execution_2026_11_05": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "type": "Executable Python symbolic-script harness operating on ROM bytes, not native SNES CPU emulator",
+      "tested_hint_slot_keys": 34,
+      "dispatch_wram_word": "0x0B12",
+      "dispatch_key_table": "0x08D94B",
+      "dispatch_pointer_table": "0x08D65A",
+      "direct_BF_text_dispatches": 12,
+      "silent_exit_dispatches": 21,
+      "conditional_reward_dispatches": 1,
+      "reward_case_key": "0xCC",
+      "conditional_reward_handler": "0x08D7AB",
+      "reward_raw_condition_combinations_tested": 8,
+      "reward_distinct_outcomes": [
+        "state_flag_unset_silent",
+        "item_awarded",
+        "inventory_full",
+        "already_has_item"
+      ],
+      "reward_text_source_offsets": [
+        "0x08E03F",
+        "0x08E0EE",
+        "0x08E1AB"
+      ],
+      "wind_melody_branch": "0x05D932",
+      "wind_melody_conditional_item_id": "0x08",
+      "wind_melody_test_cases": [
+        {
+          "has_item": false,
+          "text_source": "0x05DABD",
+          "item_removed": [
+            "0x02"
+          ]
+        },
+        {
+          "has_item": true,
+          "text_source": "0x05DA3B",
+          "items_removed": [
+            "0x02",
+            "0x08"
+          ]
+        }
+      ],
+      "total_script_level_test_vectors": 44,
+      "all_assertions_passed": true,
+      "executable_rom_frames": 0,
+      "observed_screen_text_events": 0,
+      "reason": "No locally installed compatible SNES emulator or core; public-network binary installation unavailable",
+      "claims_not_supported": [
+        "Complete gameplay branch coverage",
+        "All maps runtime-played",
+        "39 supplemental sources invoked at gameplay",
+        "Full original-JP PPU-tilemap composition observed"
+      ]
     }
   }
 }
