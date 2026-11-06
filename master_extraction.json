@@ -43458,6 +43458,123 @@
       "audit_scope_limit": "Selective 29-phrase content spot-check across cited pages, NOT full line-by-line reconciliation across all 24 topic pages, and NOT evidence of emulator rendering.",
       "new_ROM_proven_player_facing_entries_added": 0,
       "all_master_text_entries_unchanged": true
+    },
+    "wiki_24_topic_followup_2026_11_05": {
+      "reference_root": "https://wikiwiki.jp/text/ガイア幻想紀",
+      "reference_topics_enumerated": 24,
+      "reference_topics_opened": 24,
+      "all_passages_reconciled": false,
+      "wiki_topics_complete_line_by_line_audit": 0,
+      "method": "Targeted normalized substring comparison against all 1720 master entries; matching a fragment neither proves complete passage coverage nor runtime reachability. Pages were accessible via web retrieval, but full 24-section machine-readable text export and exhaustive passage-to-entry comparison were not obtained.",
+      "targeted_check_groups": [
+        {
+          "topic": "アイテム",
+          "checks": 34,
+          "normalized_contiguous_hits": 24,
+          "non_contiguous_or_orthographic_cases": 10,
+          "interpretation": "The ten others correspond to existing separate template/failure records or variant wording. None is a proven omitted ROM text entry; all need formal passage alignment."
+        },
+        {
+          "topic": "メニュー・共通メッセージ",
+          "checks": 16,
+          "normalized_contiguous_hits": 15,
+          "non_contiguous_or_orthographic_cases": 1
+        },
+        {
+          "topic": "月の種族の棲家",
+          "checks": 18,
+          "normalized_contiguous_hits": 17,
+          "non_contiguous_or_orthographic_cases": 1
+        },
+        {
+          "topic": "ジェムの人",
+          "checks": 24,
+          "normalized_contiguous_hits": 24,
+          "non_contiguous_or_orthographic_cases": 0
+        },
+        {
+          "topic": "オープニングデモ",
+          "checks": 9,
+          "normalized_contiguous_hits": 8,
+          "non_contiguous_or_orthographic_cases": 1
+        },
+        {
+          "topic": "エンディング",
+          "checks": 5,
+          "normalized_contiguous_hits": 4,
+          "non_contiguous_or_orthographic_cases": 1
+        },
+        {
+          "topic": "エピローグ",
+          "checks": 4,
+          "normalized_contiguous_hits": 4,
+          "non_contiguous_or_orthographic_cases": 0
+        },
+        {
+          "topic": "ジェムの館",
+          "checks": 12,
+          "normalized_contiguous_hits": 12,
+          "non_contiguous_or_orthographic_cases": 0
+        }
+      ],
+      "targeted_check_totals": {
+        "tests": 122,
+        "normalized_contiguous_hits": 108,
+        "other_cases": 14,
+        "verified_new_rom_player_facing_entries": 0
+      },
+      "notable_discrepancies": [
+        {
+          "topic": "オープニングデモ",
+          "reference": "遺跡から 発掘される",
+          "master": "遺跡から 発見される",
+          "master_id": "OP-0004",
+          "classification": "lexical_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        },
+        {
+          "topic": "エンディング",
+          "reference": "それからの 地球の未来を",
+          "master": "これからの 地球の未来を",
+          "master_id": "DLG-1245",
+          "classification": "lexical_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        },
+        {
+          "topic": "月の種族の棲家",
+          "reference": "ちょっとお！",
+          "master": "ちょっとぉ！",
+          "master_id": "DLG-0360",
+          "classification": "orthographic_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        },
+        {
+          "topic": "アイテム",
+          "reference": "ひし型のブロック",
+          "master": "ひし形のブロック",
+          "master_id": "DLG-0026",
+          "classification": "orthographic_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        },
+        {
+          "topic": "アイテム",
+          "reference": "いのりの像をささげた",
+          "master": "いのりの石像を ささげた！",
+          "master_id": "DLG-0063",
+          "classification": "lexical_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        },
+        {
+          "topic": "アイテム",
+          "reference": "ラ・ムーの像をささげた",
+          "master": "ラ・ムーの石像を ささげた！",
+          "master_id": "DLG-0066",
+          "classification": "lexical_transcription_discrepancy",
+          "original_rom_byte_reread_in_this_pass": false
+        }
+      ],
+      "followup_needed": "Obtain complete source of all 24 wiki topic pages; segment every player-facing passage and branch, align to entire master and composites, record every missing/ambiguous passage, verify apparent discrepancies against original ROM, then validate runtime-only branches.",
+      "master_text_unchanged": true
     }
   }
 }
