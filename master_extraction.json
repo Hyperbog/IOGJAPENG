@@ -15948,7 +15948,7 @@
       ]
     }
   ],
-  "version": "v25",
+  "version": "v26",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15990,7 +15990,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-06",
+    "last_updated_utc": "2026-11-05",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -16021,7 +16021,7 @@
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61
     },
-    "completion_state": "1,720 extracted entries. Original title graphics have exact scene 0xE5/0xFC source pointers and four decoded tilemaps. Script-level branch harness tested 44 vectors. Complete native emulator execution, world-map tilemap provenance and all player-visible text coverage remain unproven.",
+    "completion_state": "1,720 catalogued Japanese-release player-facing text entries. v26 adds original-ROM map-source triage and a full-scene/runtime coverage instrument; it does NOT identify world-map tilemap ROM locations or execute a native SNES core. Source-validated entries are retained; all gameplay-display coverage remains unproven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -16053,7 +16053,7 @@
         "known_units": null,
         "unit": "execution paths",
         "kind": "requires controllable SNES emulator and save-state coverage",
-        "status": "Native SNES frame execution remains 0. 34 hint-dispatch cases, 8 reward-branch combinations, and 2 Wind Melody paths were exercised by a ROM-backed symbolic Python harness (44 test vectors). This is branch logic verification only; no running game execution or PPU screenshots."
+        "status": "44 prior ROM-backed symbolic vectors pass but native emulator frame count remains zero. New Lua trace instrument prepared for all 39 supplemental and 63 area-title source starts plus BF interpreter, scene ID and Mode7 flag; 231 scene-ID coverage matrix prepared with all observations unset. Full-execution coverage NOT established."
       },
       {
         "id": "R6",
@@ -16069,7 +16069,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "Original title scene E5 and FC palette/bitmap/tileset/two-layer pointers now byte-proven (separate title screen system). Twenty-two original-Japanese world-map Roman labels still need their own ROM map tilemap/palette pointers and in-game display observation."
+        "status": "Original-Japanese sprite-rip labels remain in master; direct compressed ROM map/tilemap source NOT discovered. Source 0x17A4F2 is scene 0x82 architectural/Great Wall content, not the global map. 97 scene-indexed bitmap assets triaged; 20 longer labels absent as full contiguous sequences in 3 text encodings."
       },
       {
         "id": "R8",
@@ -16085,7 +16085,7 @@
         "known_units": 1,
         "unit": "unparsed final scene metadata record",
         "kind": "ROM scene metadata format reconstruction",
-        "status": "230 scene records fully parsed; 0xFF metadata record begins at 0x0DAFA7, unknown opcode 0x12 at 0x0DAFD0. 231 unique IDs encountered, no frame observations."
+        "status": "231st scene 0xFF reaches unexpected descriptor 0x12 at 0x0DAFD0; following bytes 00 00, which may encode 0/1-byte operand then termination, but semantics cannot be assigned without engine-side verification."
       }
     ],
     "progress_measurement": {
@@ -43229,6 +43229,116 @@
         "39 supplemental sources invoked at gameplay",
         "Full original-JP PPU-tilemap composition observed"
       ]
+    },
+    "world_map_mode7_provenance_investigation_2026_11_05": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "rom_size_bytes": 2097152,
+      "investigation_class": "Original-ROM binary source inspection, Quintet LZ decompression, scene source catalog, code-oriented trace instrumentation; no native SNES execution",
+      "world_map_label_records_in_master": 22,
+      "scene_0x82_explicitly_excluded_as_global_worldmap_source": true,
+      "scene_0x82": {
+        "scene_table_entry_offset": "0x0D9976",
+        "name_in_gaialabs_asset_catalog": "gw82",
+        "main_bitmap_offset": "0x14C198",
+        "main_tileset_offset": "0x170780",
+        "main_tilemap_offset": "0x17A4F2",
+        "secondary_tileset_offset": "0x157CD5",
+        "secondary_tilemap_offset": "0x1F2D0D",
+        "main_tilemap_decoded_size_bytes": 1032,
+        "secondary_tilemap_decoded_size_bytes": 1025,
+        "reconstruction": "Architectural/room graphics, NOT the cartographic original-Japanese world-map asset",
+        "preview_file": "gw82_main_header8.png",
+        "proof_class": "verified ROM offsets and decoded scene rendering, static only"
+      },
+      "recovered_scene_referenced_unique_compressed_bitmap_sources": 97,
+      "roman_placed_labels_static_byte_search": {
+        "longer_labels_tested": 20,
+        "short_ambiguous_labels_omitted": [
+          "DAO",
+          "MU"
+        ],
+        "exact_ascii_matches": 0,
+        "exact_jp_charmap_matches": 0,
+        "exact_jp_widemap_matches": 0,
+        "negative_result_scope": "Exact contiguous encodings only; tile-composed and graphic pixel lettering cannot be excluded"
+      },
+      "world_map_ram_state_candidates_from_independent_us_notes": {
+        "current_map": "$7E0644",
+        "mode7_push_flag": "$7E06EF",
+        "world_map_movement_trigger": "$7E0D52",
+        "mode7_tilemap_workspaces": [
+          "$7EB000-$7EBFFF",
+          "$7EC000-$7EDFFF",
+          "$7EE000-$7EEFFF"
+        ],
+        "region_caveat": "Independent US-version RAM documentation, must confirm exact Japanese-version runtime behavior"
+      },
+      "mode7_ROM_source_tilemap_discovered": false,
+      "individual_roman_label_rom_tilemap_sources_byte_verified": 0,
+      "original_jp_rip_text_preserved": [
+        "PYRAMID",
+        "DAO",
+        "ANGKOR VAT",
+        "SMALL VILLAGE",
+        "SACRED MOUNTAIN",
+        "EURO",
+        "BANRI CASTLE",
+        "WATERMIA",
+        "DARK ANGEL",
+        "MU",
+        "SEA PALACE",
+        "TOWER OF BABEL",
+        "MOON ROCK",
+        "INCA",
+        "ITORY",
+        "EDWARD CASTLE",
+        "SOUTH CAPE",
+        "NEELE'S COTAGE",
+        "NASCA",
+        "FREJIA",
+        "DIAMOND COAST",
+        "DIAMOND VALLEY"
+      ],
+      "source_references": [
+        "https://github.com/Azarem/GaiaLabs/blob/master/GaiaLib/db/jp/config.json",
+        "https://github.com/Azarem/GaiaLabs/blob/master/GaiaLib/db/jp/structs.json",
+        "https://datacrystal.tcrf.net/wiki/Illusion_of_Gaia/RAM_map",
+        "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/"
+      ]
+    },
+    "runtime_coverage_instrumentation_2026_11_05": {
+      "tool": "gaia_jp_runtime_probe.lua",
+      "source": "Static source offsets from canonical master original ROM plus known central COP BF handler",
+      "target_supplementary_dialogue": 39,
+      "target_area_titles": 63,
+      "total_targeted_source_starts": 102,
+      "special_probe_offsets": [
+        "0x1980A2",
+        "0x17A4F2",
+        "0x05D932",
+        "0x08D654"
+      ],
+      "cop_text_handler_cpu_pc_candidates": [
+        "0x80A9EB",
+        "0x00A9EB"
+      ],
+      "mapping": "Unheadered JP HiROM, source file offset + 0xC00000 and + 0x400000 mirror",
+      "coverage_manifest": "gaia_runtime_coverage_matrix.json",
+      "source_list_and_bounds_verified_against_original_rom": true,
+      "area_titles_preceded_by_FF": 63,
+      "area_titles_with_CC_within_42_bytes": 63,
+      "metadata_scene_ids_total": 231,
+      "fully_parsed_scene_metadata": 230,
+      "scene_ff_opcode_12_offset": "0x0DAFD0",
+      "scene_ff_opcode_12_semantics_unresolved": true,
+      "script_symbolic_vectors_previously_verified": 44,
+      "tested_native_emulator_available": false,
+      "native_snes_frames_executed": 0,
+      "source_bus_read_callbacks_triggered": 0,
+      "rendered_dialogue_screen_hits": 0,
+      "required_evidence": "One source hit must be paired to an observed screen text, frame, map ID and recorded savestate/movie/screenshot; otherwise only source-read evidence.",
+      "limitations": "Script must be run against the verified Japanese ROM on a SNES emulator core with supported bus hooks. It has not been syntax-checked within that emulator; no actual core or gameplay was executed here.",
+      "api_reference": "https://tasvideos.org/Bizhawk/LuaFunctions"
     }
   }
 }
