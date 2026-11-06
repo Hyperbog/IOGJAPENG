@@ -11544,127 +11544,327 @@
         {
           "text": "やめる\n エドワード城",
           "speaker": "System / destination choice",
-          "id": "TRV-0001"
+          "id": "TRV-0001",
+          "rom_offset": "0x03B179",
+          "rom_end_exclusive": "0x03B18D",
+          "source_hex": "c211d600205e5c63cd20d43e0e66730e804ad5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0099",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n イトリー族の村",
           "speaker": "System / destination choice",
-          "id": "TRV-0002"
+          "id": "TRV-0002",
+          "rom_offset": "0x03B19F",
+          "rom_end_exclusive": "0x03B1B5",
+          "source_hex": "c211d600205e5c63cd20d43c4e6273804bd553804ccc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0100",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n サウスケープ",
           "speaker": "System / destination choice",
-          "id": "TRV-0003"
+          "id": "TRV-0003",
+          "rom_offset": "0x03B1C8",
+          "rom_end_exclusive": "0x03B1DB",
+          "source_hex": "c211d600205e5c63cd20d4453d4743731bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0101",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n サウスケープ",
           "speaker": "System / destination choice",
-          "id": "TRV-0004"
+          "id": "TRV-0004",
+          "rom_offset": "0x03B1ED",
+          "rom_end_exclusive": "0x03B200",
+          "source_hex": "c211d600205e5c63cd20d4453d4743731bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0102",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n イトリー族の村",
           "speaker": "System / destination choice",
-          "id": "TRV-0005"
+          "id": "TRV-0005",
+          "rom_offset": "0x03B212",
+          "rom_end_exclusive": "0x03B228",
+          "source_hex": "c211d600205e5c63cd20d43c4e6273804bd553804ccc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0103",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n インカのイセキ",
           "speaker": "System / destination choice",
-          "id": "TRV-0006"
+          "id": "TRV-0006",
+          "rom_offset": "0x03B23B",
+          "rom_end_exclusive": "0x03B251",
+          "source_hex": "c211d600205e5c63cd20d43c6840d553d43c4841d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0104",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n ダイヤモンド鉱山",
           "speaker": "System / destination choice",
-          "id": "TRV-0007"
+          "id": "TRV-0007",
+          "rom_offset": "0x03B264",
+          "rom_end_exclusive": "0x03B27B",
+          "source_hex": "c211d600205e5c63cd20d40a3c5e5d680e80518052d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0105",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 花の都フリージア",
           "speaker": "System / destination choice",
-          "id": "TRV-0008"
+          "id": "TRV-0008",
+          "rom_offset": "0x03B28D",
+          "rom_end_exclusive": "0x03B2A4",
+          "source_hex": "c211d600205e5c63cd20804f538050d4566273063bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0106",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる",
           "speaker": "System / destination choice",
-          "id": "TRV-0009"
+          "id": "TRV-0009",
+          "rom_offset": "0x03B2B4",
+          "rom_end_exclusive": "0x03B2BD",
+          "source_hex": "c211d600205e5c63cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0107",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 水上都市ウォータミア",
           "speaker": "System / destination choice",
-          "id": "TRV-0010"
+          "id": "TRV-0010",
+          "rom_offset": "0x03B2CF",
+          "rom_end_exclusive": "0x03B2EA",
+          "source_hex": "c211d600205e5c63cd20805c803a8050805dd43d6d7b4a5a3bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0108",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n だ天使の町",
           "speaker": "System / destination choice",
-          "id": "TRV-0011"
+          "id": "TRV-0011",
+          "rom_offset": "0x03B2FC",
+          "rom_end_exclusive": "0x03B30F",
+          "source_hex": "c211d600205e5c63cd200a805a805b538049cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0109",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     だ天使の町\n 万里の長城",
           "speaker": "System / destination choice",
-          "id": "TRV-0012"
+          "id": "TRV-0012",
+          "rom_offset": "0x03B323",
+          "rom_end_exclusive": "0x03B344",
+          "source_hex": "c211d600205e5c6320202020200a805a805b538049cd20805e805f538060804acc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0110",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n ウォータミア",
           "speaker": "System / destination choice",
-          "id": "TRV-0013"
+          "id": "TRV-0013",
+          "rom_offset": "0x03B356",
+          "rom_end_exclusive": "0x03B369",
+          "source_hex": "c211d600205e5c63cd20d43d6d7b4a5a3bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0111",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     だ天使の町\n 万里の長城   大都市エウロ",
           "speaker": "System / destination choice",
-          "id": "TRV-0014"
+          "id": "TRV-0014",
+          "rom_offset": "0x03B37F",
+          "rom_end_exclusive": "0x03B3AE",
+          "source_hex": "c211d600205e5c6320202020200a805a805b538049cd20805e805f538060804a20202080318050805dd43e3d65d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0112",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n ウォータミア",
           "speaker": "System / destination choice",
-          "id": "TRV-0015"
+          "id": "TRV-0015",
+          "rom_offset": "0x03B3C0",
+          "rom_end_exclusive": "0x03B3D3",
+          "source_hex": "c211d600205e5c63cd20d43d6d7b4a5a3bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0113",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     山の聖域\n ウォータミア",
           "speaker": "System / destination choice",
-          "id": "TRV-0016"
+          "id": "TRV-0016",
+          "rom_offset": "0x03B3E7",
+          "rom_end_exclusive": "0x03B406",
+          "source_hex": "c211d600205e5c63202020202080525380618062cd20d43d6d7b4a5a3bd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0114",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 大都市エウロ",
           "speaker": "System / destination choice",
-          "id": "TRV-0017"
+          "id": "TRV-0017",
+          "rom_offset": "0x03B418",
+          "rom_end_exclusive": "0x03B42E",
+          "source_hex": "c211d600205e5c63cd2080318050805dd43e3d65d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0115",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 大都市エウロ",
           "speaker": "System / destination choice",
-          "id": "TRV-0018"
+          "id": "TRV-0018",
+          "rom_offset": "0x03B440",
+          "rom_end_exclusive": "0x03B456",
+          "source_hex": "c211d600205e5c63cd2080318050805dd43e3d65d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0116",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     アンコールワット\n 大都市エウロ",
           "speaker": "System / destination choice",
-          "id": "TRV-0019"
+          "id": "TRV-0019",
+          "rom_offset": "0x03B46A",
+          "rom_end_exclusive": "0x03B48F",
+          "source_hex": "c211d600205e5c632020202020d43b68447363666e4ed5cd2080318050805dd43e3d65d5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0117",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 原住民の村落",
           "speaker": "System / destination choice",
-          "id": "TRV-0020"
+          "id": "TRV-0020",
+          "rom_offset": "0x03B4A1",
+          "rom_end_exclusive": "0x03B4B7",
+          "source_hex": "c211d600205e5c63cd2080638064806553804c8066cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0118",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n 原住民の村落",
           "speaker": "System / destination choice",
-          "id": "TRV-0021"
+          "id": "TRV-0021",
+          "rom_offset": "0x03B4D9",
+          "rom_end_exclusive": "0x03B4EF",
+          "source_hex": "c211d600205e5c63cd2080638064806553804c8066cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0119",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     ピラミッド\n 原住民の村落",
           "speaker": "System / destination choice",
-          "id": "TRV-0022"
+          "id": "TRV-0022",
+          "rom_offset": "0x03B503",
+          "rom_end_exclusive": "0x03B525",
+          "source_hex": "c211d600205e5c632020202020d41a615a6e0ed5cd2080638064806553804c8066cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0120",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる\n さばくの町ダオ",
           "speaker": "System / destination choice",
-          "id": "TRV-0023"
+          "id": "TRV-0023",
+          "rom_offset": "0x03B537",
+          "rom_end_exclusive": "0x03B54C",
+          "source_hex": "c211d600205e5c63cd20451442538049d40a3fd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0121",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     アンコールワット\n 大都市エウロ  さばくの町ダオ",
           "speaker": "System / destination choice",
-          "id": "TRV-0024"
+          "id": "TRV-0024",
+          "rom_offset": "0x03B562",
+          "rom_end_exclusive": "0x03B593",
+          "source_hex": "c211d600205e5c632020202020d43b68447363666e4ed5cd2080318050805dd43e3d65d52020451442538049d40a3fd5cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0122",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         },
         {
           "text": "やめる     山の聖域\n ウォータミア  原住民の村落",
           "speaker": "System / destination choice",
-          "id": "TRV-0025"
+          "id": "TRV-0025",
+          "rom_offset": "0x03B5A9",
+          "rom_end_exclusive": "0x03B5D5",
+          "source_hex": "c211d600205e5c63202020202080525380618062cd20d43d6d7b4a5a3bd5202080638064806553804c8066cc",
+          "source_kind": "original_JP_ROM_travel_menu_script_shared_with_dialogue",
+          "shared_source_dialogue_id": "DLG-0123",
+          "source_byte_scope": "ROM script includes C2 11 D6 00 menu control sequence, text and CC terminator; text duplicates dialogue record rather than an additional passage",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator"
         }
       ]
     },
@@ -14764,27 +14964,105 @@
         },
         {
           "text": "どこへ むかいますか？",
-          "id": "UI-0005"
+          "id": "UI-0005",
+          "rom_offset": "0x01CB5E",
+          "rom_end_exclusive": "0x01CB6B",
+          "source_hex": "0e4457205b403c5947400fcdcc",
+          "source_kind": "original_JP_ROM_menu_prompt_script",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "source_byte_scope": "ROM text bytes directly encode the visible Japanese menu text; trailing CD/CC are script controls where present."
         },
         {
           "text": "ステレオ",
-          "id": "UI-0006"
+          "id": "UI-0006",
+          "rom_offset": "0x0BE11F",
+          "rom_end_exclusive": "0x0BE126",
+          "source_hex": "d4474d643fd5cc",
+          "source_kind": "original_JP_ROM_sound_mode_text_literal",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "source_byte_scope": "ROM text bytes directly encode the visible Japanese menu text; trailing CD/CC are script controls where present."
         },
         {
           "text": "モノラル",
-          "id": "UI-0007"
+          "id": "UI-0007",
+          "rom_offset": "0x0BE126",
+          "rom_end_exclusive": "0x0BE12D",
+          "source_hex": "d45d536163d5cc",
+          "source_kind": "original_JP_ROM_sound_mode_text_literal",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "source_byte_scope": "ROM text bytes directly encode the visible Japanese menu text; trailing CD/CC are script controls where present."
         },
         {
           "text": "旅の記録１",
-          "id": "UI-0008"
+          "id": "UI-0008",
+          "rom_offset": "0x0BDD48",
+          "rom_end_exclusive": "0x0BDD50",
+          "source_hex": "8001538015801674",
+          "source_kind": "original_JP_ROM_save_slot_label_fragment",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "alternate_rom_text_occurrences": [
+            "0x0BE14B",
+            "0x0BE332",
+            "0x0BE4E3",
+            "0x0BE527"
+          ],
+          "source_byte_scope": "Identical eight-byte encoded 旅の記録 plus digit text appears in five menu script locations; following C5 opcode composes save-location data dynamically.",
+          "corresponding_dialogue_sources": [
+            "DLG-1263",
+            "DLG-1269",
+            "DLG-1270",
+            "DLG-1273"
+          ]
         },
         {
           "text": "旅の記録２",
-          "id": "UI-0009"
+          "id": "UI-0009",
+          "rom_offset": "0x0BDD59",
+          "rom_end_exclusive": "0x0BDD61",
+          "source_hex": "8001538015801675",
+          "source_kind": "original_JP_ROM_save_slot_label_fragment",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "alternate_rom_text_occurrences": [
+            "0x0BE15C",
+            "0x0BE343",
+            "0x0BE4F2",
+            "0x0BE537"
+          ],
+          "source_byte_scope": "Identical eight-byte encoded 旅の記録 plus digit text appears in five menu script locations; following C5 opcode composes save-location data dynamically.",
+          "corresponding_dialogue_sources": [
+            "DLG-1263",
+            "DLG-1269",
+            "DLG-1270",
+            "DLG-1273"
+          ]
         },
         {
           "text": "旅の記録３",
-          "id": "UI-0010"
+          "id": "UI-0010",
+          "rom_offset": "0x0BDD6A",
+          "rom_end_exclusive": "0x0BDD72",
+          "source_hex": "8001538015801676",
+          "source_kind": "original_JP_ROM_save_slot_label_fragment",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not_executed_in_native_SNES_emulator",
+          "alternate_rom_text_occurrences": [
+            "0x0BE16D",
+            "0x0BE354",
+            "0x0BE501",
+            "0x0BE547"
+          ],
+          "source_byte_scope": "Identical eight-byte encoded 旅の記録 plus digit text appears in five menu script locations; following C5 opcode composes save-location data dynamically.",
+          "corresponding_dialogue_sources": [
+            "DLG-1263",
+            "DLG-1269",
+            "DLG-1270",
+            "DLG-1273"
+          ]
         },
         {
           "text": "もちもの\nやみのちから",
@@ -18242,7 +18520,7 @@
       ]
     }
   ],
-  "version": "v32",
+  "version": "v33",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18310,16 +18588,16 @@
         "area_titles": 63,
         "world_map_graphic_labels": 22
       },
-      "entries_with_direct_rom_offset_in_this_file": 1643,
-      "entries_without_direct_rom_offset_in_this_file": 77,
+      "entries_with_direct_rom_offset_in_this_file": 1674,
+      "entries_without_direct_rom_offset_in_this_file": 46,
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61,
       "entries_with_compound_direct_ROM_source_segments": 6,
-      "entries_with_any_original_ROM_byte_source_provenance": 1649,
-      "entries_without_verified_original_ROM_source_provenance": 71,
-      "source_offset_inventory_correction": "v32: 19 ability source records (9 names, 10 descriptions) verified against ROM pointer tables, plus 24 menu UI source windows and literal spans. 1,643 entries now have ROM-start annotations and 6 have verified compound segment sources; 71 without verified direct source. Inline windows include control opcodes and dynamic inserts, rather than being standalone text literals."
+      "entries_with_any_original_ROM_byte_source_provenance": 1680,
+      "entries_without_verified_original_ROM_source_provenance": 40,
+      "source_offset_inventory_correction": "v33: all 25 travel-choice duplicates mapped to byte-exact DLG-0099–DLG-0123 source windows and six UI labels/prompts sourced, including three save-slot labels with four extra literal occurrences each. 1,674 direct source spans/windows plus 6 compound ability instruction sources; 40 entries without directly verified ROM byte provenance (some have graphical asset or screenshot provenance)."
     },
-    "completion_state": "1,720 Japanese player-facing entries retained. v32 attributes 19 ability texts via name/description pointer tables at 0x01E300/0x01E36F and 24 UI messages/labels via exact original-ROM inline script windows or literal substrings. 1,643 direct source/window annotations plus six segmented ability instruction entries; 71 without verified ROM byte attribution. Native emulator execution and exhaustive graphical/conditional branch coverage remain incomplete.",
+    "completion_state": "1,720 original-Japanese player-facing master entries preserved. v33 verified all 25 travel-choice source windows as existing DLG-0099–DLG-0123 duplicates, and 6 previously unoffsetted UI sources including 3 save-slot labels. 1,674 entries with direct ROM source offsets/windows plus six segmented ABI sources (1,680 total); 40 still lack direct byte provenance: opening 9, title/credits 6, screen labels 2, world-map image labels 22, UI ITEM graphics 1. No native emulator frames executed; runtime branch and graphics-only coverage remain incomplete.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -46553,6 +46831,64 @@
         "ability": "2cbf10ee23b09383b991558d85bbb3a179b20f61c8e7ac1a0806cdc0c8a505c7",
         "ui": "2021e013c5a3083b48c98eeeeee89cfa440fbaabd7c2ea79920b400614d338c9"
       }
+    },
+    "original_rom_ui_and_travel_source_reconstruction_2026_11_06": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "method": "Original unheadered 2MiB Japanese SFC ROM SHA-256 checked against master; static matching of 25 preexisting DLG source ranges, repeated 旅の記録 literal sequences and two direct sound-mode literals.",
+      "travel_choices": {
+        "records": 25,
+        "duplicates_of_existing_dialogue": "DLG-0099–DLG-0123",
+        "source_start": "0x03B179",
+        "source_end_exclusive": "0x03B5D5",
+        "all_25_end_CC": true,
+        "all_25_contain_cancel_label_bytes": "5E 5C 63",
+        "all_25_source_hex_captured": true,
+        "script_leader": "C2 11 D6 00",
+        "distinct_new_text_entries": 0
+      },
+      "ui": {
+        "new_verified_sources": 6,
+        "records": [
+          {
+            "id": "UI-0005",
+            "rom_offset": "0x01CB5E",
+            "text_source": "0E 44 57 20 5B 40 3C 59 47 40 0F CD CC"
+          },
+          {
+            "id": "UI-0006",
+            "rom_offset": "0x0BE11F",
+            "text": "ステレオ"
+          },
+          {
+            "id": "UI-0007",
+            "rom_offset": "0x0BE126",
+            "text": "モノラル"
+          },
+          {
+            "id": "UI-0008",
+            "rom_offset": "0x0BDD48",
+            "all_occurrences": 5
+          },
+          {
+            "id": "UI-0009",
+            "rom_offset": "0x0BDD59",
+            "all_occurrences": 5
+          },
+          {
+            "id": "UI-0010",
+            "rom_offset": "0x0BDD6A",
+            "all_occurrences": 5
+          }
+        ],
+        "remaining_unsourced": [
+          "UI-0031"
+        ],
+        "ascii_ITEM_occurrences_in_entire_rom": 0
+      },
+      "audit_artifact_sha256": "5e417bdc8b1f30b745042d1b6da0d999d9c44e1e2e4bfb631646dbaffb6ae013",
+      "new_master_entries": 0,
+      "new_byte_source_annotations": 31,
+      "limitation": "Text stored in ROM does not by itself establish runtime execution or complete graphically rendered UI source ownership. 'ITEM' is transcribed from published Japanese playthrough but its compressed graphic tilemap is still unverified."
     }
   }
 }
