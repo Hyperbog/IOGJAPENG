@@ -43616,6 +43616,287 @@
         "completeness_proven": false,
         "caveat": "This turn narrows known-source reconciliation. It is not a fresh ROM extraction or a proof that no additional text exists."
       }
+    },
+    "original_rom_unindexed_conditional_scan_2026_11_05": {
+      "date": "2026-11-05",
+      "purpose": "ROM-primary unindexed-source and conditional-path continuation: classify archived text spans, prepare byte-level scanner, and avoid inventing additional text without ROM bytes.",
+      "original_rom_sha256_required": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "original_rom_raw_access_in_this_turn": false,
+      "access_details": "The user's previously uploaded original Japanese .sfc remains listed in their Project/Library, but raw-byte materialization returned an unauthorized path error; no new ROM scan actually ran in this turn.",
+      "audited_source_spans": 1402,
+      "fully_nested_source_pairs": 29,
+      "partial_crossing_span_pairs": 0,
+      "nested_text_pairs": [
+        {
+          "parent_id": "DLG-0036",
+          "embedded_id": "DLG-0037",
+          "embedded_offset": "0x038BBD",
+          "intersection_bytes": 19,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0141",
+          "embedded_id": "DLG-0142",
+          "embedded_offset": "0x04877C",
+          "intersection_bytes": 35,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0176",
+          "embedded_id": "DLG-0177",
+          "embedded_offset": "0x049973",
+          "intersection_bytes": 100,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0185",
+          "embedded_id": "DLG-0186",
+          "embedded_offset": "0x049E4E",
+          "intersection_bytes": 51,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0205",
+          "embedded_id": "DLG-0206",
+          "embedded_offset": "0x04A846",
+          "intersection_bytes": 36,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0287",
+          "embedded_id": "DLG-0288",
+          "embedded_offset": "0x04C944",
+          "intersection_bytes": 30,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0343",
+          "embedded_id": "DLG-0344",
+          "embedded_offset": "0x04E67E",
+          "intersection_bytes": 107,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0378",
+          "embedded_id": "DLG-0379",
+          "embedded_offset": "0x04F900",
+          "intersection_bytes": 119,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0401",
+          "embedded_id": "DLG-0402",
+          "embedded_offset": "0x058F75",
+          "intersection_bytes": 29,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0413",
+          "embedded_id": "DLG-0414",
+          "embedded_offset": "0x059600",
+          "intersection_bytes": 56,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0432",
+          "embedded_id": "DLG-0433",
+          "embedded_offset": "0x05A06B",
+          "intersection_bytes": 38,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0445",
+          "embedded_id": "DLG-0446",
+          "embedded_offset": "0x05A832",
+          "intersection_bytes": 89,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0469",
+          "embedded_id": "DLG-0470",
+          "embedded_offset": "0x05B620",
+          "intersection_bytes": 70,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0496",
+          "embedded_id": "DLG-0497",
+          "embedded_offset": "0x05C1EB",
+          "intersection_bytes": 35,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0523",
+          "embedded_id": "DLG-0524",
+          "embedded_offset": "0x05CCC3",
+          "intersection_bytes": 40,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0528",
+          "embedded_id": "DLG-0529",
+          "embedded_offset": "0x05CE57",
+          "intersection_bytes": 45,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0570",
+          "embedded_id": "DLG-0571",
+          "embedded_offset": "0x05E5E6",
+          "intersection_bytes": 19,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "ADD-0012",
+          "embedded_id": "DLG-0592",
+          "embedded_offset": "0x05F0C5",
+          "intersection_bytes": 59,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0727",
+          "embedded_id": "DLG-0728",
+          "embedded_offset": "0x06BF02",
+          "intersection_bytes": 33,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0887",
+          "embedded_id": "DLG-0888",
+          "embedded_offset": "0x07B60C",
+          "intersection_bytes": 72,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-0974",
+          "embedded_id": "DLG-0975",
+          "embedded_offset": "0x07DC3F",
+          "intersection_bytes": 44,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1118",
+          "embedded_id": "DLG-1119",
+          "embedded_offset": "0x08CC4C",
+          "intersection_bytes": 63,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1217",
+          "embedded_id": "DLG-1218",
+          "embedded_offset": "0x09A1E8",
+          "intersection_bytes": 70,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1219",
+          "embedded_id": "DLG-1220",
+          "embedded_offset": "0x09A262",
+          "intersection_bytes": 64,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1221",
+          "embedded_id": "DLG-1222",
+          "embedded_offset": "0x09A2D6",
+          "intersection_bytes": 99,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1223",
+          "embedded_id": "DLG-1224",
+          "embedded_offset": "0x09A36C",
+          "intersection_bytes": 116,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1225",
+          "embedded_id": "DLG-1226",
+          "embedded_offset": "0x09A414",
+          "intersection_bytes": 84,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1227",
+          "embedded_id": "DLG-1228",
+          "embedded_offset": "0x09A49A",
+          "intersection_bytes": 79,
+          "fully_contained": true
+        },
+        {
+          "parent_id": "DLG-1229",
+          "embedded_id": "DLG-1230",
+          "embedded_offset": "0x09A51E",
+          "intersection_bytes": 65,
+          "fully_contained": true
+        }
+      ],
+      "unselected_hint_source_blocks": [
+        {
+          "rom_offset": "0x08DB15",
+          "master_id": "ADD-0028"
+        },
+        {
+          "rom_offset": "0x08DB76",
+          "master_id": "ADD-0029"
+        },
+        {
+          "rom_offset": "0x08DBC5",
+          "master_id": "ADD-0030"
+        },
+        {
+          "rom_offset": "0x08DC24",
+          "master_id": "ADD-0031"
+        },
+        {
+          "rom_offset": "0x08DCD0",
+          "master_id": "ADD-0032"
+        },
+        {
+          "rom_offset": "0x08DD06",
+          "master_id": "ADD-0033"
+        },
+        {
+          "rom_offset": "0x08DFE5",
+          "master_id": "ADD-0034"
+        }
+      ],
+      "hint_dispatcher_cases_in_prior_reconstruction": 34,
+      "dispatcher_direct_print_sources_in_prior_reconstruction": 12,
+      "wind_melody_item_condition": {
+        "condition_rom_offset": "0x05D932",
+        "opcode_bytes": "02 D6 08 47 D9",
+        "item_id": "0x08",
+        "item_present_text": "DLG-0549",
+        "item_absent_text": "DLG-0550",
+        "branch_evidence": "Archived exact original-ROM COP D6 and BF pointer bytes; native execution not rerun.",
+        "player_display_newly_confirmed": false
+      },
+      "scanning_tool": {
+        "filename": "gaia_unindexed_scan.py",
+        "local_artifact_sha256": "0ffd11853aac5ecc25b0a33304dc01964265859fe99681c5343047da9e78eb00",
+        "lines": 222,
+        "requires": "Original unheadered Japanese 2MiB .sfc and current master_extraction.json",
+        "requires_sha256_check": true,
+        "capabilities": [
+          "verify ROM identity",
+          "verify embedded area/staff raw source bytes against ROM",
+          "find COP BF direct same-bank reference targets absent from master",
+          "find potential text CF/D3 transfers within known script spans",
+          "find COP D6 inventory branches and immediately targeted text prints",
+          "write structured JSON candidates with raw hex previews; never auto-add candidate text"
+        ],
+        "synthetic_test": "passed: 2 unindexed BF targets, 2 unindexed CF/D3 transfers, one D6 conditional with both branch prints",
+        "executed_against_original_rom": false
+      },
+      "conclusion": {
+        "new_original_rom_text_added": 0,
+        "existing_master_text_entries_unchanged": true,
+        "current_master_entries": 1720,
+        "unindexed_candidate_count_in_original_rom": null,
+        "reason_no_count": "Without original ROM bytes, scanning code cannot yield candidate results.",
+        "next_step": "Run scanner against uploaded original JP ROM and inspect decoded candidates / event reachability; verify source bytes before any insertion."
+      }
     }
   }
 }
