@@ -15948,7 +15948,7 @@
       ]
     }
   ],
-  "version": "v27",
+  "version": "v28",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15990,7 +15990,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-05",
+    "last_updated_utc": "2026-11-06",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -16021,7 +16021,7 @@
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61
     },
-    "completion_state": "1,720 catalogued Japanese-release player-facing text entries. v26 adds original-ROM map-source triage and a full-scene/runtime coverage instrument; it does NOT identify world-map tilemap ROM locations or execute a native SNES core. Source-validated entries are retained; all gameplay-display coverage remains unproven. v27: independent Japanese wiki script spot-check; 26/29 sampled phrases matched, 3 explained as dynamic/orthographic differences; no new player-visible entries proven.",
+    "completion_state": "1,720 catalogued Japanese player-facing text entries. v28 (2026-11-05) executes actual 2 MiB original-ROM BF/D3/D6 static scan: 1,401 BF sites, 87 references to 59 unindexed starts; classified into 27 control wrappers, 10 repeated template prefixes, 17 empty-control starts, and 5 excluded debug-man stage-selector records. Zero new normal-player-facing Japanese passages verified; native emulator execution, all branch reachability, graphics-only text, and exhaustive script coverage remain unproven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -43897,6 +43897,135 @@
         "reason_no_count": "Without original ROM bytes, scanning code cannot yield candidate results.",
         "next_step": "Run scanner against uploaded original JP ROM and inspect decoded candidates / event reachability; verify source bytes before any insertion."
       }
+    },
+    "original_rom_bf_scan_executed_2026_11_05": {
+      "date": "2026-11-05",
+      "executed_against_original_rom": true,
+      "original_unheadered_ROM_bytes": 2097152,
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "master_version_at_start": "v27",
+      "known_master_source_starts": 1402,
+      "direct_BF_opcode_sites_scanned": 1401,
+      "BF_sites_with_plausible_text_start": 1366,
+      "BF_sites_targeting_unindexed_start": 87,
+      "distinct_unindexed_targets": 59,
+      "source_target_groups": {
+        "control_wrapper_or_alternate_entry_point_into_indexed_text": [
+          "0x0391BA",
+          "0x0399A7",
+          "0x04879F",
+          "0x049E81",
+          "0x04C962",
+          "0x04E6E9",
+          "0x04E73E",
+          "0x05DCB5",
+          "0x078838",
+          "0x07DC6B",
+          "0x07E12E",
+          "0x089E82",
+          "0x08A223",
+          "0x08B3D1",
+          "0x08C984",
+          "0x08D118",
+          "0x08D11E",
+          "0x08E4EE",
+          "0x08EA61",
+          "0x08EC68",
+          "0x08ED90",
+          "0x0980A8",
+          "0x09812C",
+          "0x099F2F",
+          "0x0BE0DD",
+          "0x0BE0E8",
+          "0x0BE4A9"
+        ],
+        "repeated_format_template_prefix": [
+          "0x03B62A",
+          "0x03B62D",
+          "0x03B630",
+          "0x03B633",
+          "0x03B636",
+          "0x03B639",
+          "0x03B63C",
+          "0x03B63F",
+          "0x03B642",
+          "0x03B645"
+        ],
+        "empty_text_prefix_or_no_display_control": [
+          "0x07889A",
+          "0x07C031",
+          "0x07C033",
+          "0x07C035",
+          "0x07C037",
+          "0x07C039",
+          "0x07C03B",
+          "0x07C03D",
+          "0x07C03F",
+          "0x07C041",
+          "0x07C043",
+          "0x07C3C0",
+          "0x07C3C2",
+          "0x07C3C4",
+          "0x07C577",
+          "0x07C579",
+          "0x07C57B"
+        ],
+        "development_debug_stage_select_text": [
+          "0x0BEC14",
+          "0x0BEC7A",
+          "0x0BECA0",
+          "0x0BECCE",
+          "0x0BECF8"
+        ]
+      },
+      "development_debug_text_spans": [
+        {
+          "start": "0x0BEC14",
+          "end_exclusive": "0x0BEC7A",
+          "instruction_site": "0x0BEB4B"
+        },
+        {
+          "start": "0x0BEC7A",
+          "end_exclusive": "0x0BECA0",
+          "instruction_site": "0x0BEB5F"
+        },
+        {
+          "start": "0x0BECA0",
+          "end_exclusive": "0x0BECCE",
+          "instruction_site": "0x0BEB74"
+        },
+        {
+          "start": "0x0BECCE",
+          "end_exclusive": "0x0BECF8",
+          "instruction_site": "0x0BEB89"
+        },
+        {
+          "start": "0x0BECF8",
+          "end_exclusive": "0x0BED2A",
+          "instruction_site": "0x0BEB8D"
+        }
+      ],
+      "debug_attribution_evidence": "The original-ROM COP script at 0x0BEB24--0x0BEC10 initializes HP 0x28 and STR/DEF 0x7F in WRAM and provides location-transfer choices. Independent reference: https://rpgone.superfamicom.org/debug (Debug Man; not proof of unmodified player runtime reachability). The five records remain intentionally excluded from player-facing sections.",
+      "raw_02_D6_item_branch_signatures": 48,
+      "D6_sites_with_immediate_BF_in_both_outcomes": 3,
+      "wind_melody_branch_rechecked": {
+        "site": "0x05D932",
+        "item_id_hex": "08",
+        "branch_target": "0x05D947",
+        "text_sources": [
+          "0x05DABD",
+          "0x05DA3B"
+        ],
+        "both_present_in_master": true
+      },
+      "raw_D3_near_bank_target_heuristic_count": 30,
+      "raw_D3_heuristic_distinct_targets": 28,
+      "D3_heuristic_new_verified_text": 0,
+      "new_verified_normal_player_facing_text_records": 0,
+      "total_master_player_facing_records_after_scan": 1720,
+      "gameplay_execution_frames_observed": 0,
+      "scan_classification_note": "Classification is source-static. Wrapper/empty/template targets are not proven screen-visible; no added Japanese dialogue is justified by these references. This is not an exhaustive decompression, map-tilemap, or runtime branch coverage audit.",
+      "local_full_59_target_audit_sha256": "5e483c56319cf62a1fb2f06e2e27869b1f65f1d692b410181efae02c8e6334b3"
     }
   }
 }
