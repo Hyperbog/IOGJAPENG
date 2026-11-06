@@ -15948,7 +15948,7 @@
       ]
     }
   ],
-  "version": "v26",
+  "version": "v27",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -16021,7 +16021,7 @@
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61
     },
-    "completion_state": "1,720 catalogued Japanese-release player-facing text entries. v26 adds original-ROM map-source triage and a full-scene/runtime coverage instrument; it does NOT identify world-map tilemap ROM locations or execute a native SNES core. Source-validated entries are retained; all gameplay-display coverage remains unproven.",
+    "completion_state": "1,720 catalogued Japanese-release player-facing text entries. v26 adds original-ROM map-source triage and a full-scene/runtime coverage instrument; it does NOT identify world-map tilemap ROM locations or execute a native SNES core. Source-validated entries are retained; all gameplay-display coverage remains unproven. v27: independent Japanese wiki script spot-check; 26/29 sampled phrases matched, 3 explained as dynamic/orthographic differences; no new player-visible entries proven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -43339,6 +43339,125 @@
       "required_evidence": "One source hit must be paired to an observed screen text, frame, map ID and recorded savestate/movie/screenshot; otherwise only source-read evidence.",
       "limitations": "Script must be run against the verified Japanese ROM on a SNES emulator core with supported bus hooks. It has not been syntax-checked within that emulator; no actual core or gameplay was executed here.",
       "api_reference": "https://tasvideos.org/Bizhawk/LuaFunctions"
+    },
+    "independent_japanese_transcription_crosscheck_2026_11_05": {
+      "reference_root": "https://wikiwiki.jp/text/%E3%82%AC%E3%82%A4%E3%82%A2%E5%B9%BB%E6%83%B3%E7%B4%80",
+      "reference_name": "会話&テキスト集 Wiki* — ガイア幻想紀",
+      "source_type": "External fan transcription; not ROM source data",
+      "index_topics_count": 24,
+      "visited_topics": [
+        "メニュー・共通メッセージ",
+        "アイテム",
+        "ジェムの人",
+        "ジェムの館",
+        "オープニングデモ",
+        "エンディング",
+        "エピローグ",
+        "スタッフロール",
+        "彗星ダークガイア",
+        "バベルの塔"
+      ],
+      "sample_phrase_count": 29,
+      "sample_phrases_present_in_master_after_NFKC_and_spacing_punctuation_normalization": 26,
+      "other_3_cases": [
+        {
+          "reference_phrase": "フリーダンのじょうたいです",
+          "resolution": "The master stores a runtime-substituted status/character label, rather than each character-specific composite",
+          "master_id": "UI-0004",
+          "new_string_found": false
+        },
+        {
+          "reference_phrase": "Asistant Producer",
+          "resolution": "ROM credits instead spell ASSISTANT PRODUCER",
+          "master_id": "STF-0021",
+          "new_string_found": false
+        },
+        {
+          "reference_phrase": "Thank you for playing",
+          "resolution": "Case-only variation from actual ROM all-caps text",
+          "master_id": "STF-0027",
+          "new_string_found": false
+        }
+      ],
+      "staff_comparisons": [
+        {
+          "master_id": "STF-0003",
+          "original_ROM_derived": "CHARACTOR DESIGNER",
+          "wiki_transcription": "Charactor Designer",
+          "analysis": "Same original misspelling; preserve exact ROM text, not an error to autocorrect",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0011",
+          "original_ROM_derived": "SHIGEMI KITA",
+          "wiki_transcription": "SHGEMI KITA",
+          "analysis": "Wiki dropped letter I",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0012",
+          "original_ROM_derived": "YUKINOBU CHIDA",
+          "wiki_transcription": "YUKINOBU CHIBA",
+          "analysis": "Wiki substitutes B for D",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0013",
+          "original_ROM_derived": "TAKASHI OOTSUKA",
+          "wiki_transcription": "TAKASHI DOTSUKA",
+          "analysis": "Wiki transcribes first letter incorrectly",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0014",
+          "original_ROM_derived": "YASUKO SEKIGUCHI",
+          "wiki_transcription": "YASUO SEKIGUCHI",
+          "analysis": "Wiki omits K",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0017",
+          "original_ROM_derived": "JUN YUKUYOSHI",
+          "wiki_transcription": "JON YUKUYOSHI",
+          "analysis": "Wiki substitutes O for U",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0021",
+          "original_ROM_derived": "ASSISTANT PRODUCER",
+          "wiki_transcription": "Asistant Producer",
+          "analysis": "Wiki omits second S, ROM uppercase",
+          "do_not_overwrite_ROM_text": true
+        },
+        {
+          "master_id": "STF-0027",
+          "original_ROM_derived": "THANK YOU FOR PLAYING",
+          "wiki_transcription": "Thank you for playing",
+          "analysis": "Case-only difference",
+          "do_not_overwrite_ROM_text": true
+        }
+      ],
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "source_bytes_independently_rechecked_in_this_pass": {
+        "STF-0011": "0x09D478-0x09D4C4",
+        "STF-0012": "0x09D4C4-0x09D513",
+        "STF-0013": "0x09D513-0x09D54E",
+        "STF-0014": "0x09D54E-0x09D58D",
+        "STF-0017": "0x09D62D-0x09D67D",
+        "STF-0021": "0x09D6DC-0x09D709",
+        "STF-0027": "0x09D7EB-0x09D805"
+      },
+      "possible_controller_configuration_difference": {
+        "wiki_menu_reference": "そうびしたものは Ｙボタンで つかうことができます。",
+        "original_ROM_master_template_id": "UI-0013",
+        "original_ROM_master_text": "もちものを そうびします、\nそうびしたものは 〈指定ボタン〉ボタンで\nつかうことができます、",
+        "provenance": "The original ROM-derived master uses a dynamic button placeholder; no fixed original-game button label can be assigned from the wiki alone.",
+        "runtime_button_mapping_verified": false
+      },
+      "item_page_coverage_observation": "The wiki separately catalogs inappropriate-use messages and dynamic inventory outcomes; representative cases were already matched to DLG-0013, DLG-0017, DLG-0018, DLG-0032, DLG-0039, DLG-0047, DLG-0050 and DLG-0555.",
+      "audit_scope_limit": "Selective 29-phrase content spot-check across cited pages, NOT full line-by-line reconciliation across all 24 topic pages, and NOT evidence of emulator rendering.",
+      "new_ROM_proven_player_facing_entries_added": 0,
+      "all_master_text_entries_unchanged": true
     }
   }
 }
