@@ -11674,143 +11674,462 @@
       "entries": [
         {
           "text": "サウスケープ",
-          "id": "PLC-0001"
+          "id": "PLC-0001",
+          "rom_offset": "0x03AF8C",
+          "rom_end_exclusive": "0x03AF95",
+          "source_hex": "d4453d4743731bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF1C",
+          "table_slot": 1,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "サウスケープ",
-          "id": "PLC-0002"
+          "id": "PLC-0002",
+          "rom_offset": "0x03AF95",
+          "rom_end_exclusive": "0x03AF9E",
+          "source_hex": "d4453d4743731bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF1F",
+          "table_slot": 2,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "エドワード城",
-          "id": "PLC-0003"
+          "id": "PLC-0003",
+          "rom_offset": "0x03AF9E",
+          "rom_end_exclusive": "0x03AFA8",
+          "source_hex": "d43e0e66730e804ad5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF22",
+          "table_slot": 3,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "イトリー族の村",
-          "id": "PLC-0004"
+          "id": "PLC-0004",
+          "rom_offset": "0x03AFA8",
+          "rom_end_exclusive": "0x03AFB4",
+          "source_hex": "d43c4e6273804bd553804cc0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF25",
+          "table_slot": 4,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "イトリー族の村",
-          "id": "PLC-0005"
+          "id": "PLC-0005",
+          "rom_offset": "0x03AFB4",
+          "rom_end_exclusive": "0x03AFC0",
+          "source_hex": "d43c4e6273804bd553804cc0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF28",
+          "table_slot": 5,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "月の種族のすみか",
-          "id": "PLC-0006"
+          "id": "PLC-0006",
+          "rom_offset": "0x03AFC0",
+          "rom_end_exclusive": "0x03AFCC",
+          "source_hex": "804d53804e804b53475a40c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF2B",
+          "table_slot": 6,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "インカのイセキ",
-          "id": "PLC-0007"
+          "id": "PLC-0007",
+          "rom_offset": "0x03AFCC",
+          "rom_end_exclusive": "0x03AFD8",
+          "source_hex": "d43c6840d553d43c4841d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF2E",
+          "table_slot": 7,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ダイヤモンドコースト",
-          "id": "PLC-0008"
+          "id": "PLC-0008",
+          "rom_offset": "0x03AFD8",
+          "rom_end_exclusive": "0x03AFE5",
+          "source_hex": "d40a3c5e5d680e4473474ed5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF31",
+          "table_slot": 8,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ダイヤモンドコースト",
-          "id": "PLC-0009"
+          "id": "PLC-0009",
+          "rom_offset": "0x03AFE5",
+          "rom_end_exclusive": "0x03AFF2",
+          "source_hex": "d40a3c5e5d680e4473474ed5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF34",
+          "table_slot": 9,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "花の都フリージア",
-          "id": "PLC-0010"
+          "id": "PLC-0010",
+          "rom_offset": "0x03AFF2",
+          "rom_end_exclusive": "0x03AFFF",
+          "source_hex": "804f538050d4566273063bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF37",
+          "table_slot": 10,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "花の都フリージア",
-          "id": "PLC-0011"
+          "id": "PLC-0011",
+          "rom_offset": "0x03AFFF",
+          "rom_end_exclusive": "0x03B00C",
+          "source_hex": "804f538050d4566273063bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF3A",
+          "table_slot": 11,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ダイヤモンド鉱山",
-          "id": "PLC-0012"
+          "id": "PLC-0012",
+          "rom_offset": "0x03B00C",
+          "rom_end_exclusive": "0x03B019",
+          "source_hex": "d40a3c5e5d680e80518052d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF3D",
+          "table_slot": 12,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ニールの小屋",
-          "id": "PLC-0013"
+          "id": "PLC-0013",
+          "rom_offset": "0x03B019",
+          "rom_end_exclusive": "0x03B024",
+          "source_hex": "d4507363d55380538054c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF40",
+          "table_slot": 13,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ナスカの地上絵",
-          "id": "PLC-0014"
+          "id": "PLC-0014",
+          "rom_offset": "0x03B024",
+          "rom_end_exclusive": "0x03B031",
+          "source_hex": "d44f4740d5538055803a8056c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF43",
+          "table_slot": 14,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "ムー大陸",
-          "id": "PLC-0015"
+          "id": "PLC-0015",
+          "rom_offset": "0x03B031",
+          "rom_end_exclusive": "0x03B03A",
+          "source_hex": "d45b7380318057d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF46",
+          "table_slot": 15,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "海底どうくつ",
-          "id": "PLC-0016"
+          "id": "PLC-0016",
+          "rom_offset": "0x03B03A",
+          "rom_end_exclusive": "0x03B043",
+          "source_hex": "805880590e3d424cc0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF49",
+          "table_slot": 16,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "だ天使の町",
-          "id": "PLC-0017"
+          "id": "PLC-0017",
+          "rom_offset": "0x03B043",
+          "rom_end_exclusive": "0x03B04C",
+          "source_hex": "0a805a805b538049c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF4C",
+          "table_slot": 17,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "だ天使の町",
-          "id": "PLC-0018"
+          "id": "PLC-0018",
+          "rom_offset": "0x03B04C",
+          "rom_end_exclusive": "0x03B055",
+          "source_hex": "0a805a805b538049c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF4F",
+          "table_slot": 18,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "水上都市ウォータミア",
-          "id": "PLC-0019"
+          "id": "PLC-0019",
+          "rom_offset": "0x03B055",
+          "rom_end_exclusive": "0x03B066",
+          "source_hex": "805c803a8050805dd43d6d734a5a3bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF52",
+          "table_slot": 19,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "水上都市ウォータミア",
-          "id": "PLC-0020"
+          "id": "PLC-0020",
+          "rom_offset": "0x03B066",
+          "rom_end_exclusive": "0x03B077",
+          "source_hex": "805c803a8050805dd43d6d734a5a3bd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF55",
+          "table_slot": 20,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "万里の長城",
-          "id": "PLC-0021"
+          "id": "PLC-0021",
+          "rom_offset": "0x03B077",
+          "rom_end_exclusive": "0x03B081",
+          "source_hex": "805e805f538060804ac0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF58",
+          "table_slot": 21,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "大都市エウロ",
-          "id": "PLC-0022"
+          "id": "PLC-0022",
+          "rom_offset": "0x03B081",
+          "rom_end_exclusive": "0x03B08D",
+          "source_hex": "80318050805dd43e3d65d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF5B",
+          "table_slot": 22,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "大都市エウロ",
-          "id": "PLC-0023"
+          "id": "PLC-0023",
+          "rom_offset": "0x03B08D",
+          "rom_end_exclusive": "0x03B099",
+          "source_hex": "80318050805dd43e3d65d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF5E",
+          "table_slot": 23,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "大都市エウロ",
-          "id": "PLC-0024"
+          "id": "PLC-0024",
+          "rom_offset": "0x03B099",
+          "rom_end_exclusive": "0x03B0A5",
+          "source_hex": "80318050805dd43e3d65d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF61",
+          "table_slot": 24,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "山の聖域",
-          "id": "PLC-0025"
+          "id": "PLC-0025",
+          "rom_offset": "0x03B0A5",
+          "rom_end_exclusive": "0x03B0AD",
+          "source_hex": "80525380618062c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF64",
+          "table_slot": 25,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "山の聖域",
-          "id": "PLC-0026"
+          "id": "PLC-0026",
+          "rom_offset": "0x03B0AD",
+          "rom_end_exclusive": "0x03B0B5",
+          "source_hex": "80525380618062c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF67",
+          "table_slot": 26,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "原住民の村落",
-          "id": "PLC-0027"
+          "id": "PLC-0027",
+          "rom_offset": "0x03B0B5",
+          "rom_end_exclusive": "0x03B0C1",
+          "source_hex": "80638064806553804c8066c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF6A",
+          "table_slot": 27,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "原住民の村落",
-          "id": "PLC-0028"
+          "id": "PLC-0028",
+          "rom_offset": "0x03B0C1",
+          "rom_end_exclusive": "0x03B0CD",
+          "source_hex": "80638064806553804c8066c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF6D",
+          "table_slot": 28,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "原住民の村落",
-          "id": "PLC-0029"
+          "id": "PLC-0029",
+          "rom_offset": "0x03B0CD",
+          "rom_end_exclusive": "0x03B0D9",
+          "source_hex": "80638064806553804c8066c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF70",
+          "table_slot": 29,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "アンコールワット",
-          "id": "PLC-0030"
+          "id": "PLC-0030",
+          "rom_offset": "0x03B0D9",
+          "rom_end_exclusive": "0x03B0E4",
+          "source_hex": "d43b68447363666e4ed5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF73",
+          "table_slot": 30,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "さばくの町 ダオ",
-          "id": "PLC-0031"
+          "id": "PLC-0031",
+          "rom_offset": "0x03B0E4",
+          "rom_end_exclusive": "0x03B0F0",
+          "source_hex": "45144253804920d40a3fd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF76",
+          "table_slot": 31,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "さばくの町 ダオ",
-          "id": "PLC-0032"
+          "id": "PLC-0032",
+          "rom_offset": "0x03B0F0",
+          "rom_end_exclusive": "0x03B0FC",
+          "source_hex": "45144253804920d40a3fd5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF79",
+          "table_slot": 32,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced",
+          "additional_table_alias_slots": [
+            33,
+            34
+          ]
         },
         {
           "text": "ピラミッド",
-          "id": "PLC-0033"
+          "id": "PLC-0033",
+          "rom_offset": "0x03B0FC",
+          "rom_end_exclusive": "0x03B104",
+          "source_hex": "d41a615a6e0ed5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF82",
+          "table_slot": 35,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "バベル上空",
-          "id": "PLC-0034"
+          "id": "PLC-0034",
+          "rom_offset": "0x03B104",
+          "rom_end_exclusive": "0x03B10E",
+          "source_hex": "d4141763803a8004d5c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF85",
+          "table_slot": 36,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         },
         {
           "text": "バベルの塔",
-          "id": "PLC-0035"
+          "id": "PLC-0035",
+          "rom_offset": "0x03B10E",
+          "rom_end_exclusive": "0x03B117",
+          "source_hex": "d4141763d5538067c0",
+          "source_kind": "original_JP_ROM_world_location_table",
+          "pointer_table_site": "0x03AF88",
+          "table_slot": 37,
+          "terminator_hex": "C0",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "not individually traced"
         }
       ]
     },
@@ -11820,95 +12139,302 @@
       "entries": [
         {
           "text": "最初からはじめる",
-          "id": "SAV-0001"
+          "id": "SAV-0001",
+          "rom_offset": "0x0BE7C4",
+          "rom_end_exclusive": "0x0BE7CF",
+          "source_hex": "811b80d7406154065c63cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "サウスケープ",
-          "id": "SAV-0002"
+          "id": "SAV-0002",
+          "rom_offset": "0x0BE7CF",
+          "rom_end_exclusive": "0x0BE7D8",
+          "source_hex": "d4453d4743731bd5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "エドワード城ろうや",
-          "id": "SAV-0003"
+          "id": "SAV-0003",
+          "rom_offset": "0x0BE7D8",
+          "rom_end_exclusive": "0x0BE7E5",
+          "source_hex": "d43e0e66730e804ad5653d5ecc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "エドワード城",
-          "id": "SAV-0004"
+          "id": "SAV-0004",
+          "rom_offset": "0x0BE7E5",
+          "rom_end_exclusive": "0x0BE7EF",
+          "source_hex": "d43e0e66730e804ad5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "イトリー族の村",
-          "id": "SAV-0005"
+          "id": "SAV-0005",
+          "rom_offset": "0x0BE7EF",
+          "rom_end_exclusive": "0x0BE7FB",
+          "source_hex": "d43c4e6273804bd553804ccc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "ラライのガケ",
-          "id": "SAV-0006"
+          "id": "SAV-0006",
+          "rom_offset": "0x0BE7FB",
+          "rom_end_exclusive": "0x0BE806",
+          "source_hex": "d461613cd553d40043d5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "インカの遺跡",
-          "id": "SAV-0007"
+          "id": "SAV-0007",
+          "rom_offset": "0x0BE806",
+          "rom_end_exclusive": "0x0BE811",
+          "source_hex": "d43c6840d55380a4817fcc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "花の都 フリージア",
-          "id": "SAV-0008"
+          "id": "SAV-0008",
+          "rom_offset": "0x0BE811",
+          "rom_end_exclusive": "0x0BE81F",
+          "source_hex": "804f53805020d4566273063bd5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "ダイヤモンド鉱山",
-          "id": "SAV-0009"
+          "id": "SAV-0009",
+          "rom_offset": "0x0BE81F",
+          "rom_end_exclusive": "0x0BE82C",
+          "source_hex": "d40a3c5e5d680e80518052d5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "空中庭園",
-          "id": "SAV-0010"
+          "id": "SAV-0010",
+          "rom_offset": "0x0BE82C",
+          "rom_end_exclusive": "0x0BE835",
+          "source_hex": "8004801d8199819acc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "海底きゅうでん",
-          "id": "SAV-0011"
+          "id": "SAV-0011",
+          "rom_offset": "0x0BE835",
+          "rom_end_exclusive": "0x0BE83F",
+          "source_hex": "8058805941703d0d68cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "ムー大陸",
-          "id": "SAV-0012"
+          "id": "SAV-0012",
+          "rom_offset": "0x0BE83F",
+          "rom_end_exclusive": "0x0BE848",
+          "source_hex": "d45b7380318057d5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "だ天使の町",
-          "id": "SAV-0013"
+          "id": "SAV-0013",
+          "rom_offset": "0x0BE848",
+          "rom_end_exclusive": "0x0BE851",
+          "source_hex": "0a805a805b538049cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "ウォータミア",
-          "id": "SAV-0014"
+          "id": "SAV-0014",
+          "rom_offset": "0x0BE851",
+          "rom_end_exclusive": "0x0BE85A",
+          "source_hex": "d43d6d734a5a3bd5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "万里の長城",
-          "id": "SAV-0015"
+          "id": "SAV-0015",
+          "rom_offset": "0x0BE85A",
+          "rom_end_exclusive": "0x0BE864",
+          "source_hex": "805e805f538060804acc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "大都市 エウロ",
-          "id": "SAV-0016"
+          "id": "SAV-0016",
+          "rom_offset": "0x0BE864",
+          "rom_end_exclusive": "0x0BE871",
+          "source_hex": "80318050805d20d43e3d65d5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "山の聖域",
-          "id": "SAV-0017"
+          "id": "SAV-0017",
+          "rom_offset": "0x0BE871",
+          "rom_end_exclusive": "0x0BE879",
+          "source_hex": "80525380618062cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "原住民の村落",
-          "id": "SAV-0018"
+          "id": "SAV-0018",
+          "rom_offset": "0x0BE879",
+          "rom_end_exclusive": "0x0BE885",
+          "source_hex": "80638064806553804c8066cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "アンコールワット中庭",
-          "id": "SAV-0019"
+          "id": "SAV-0019",
+          "rom_offset": "0x0BE885",
+          "rom_end_exclusive": "0x0BE894",
+          "source_hex": "d43b68447363666e4e801d8199d5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "アンコールワット",
-          "id": "SAV-0020"
+          "id": "SAV-0020",
+          "rom_offset": "0x0BE894",
+          "rom_end_exclusive": "0x0BE89F",
+          "source_hex": "d43b68447363666e4ed5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "さばくの町 ダオ",
-          "id": "SAV-0021"
+          "id": "SAV-0021",
+          "rom_offset": "0x0BE89F",
+          "rom_end_exclusive": "0x0BE8AB",
+          "source_hex": "45144253804920d40a3fd5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "ピラミッド",
-          "id": "SAV-0022"
+          "id": "SAV-0022",
+          "rom_offset": "0x0BE8AB",
+          "rom_end_exclusive": "0x0BE8B3",
+          "source_hex": "d41a615a6e0ed5cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         },
         {
           "text": "バベルの塔",
-          "id": "SAV-0023"
+          "id": "SAV-0023",
+          "rom_offset": "0x0BE8B3",
+          "rom_end_exclusive": "0x0BE8BC",
+          "source_hex": "d4141763d5538067cc",
+          "source_kind": "original_JP_ROM_save_location_table",
+          "pointer_table_start": "0x0BE5C4",
+          "pointer_table_slots": 256,
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "specific_save_state_selection_not_traced"
         }
       ]
     },
@@ -12584,27 +13110,153 @@
       "entries": [
         {
           "text": "サイコダッシュ\nサイコダッシュは 少年テムだけが\n使うことのできる ちから。\n\n体当たりこうげきで 障害物や\nくずれやすいカベを はかいする\nことができるのだ。\n\nこうげきボタンで ちからをためて\n使うがよい・・・",
-          "id": "ABI-0001"
+          "id": "ABI-0001",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E504",
+              "rom_end_exclusive": "0x08E50E",
+              "source_hex": "d4453c440a6e4670d5cc",
+              "pointer_site": "0x08E4F8",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E54E",
+              "rom_end_exclusive": "0x08E5C1",
+              "source_hex": "d4453c440a6e4670d55420802b802cd44d5bd50a4300cd805b3d444e530d4163204b40611fd1804781644a62443d03410d208134822c80385ecd4207645e473cd44017d5672054403c4763cd444e000d4163530a1fd1443d0341d4184a68d50d204b4061674a5c4dcd805b3d00603c7e7e7ecc",
+              "pointer_site": "0x08E542",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "サイコスライダー\nサイコスライダーは 少年テムだけが\n使うことのできる ちから。\n\nスライディングこうげきが できる\nようになる。\nまた せまい通路も通れるであろう。\n\n走っている最中に こうげきボタンを\nおすがよい・・・",
-          "id": "ABI-0002"
+          "id": "ABI-0002",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E50E",
+              "rom_end_exclusive": "0x08E519",
+              "source_hex": "d4453c4447613c0a73d5cc",
+              "pointer_site": "0x08E4FA",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E5C1",
+              "rom_end_exclusive": "0x08E637",
+              "source_hex": "d4453c4447613c0a73d55420802b802cd44d5bd50a4300cd805b3d444e530d4163204b40611fd1d447613c0d6a6802d5443d034100200d4163cd603d504f631fcd594a2048593c811d811e5d811d64630d3b653d1fd181c06e4d3c63811b801d5020443d0341d4184a68d567cd3f4700603c7e7e7ecc",
+              "pointer_site": "0x08E544",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "スピンダッシュ\nスピンダッシュは 少年テムだけが\n使うことのできる ちから。\n\n自分が 高速回転し 敵を\nはじき飛ばすことができる。\nその反動を 利用して 坂を\nかけあがることもできるであろう。\n\nこうげきボタンで 力をため\nLRを こうごにおすがよい・・・",
-          "id": "ABI-0003"
+          "id": "ABI-0003",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E519",
+              "rom_end_exclusive": "0x08E523",
+              "source_hex": "d4471a680a6e4670d5cc",
+              "pointer_site": "0x08E4FC",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E637",
+              "rom_end_exclusive": "0x08E6C6",
+              "source_hex": "d4471a680a6e4670d55420802b802cd44d5bd50a4300cd805b3d444e530d4163204b40611fd1802680be002081cf821880b7822d4620811467cd540641806b1447444e000d41631fcd4953808c803c6720821c8166464d20822e67cd40433b0063444e5d0d41630d3b653d1fd1443d0341d4184a68d50d20800e674a5ccd2c326720443d04503f4700603c7e7e7ecc",
+              "pointer_site": "0x08E546",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "ダークフライヤー\nダークフライヤーは\nヤミの戦士フリーダンだけが 使える\nヤミのちから。\n\nオーラのパワーを放ち 遠くはなれた\n敵を 焼きつくすことができるのだ。\nこうげきボタンで 力をためて\n使うがよい・・・",
-          "id": "ABI-0004"
+          "id": "ABI-0004",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E523",
+              "rom_end_exclusive": "0x08E52E",
+              "source_hex": "d40a734256613c5e73d5cc",
+              "pointer_site": "0x08E4FE",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E6C6",
+              "rom_end_exclusive": "0x08E73D",
+              "source_hex": "d40a734256613c5e73d554cdd45e5ad55380188019d45662730a68d50a430020805b3e63cdd45e5ad5534b40611fd1d43f7361d553d4196673d56781dc4b20802a42544f644acd81146720815c414c4247444e000d4163530a1fcd443d0341d4184a68d50d20800e674a5c4dcd805b3d00603c7e7e7ecc",
+              "pointer_site": "0x08E548",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "オーラバリア\nオーラバリアは\nヤミの戦士フリーダンだけが 使える\nヤミのちから。\n\nこの力は 自分の まわりに\nオーラでできた バリアをはることが\nできる。\n\nこうげきボタンで 力をため\nLRを こうごにおすがよい・・・",
-          "id": "ABI-0005"
+          "id": "ABI-0005",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E52E",
+              "rom_end_exclusive": "0x08E537",
+              "source_hex": "d43f736114623bd5cc",
+              "pointer_site": "0x08E500",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E73D",
+              "rom_end_exclusive": "0x08E7B8",
+              "source_hex": "d43f736114623bd554cdd45e5ad55380188019d45662730a68d50a430020805b3e63cdd45e5ad5534b40611fd14453800e5420802680be532059666250cdd43f7361d50d0d414a20d414623bd5675463444e00cd0d41631fd1443d0341d4184a68d50d20800e674a5ccd2c326720443d04503f4700603c7e7e7ecc",
+              "pointer_site": "0x08E54A",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         },
         {
           "text": "アースクエイカー\nアースクエイカーは\nヤミの戦士フリーダンだけが 使える\nヤミのちから。\n\nこれは じしんを おこして\n敵を しばらくの間 動けなく\nすることできる。\n\n飛びおりている最中に\nこうげきボタンをおすがよい・・・",
-          "id": "ABI-0006"
+          "id": "ABI-0006",
+          "source_kind": "original_JP_ROM_composite_ability_instruction",
+          "source_segments": [
+            {
+              "role": "title",
+              "rom_offset": "0x08E537",
+              "rom_end_exclusive": "0x08E542",
+              "source_hex": "d43b7347423e3c4073d5cc",
+              "pointer_site": "0x08E502",
+              "terminator_hex": "CC"
+            },
+            {
+              "role": "instruction_body",
+              "rom_offset": "0x08E7B8",
+              "rom_end_exclusive": "0x08E831",
+              "source_hex": "d43b7347423e3c4073d554cdd45e5ad55380188019d45662730a68d50a430020805b3e63cdd45e5ad5534b40611fd14464542006466867203f44464dcd811467204614614253800520803c434f42cd4763444e0d41631fd1806b153f624d3c63811b801d50cd443d0341d4184a68d5673f4700603c7e7e7ecc",
+              "pointer_site": "0x08E54C",
+              "terminator_hex": "CC"
+            }
+          ],
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "ability_menu_runtime_selection_not_traced"
         }
       ]
     },
@@ -15948,7 +16600,7 @@
       ]
     }
   ],
-  "version": "v28",
+  "version": "v29",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -16016,12 +16668,16 @@
         "area_titles": 63,
         "world_map_graphic_labels": 22
       },
-      "entries_with_direct_rom_offset_in_this_file": 1422,
-      "entries_without_direct_rom_offset_in_this_file": 298,
+      "entries_with_direct_rom_offset_in_this_file": 1460,
+      "entries_without_direct_rom_offset_in_this_file": 260,
       "unique_text_values": 1521,
-      "entries_with_explicit_speaker_field": 61
+      "entries_with_explicit_speaker_field": 61,
+      "entries_with_compound_direct_ROM_source_segments": 6,
+      "entries_with_any_original_ROM_byte_source_provenance": 1466,
+      "entries_without_verified_original_ROM_source_provenance": 254,
+      "source_offset_inventory_correction": "Recounted from actual per-entry rom_offset fields. Earlier v28/v27 inventory metadata reported 1,422 although 1,402 entries had offsets; after this pass the true count is 1,460 plus 6 composite ABI sources."
     },
-    "completion_state": "1,720 catalogued Japanese player-facing text entries. v28 (2026-11-05) executes actual 2 MiB original-ROM BF/D3/D6 static scan: 1,401 BF sites, 87 references to 59 unindexed starts; classified into 27 control wrappers, 10 repeated template prefixes, 17 empty-control starts, and 5 excluded debug-man stage-selector records. Zero new normal-player-facing Japanese passages verified; native emulator execution, all branch reachability, graphics-only text, and exhaustive script coverage remain unproven.",
+    "completion_state": "1,720 catalogued Japanese-release player-facing text records. v29 directly recovers 37 world-location pointer slots resolving to the 35 already catalogued source strings, all 23 save-location strings behind a 256-slot pointer table, and both title/body source segments for six ability instructions. 64 previously unoffsetted entries now have exact original-ROM attribution, but no new unique player-facing lines were proven. 1,460 entries have a directly attributed contiguous ROM span and six more have a verified composite two-span ROM source. Full native game execution, compressed graphics, dynamic and optional branches remain unproven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -44026,6 +44682,55 @@
       "gameplay_execution_frames_observed": 0,
       "scan_classification_note": "Classification is source-static. Wrapper/empty/template targets are not proven screen-visible; no added Japanese dialogue is justified by these references. This is not an exhaustive decompression, map-tilemap, or runtime branch coverage audit.",
       "local_full_59_target_audit_sha256": "5e483c56319cf62a1fb2f06e2e27869b1f65f1d692b410181efae02c8e6334b3"
+    },
+    "original_rom_indirect_table_source_recovery_2026_11_06": {
+      "date": "2026-11-06",
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "original_rom_read_now": true,
+      "scope": "Static recovery of unindexed in-game name and ability-instruction text tables, including indirect pointer lookup, original encoded bytes, and master correspondence.",
+      "world_location_table": {
+        "pointer_start": "0x03AF1C",
+        "pointer_slots": 37,
+        "distinct_literal_spans": 35,
+        "master_entries_aligned": 35,
+        "additional_alias_slots": [
+          33,
+          34
+        ],
+        "alias_target": "0x03B0F0",
+        "candidate_new_unique_text": 0,
+        "source_region": "0x03AF8C–0x03B117",
+        "source_region_sha256": "41019de47e0a9f3bcbbce2e9716b086940d0b07c9f2c7494011b717afcd57cc8"
+      },
+      "save_location_table": {
+        "pointer_start": "0x0BE5C4",
+        "pointer_slots": 256,
+        "distinct_literal_spans": 23,
+        "master_entries_aligned": 23,
+        "source_region": "0x0BE7C4–0x0BE8BC",
+        "source_region_sha256": "fbda7f7d7372b24b857cbd65b5896a86a831d0de48e719733389598412379fbd"
+      },
+      "ability_instructions": {
+        "title_pointer_start": "0x08E4F8",
+        "body_pointer_start": "0x08E542",
+        "title_records": 6,
+        "body_records": 6,
+        "aligned_compound_master_entries": 6,
+        "title_bytes_range": "0x08E504–0x08E542",
+        "body_bytes_range": "0x08E54E–0x08E831",
+        "body_region_sha256": "4e2e1d266549b93e3f1177493e95be5c364c31ea76f36e19072a2e7d0d45606c"
+      },
+      "total_previously_unoffsetted_master_entries_with_new_ROM_provenance": 64,
+      "new_unique_player_facing_text_entries_added": 0,
+      "checked_source_region_byte_sha256": "d95677d11bd7323112ba3dd6c3acceb1d7510451eb78b87bf950e75a82a363d1",
+      "audit_data_file_name": "rom_indirect_source_audit_v29.json",
+      "static_font_correspondence": {
+        "matching_world_location_strings": 37,
+        "matching_save_location_strings": 23,
+        "no_conflicting_character_mappings": true,
+        "distinct_tokens_consistent": 113
+      },
+      "coverage_limits": "This is not a full native SNES gameplay execution or an exhaustive scan of all compressed, generated or graphical sources. Pointer reuse does not establish distinct on-screen dialogue events."
     }
   }
 }
