@@ -43575,6 +43575,47 @@
       ],
       "followup_needed": "Obtain complete source of all 24 wiki topic pages; segment every player-facing passage and branch, align to entire master and composites, record every missing/ambiguous passage, verify apparent discrepancies against original ROM, then validate runtime-only branches.",
       "master_text_unchanged": true
+    },
+    "rom_source_catalog_reconciliation_2026_11_05": {
+      "date": "2026-11-05",
+      "purpose": "Continue ROM-primary extraction by reconciling stored original-ROM source catalog, not by copying wiki transcriptions.",
+      "original_rom_sha256_required": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "original_rom_raw_bytes_accessible_in_this_execution": false,
+      "rom_access_limit": "Three uploaded .sfc files are listed in Project/Library history, but authorized raw-file materialization did not succeed for this session. Prior original-ROM byte checks remain archived evidence and were not repeated here.",
+      "scope": "Cross-check previously captured source pointers, complete encoded source_hex/raw_hex lengths and existing master entry identities, without asserting new original-ROM reads or emulator runtime.",
+      "stored_source_catalog": {
+        "hint_dispatcher_case_count": 34,
+        "directly_printed_hint_dispatcher_targets": 12,
+        "direct_targets_present_as_existing_master_entries": 12,
+        "original_hint_text_blocks_catalogued": 17,
+        "original_hint_text_blocks_present_in_master": 17,
+        "nonselected_hint_blocks": 7,
+        "nonselected_hint_blocks_present_in_master": 7,
+        "nonselected_hint_runtime_reachability": "Not proven; existence in ROM does not establish player display.",
+        "area_title_records": 63,
+        "area_title_records_with_valid_embedded_hex_length_and_CC_terminator": 63,
+        "staff_roll_records": 27,
+        "staff_roll_records_with_embedded_hex_length_matching_stored_source_spans": 27,
+        "supplemental_script_entries": 39,
+        "supplemental_entries_with_source_span_consistent_with_archived_static_checks": 39,
+        "supplemental_entries_prior_terminal_C0": 27,
+        "supplemental_entries_prior_terminal_CC": 12,
+        "native_snes_emulator_executed_this_pass": false
+      },
+      "followup_priorities": [
+        "Re-access original Japanese 2MiB ROM and re-scan uncovered code/data ranges with known decoder for C0/CC text, CF inline inclusions, D3 intra-bank transfers, graphics tilemaps and generated menu labels.",
+        "Resolve 7 hint blocks absent from recovered 34-case dispatcher by finding all incoming call sites rather than treating ROM-only text as reachable.",
+        "Trace unique ownership for ADD-0012 composite initial clause, ADD-0031 hint text, shared CF wrappers of DLG-0665, Mu statue event branches, and unverified supplemental scene callbacks.",
+        "Identify original-ROM source pointers for 22 graphical world-map labels and screen word ITEM; published graphic rips are non-authoritative without ROM mapping.",
+        "Run reachable gameplay/save-state conditional branches with emulator, verify onscreen display, and distinguish unused/debug strings from actual player-facing text."
+      ],
+      "result": {
+        "new_original_rom_proven_player_facing_entries": 0,
+        "master_entries_unchanged": true,
+        "inventory_count": 1720,
+        "completeness_proven": false,
+        "caveat": "This turn narrows known-source reconciliation. It is not a fresh ROM extraction or a proof that no additional text exists."
+      }
     }
   }
 }
