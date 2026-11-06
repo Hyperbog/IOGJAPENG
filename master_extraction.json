@@ -12444,195 +12444,627 @@
       "entries": [
         {
           "text": "あかいほうせき",
-          "id": "ITN-0001"
+          "id": "ITN-0001",
+          "rom_offset": "0x01DAE3",
+          "rom_end_exclusive": "0x01DAEC",
+          "source_hex": "5c615d795e69622000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 1,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ろうごくのカギ",
-          "id": "ITN-0002"
+          "id": "ITN-0002",
+          "rom_offset": "0x01DAEC",
+          "rom_end_exclusive": "0x01DAF7",
+          "source_hex": "865e652663748f90262000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 2,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのぞうA",
-          "id": "ITN-0003"
+          "id": "ITN-0003",
+          "rom_offset": "0x01DAF7",
+          "rom_end_exclusive": "0x01DB01",
+          "source_hex": "8bb78f746a265e412000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 3,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのぞうB",
-          "id": "ITN-0004"
+          "id": "ITN-0004",
+          "rom_offset": "0x01DB01",
+          "rom_end_exclusive": "0x01DB0B",
+          "source_hex": "8bb78f746a265e422000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 4,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのメロディ",
-          "id": "ITN-0005"
+          "id": "ITN-0005",
+          "rom_offset": "0x01DB0B",
+          "rom_end_exclusive": "0x01DB15",
+          "source_hex": "8bb78f74abb49c26c300",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 5,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "やくそう",
-          "id": "ITN-0006"
+          "id": "ITN-0006",
+          "rom_offset": "0x01DB15",
+          "rom_end_exclusive": "0x01DB1E",
+          "source_hex": "7f636a5e2020202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 6,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ひしがたブロック",
-          "id": "ITN-0007"
+          "id": "ITN-0007",
+          "rom_offset": "0x01DB1E",
+          "rom_end_exclusive": "0x01DB29",
+          "source_hex": "766761266ba526b4c79100",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 7,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "かぜのメロディ",
-          "id": "ITN-0008"
+          "id": "ITN-0008",
+          "rom_offset": "0x01DB29",
+          "rom_end_exclusive": "0x01DB34",
+          "source_hex": "61692674abb49c26c32000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 8,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ローラのメロディ",
-          "id": "ITN-0009"
+          "id": "ITN-0009",
+          "rom_offset": "0x01DB34",
+          "rom_end_exclusive": "0x01DB3E",
+          "source_hex": "b45bb074abb49c26c300",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 9,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ほねつきのにく",
-          "id": "ITN-0010"
+          "id": "ITN-0010",
+          "rom_offset": "0x01DB3E",
+          "rom_end_exclusive": "0x01DB47",
+          "source_hex": "79736d627471632000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 10,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こうざんのカギA",
-          "id": "ITN-0011"
+          "id": "ITN-0011",
+          "rom_offset": "0x01DB47",
+          "rom_end_exclusive": "0x01DB52",
+          "source_hex": "655e662689748f90264100",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 11,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こうざんのカギB",
-          "id": "ITN-0012"
+          "id": "ITN-0012",
+          "rom_offset": "0x01DB52",
+          "rom_end_exclusive": "0x01DB5D",
+          "source_hex": "655e662689748f90264200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 12,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "おもいでメロディ",
-          "id": "ITN-0013"
+          "id": "ITN-0013",
+          "rom_offset": "0x01DB5D",
+          "rom_end_exclusive": "0x01DB68",
+          "source_hex": "607e5d6e26abb49c26c300",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 13,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "クリスタルボール",
-          "id": "ITN-0014"
+          "id": "ITN-0014",
+          "rom_offset": "0x01DB68",
+          "rom_end_exclusive": "0x01DB72",
+          "source_hex": "91b19699b2a7265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 14,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "リフトのカギ",
-          "id": "ITN-0015"
+          "id": "ITN-0015",
+          "rom_offset": "0x01DB72",
+          "rom_end_exclusive": "0x01DB7C",
+          "source_hex": "b1a59d748f9026202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 15,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "きゅうでんのカギ",
-          "id": "ITN-0016"
+          "id": "ITN-0016",
+          "rom_offset": "0x01DB7C",
+          "rom_end_exclusive": "0x01DB87",
+          "source_hex": "62bf5e6e2689748f902600",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 16,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "じょうかせき",
-          "id": "ITN-0017"
+          "id": "ITN-0017",
+          "rom_offset": "0x01DB87",
+          "rom_end_exclusive": "0x01DB91",
+          "source_hex": "6726c05e616962202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 17,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "いのりのぞう",
-          "id": "ITN-0018"
+          "id": "ITN-0018",
+          "rom_offset": "0x01DB91",
+          "rom_end_exclusive": "0x01DB9B",
+          "source_hex": "5d7483746a265e202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 18,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ラムーのぞう",
-          "id": "ITN-0019"
+          "id": "ITN-0019",
+          "rom_offset": "0x01DB9B",
+          "rom_end_exclusive": "0x01DBA5",
+          "source_hex": "b0aa5b746a265e202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 19,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "まほうのこな",
-          "id": "ITN-0020"
+          "id": "ITN-0020",
+          "rom_offset": "0x01DBA5",
+          "rom_end_exclusive": "0x01DBAE",
+          "source_hex": "7a795e746570202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 20,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "あおいてちょう",
-          "id": "ITN-0021"
+          "id": "ITN-0021",
+          "rom_offset": "0x01DBAE",
+          "rom_end_exclusive": "0x01DBB7",
+          "source_hex": "5c605d6e6cc05e2000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 21,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ロブのてがみ",
-          "id": "ITN-0022"
+          "id": "ITN-0022",
+          "rom_offset": "0x01DBB7",
+          "rom_end_exclusive": "0x01DBC2",
+          "source_hex": "b4a526746e61267b202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 22,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ネックレスのいし",
-          "id": "ITN-0023"
+          "id": "ITN-0023",
+          "rom_offset": "0x01DBC2",
+          "rom_end_exclusive": "0x01DBCB",
+          "source_hex": "a1c791b396745d6700",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 23,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "いしょ",
-          "id": "ITN-0024"
+          "id": "ITN-0024",
+          "rom_offset": "0x01DBCB",
+          "rom_end_exclusive": "0x01DBD4",
+          "source_hex": "5d67c0202020202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 24,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ティアポット",
-          "id": "ITN-0025"
+          "id": "ITN-0025",
+          "rom_offset": "0x01DBD4",
+          "rom_end_exclusive": "0x01DBDE",
+          "source_hex": "9cc38aa727c79d202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 25,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "キノコのしずく",
-          "id": "ITN-0026"
+          "id": "ITN-0026",
+          "rom_offset": "0x01DBDE",
+          "rom_end_exclusive": "0x01DBE8",
+          "source_hex": "90a29374676826632000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 26,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "きんかのふくろ",
-          "id": "ITN-0027"
+          "id": "ITN-0027",
+          "rom_offset": "0x01DBE8",
+          "rom_end_exclusive": "0x01DBF1",
+          "source_hex": "628961747763862000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 27,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "くろいメガネ",
-          "id": "ITN-0028"
+          "id": "ITN-0028",
+          "rom_offset": "0x01DBF1",
+          "rom_end_exclusive": "0x01DBFB",
+          "source_hex": "63865dab8f26a1202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 28,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ゴーゴンのはな",
-          "id": "ITN-0029"
+          "id": "ITN-0029",
+          "rom_offset": "0x01DBFB",
+          "rom_end_exclusive": "0x01DC06",
+          "source_hex": "93265b9326b77475702000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 29,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0030"
+          "id": "ITN-0030",
+          "rom_offset": "0x01DC06",
+          "rom_end_exclusive": "0x01DC10",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 30,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0031"
+          "id": "ITN-0031",
+          "rom_offset": "0x01DC10",
+          "rom_end_exclusive": "0x01DC1A",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 31,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0032"
+          "id": "ITN-0032",
+          "rom_offset": "0x01DC1A",
+          "rom_end_exclusive": "0x01DC24",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 32,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0033"
+          "id": "ITN-0033",
+          "rom_offset": "0x01DC24",
+          "rom_end_exclusive": "0x01DC2E",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 33,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0034"
+          "id": "ITN-0034",
+          "rom_offset": "0x01DC2E",
+          "rom_end_exclusive": "0x01DC38",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 34,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ヒエログリフ",
-          "id": "ITN-0035"
+          "id": "ITN-0035",
+          "rom_offset": "0x01DC38",
+          "rom_end_exclusive": "0x01DC42",
+          "source_hex": "a48db49126b1a5202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 35,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "オーラのたま",
-          "id": "ITN-0036"
+          "id": "ITN-0036",
+          "rom_offset": "0x01DC42",
+          "rom_end_exclusive": "0x01DC4B",
+          "source_hex": "8e5bb0746b7a202000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 36,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ローラのてがみ",
-          "id": "ITN-0037"
+          "id": "ITN-0037",
+          "rom_offset": "0x01DC4B",
+          "rom_end_exclusive": "0x01DC55",
+          "source_hex": "b45bb0746e61267b2000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 37,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ちちのてちょう",
-          "id": "ITN-0038"
+          "id": "ITN-0038",
+          "rom_offset": "0x01DC55",
+          "rom_end_exclusive": "0x01DC5E",
+          "source_hex": "6c6c746e6cc05e2000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 38,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "クリスタルリング",
-          "id": "ITN-0039"
+          "id": "ITN-0039",
+          "rom_offset": "0x01DC5E",
+          "rom_end_exclusive": "0x01DC68",
+          "source_hex": "91b19699b2b1b7912600",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 39,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "まっかなリンゴ",
-          "id": "ITN-0040"
+          "id": "ITN-0040",
+          "rom_offset": "0x01DC68",
+          "rom_end_exclusive": "0x01DC72",
+          "source_hex": "7abd6170b1b793262000",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 40,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0041"
+          "id": "ITN-0041",
+          "rom_offset": "0x01DCF9",
+          "rom_end_exclusive": "0x01DD03",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 56,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0042"
+          "id": "ITN-0042",
+          "rom_offset": "0x01DD03",
+          "rom_end_exclusive": "0x01DD0D",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 57,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0043"
+          "id": "ITN-0043",
+          "rom_offset": "0x01DD0D",
+          "rom_end_exclusive": "0x01DD17",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 58,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0044"
+          "id": "ITN-0044",
+          "rom_offset": "0x01DD17",
+          "rom_end_exclusive": "0x01DD21",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 59,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0045"
+          "id": "ITN-0045",
+          "rom_offset": "0x01DD21",
+          "rom_end_exclusive": "0x01DD2B",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 60,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0046"
+          "id": "ITN-0046",
+          "rom_offset": "0x01DD2B",
+          "rom_end_exclusive": "0x01DD35",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 61,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0047"
+          "id": "ITN-0047",
+          "rom_offset": "0x01DD35",
+          "rom_end_exclusive": "0x01DD3F",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 62,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ミステリードール",
-          "id": "ITN-0048"
+          "id": "ITN-0048",
+          "rom_offset": "0x01DD3F",
+          "rom_end_exclusive": "0x01DD49",
+          "source_hex": "a9969cb15b9d265bb200",
+          "source_kind": "original_JP_ROM_item_name_pointer_table",
+          "pointer_table_start": "0x01DA62",
+          "pointer_slot": 63,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         }
       ]
     },
@@ -12642,259 +13074,835 @@
       "entries": [
         {
           "text": "なにもなし",
-          "id": "ITD-0001"
+          "id": "ITD-0001",
+          "rom_offset": "0x01DDD1",
+          "rom_end_exclusive": "0x01DDD7",
+          "source_hex": "70717e706700",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 0,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "まちで ほかのしなものと\nこうかんできる、",
-          "id": "ITD-0002"
+          "id": "ITD-0002",
+          "rom_offset": "0x01DDD7",
+          "rom_end_exclusive": "0x01DDF0",
+          "source_hex": "0d7a6c6e262079617467707e746f0d655e61896e2662842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 1,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "エドワードじょう ろうごくのカギ、",
-          "id": "ITD-0003"
+          "id": "ITD-0003",
+          "rom_offset": "0x01DDF0",
+          "rom_end_exclusive": "0x01DE08",
+          "source_hex": "0d8d9d26b55b9d266726c05e20865e652663748f90262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 2,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのカミを かたどったせきぞう、",
-          "id": "ITD-0004"
+          "id": "ITD-0004",
+          "rom_offset": "0x01DE08",
+          "rom_end_exclusive": "0x01DE1E",
+          "source_hex": "0d8bb78f748fa98820616b6f26bd6b69626a265e2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 3,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのカミを かたどったせきぞう、",
-          "id": "ITD-0005"
+          "id": "ITD-0005",
+          "rom_offset": "0x01DE1E",
+          "rom_end_exclusive": "0x01DE34",
+          "source_hex": "0d8bb78f748fa98820616b6f26bd6b69626a265e2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 4,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ちちから このメロディーとともに\nインカへいけと おしえられた、",
-          "id": "ITD-0006"
+          "id": "ITD-0006",
+          "rom_offset": "0x01DE34",
+          "rom_end_exclusive": "0x01DE57",
+          "source_hex": "0d6c6c6182206574abb49c26c35b6f6f7e710d8bb78f785d646f2060675f82856b2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 5,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "たいりょくを かいふくできる、",
-          "id": "ITD-0007"
+          "id": "ITD-0007",
+          "rom_offset": "0x01DE57",
+          "rom_end_exclusive": "0x01DE69",
+          "source_hex": "0d6b5d83c0638820615d77636e2662842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 6,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ひしがたをした あおいブロック、",
-          "id": "ITD-0008"
+          "id": "ITD-0008",
+          "rom_offset": "0x01DE69",
+          "rom_end_exclusive": "0x01DE7D",
+          "source_hex": "0d766761266b88676b205c605da526b4c7912500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 7,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "インカのかぜが かなでるメロディ、",
-          "id": "ITD-0009"
+          "id": "ITD-0009",
+          "rom_offset": "0x01DE7D",
+          "rom_end_exclusive": "0x01DE94",
+          "source_hex": "0d8bb78f7461692661262061706e2684abb49c26c32500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 8,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ローラが おしえてくれたメロディ、",
-          "id": "ITD-0010"
+          "id": "ITD-0010",
+          "rom_offset": "0x01DE94",
+          "rom_end_exclusive": "0x01DEA9",
+          "source_hex": "0db45bb061262060675f6e63856babb49c26c32500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 9,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "エドワードじょうの ちかにあった\nほねつきの にく、",
-          "id": "ITD-0011"
+          "id": "ITD-0011",
+          "rom_offset": "0x01DEA9",
+          "rom_end_exclusive": "0x01DEC8",
+          "source_hex": "0d8d9d26b55b9d266726c05e74206c61715cbd6b0d79736d62742071632500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 10,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こうざんの したいおきばで\nはっけんしたカギ、",
-          "id": "ITD-0012"
+          "id": "ITD-0012",
+          "rom_offset": "0x01DEC8",
+          "rom_end_exclusive": "0x01DEE5",
+          "source_hex": "0d655e6626897420676b5d606275266e260d75bd6489676b8f90262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 11,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ダイヤモンドこうざんの どれいが\nもっていたカギ、",
-          "id": "ITD-0013"
+          "id": "ITD-0013",
+          "rom_offset": "0x01DEE5",
+          "rom_end_exclusive": "0x01DF06",
+          "source_hex": "0d99268badacb79d26655e66268974206f26855d61260d7ebd6e5d6b8f90262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 12,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "どれいのしょうねんから おしえて\nもらった おもいでのメロディ、\nきおくが よびおこされるらしい、",
-          "id": "ITD-0014"
+          "id": "ITD-0014",
+          "rom_offset": "0x01DF06",
+          "rom_end_exclusive": "0x01DF3E",
+          "source_hex": "0d6f26855d7467c05e738961822060675f6e0d7e82bd6b20607e5d6e2674abb49c26c3250d626063612620817626606566858482675d2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 13,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "クリスタルでできた オブジェ、\nクリスタルタイルとれんどうしている",
-          "id": "ITD-0015"
+          "id": "ITD-0015",
+          "rom_offset": "0x01DF3E",
+          "rom_end_exclusive": "0x01DF66",
+          "source_hex": "0d91b19699b26e266e26626b208ea5269526c5250d91b19699b2998bb26f85896f265e676e5d8400",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 14,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ダイヤモンドこうざんの\nリフトのりばへ いく カギ、",
-          "id": "ITD-0016"
+          "id": "ITD-0016",
+          "rom_offset": "0x01DF66",
+          "rom_end_exclusive": "0x01DF87",
+          "source_hex": "0d99268badacb79d26655e662689740db1a59d7483752678205d63208f90262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 15,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ムーたいりくへの つうろをひらく\nカギ、",
-          "id": "ITD-0017"
+          "id": "ITD-0017",
+          "rom_offset": "0x01DF87",
+          "rom_end_exclusive": "0x01DF9E",
+          "source_hex": "0daa5b6b5d83637874206d5e86887682630d8f90262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 16,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "きゅうでんの ち の いずみを\nじょうかする いし、",
-          "id": "ITD-0018"
+          "id": "ITD-0018",
+          "rom_offset": "0x01DF9E",
+          "rom_end_exclusive": "0x01DFBD",
+          "source_hex": "0d62bf5e6e268974206c2074205d68267b880d6726c05e616884205d672500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 17,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ムーのひとびとの いのりが\nこめられた せきぞう、",
-          "id": "ITD-0019"
+          "id": "ITD-0019",
+          "rom_offset": "0x01DFBD",
+          "rom_end_exclusive": "0x01DFDB",
+          "source_hex": "0daa5b74766f76266f74205d748361260d657d82856b2069626a265e2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 18,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ラムーの ふういんを ときはなつ\nせきぞう、",
-          "id": "ITD-0020"
+          "id": "ITD-0020",
+          "rom_offset": "0x01DFDB",
+          "rom_end_exclusive": "0x01DFF4",
+          "source_hex": "0db0aa5b7420775e5d8988206f6275706d0d69626a265e2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 19,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "え に はいってしまったひとを\nときはなつ まほうのこな、",
-          "id": "ITD-0021"
+          "id": "ITD-0021",
+          "rom_offset": "0x01DFF4",
+          "rom_end_exclusive": "0x01E013",
+          "source_hex": "0d5f207120755dbd6e677abd6b766f880d6f6275706d207a795e7465702500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 20,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "だんろのわきでみつけた てちょう、\nロブのちちおやのものであろう、",
-          "id": "ITD-0022"
+          "id": "ITD-0022",
+          "rom_offset": "0x01E013",
+          "rom_end_exclusive": "0x01E03A",
+          "source_hex": "0d6b2689867487626e267b6d646b206e6cc05e250db4a526746c6c607f747e746e265c865e2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 21,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ロブからの テムにあてられた\nてがみ、",
-          "id": "ITD-0023"
+          "id": "ITD-0023",
+          "rom_offset": "0x01E03A",
+          "rom_end_exclusive": "0x01E051",
+          "source_hex": "0db4a526618274209caa715c6e82856b0d6e61267b2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 22,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ロブが リリィのためにつくっていた\nペンダント、",
-          "id": "ITD-0024"
+          "id": "ITD-0024",
+          "rom_offset": "0x01E051",
+          "rom_end_exclusive": "0x01E06F",
+          "source_hex": "0db4a526612620b1b1c3746b7d716d63bd6e5d6b0da627b79926b79d2500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 23,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ロシアングラスの たいせんあいてが\nのこした いしょ、",
-          "id": "ITD-0025"
+          "id": "ITD-0025",
+          "rom_offset": "0x01E06F",
+          "rom_end_exclusive": "0x01E08E",
+          "source_hex": "0db4958ab79126b09674206b5d69895c5d6e61260d7465676b205d67c02500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 24,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "カミのなみだを うけたといわれる\nつぼ、",
-          "id": "ITD-0026"
+          "id": "ITD-0026",
+          "rom_offset": "0x01E08E",
+          "rom_end_exclusive": "0x01E0A6",
+          "source_hex": "0d8fa974707b6b2688205e646b6f5d8785840d6d79262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 25,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "くきの きれめに たらすと\nその ぶぶんが いきかえる、",
-          "id": "ITD-0027"
+          "id": "ITD-0027",
+          "rom_offset": "0x01E0A6",
+          "rom_end_exclusive": "0x01E0C7",
+          "source_hex": "0d6362742062857d71206b82686f0d6a742077267726896126205d62615f842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 26,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ロシアングラスの しょうひんとして\nもらったきんか、",
-          "id": "ITD-0028"
+          "id": "ITD-0028",
+          "rom_offset": "0x01E0C7",
+          "rom_end_exclusive": "0x01E0E4",
+          "source_hex": "0db4958ab79126b096742067c05e76896f676e0d7e82bd6b6289612500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 27,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "くろい すいしょうでできたメガネ、\nこれなら かなりの ひかりも\nしゃだん できそうだ{3B}{3B}{3B}",
-          "id": "ITD-0029"
+          "id": "ITD-0029",
+          "rom_offset": "0x01E0E4",
+          "rom_end_exclusive": "0x01E11A",
+          "source_hex": "0d63865d20685d67c05e6e266e26626bab8f26a1250d658570822061708374207661837e0d67be6b2689206e26626a5e6b263b3b3b00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 28,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "いしになったものを もとにもどす、",
-          "id": "ITD-0030"
+          "id": "ITD-0030",
+          "rom_offset": "0x01E11A",
+          "rom_end_exclusive": "0x01E12E",
+          "source_hex": "0d5d677170bd6b7e7488207e6f717e6f26682500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 29,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0031"
+          "id": "ITD-0031",
+          "rom_offset": "0x01E12E",
+          "rom_end_exclusive": "0x01E14C",
+          "source_hex": "0d656b265d208d9526a5279d7e67266126206161856b0d69627526892500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 30,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0032"
+          "id": "ITD-0032",
+          "rom_offset": "0x01E14C",
+          "rom_end_exclusive": "0x01E16A",
+          "source_hex": "0d656b265d208d9526a5279d7e67266126206161856b0d69627526892500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 31,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0033"
+          "id": "ITD-0033",
+          "rom_offset": "0x01E16A",
+          "rom_end_exclusive": "0x01E188",
+          "source_hex": "0d656b265d208d9526a5279d7e67266126206161856b0d69627526892500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 32,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0034"
+          "id": "ITD-0034",
+          "rom_offset": "0x01E188",
+          "rom_end_exclusive": "0x01E1A6",
+          "source_hex": "0d656b265d208d9526a5279d7e67266126206161856b0d69627526892500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 33,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0035"
+          "id": "ITD-0035",
+          "rom_offset": "0x01E1A6",
+          "rom_end_exclusive": "0x01E1C4",
+          "source_hex": "0d656b265d208d9526a5279d7e67266126206161856b0d69627526892500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 34,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "こだい エジプトもじが かかれた\nせきばん、",
-          "id": "ITD-0036"
+          "id": "ITD-0036",
+          "rom_offset": "0x01E1C4",
+          "rom_end_exclusive": "0x01E1EF",
+          "source_hex": "0d7f7b746989672095c89d268c746f62710d6d615e6f2061826b266126205f626b5d710d78896168842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 35,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "やみのせんし シャドウのときに\nつかうと からだが えきたいに\nへんかする、",
-          "id": "ITD-0037"
+          "id": "ITD-0037",
+          "rom_offset": "0x01E1E2",
+          "rom_end_exclusive": "0x01E1EF",
+          "source_hex": "5f626b5d710d78896168842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 36,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ローラと ビルからの てがみ、",
-          "id": "ITD-0038"
+          "id": "ITD-0038",
+          "rom_offset": "0x01E20D",
+          "rom_end_exclusive": "0x01E22F",
+          "source_hex": "b7746e6cc05e250da427b0a9c79d267420706a26716d5d6e0d678466856e5d842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 37,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "テムのちち オールマンのてちょう、\nピラミッドの なぞについて\nしるされている、",
-          "id": "ITD-0039"
+          "id": "ITD-0039",
+          "rom_offset": "0x01E220",
+          "rom_end_exclusive": "0x01E22F",
+          "source_hex": "26716d5d6e0d678466856e5d842500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 38,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "ふえに はまっていた ゆびわ、",
-          "id": "ITD-0040"
+          "id": "ITD-0040",
+          "rom_offset": "0x01E24D",
+          "rom_end_exclusive": "0x01E258",
+          "source_hex": "207e82bd6bb1b793262500",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 39,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "エウロのいちばで もらったリンゴ、",
-          "id": "ITD-0041"
+          "id": "ITD-0041",
+          "rom_offset": "0x01E260",
+          "rom_end_exclusive": "0x01E264",
+          "source_hex": "6d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 40,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0042"
+          "id": "ITD-0042",
+          "rom_offset": "0x01E276",
+          "rom_end_exclusive": "0x01E27C",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 41,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0043"
+          "id": "ITD-0043",
+          "rom_offset": "0x01E27C",
+          "rom_end_exclusive": "0x01E282",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 42,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0044"
+          "id": "ITD-0044",
+          "rom_offset": "0x01E282",
+          "rom_end_exclusive": "0x01E288",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 43,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0045"
+          "id": "ITD-0045",
+          "rom_offset": "0x01E288",
+          "rom_end_exclusive": "0x01E28E",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 44,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0046"
+          "id": "ITD-0046",
+          "rom_offset": "0x01E28E",
+          "rom_end_exclusive": "0x01E294",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 45,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0047"
+          "id": "ITD-0047",
+          "rom_offset": "0x01E294",
+          "rom_end_exclusive": "0x01E29A",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 46,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0048"
+          "id": "ITD-0048",
+          "rom_offset": "0x01E29A",
+          "rom_end_exclusive": "0x01E2A0",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 47,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0049"
+          "id": "ITD-0049",
+          "rom_offset": "0x01E2A0",
+          "rom_end_exclusive": "0x01E2A6",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 48,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0050"
+          "id": "ITD-0050",
+          "rom_offset": "0x01E2A6",
+          "rom_end_exclusive": "0x01E2AC",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 49,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0051"
+          "id": "ITD-0051",
+          "rom_offset": "0x01E2AC",
+          "rom_end_exclusive": "0x01E2B2",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 50,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0052"
+          "id": "ITD-0052",
+          "rom_offset": "0x01E2B2",
+          "rom_end_exclusive": "0x01E2B8",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 51,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0053"
+          "id": "ITD-0053",
+          "rom_offset": "0x01E2B8",
+          "rom_end_exclusive": "0x01E2BE",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 52,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0054"
+          "id": "ITD-0054",
+          "rom_offset": "0x01E2BE",
+          "rom_end_exclusive": "0x01E2C4",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 53,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0055"
+          "id": "ITD-0055",
+          "rom_offset": "0x01E2C4",
+          "rom_end_exclusive": "0x01E2CA",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 54,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0056"
+          "id": "ITD-0056",
+          "rom_offset": "0x01E2CA",
+          "rom_end_exclusive": "0x01E2D0",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 55,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0057"
+          "id": "ITD-0057",
+          "rom_offset": "0x01E2D0",
+          "rom_end_exclusive": "0x01E2D6",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 56,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0058"
+          "id": "ITD-0058",
+          "rom_offset": "0x01E2D6",
+          "rom_end_exclusive": "0x01E2DC",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 57,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0059"
+          "id": "ITD-0059",
+          "rom_offset": "0x01E2DC",
+          "rom_end_exclusive": "0x01E2E2",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 58,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0060"
+          "id": "ITD-0060",
+          "rom_offset": "0x01E2E2",
+          "rom_end_exclusive": "0x01E2E8",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 59,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0061"
+          "id": "ITD-0061",
+          "rom_offset": "0x01E2E8",
+          "rom_end_exclusive": "0x01E2EE",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 60,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0062"
+          "id": "ITD-0062",
+          "rom_offset": "0x01E2EE",
+          "rom_end_exclusive": "0x01E2F4",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 61,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0063"
+          "id": "ITD-0063",
+          "rom_offset": "0x01E2F4",
+          "rom_end_exclusive": "0x01E2FA",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 62,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         },
         {
           "text": "せつめい",
-          "id": "ITD-0064"
+          "id": "ITD-0064",
+          "rom_offset": "0x01E2FA",
+          "rom_end_exclusive": "0x01E300",
+          "source_hex": "0d696d7d5d00",
+          "source_kind": "original_JP_ROM_item_description_pointer_table",
+          "pointer_table_start": "0x01DD51",
+          "pointer_slot": 63,
+          "terminator_hex": "00",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "item_menu_runtime_selection_not_traced"
         }
       ]
     },
@@ -16852,7 +17860,7 @@
       ]
     }
   ],
-  "version": "v30",
+  "version": "v31",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -16920,16 +17928,16 @@
         "area_titles": 63,
         "world_map_graphic_labels": 22
       },
-      "entries_with_direct_rom_offset_in_this_file": 1488,
-      "entries_without_direct_rom_offset_in_this_file": 232,
+      "entries_with_direct_rom_offset_in_this_file": 1600,
+      "entries_without_direct_rom_offset_in_this_file": 120,
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61,
       "entries_with_compound_direct_ROM_source_segments": 6,
-      "entries_with_any_original_ROM_byte_source_provenance": 1494,
-      "entries_without_verified_original_ROM_source_provenance": 226,
-      "source_offset_inventory_correction": "Recounted from actual per-entry rom_offset fields. Earlier v28/v27 inventory metadata reported 1,422 although 1,402 entries had offsets; after this pass the true count is 1,460 plus 6 composite ABI sources."
+      "entries_with_any_original_ROM_byte_source_provenance": 1606,
+      "entries_without_verified_original_ROM_source_provenance": 114,
+      "source_offset_inventory_correction": "v31: 112 additional item-menu entries (48 names, 64 descriptions) verified against ROM tables 0x01DA62 and 0x01DD51. 1,600 contiguous verified byte spans and 6 composite two-segment ability sources. Metadata totals recounted directly from annotated entries."
     },
-    "completion_state": "1,720 Japanese player-facing text records retained. v30: original-ROM COP D6 item-condition scan, BF branch/source correspondences, unindexed D7-shaped text scan; 28 item-acquisition rows now carry verified original-ROM pointer-table source spans and raw hex. 1,488 direct contiguous source spans plus six composite two-segment ability instructions (1,494 total sourced); 226 remain without direct verified ROM span. No distinct new player-facing passage established, and native emulator gameplay reachability remains untested.",
+    "completion_state": "1,720 retained Japanese player-facing text entries. v31: 48 item names and 64 item descriptions have verified original-Japanese ROM offsets, full source bytes and pointer slots; 1,600 direct contiguous byte spans plus six composite two-segment ability instructions (1,606 total source-attributed; 114 remain without verified original ROM byte provenance). 94 glyph-code mappings crosschecked without conflicts. Runtime reachability and exhaustive graphics/conditional branch coverage are not proven.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -45062,6 +46070,52 @@
         "Trace item-use dispatch through executable event handlers to confirm availability and branch reachability.",
         "Inspect compressed image-only labels and verify emulator scene event paths."
       ]
+    },
+    "original_rom_item_name_and_description_sources_2026_11_06": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "method": "Unheadered 2MiB original JP ROM, bank-01 16-bit little-endian item pointer tables, zero-terminated fixed-width name strings and menu description strings; decomposed dakuten/handakuten charmap crosschecked against corresponding master text.",
+      "item_names": {
+        "pointer_table_start": "0x01DA62",
+        "pointer_table_end_exclusive": "0x01DAE2",
+        "pointer_slots": 64,
+        "game_items_master_aligned": 48,
+        "slot_00_empty": true,
+        "blank_reserved_slots": "0x29–0x37 (15)",
+        "repeated_name_slots": "0x38–0x3F (8 instances of ミステリードール)",
+        "source_region": "0x01DAE2–0x01DD49",
+        "pointer_table_sha256": "3251e87820617b9f19eaaf1bb18632ad0fc2026069c3e43a23f7999b39d3201f",
+        "source_region_sha256": "8a1048892ccc75656ddd0b326f5cfb8a368b7802470d26bb333dd142a6c5b38d"
+      },
+      "item_descriptions": {
+        "pointer_table_start": "0x01DD51",
+        "pointer_table_end_exclusive": "0x01DDD1",
+        "pointer_slots": 64,
+        "master_aligned": 64,
+        "repeated_placeholder_slots": "0x29–0x3F (23 occurrences of せつめい)",
+        "source_region": "0x01DDD1–0x01E300",
+        "pointer_table_sha256": "2037ab6947b59b9f7518eee1e9ea70503d0d04cf68c5ef379139e8a69dce2cc1",
+        "source_region_sha256": "4eca851ca35ab3878d9adf8290d5623d7da1b7cac78786df0e28676cd144d749"
+      },
+      "source_24bit_menu_pointer_occurrences": [
+        {
+          "rom_offset": "0x01E688",
+          "target": "0x81DA62"
+        },
+        {
+          "rom_offset": "0x01E68E",
+          "target": "0x81DD51"
+        }
+      ],
+      "byte_crosscheck": {
+        "total_existing_master_entries_matched": 112,
+        "distinct_character_byte_mappings": 94,
+        "glyph_conflicts": 0,
+        "final_linebreak_control_note": "Item description slot 0x27 ends with additional 0D before 00; master displayed text omits this trailing line break; source_hex preserves it."
+      },
+      "gameplay_execution_frames_observed": 0,
+      "newly_added_text_entries": 0,
+      "new_original_rom_source_annotations": 112,
+      "local_source_audit_sha256": "019a0fe42811cebec12b420896b9bc62c3f41903a0ee44f7f5099ecb135f16de"
     }
   }
 }
