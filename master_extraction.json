@@ -12822,7 +12822,22 @@
           "source_type": "Graphical title-screen lettering; original compressed bitmap",
           "rom_asset_offset": "0x1980A2",
           "rom_text_offset": null,
-          "rom_byte_verified": false
+          "rom_byte_verified": true,
+          "byte_verified_against_japanese_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+          "graphic_byte_provenance": "Directly decompressed original ROM graphics, rendered as SNES planar 4bpp tiles, and visually identified the original Japanese title logo",
+          "original_compressed_asset_start": "0x1980A2",
+          "original_compressed_stream_consumed_end_exclusive": "0x19A3CD",
+          "original_compressed_stream_bytes_consumed": 9003,
+          "decompression_codec": "Quintet LZ 256-byte sliding dictionary, initial position 0xEF, length field first two bytes little-endian",
+          "decompressed_size_bytes": 16384,
+          "decompressed_sha256": "f01332a016041a9d6c57a284e2119c262beb1044baedfbc262018ab9a07cfc13",
+          "graphical_bpp": 4,
+          "decompression_verified_independent_bit_readers": 2,
+          "roman_to_japanese_title_text_transcribed_visually": true,
+          "potential_24bit_pointer_site": "0x15452C",
+          "potential_24bit_pointer_bytes": "A2 80 D9",
+          "pointer_execution_confirmed": false,
+          "runtime_visual_proof": false
         }
       ]
     },
@@ -15839,7 +15854,7 @@
       ]
     }
   ],
-  "version": "v23",
+  "version": "v24",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15925,10 +15940,10 @@
       {
         "id": "R2",
         "target": "Reconcile independent reference rows not exact in current master",
-        "known_units": 812,
+        "known_units": 805,
         "unit": "non-exact 36-chapter transcription rows",
         "kind": "manual Japanese/ROM discrepancy review",
-        "status": "All 37 difficult cases now have original-ROM source/text, composite/template, graphic provenance or unresolved-specific dispositions. 21 have direct script/template source correspondence, 5 graphic/symbol evidence, 11 still need further original runtime/source attribution. Exact workbook equivalence remains 1,641/2,450; nonexact classifications retained."
+        "status": "As of v24: 1,645 normalized exact correspondence rows including four original-Japanese graphic-world-map words; 805 remain non-exact. Multi-part FORCE/ENEMY/ITEM reference now represented by three source entries, but not a single contiguous literal. Many non-exact cases are transcription variants; 11 difficult source/runtime attribution targets from previous audit remain."
       },
       {
         "id": "R3",
@@ -19254,10 +19269,11 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "composite_partially_represented",
+                  "category": "composite_all_components_in_master",
                   "matched_master_ids": [
                     "UI-0030",
-                    "LBL-0002"
+                    "LBL-0002",
+                    "UI-0031"
                   ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
                   "evidence": "2/3 composite parts represented; remaining parts require original ROM or UI render inspection.",
@@ -19290,7 +19306,14 @@
                 "emulator_frame": null,
                 "screen_observation_confirmed": false,
                 "status": "source_attribution_or_rendering_recovery_not_exhaustive"
-              }
+              },
+              "composite_components_complete": true,
+              "component_master_ids": [
+                "UI-0030",
+                "LBL-0002",
+                "UI-0031"
+              ],
+              "composite_note": "All three lexical components represented individually. Original source tilemap and scene/frame not independently proven."
             },
             {
               "row": "B128",
@@ -20424,7 +20447,7 @@
               "row": "B5",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "WMG-0015",
               "source_text": "Itory",
               "nearest_master_id": "STF-0002",
               "nearest_trigram_similarity": 0.16,
@@ -20438,8 +20461,10 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_graphical_label",
-                  "matched_master_ids": [],
+                  "category": "original_japanese_graphic_asset_text_identified",
+                  "matched_master_ids": [
+                    "WMG-0015"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
                   "evidence": "Reference uses Latin lettering. Not demonstrated to be ROM-sourced rendered glyphs; English localization/guide images are not equivalent to original Japanese game display.",
                   "independent_original_rom_re_read": false,
@@ -20457,6 +20482,16 @@
                 "emulator_frame": null,
                 "screen_observation_confirmed": false,
                 "status": "source_attribution_or_rendering_recovery_not_exhaustive"
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "This Roman-label reference text matches visually transcribed original-Japanese-version world map artwork. ROM tilemap offset and emulator runtime are unverified.",
+              "graphical_source_adjudication": {
+                "master_id": "WMG-0015",
+                "evidence": "Original Japanese-version map asset",
+                "source_asset": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+                "normalized_source_reference_match": true,
+                "rom_tilemap_source_byte_verified": false,
+                "runtime_executed": false
               }
             },
             {
@@ -24429,7 +24464,7 @@
               "row": "B4",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "WMG-0022",
               "source_text": "Diamond Valley",
               "nearest_master_id": "DLG-1117",
               "nearest_trigram_similarity": 0.043,
@@ -24443,8 +24478,10 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_graphical_label",
-                  "matched_master_ids": [],
+                  "category": "original_japanese_graphic_asset_text_identified",
+                  "matched_master_ids": [
+                    "WMG-0022"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
                   "evidence": "Reference uses Latin lettering. Not demonstrated to be ROM-sourced rendered glyphs; English localization/guide images are not equivalent to original Japanese game display.",
                   "independent_original_rom_re_read": false,
@@ -24462,6 +24499,16 @@
                 "emulator_frame": null,
                 "screen_observation_confirmed": false,
                 "status": "source_attribution_or_rendering_recovery_not_exhaustive"
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "This Roman-label reference text matches visually transcribed original-Japanese-version world map artwork. ROM tilemap offset and emulator runtime are unverified.",
+              "graphical_source_adjudication": {
+                "master_id": "WMG-0022",
+                "evidence": "Original Japanese-version map asset",
+                "source_asset": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+                "normalized_source_reference_match": true,
+                "rom_tilemap_source_byte_verified": false,
+                "runtime_executed": false
               }
             },
             {
@@ -25622,7 +25669,7 @@
               "row": "B4",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "WMG-0018",
               "source_text": "NEELE'S COTAGE",
               "nearest_master_id": "STF-0007",
               "nearest_trigram_similarity": 0.05,
@@ -25636,8 +25683,10 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_graphical_label",
-                  "matched_master_ids": [],
+                  "category": "original_japanese_graphic_asset_text_identified",
+                  "matched_master_ids": [
+                    "WMG-0018"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
                   "evidence": "Reference uses Latin lettering. Not demonstrated to be ROM-sourced rendered glyphs; English localization/guide images are not equivalent to original Japanese game display.",
                   "independent_original_rom_re_read": false,
@@ -25655,6 +25704,16 @@
                 "emulator_frame": null,
                 "screen_observation_confirmed": false,
                 "status": "source_attribution_or_rendering_recovery_not_exhaustive"
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "This Roman-label reference text matches visually transcribed original-Japanese-version world map artwork. ROM tilemap offset and emulator runtime are unverified.",
+              "graphical_source_adjudication": {
+                "master_id": "WMG-0018",
+                "evidence": "Original Japanese-version map asset",
+                "source_asset": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+                "normalized_source_reference_match": true,
+                "rom_tilemap_source_byte_verified": false,
+                "runtime_executed": false
               }
             },
             {
@@ -25799,7 +25858,7 @@
               "row": "B7",
               "status": "roman",
               "approximate_overlap": 0,
-              "master_id": null,
+              "master_id": "WMG-0019",
               "source_text": "NASCA",
               "nearest_master_id": null,
               "nearest_trigram_similarity": 0,
@@ -25813,8 +25872,10 @@
                 "normalization": "NFKC; lowercase; ignore whitespace and punctuation/symbols; strip short speaker/label prefix before colon",
                 "text_vs_runtime": "Static text comparison only. Neither scene attribution nor runtime path independently verified.",
                 "deep_review": {
-                  "category": "unverified_graphical_label",
-                  "matched_master_ids": [],
+                  "category": "original_japanese_graphic_asset_text_identified",
+                  "matched_master_ids": [
+                    "WMG-0019"
+                  ],
                   "method": "ROM-derived master source text and chapter comparison; static only; punctuation/spacing normalized, numeric variables considered, symbol IDs protected",
                   "evidence": "Reference uses Latin lettering. Not demonstrated to be ROM-sourced rendered glyphs; English localization/guide images are not equivalent to original Japanese game display.",
                   "independent_original_rom_re_read": false,
@@ -25832,6 +25893,16 @@
                 "emulator_frame": null,
                 "screen_observation_confirmed": false,
                 "status": "source_attribution_or_rendering_recovery_not_exhaustive"
+              },
+              "reclassified": "exact",
+              "reclassification_reason": "This Roman-label reference text matches visually transcribed original-Japanese-version world map artwork. ROM tilemap offset and emulator runtime are unverified.",
+              "graphical_source_adjudication": {
+                "master_id": "WMG-0019",
+                "evidence": "Original Japanese-version map asset",
+                "source_asset": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+                "normalized_source_reference_match": true,
+                "rom_tilemap_source_byte_verified": false,
+                "runtime_executed": false
               }
             },
             {
@@ -40739,14 +40810,14 @@
           "source_text": "カレン：うん….."
         }
       ],
-      "completion": "36 chapters, 2,450 source rows reviewed; current exact text reference matches 1,641 after restoring 3 original-JP ROM area-title strings; 809 remain non-exact by comparison category. Of the previous 40 uncorrelated static cases, 3 have now been resolved as new area-title strings; 37 remain. Actual emulator execution-path coverage is not established.",
+      "completion": "36 chapters and 2,450 reference rows; 1,645 normalized direct reference matches following recovery of four original-Japanese Roman world-map graphic labels. 805 rows remain non-exact (including multi-part composites, transcription variants, and ambiguous contexts). The ROM pixel tilemap pointer and exhaustive gameplay execution remain unverified.",
       "updated_totals": {
-        "exact": 1641,
+        "exact": 1645,
         "strong_fragments": 370,
         "partial": 357,
         "no_overlap": 73,
         "short_ambiguous": 0,
-        "roman": 9,
+        "roman": 5,
         "source_rows": 2450
       },
       "reclassification_date": "2026-11-04",
@@ -42130,6 +42201,50 @@
         },
         "runtime_execution_proven": false,
         "additional_text_records": 0
+      },
+      "reference_graphical_completion_2026_11_05": {
+        "previous_exact": 1641,
+        "new_exact": 1645,
+        "previous_nonexact": 809,
+        "new_nonexact": 805,
+        "previous_roman": 9,
+        "new_roman": 5,
+        "original_rom_graphic_labels_now_correlated": [
+          {
+            "chapter": 7,
+            "row": "B5",
+            "master_id": "WMG-0015"
+          },
+          {
+            "chapter": 14,
+            "row": "B4",
+            "master_id": "WMG-0022"
+          },
+          {
+            "chapter": 16,
+            "row": "B4",
+            "master_id": "WMG-0018"
+          },
+          {
+            "chapter": 17,
+            "row": "B7",
+            "master_id": "WMG-0019"
+          }
+        ],
+        "complete_composite_menu_labels": [
+          {
+            "chapter": 5,
+            "row": "B124",
+            "matched_master_ids": [
+              "UI-0030",
+              "LBL-0002",
+              "UI-0031"
+            ],
+            "exact_contiguous_master_record": false
+          }
+        ],
+        "casefold_and_spacing_normalized": true,
+        "source": "Previously verified original-Japanese world-map graphic rip; no ROM map tile pointers or emulator hits confirmed"
       }
     },
     "graphical_and_area_text_audit": {
@@ -42694,6 +42809,79 @@
         "NEELE'S COTAGE",
         "NASCA"
       ]
+    },
+    "compressed_graphics_reconstruction_2026_11_05": {
+      "original_japanese_rom_file": "Gaia Gensouki (Japan)(3).sfc",
+      "rom_size_bytes": 2097152,
+      "sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "algorithm_source": "https://github.com/Azarem/GaiaLabs/blob/master/GaiaLib/Compression/QuintetLZ.cs",
+      "proof_asset": {
+        "master_id": "TTL-0006",
+        "compressed_source_rom_start": "0x1980A2",
+        "header_hex": "00 40",
+        "decompressed_byte_count": 16384,
+        "source_encoded_bytes_consumed": 9003,
+        "source_encoded_end_exclusive": "0x19A3CD",
+        "decompressed_sha256": "f01332a016041a9d6c57a284e2119c262beb1044baedfbc262018ab9a07cfc13",
+        "format": "SNES 4bpp",
+        "reconstructed_content": "Japanese title logo ガイア幻想紀 and adjoining title art",
+        "verified_with_independent_bit_readers": true,
+        "raw_3byte_rom_pointer_candidate_offset": "0x15452C",
+        "raw_pointer_bytes": "A2 80 D9",
+        "candidate_pointer_execution_proven": false
+      },
+      "candidate_graphic_offsets_scanned": 66,
+      "candidates_with_target_decompressed_bytecount_reached": 66,
+      "note": "Many ROM offsets were borrowed from a regional ROM-map candidate list; reaching a length header is NOT proof each candidate is a real original-JP graphic block. Only individually visually identified, correctly formatted outputs should be treated as verified graphics. A world-map label tilemap/overlay has not yet been located in raw JP ROM.",
+      "environment_emulator_or_snes_libretro_core_found": false,
+      "executed_snes_frames": 0
+    },
+    "supplementary_source_recheck_2026_11_05": {
+      "source": "Gaia Gensouki (Japan)(3).sfc, fresh original ROM opened and SHA-256 verified",
+      "source_ranges_examined": 39,
+      "in_bounds": 39,
+      "terminal_byte_distribution": {
+        "0xC0": 27,
+        "0xCC": 12
+      },
+      "bad_terminators": 0,
+      "exact_byte_duplicates": [
+        {
+          "source_ids": [
+            "ADD-0015",
+            "ADD-0016"
+          ],
+          "bytes_each": 69,
+          "equal": true,
+          "sha256": "1461deed9491e489eaa117bf"
+        },
+        {
+          "source_ids": [
+            "ADD-0019",
+            "ADD-0020",
+            "ADD-0021"
+          ],
+          "bytes_each": 62,
+          "equal": true,
+          "sha256_prefix": "773e1ca3cfa70c94882a6af9"
+        }
+      ],
+      "new_runtime_hits": 0,
+      "interpretation": "Byte-level structural consistency, not source-to-event execution verification"
+    },
+    "original_rom_static_opcode_recheck_2026_11_05": {
+      "native_cop_vector": "0x00FFE4 → 0x8007",
+      "dispatch_offset": "0x00857D",
+      "jump_table": "0x008595",
+      "opcode_dispatch_bytes": "7C 95 85",
+      "wind_melody_condition_site": "0x05D932",
+      "wind_melody_condition_bytes": "02 D6 08 47 D9",
+      "alternative_text_opcodes": [
+        "02 BF BD DA",
+        "02 BF 3B DA"
+      ],
+      "event_read_observed": false,
+      "comment": "Re-read exact original ROM bytes; preserve v21 interpretation and runtime caveat."
     }
   }
 }
