@@ -1,6 +1,6 @@
 {
   "title": "ガイア幻想紀 — 日本語ゲーム内テキスト（マスター抽出）",
-  "scope": "Player-visible text of the original Japanese Super Famicom game: 16 categories. Staff roll decoded from its original ROM bytes; numeric zero glyph corrected in digit context.",
+  "scope": "Player-visible text in the original Japanese Super Famicom release: dialogue, UI, location labels, credits, and graphic-rendered Roman-letter world-map labels; static source evidence varies by record.",
   "source_dataset": "Gaia_Gensouki_Japanese_InGame_Text_v17.json",
   "source_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
   "excluded_debug_only_records": 5,
@@ -15373,9 +15373,455 @@
           }
         }
       ]
+    },
+    {
+      "id": "world_map_graphic_labels",
+      "title": "世界地図の英字地名（オリジナル日本版のグラフィック表示）",
+      "entries": [
+        {
+          "id": "WMG-0001",
+          "text": "PYRAMID",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0002",
+          "text": "DAO",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0003",
+          "text": "ANGKOR VAT",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0004",
+          "text": "SMALL VILLAGE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0005",
+          "text": "SACRED MOUNTAIN",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "north",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0006",
+          "text": "EURO",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "north",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0007",
+          "text": "BANRI CASTLE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0008",
+          "text": "WATERMIA",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0009",
+          "text": "DARK ANGEL",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "northeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0010",
+          "text": "MU",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "far northeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0011",
+          "text": "SEA PALACE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "far northeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0012",
+          "text": "TOWER OF BABEL",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "center",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0013",
+          "text": "MOON ROCK",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0014",
+          "text": "INCA",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0015",
+          "text": "ITORY",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0016",
+          "text": "EDWARD CASTLE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0017",
+          "text": "SOUTH CAPE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southwest",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0018",
+          "text": "NEELE'S COTAGE",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0019",
+          "text": "NASCA",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0020",
+          "text": "FREJIA",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0021",
+          "text": "DIAMOND COAST",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        },
+        {
+          "id": "WMG-0022",
+          "text": "DIAMOND VALLEY",
+          "language": "Latin/Roman lettering as rendered in Japanese-release map graphics",
+          "source_type": "image_composed_original_japanese_world_map",
+          "original_spelling_preserved": true,
+          "graphic_location": "southeast",
+          "source_asset": "Map (Gaia Gensouki)",
+          "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+          "image_url": "https://www.spriters-resource.com/media/assets/33/35941.png?updated=1755472724",
+          "source_image_dimensions_pixels": [
+            1008,
+            1024
+          ],
+          "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
+          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "in_emulator_display_observed_in_this_audit": false
+        }
+      ]
     }
   ],
-  "version": "v21",
+  "version": "v22",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15420,9 +15866,9 @@
     "last_updated_utc": "2026-11-05",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
-      "entries": 1697,
-      "unique_entry_ids": 1697,
-      "sections": 17,
+      "entries": 1719,
+      "unique_entry_ids": 1719,
+      "sections": 18,
       "by_section": {
         "opening": 9,
         "dialogue": 1273,
@@ -15440,14 +15886,15 @@
         "title_credits": 6,
         "screen_labels": 2,
         "staff_roll": 27,
-        "area_titles": 63
+        "area_titles": 63,
+        "world_map_graphic_labels": 22
       },
       "entries_with_direct_rom_offset_in_this_file": 1422,
-      "entries_without_direct_rom_offset_in_this_file": 275,
-      "unique_text_values": 1498,
+      "entries_without_direct_rom_offset_in_this_file": 297,
+      "unique_text_values": 1520,
       "entries_with_explicit_speaker_field": 61
     },
-    "completion_state": "Substantial Japanese player-visible text extracted; exhaustive in-game coverage has not been established.",
+    "completion_state": "Original Japanese world-map graphic lettering recovered as 22 additional distinct entries. The entire game's runtime/graphics text corpus is not proven exhaustively covered.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -15468,10 +15915,10 @@
       {
         "id": "R3",
         "target": "Identify graphical text on remaining signs and overlays",
-        "known_units": 5,
-        "unit": "named Roman-letter candidate groups",
+        "known_units": 1,
+        "unit": "named unresolved UI glyph candidate groups",
         "kind": "graphic tilemap/source reconstruction",
-        "status": "Original-JP TEST MAP title at 0x0C8216 excluded as likely development-only; 0x0CA293 proved binary-table false positive. ITEM still lacks exact source tilemap/proven rendering."
+        "status": "22 original-Japanese world-map Roman-letter labels recovered from Japanese-version map image (WMG-0001..0022). ITEM remains visually/ROM-source unverified; no new emulator observation."
       },
       {
         "id": "R4",
@@ -15488,10 +15935,18 @@
         "unit": "original glyph IDs",
         "kind": "source fidelity",
         "status": "preserved"
+      },
+      {
+        "id": "R7",
+        "target": "Recover byte-level original-Japanese compressed world-map tilemap references and validate that all identified place labels are actually displayed under reachable game states",
+        "known_units": 22,
+        "unit": "image-verified world-map label records",
+        "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
+        "status": "External original-JP graphic rip transcribed; asset's own ROM tilemap offsets and per-label runtime hits not yet demonstrated."
       }
     ],
     "progress_measurement": {
-      "extracted_entries": 1697,
+      "extracted_entries": 1719,
       "known_missing_player_visible_dialogue_count": 0,
       "known_unverified_supplemental_entries": 39,
       "completeness_percentage": null,
@@ -42147,6 +42602,58 @@
       "normalized_differences": 9,
       "validated_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
       "method": "Match ordered v17 text against original v13 Japanese ROM byte-verified dialogue table; use v13 source offsets and lengths. No audio/video runtime assertion."
+    },
+    "world_map_graphic_text_recovery_2026_11_05": {
+      "source": "Original-Japanese-release map sprite rip, publicly documented as 'Map (Gaia Gensouki)'",
+      "source_page": "https://www.spriters-resource.com/snes/illusiongaia/asset/35941/",
+      "source_image_dimensions_pixels": [
+        1008,
+        1024
+      ],
+      "source_medium": "1008x1024 image asset; not raw byte recovery from ROM",
+      "previously_absent_labels": [
+        "PYRAMID",
+        "DAO",
+        "ANGKOR VAT",
+        "SMALL VILLAGE",
+        "SACRED MOUNTAIN",
+        "EURO",
+        "BANRI CASTLE",
+        "WATERMIA",
+        "DARK ANGEL",
+        "MU",
+        "SEA PALACE",
+        "TOWER OF BABEL",
+        "MOON ROCK",
+        "INCA",
+        "ITORY",
+        "EDWARD CASTLE",
+        "SOUTH CAPE",
+        "NEELE'S COTAGE",
+        "NASCA",
+        "FREJIA",
+        "DIAMOND COAST",
+        "DIAMOND VALLEY"
+      ],
+      "added_count": 22,
+      "coverage_scope": "Latin alphabet labels embedded in this single Japanese-version world-map asset only",
+      "note": "Source contains an entire world map, but the game may expose portions during Mode 7 travel rather than a full player-visible atlas.",
+      "original_spelling_examples": [
+        "ANGKOR VAT",
+        "NEELE'S COTAGE",
+        "FREJIA",
+        "NASCA",
+        "BANRI CASTLE"
+      ],
+      "rom_tilemap_offsets_not_verified": true,
+      "runtime_scene_capture_not_performed": true,
+      "known_remaining_graphical_ui_label": "ITEM",
+      "prior_unverified_roman_map_label_groups_now_visual_asset_supported": [
+        "Itory",
+        "Diamond Valley",
+        "NEELE'S COTAGE",
+        "NASCA"
+      ]
     }
   }
 }
