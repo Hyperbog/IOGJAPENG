@@ -12,47 +12,119 @@
         {
           "text": "世界は 大航海時代の\n  真っ直中だった。\n人々は 新大陸へと 足を\nのばし 古代文明の遺産を\n はっくつしていった。",
           "speaker": "Narrator",
-          "id": "OP-0001"
+          "id": "OP-0001",
+          "rom_offset": "0x09AE42",
+          "rom_end_exclusive": "0x09AE94",
+          "source_hex": "80d580d654208031817c8058801f80d253cd202080ed6e809e801d0a6e4a1fcd802f81235420817d80318057574e2080e567cd5314462080d180d280c581005380a480bc67cd20546e424c464d3c6e4a1fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "はるかなる 時の流れは\n数々の伝説を生み出した。",
           "speaker": "Narrator",
-          "id": "OP-0002"
+          "id": "OP-0002",
+          "rom_offset": "0x09AE94",
+          "rom_end_exclusive": "0x09AEB5",
+          "source_hex": "5463404f6320801f5381306454cd8107812353809b817e6780235a8091464a1fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "遺跡の数だけ 伝説があり\n伝説の数だけ 古代文明が\n  存在したのだ・・・",
           "speaker": "Narrator",
-          "id": "OP-0003"
+          "id": "OP-0003",
+          "rom_offset": "0x09AEB5",
+          "rom_end_exclusive": "0x09AEE9",
+          "source_hex": "80a4817f5381070a4320809b817e003b62cd809b817e5381070a432080d180d280c5810000cd202081808181464a530a7e7e7ecc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "遺跡から 発見される\nさまざまな 出土品たち。",
           "speaker": "Narrator",
-          "id": "OP-0004"
+          "id": "OP-0004",
+          "rom_offset": "0x09AEE9",
+          "rom_end_exclusive": "0x09AF09",
+          "source_hex": "2080a4817f40612080e88036456463cd455905594f208091811781034a4b1fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "その中には 必ずと言って\nいいほど 神をかたどった\nきみょうな石像があった。",
           "speaker": "Narrator",
-          "id": "OP-0005"
+          "id": "OP-0005",
+          "rom_offset": "0x09AF09",
+          "rom_end_exclusive": "0x09AF36",
+          "source_hex": "4953801d505420800a074e80736e4dcd3c3c580e20807067404a0e6e4acd415a713d4f80128013003b6e4a1fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "古代人にとっての 神とは\nいったい 何なのか・・・\n遺跡は 口を閉ざしたまま\n静かに たたずんでいる。",
           "speaker": "Narrator",
-          "id": "OP-0006"
+          "id": "OP-0006",
+          "rom_offset": "0x09AF36",
+          "rom_end_exclusive": "0x09AF74",
+          "source_hex": "80d180d2802f504e6e4d532080704e54cd3c6e4a3c2080794f53407e7e7ecd80a4817f5420807b67803305464a5959cd80764050204a4a07680d3c631fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "失われた時の みりょくに\n とりつかれた 人々は\n遺跡へと 足をふみ入れ\n帰らぬ人に なってゆく。",
           "speaker": "Narrator",
-          "id": "OP-0007"
+          "id": "OP-0007",
+          "rom_offset": "0x09AF74",
+          "rom_end_exclusive": "0x09AFB0",
+          "source_hex": "807c66644a801f53205a62714250cd204e624c40644a20802f812354cd80a4817f574e2080e567565a800f64cd80cc6151802f50204f6e4d5f421fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "ある者は財宝を守るための\n  ワナだと 言い\nまた ある者は 古代人の\n のろいだと 語った。",
           "speaker": "Narrator",
-          "id": "OP-0008"
+          "id": "OP-0008",
+          "rom_offset": "0x09AFB0",
+          "rom_end_exclusive": "0x09AFEC",
+          "source_hex": "3b6380875480bb8035678048634a5c53cd2020d4664fd50a4e2080733ccd594a203b638087542080d180d2802f53cd2053653c0a4e2081826e4a1fcc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         },
         {
           "text": "だが それらが\nこれから 起ころうとする\n とてつもない 災いに\n  結びつこうとは\nだれ一人として 気づか\n  なかった・・・",
           "speaker": "Narrator",
-          "id": "OP-0009"
+          "id": "OP-0009",
+          "rom_offset": "0x09AFEC",
+          "rom_end_exclusive": "0x09B035",
+          "source_hex": "20200a002049646100cd4464406120812c44653d4e4763cd204e4d4c5d4f3c2081833c50cd2020815d154c443d4e54cd0a648069802f4e464d20803d0c40cd20204f406e4a7e7e7ecc",
+          "source_kind": "original_JP_ROM_opening_narration_inline_script",
+          "terminator_hex": "CC",
+          "byte_verified_against_japanese_rom": true,
+          "gameplay_reachability": "native_SNES_frames_not_executed",
+          "source_proof_note": "Control-aware split; 0x80CC is a Japanese glyph pair rather than a CC script terminator."
         }
       ]
     },
@@ -15370,23 +15442,58 @@
       "entries": [
         {
           "text": "PUSH START BUTTON",
-          "id": "TTL-0001"
+          "id": "TTL-0001",
+          "rom_offset": "0x01DA06",
+          "rom_end_exclusive": "0x01DA17",
+          "source_hex": "5055534840535441525440425554544f4e",
+          "source_kind": "original_JP_ROM_title_overlay_encoded_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_encoding": "Original title-script glyph codes, title-font space=0x40, special inline © / QUINTET–ENIX separator as encoded in source",
+          "gameplay_reachability": "native_SNES_frames_not_executed"
         },
         {
           "text": "© 1993  QUINTET / ENIX",
-          "id": "TTL-0002"
+          "id": "TTL-0002",
+          "rom_offset": "0x01DA1D",
+          "rom_end_exclusive": "0x01DA33",
+          "source_hex": "3c433e403139393340405155494e5445541d454e4958",
+          "source_kind": "original_JP_ROM_title_overlay_encoded_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_encoding": "Original title-script glyph codes, title-font space=0x40, special inline © / QUINTET–ENIX separator as encoded in source",
+          "gameplay_reachability": "native_SNES_frames_not_executed"
         },
         {
           "text": "MARIKO OHARA",
-          "id": "TTL-0003"
+          "id": "TTL-0003",
+          "rom_offset": "0x01DA36",
+          "rom_end_exclusive": "0x01DA42",
+          "source_hex": "4d4152494b4f404f48415241",
+          "source_kind": "original_JP_ROM_title_overlay_encoded_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_encoding": "Original title-script glyph codes, title-font space=0x40, special inline © / QUINTET–ENIX separator as encoded in source",
+          "gameplay_reachability": "native_SNES_frames_not_executed"
         },
         {
           "text": "MOTO HAGIO",
-          "id": "TTL-0004"
+          "id": "TTL-0004",
+          "rom_offset": "0x01DA43",
+          "rom_end_exclusive": "0x01DA4D",
+          "source_hex": "4d4f544f40484147494f",
+          "source_kind": "original_JP_ROM_title_overlay_encoded_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_encoding": "Original title-script glyph codes, title-font space=0x40, special inline © / QUINTET–ENIX separator as encoded in source",
+          "gameplay_reachability": "native_SNES_frames_not_executed"
         },
         {
           "text": "YASUHIRO KAWASAKI",
-          "id": "TTL-0005"
+          "id": "TTL-0005",
+          "rom_offset": "0x01DA50",
+          "rom_end_exclusive": "0x01DA61",
+          "source_hex": "594153554849524f404b41574153414b49",
+          "source_kind": "original_JP_ROM_title_overlay_encoded_literal",
+          "byte_verified_against_japanese_rom": true,
+          "source_encoding": "Original title-script glyph codes, title-font space=0x40, special inline © / QUINTET–ENIX separator as encoded in source",
+          "gameplay_reachability": "native_SNES_frames_not_executed"
         },
         {
           "id": "TTL-0006",
@@ -15503,7 +15610,15 @@
             }
           },
           "rejected_incidental_pointer_pattern_site": "0x15452C",
-          "rejected_pattern_reason": "Three-byte sequence A2 80 D9 occurs inside compressed data beginning 0x1543D0, so it is not a validated reference. Two structurally parsed scene metadata pointers A2 80 99 are independently verified."
+          "rejected_pattern_reason": "Three-byte sequence A2 80 D9 occurs inside compressed data beginning 0x1543D0, so it is not a validated reference. Two structurally parsed scene metadata pointers A2 80 99 are independently verified.",
+          "original_bitmap_reverified_2026_11_06": {
+            "source_rom_offset": "0x1980A2",
+            "compressed_end_exclusive": "0x19A3CD",
+            "expanded_bytes": 16384,
+            "decompressed_sha256": "f01332a016041a9d6c57a284e2119c262beb1044baedfbc262018ab9a07cfc13",
+            "codec": "Quintet LZ",
+            "view": "4bpp tile sheet (not emulator PPU composite)"
+          }
         }
       ]
     },
@@ -18520,7 +18635,7 @@
       ]
     }
   ],
-  "version": "v33",
+  "version": "v34",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18588,16 +18703,16 @@
         "area_titles": 63,
         "world_map_graphic_labels": 22
       },
-      "entries_with_direct_rom_offset_in_this_file": 1674,
-      "entries_without_direct_rom_offset_in_this_file": 46,
+      "entries_with_direct_rom_offset_in_this_file": 1688,
+      "entries_without_direct_rom_offset_in_this_file": 32,
       "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61,
       "entries_with_compound_direct_ROM_source_segments": 6,
-      "entries_with_any_original_ROM_byte_source_provenance": 1680,
-      "entries_without_verified_original_ROM_source_provenance": 40,
-      "source_offset_inventory_correction": "v33: all 25 travel-choice duplicates mapped to byte-exact DLG-0099–DLG-0123 source windows and six UI labels/prompts sourced, including three save-slot labels with four extra literal occurrences each. 1,674 direct source spans/windows plus 6 compound ability instruction sources; 40 entries without directly verified ROM byte provenance (some have graphical asset or screenshot provenance)."
+      "entries_with_any_original_ROM_byte_source_provenance": 1694,
+      "entries_without_verified_original_ROM_source_provenance": 26,
+      "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 original-Japanese player-facing master entries preserved. v33 verified all 25 travel-choice source windows as existing DLG-0099–DLG-0123 duplicates, and 6 previously unoffsetted UI sources including 3 save-slot labels. 1,674 entries with direct ROM source offsets/windows plus six segmented ABI sources (1,680 total); 40 still lack direct byte provenance: opening 9, title/credits 6, screen labels 2, world-map image labels 22, UI ITEM graphics 1. No native emulator frames executed; runtime branch and graphics-only coverage remain incomplete.",
+    "completion_state": "1,720 retained player-visible Japanese entries. v34 attributes 9/9 opening narration and 5/5 title-screen overlay text records to original Japanese ROM byte ranges; recomputed original title logo LZ and 4bpp decompression confirms prior logo source. Original JP font bitmap at 0x13597E independently decompressed (4096 bytes), but no exact ITEM/PLAYER/ENEMY UI label tilemap source established. 1,688 direct byte-range/window annotations plus 6 compound ability instruction records (1,694 with direct ROM byte-source attribution), 26 remaining without direct contiguous source attribution (22 world map graphic labels; 2 screen labels; 1 UI label; 1 title-logo graphic that separately has ROM asset proof). Zero native SNES emulator frames observed.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -46889,6 +47004,88 @@
       "new_master_entries": 0,
       "new_byte_source_annotations": 31,
       "limitation": "Text stored in ROM does not by itself establish runtime execution or complete graphically rendered UI source ownership. 'ITEM' is transcribed from published Japanese playthrough but its compressed graphic tilemap is still unverified."
+    },
+    "original_rom_opening_title_graphical_audit_2026_11_06": {
+      "original_ROM_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "audit_JSON_filename": "gaia_opening_title_rom_audit.json",
+      "audit_JSON_sha256": "b95a7773b695386bf3c191305fc56fb74f047b7b55fd028380077eecef69628f",
+      "opening": {
+        "source_range": "0x09AE42–0x09B035",
+        "records": 9,
+        "source_bytes": 499,
+        "all_end_CC": true,
+        "disambiguation": "0x80CC at 0x09AFA1 is a 2-byte kanji code; do not falsely split OP-0007 at the CC byte.",
+        "preserve_original_lexeme": "OP-0004: 発見, not reference wiki 発掘"
+      },
+      "title_overlay": {
+        "first_literal": "0x01DA06",
+        "last_literal_end_exclusive": "0x01DA61",
+        "records": 5,
+        "raw_source_bytes": 78,
+        "space_code": "40",
+        "copyright_marker": "3C 43 3E",
+        "line_separator": "1D"
+      },
+      "title_logo_graphic": {
+        "compressed_ROM_start": "0x1980A2",
+        "compressed_end_exclusive": "0x19A3CD",
+        "decompressed_bytes": 16384,
+        "decompressed_sha256": "f01332a016041a9d6c57a284e2119c262beb1044baedfbc262018ab9a07cfc13",
+        "scene_metadata_bitmap_pointer_sites": [
+          "0x0DAB0B",
+          "0x0DAF1A"
+        ],
+        "native_runtime_verified": false
+      },
+      "original_JP_font_bitmap": {
+        "compressed_ROM_start": "0x13597E",
+        "compressed_end_exclusive": "0x136407",
+        "expanded_bytes": 4096,
+        "decompressed_sha256": "023c6f1c5c0ac311bf90a592a79b61b30a5d78f0169269845a92cbeda61adedb",
+        "specific_ITEM_PLAYER_ENEMY_tilemap_identified": false
+      },
+      "labels_without_byte_source": [
+        "UI-0031",
+        "LBL-0001",
+        "LBL-0002"
+      ],
+      "label_ASCII_contiguous_match_count": {
+        "ITEM": 0,
+        "PLAYER": 0,
+        "ENEMY": 0
+      },
+      "remaining_without_direct_text_source": [
+        "UI-0031",
+        "TTL-0006",
+        "LBL-0001",
+        "LBL-0002",
+        "WMG-0001",
+        "WMG-0002",
+        "WMG-0003",
+        "WMG-0004",
+        "WMG-0005",
+        "WMG-0006",
+        "WMG-0007",
+        "WMG-0008",
+        "WMG-0009",
+        "WMG-0010",
+        "WMG-0011",
+        "WMG-0012",
+        "WMG-0013",
+        "WMG-0014",
+        "WMG-0015",
+        "WMG-0016",
+        "WMG-0017",
+        "WMG-0018",
+        "WMG-0019",
+        "WMG-0020",
+        "WMG-0021",
+        "WMG-0022"
+      ],
+      "graphics_caveat": "The title logo has verified compressed ROM graphics provenance and pointer references but no contiguous character-code string; do not conflate its byte asset offset with a text string offset. FONT bitmap contains glyphs; label layout/tile selection needs source-level tilemap or PPU trace.",
+      "native_emulator_frames_observed": 0,
+      "new_distinct_text_entries": 0,
+      "new_direct_source_attributions": 14
     }
   }
 }
