@@ -12771,6 +12771,24 @@
           "source_type": "original_rom_inline_interface",
           "rom_start_hex": "01E77A",
           "id": "UI-0030"
+        },
+        {
+          "id": "UI-0031",
+          "text": "ITEM",
+          "source_type": "original_japanese_version_hud_or_menu_display_label",
+          "language": "Latin/Roman UI lettering",
+          "provenance": "Japanese-release gameplay playthrough/transcription explicitly labels on-screen UI 'FORCE / ENEMY / ITEM' beside a screenshot, chapter 5",
+          "published_japanese_playthrough": "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/",
+          "chapter": "Chapter 5 annotated version",
+          "corroborating_existing_master_items": [
+            "UI-0030",
+            "LBL-0002"
+          ],
+          "original_rom_byte_offset": null,
+          "original_rom_byte_verified": false,
+          "image_glyph_rom_pointer_verified": false,
+          "runtime_proof": "Published original-Japanese playthrough transcription; not executed in this audit",
+          "source_confidence": "transcript_correlated_with_published_gameplay_image; individual image/tilemap not independently decoded"
         }
       ]
     },
@@ -15821,7 +15839,7 @@
       ]
     }
   ],
-  "version": "v22",
+  "version": "v23",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -15866,8 +15884,8 @@
     "last_updated_utc": "2026-11-05",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
-      "entries": 1719,
-      "unique_entry_ids": 1719,
+      "entries": 1720,
+      "unique_entry_ids": 1720,
       "sections": 18,
       "by_section": {
         "opening": 9,
@@ -15882,7 +15900,7 @@
         "ability_descriptions": 10,
         "item_found": 28,
         "ability_instructions": 6,
-        "ui": 30,
+        "ui": 31,
         "title_credits": 6,
         "screen_labels": 2,
         "staff_roll": 27,
@@ -15890,8 +15908,8 @@
         "world_map_graphic_labels": 22
       },
       "entries_with_direct_rom_offset_in_this_file": 1422,
-      "entries_without_direct_rom_offset_in_this_file": 297,
-      "unique_text_values": 1520,
+      "entries_without_direct_rom_offset_in_this_file": 298,
+      "unique_text_values": 1521,
       "entries_with_explicit_speaker_field": 61
     },
     "completion_state": "Original Japanese world-map graphic lettering recovered as 22 additional distinct entries. The entire game's runtime/graphics text corpus is not proven exhaustively covered.",
@@ -15914,11 +15932,11 @@
       },
       {
         "id": "R3",
-        "target": "Identify graphical text on remaining signs and overlays",
-        "known_units": 1,
-        "unit": "named unresolved UI glyph candidate groups",
+        "target": "Identify any additional, presently unknown graphics-only text in player-visible scenes",
+        "known_units": null,
+        "unit": "unbounded additional image-composed lettering",
         "kind": "graphic tilemap/source reconstruction",
-        "status": "22 original-Japanese world-map Roman-letter labels recovered from Japanese-version map image (WMG-0001..0022). ITEM remains visually/ROM-source unverified; no new emulator observation."
+        "status": "The five previously named Roman-letter groups have asset/playthrough corroboration: 22 world-map labels and UI label ITEM are now represented. No claim of exhaustive screen/tilemap coverage."
       },
       {
         "id": "R4",
@@ -15943,10 +15961,18 @@
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
         "status": "External original-JP graphic rip transcribed; asset's own ROM tilemap offsets and per-label runtime hits not yet demonstrated."
+      },
+      {
+        "id": "R8",
+        "target": "Recover exact original-ROM tilemap/font address and observed in-emulator render event for ITEM",
+        "known_units": 1,
+        "unit": "screenshot/transcript-corroborated UI word",
+        "kind": "ROM graphics pointer and emulator verification",
+        "status": "Transcribed from source Japanese playthrough; no ROM-source offset or locally executed PPU capture."
       }
     ],
     "progress_measurement": {
-      "extracted_entries": 1719,
+      "extracted_entries": 1720,
       "known_missing_player_visible_dialogue_count": 0,
       "known_unverified_supplemental_entries": 39,
       "completeness_percentage": null,
@@ -42594,6 +42620,20 @@
         "actual_frame_count": 0,
         "actual_rom_reads_observed": 0,
         "caveat": "This helper is a separate local downloadable artifact only; the GitHub repository retains the single master JSON file and main branch. No emulator installed in current environment and the script could not be executed or runtime-debugged."
+      },
+      "ui_item_evidence_2026_11_05": {
+        "ui_label": "ITEM",
+        "master_id": "UI-0031",
+        "evidence": "Original Japanese gameplay transcription displays 'FORCE / ENEMY / ITEM', alongside image in annotated chapter 5",
+        "japanese_gameplay_transcript_source": "https://www.resetera.com/threads/lets-play-illusion-of-gaia-but-in-japanese-gaia-gensouki-retranslation-attempt.171584/",
+        "original_rom_source_address_verified": false,
+        "byte_accurate_tilemap_reconstruction_performed": false,
+        "independent_runtime_execution_performed": false,
+        "prior_items_already_extracted": [
+          "FORCE",
+          "ENEMY"
+        ],
+        "result": "Previously unrepresented ITEM label added; byte-level graphics provenance remains unresolved"
       }
     },
     "dialogue_provenance_reconciliation": {
