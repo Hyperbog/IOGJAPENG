@@ -44722,7 +44722,6 @@
       },
       "total_previously_unoffsetted_master_entries_with_new_ROM_provenance": 64,
       "new_unique_player_facing_text_entries_added": 0,
-      "checked_source_region_byte_sha256": "d95677d11bd7323112ba3dd6c3acceb1d7510451eb78b87bf950e75a82a363d1",
       "audit_data_file_name": "rom_indirect_source_audit_v29.json",
       "static_font_correspondence": {
         "matching_world_location_strings": 37,
@@ -44730,7 +44729,8 @@
         "no_conflicting_character_mappings": true,
         "distinct_tokens_consistent": 113
       },
-      "coverage_limits": "This is not a full native SNES gameplay execution or an exhaustive scan of all compressed, generated or graphical sources. Pointer reuse does not establish distinct on-screen dialogue events."
+      "coverage_limits": "This is not a full native SNES gameplay execution or an exhaustive scan of all compressed, generated or graphical sources. Pointer reuse does not establish distinct on-screen dialogue events.",
+      "local_audit_JSON_sha256": "d95677d11bd7323112ba3dd6c3acceb1d7510451eb78b87bf950e75a82a363d1"
     }
   }
 }
