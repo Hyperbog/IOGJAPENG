@@ -19970,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v39",
+  "version": "v40",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T02:52:14.907Z",
+    "last_updated_utc": "2026-11-07T03:14:44.562Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained text/graphical label entries across 18 sections (unchanged). v39 reconstructs a second colored world-map metatile alphabet (S/E/A/P/L/C at IDs A2-A7), statically proves separate SEA and PALACE words, identifies CRED/MOU/NTAIN as only fragment candidates of SACRED MOUNTAIN, and traces their compressed-map glyph IDs and prior PYRAMID/MU to exact original ROM literal-token bit positions. The 20 world-map labels without complete contiguous static source remain unresolved as whole-screen strings; SEA PALACE has both separate source words but no demonstrated joint placement. Runtime proof still zero native SNES frames; UI ITEM/PLAYER/ENEMY 3 label tile arrangements still unresolved. Existing 1,688 direct source text spans/windows and six compound records unchanged; compressed source provenance does not equal a contiguous ROM text offset.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -20095,7 +20095,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "v39: Original JP scene-FE word encoding deepened: SEA and PALACE proven separately as colored metatile sequences A2 A3 A4 and A5 A4 A6 A4 A7 A3 at expanded offsets 0x399 and 0x3AA; all individual glyphs traced to exact Quintet-LZ 9-bit literal token ROM bit sources. SACRED MOUNTAIN fragments CRED/MOU/NTAIN also byte/bit-traced, not full label proof. PYRAMID and ambiguous short MU retroactively bit-traced. Eighteen other labels have no >=3 glyph matches across the two known encodings in the scene-FE decoded map; all 22 still lack native runtime tile/VRAM capture."
+        "status": "v40: Shared Japanese original-ROM world-map sources 0x014000 / 0x1B1526 / 0x142865 proven for two scene metadata owners, 0xFA and 0xFE. Static Mode7 matrix/affine buffers $7E7000/$7E7800/$7E8000 and COP register destinations $211B..$211E traced. Generic tilemap expander at $82:A4C0/$82:A567 resolves WRAM index-to-four-subtile paths and general $2116/$2118 PPU writers, but executable call linkage for FE fixed English lettering is NOT proven. 288 tile-order hypotheses (84 distinct maps) did not establish new full-word glyph matches. Per-label source matrix records 1 distinctive word, 1 short candidate, 1 split-word label, 1 partial-fragment label, 18 without known >=3-character matches. 0/22 English world map labels have a verified actual runtime VRAM address."
       },
       {
         "id": "R8",
@@ -49516,6 +49516,438 @@
         "Trace noncontiguous/conditional graphics overlays for the remaining English names rather than assuming the Japanese text dispatcher produces them.",
         "Run original Japanese ROM in instrumented SNES emulator and capture all 22 label glyph VRAM addresses/tile metadata and 3 UI labels."
       ]
+    },
+    "original_JP_worldmap_sceneFA_FE_buffers_and_per_label_vram_audit_2026_11_06": {
+      "local_date": "2026-11-06",
+      "verification_class": "Original Japanese ROM byte-by-byte source and static executable instructions, NOT emulator runtime",
+      "rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "rom_size_bytes": 2097152,
+      "scene_metadata_source_owners": {
+        "0xFA": {
+          "scene_descriptor_start": "0x0DAEBD",
+          "ppu_setting_index_site": "0x0DAEC0",
+          "ppu_setting_index": "0x08",
+          "background_graphics_pointer_site": "0x0DAED1",
+          "metatile_pointer_site": "0x0DAEE1",
+          "tilemap_pointer_site": "0x0DAEE6"
+        },
+        "0xFE": {
+          "scene_descriptor_start": "0x0DAF6A",
+          "ppu_setting_index_site": "0x0DAF6D",
+          "ppu_setting_index": "0x19",
+          "background_graphics_pointer_site": "0x0DAF80",
+          "metatile_pointer_site": "0x0DAF79",
+          "tilemap_pointer_site": "0x0DAF86"
+        }
+      },
+      "shared_rom_graphical_sources": [
+        {
+          "role": "shared_map_tilemap",
+          "rom_start": "0x142865",
+          "rom_end_exclusive": "0x142ADA",
+          "expanded_bytes": 1028,
+          "expanded_sha256": "fbe3141b5bc1fb61a4a9459660866cccf1b46b660560a5631650d6f7afb4a9c7",
+          "pointer_sites": [
+            "0x0DAEE6",
+            "0x0DAF86"
+          ],
+          "source_ptr_bytes": "65 28 D4"
+        },
+        {
+          "role": "shared_metatile_table",
+          "rom_start": "0x1B1526",
+          "rom_end_exclusive": "0x1B1A28",
+          "expanded_bytes": 2048,
+          "expanded_sha256": "23b9670f539257f7a165a7a85df4694963d361839a99f552fc788f0bc9aef15b",
+          "pointer_sites": [
+            "0x0DAEE1",
+            "0x0DAF79"
+          ],
+          "source_ptr_bytes": "26 15 DB"
+        },
+        {
+          "role": "shared_background_graphics",
+          "rom_start": "0x014000",
+          "rom_end_exclusive": "0x015A68",
+          "expanded_bytes": 8192,
+          "expanded_sha256": "6bcda9a47061ebbc231a2b592d7e8088728e6afbaa5d093e25ba85b142cfb868",
+          "pointer_sites": [
+            "0x0DAED1",
+            "0x0DAF80"
+          ],
+          "source_ptr_bytes": "00 40 C1"
+        }
+      ],
+      "cross_scene_verification": "The same three 24-bit compressed graphical asset pointers occur in both scene 0xFA and 0xFE metadata; their PPU setting indices differ 0x08 versus 0x19. This does not prove matching live images or text positions.",
+      "mode7_affine_transform_code": {
+        "scanline_setup_register_M7SEL_site": "0x03A68C",
+        "mode7_M7SEL_register": "$211A",
+        "transform_table_init_code_site": "0x03A6D5",
+        "transform_WRAM": [
+          "$7E7000",
+          "$7E7800",
+          "$7E8000"
+        ],
+        "WRAM_write_instruction_sites": [
+          "0x03A6DE",
+          "0x03A6E2",
+          "0x03A6E6"
+        ],
+        "cop_table_source_sites": [
+          "0x03A75C",
+          "0x03A762",
+          "0x03A768",
+          "0x03A76E"
+        ],
+        "cop_table_destination_registers": [
+          "$211B",
+          "$211C",
+          "$211D",
+          "$211E"
+        ],
+        "division_register_instruction_sites": [
+          "0x03A77C",
+          "0x03A78A"
+        ],
+        "division_dividend_divisor_and_result_registers": [
+          "$4204",
+          "$4206",
+          "$4214"
+        ],
+        "interpretation": "Static 65816 writes plus COP channel instructions match Mode7 affine matrix coefficient update and video registers, not Roman-letter map tile writes. The precise COP DMA scheduling/runtime execution remains unobserved."
+      },
+      "generic_video_tile_expansion": {
+        "layer_A_code_start": "0x02A4C0",
+        "source_metatile_index_WRAM": "$7EC000",
+        "source_metatile_definition_WRAM": "$7E2800",
+        "layer_B_code_start": "0x02A567",
+        "source_secondary_index_WRAM": "$7EA000",
+        "source_secondary_metatile_definition_WRAM": "$7E2000",
+        "metatile_index_to_descriptor": "(tile_index & 0xFF) * 8",
+        "descriptor_word_offsets": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "graphics_output_staging_addresses": [
+          "$0802",
+          "$0806",
+          "$080A",
+          "$080E"
+        ],
+        "general_PPU_write_opcode_sites": [
+          "0x02A34F",
+          "0x02A353",
+          "0x02A362",
+          "0x02A36C",
+          "0x02A372"
+        ],
+        "general_video_register_destinations": [
+          "$2115",
+          "$2116",
+          "$2118"
+        ],
+        "true_original_ROM_opcode_patterns_independently_checked": 28,
+        "scene_FE_expander_call_executed": false,
+        "caveat": "This generic 2D tile expander is not proved to be used by scene FE. Staging offsets and generic PPU register references do not establish which English-world-map word is uploaded, or its VRAM address."
+      },
+      "japanese_name_overlay_distinct_source": {
+        "text_pointer_selector_table": "0x03AF1C–0x03AF8B",
+        "graphics_render_entry": "$82:8000",
+        "generated_glyph_RAM": "$7EA000",
+        "transfer_call_sites": [
+          "0x03A0C5",
+          "0x03A35F"
+        ],
+        "transfer_source": "$7EA000",
+        "transfer_target_vram_word_address": "$4400",
+        "transfer_bytes": 2048,
+        "warning": "$4400 specifically relates to the Japanese location-name generated glyph upload, not to any fixed Roman-letter world-map landscape glyph location."
+      },
+      "English_worldmap_labels_per_source": [
+        {
+          "id": "WMG-0001",
+          "text": "PYRAMID",
+          "original_JP_ROM_static_source_class": "distinctive_complete_black_glyph_run",
+          "mapped_fragments": [
+            "PYRAMID"
+          ],
+          "decompressed_tilemap_offsets": [
+            "0x0B7"
+          ],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0002",
+          "text": "DAO",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0003",
+          "text": "ANGKOR VAT",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0004",
+          "text": "SMALL VILLAGE",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0005",
+          "text": "SACRED MOUNTAIN",
+          "original_JP_ROM_static_source_class": "unjoined_partial_runs_only",
+          "mapped_fragments": [
+            "CRED",
+            "MOU",
+            "NTAIN"
+          ],
+          "decompressed_tilemap_offsets": [
+            "0x2B3",
+            "0x1D0",
+            "0x2C3"
+          ],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0006",
+          "text": "EURO",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0007",
+          "text": "BANRI CASTLE",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0008",
+          "text": "WATERMIA",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0009",
+          "text": "DARK ANGEL",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0010",
+          "text": "MU",
+          "original_JP_ROM_static_source_class": "ambiguous_two_character_run",
+          "mapped_fragments": [
+            "MU"
+          ],
+          "decompressed_tilemap_offsets": [
+            "0x385"
+          ],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0011",
+          "text": "SEA PALACE",
+          "original_JP_ROM_static_source_class": "separate_colored_word_sources_without_joint_render_proof",
+          "mapped_fragments": [
+            "SEA",
+            "PALACE"
+          ],
+          "decompressed_tilemap_offsets": [
+            "0x399",
+            "0x3AA"
+          ],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0012",
+          "text": "TOWER OF BABEL",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0013",
+          "text": "MOON ROCK",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0014",
+          "text": "INCA",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0015",
+          "text": "ITORY",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0016",
+          "text": "EDWARD CASTLE",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0017",
+          "text": "SOUTH CAPE",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0018",
+          "text": "NEELE'S COTAGE",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0019",
+          "text": "NASCA",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0020",
+          "text": "FREJIA",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0021",
+          "text": "DIAMOND COAST",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        },
+        {
+          "id": "WMG-0022",
+          "text": "DIAMOND VALLEY",
+          "original_JP_ROM_static_source_class": "no_confirmed_three_glyph_contiguous_run_in_either_known_metatile_encoding",
+          "mapped_fragments": [],
+          "decompressed_tilemap_offsets": [],
+          "exact_runtime_VRAM_word_address": null,
+          "real_emulator_frame_seen": false,
+          "exact_display_glyph_placement_proven": false
+        }
+      ],
+      "inventory": {
+        "entries_unchanged": 1720,
+        "english_worldmap_labels": 22,
+        "distinctive_full_static_word_matches": 1,
+        "ambiguous_two_letter_static_matches": 1,
+        "two_separate_complete_word_parts": 1,
+        "fragments_only": 1,
+        "other_labels_without_known_3plus_glyph_source_match": 18,
+        "runtime_VRAM_labels_verified": 0,
+        "actual_snes_frames_executed": 0
+      },
+      "layout_test": {
+        "tested_layout_configs": 288,
+        "distinct_pixel_orderings": 84,
+        "source_bytes_used": 1024,
+        "source_header_alignment_candidates": [
+          0,
+          4
+        ],
+        "block_sizes_tested": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "block_scan_orders": [
+          "row",
+          "column"
+        ],
+        "within_block_orders": [
+          "row",
+          "column"
+        ],
+        "new_complete_3plus_glyph_named_word_hits": 0,
+        "limitations": "These are limited row/column and block-order hypotheses over 2 known glyph encodings. They do not prove ROM runtime layout, cover all alternate sources, or exclude sprite/overlay lettering."
+      },
+      "next_required_proof": "Instrument original JP ROM scene 0xFA and 0xFE loads in working SNES emulator: capture decompression destination for $D4:2865, every BG/Mode7 VRAM tilemap write, sprites/OAM, Mode7 transform matrix, and independent screenshot for each label. Capture VRAM $4400 Japanese name overlay separately."
     }
   }
 }
