@@ -19156,7 +19156,7 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; exact_original_JP_ROM_decompressed_scene_FE_metatile_sequence_verified; runtime_VRAM_render_not_verified",
+          "evidence_class": "Distinctive full PYRAMID word source in original JP scene FE compressed tilemap, every metatile id traced to literal compressed ROM token; native runtime observation absent",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
           "in_emulator_display_observed_in_this_audit": false,
@@ -19202,6 +19202,69 @@
               }
             ],
             "coordinates_unresolved": true
+          },
+          "scene_FE_compressed_map_glyph_proof": {
+            "original_ROM_SHA256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "scene_id": "0xFE",
+            "compressed_ROM_stream_offset": "0x142865",
+            "compressed_source_scene_pointer_site": "0x0DAF86",
+            "metatile_asset_source": "0x1B1526",
+            "background_bitmap_source": "0x014000",
+            "word_or_fragment_sources": [
+              {
+                "id": "WMG-0001",
+                "word": "PYRAMID",
+                "classification": "distinctive_exact_complete_word",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x1428D2",
+                "compressed_ROM_literal_byte_end_exclusive": "0x1428DB",
+                "expanded_tilemap_offset": "0x0B7",
+                "decoded_metatile_hex": "EF F8 F1 E0 EC E8 E3",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "P",
+                    "ROM_byte": "0x1428D2",
+                    "token_start_bit_in_ROM_byte": 7
+                  },
+                  {
+                    "letter": "Y",
+                    "ROM_byte": "0x1428D4",
+                    "token_start_bit_in_ROM_byte": 0
+                  },
+                  {
+                    "letter": "R",
+                    "ROM_byte": "0x1428D5",
+                    "token_start_bit_in_ROM_byte": 1
+                  },
+                  {
+                    "letter": "A",
+                    "ROM_byte": "0x1428D6",
+                    "token_start_bit_in_ROM_byte": 2
+                  },
+                  {
+                    "letter": "M",
+                    "ROM_byte": "0x1428D7",
+                    "token_start_bit_in_ROM_byte": 3
+                  },
+                  {
+                    "letter": "I",
+                    "ROM_byte": "0x1428D8",
+                    "token_start_bit_in_ROM_byte": 4
+                  },
+                  {
+                    "letter": "D",
+                    "ROM_byte": "0x1428D9",
+                    "token_start_bit_in_ROM_byte": 5
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              }
+            ],
+            "native_emu_render_event_observed": false,
+            "all_source_offsets_are_original_ROM_bit_exact": true,
+            "complete_screen_label_reconstruction_proven": true,
+            "caution": "PYRAMID is distinctive and complete in the original scene FE decoded map, but no native emulator frame observed."
           }
         },
         {
@@ -19279,10 +19342,126 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "evidence_class": "Japanese graphical map visual transcription; only partial original ROM black font metatile fragments CRED/MOU/NTAIN found; complete label ownership and execution unproven",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
-          "in_emulator_display_observed_in_this_audit": false
+          "in_emulator_display_observed_in_this_audit": false,
+          "scene_FE_compressed_map_glyph_proof": {
+            "original_ROM_SHA256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "scene_id": "0xFE",
+            "compressed_ROM_stream_offset": "0x142865",
+            "compressed_source_scene_pointer_site": "0x0DAF86",
+            "metatile_asset_source": "0x1B1526",
+            "background_bitmap_source": "0x014000",
+            "word_or_fragment_sources": [
+              {
+                "id": "WMG-0005",
+                "word": "CRED",
+                "classification": "candidate_black_font_fragment_only",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142A19",
+                "compressed_ROM_literal_byte_end_exclusive": "0x142A1E",
+                "expanded_tilemap_offset": "0x2B3",
+                "decoded_metatile_hex": "E2 F1 E4 E3",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "C",
+                    "ROM_byte": "0x142A19",
+                    "token_start_bit_in_ROM_byte": 2
+                  },
+                  {
+                    "letter": "R",
+                    "ROM_byte": "0x142A1A",
+                    "token_start_bit_in_ROM_byte": 3
+                  },
+                  {
+                    "letter": "E",
+                    "ROM_byte": "0x142A1B",
+                    "token_start_bit_in_ROM_byte": 4
+                  },
+                  {
+                    "letter": "D",
+                    "ROM_byte": "0x142A1C",
+                    "token_start_bit_in_ROM_byte": 5
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              },
+              {
+                "id": "WMG-0005",
+                "word": "MOU",
+                "classification": "candidate_black_font_fragment_only",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142989",
+                "compressed_ROM_literal_byte_end_exclusive": "0x14298D",
+                "expanded_tilemap_offset": "0x1D0",
+                "decoded_metatile_hex": "EC EE F4",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "M",
+                    "ROM_byte": "0x142989",
+                    "token_start_bit_in_ROM_byte": 3
+                  },
+                  {
+                    "letter": "O",
+                    "ROM_byte": "0x14298A",
+                    "token_start_bit_in_ROM_byte": 4
+                  },
+                  {
+                    "letter": "U",
+                    "ROM_byte": "0x14298B",
+                    "token_start_bit_in_ROM_byte": 5
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              },
+              {
+                "id": "WMG-0005",
+                "word": "NTAIN",
+                "classification": "candidate_black_font_fragment_only",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142A24",
+                "compressed_ROM_literal_byte_end_exclusive": "0x142A2B",
+                "expanded_tilemap_offset": "0x2C3",
+                "decoded_metatile_hex": "ED F3 E0 E8 ED",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "N",
+                    "ROM_byte": "0x142A24",
+                    "token_start_bit_in_ROM_byte": 7
+                  },
+                  {
+                    "letter": "T",
+                    "ROM_byte": "0x142A26",
+                    "token_start_bit_in_ROM_byte": 0
+                  },
+                  {
+                    "letter": "A",
+                    "ROM_byte": "0x142A27",
+                    "token_start_bit_in_ROM_byte": 1
+                  },
+                  {
+                    "letter": "I",
+                    "ROM_byte": "0x142A28",
+                    "token_start_bit_in_ROM_byte": 2
+                  },
+                  {
+                    "letter": "N",
+                    "ROM_byte": "0x142A29",
+                    "token_start_bit_in_ROM_byte": 3
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              }
+            ],
+            "native_emu_render_event_observed": false,
+            "all_source_offsets_are_original_ROM_bit_exact": true,
+            "complete_screen_label_reconstruction_proven": false,
+            "caution": "Only CRED, MOU and NTAIN fragments match; no complete SACRED or MOUNTAIN label source was proved."
+          }
         },
         {
           "id": "WMG-0006",
@@ -19379,7 +19558,7 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; exact_2glyph_original_JP_ROM_scene_FE_sequence_matched_but_label_identity_ambiguous; runtime_render_not_verified",
+          "evidence_class": "Short two-metatile MU candidate in original JP scene FE compressed tilemap traced to literal ROM tokens; identity and native runtime observation unverified",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
           "in_emulator_display_observed_in_this_audit": false,
@@ -19421,6 +19600,44 @@
             ],
             "coordinates_unresolved": true,
             "identity_warning": "Two matching glyphs are not sufficient to prove ownership of map's location label without map placement/render trace."
+          },
+          "scene_FE_compressed_map_glyph_proof": {
+            "original_ROM_SHA256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "scene_id": "0xFE",
+            "compressed_ROM_stream_offset": "0x142865",
+            "compressed_source_scene_pointer_site": "0x0DAF86",
+            "metatile_asset_source": "0x1B1526",
+            "background_bitmap_source": "0x014000",
+            "word_or_fragment_sources": [
+              {
+                "id": "WMG-0010",
+                "word": "MU",
+                "classification": "ambiguous_two_letter_match",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142A99",
+                "compressed_ROM_literal_byte_end_exclusive": "0x142A9C",
+                "expanded_tilemap_offset": "0x385",
+                "decoded_metatile_hex": "EC F4",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "M",
+                    "ROM_byte": "0x142A99",
+                    "token_start_bit_in_ROM_byte": 4
+                  },
+                  {
+                    "letter": "U",
+                    "ROM_byte": "0x142A9A",
+                    "token_start_bit_in_ROM_byte": 5
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              }
+            ],
+            "native_emu_render_event_observed": false,
+            "all_source_offsets_are_original_ROM_bit_exact": true,
+            "complete_screen_label_reconstruction_proven": false,
+            "caution": "MU is two letters, insufficient to uniquely establish displayed place-label identity without VRAM/frame coordinates."
           }
         },
         {
@@ -19438,10 +19655,97 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "evidence_class": "Japanese graphical map visual transcription; SEA and PALACE individually verified as separate colored metatile word sources in original JP scene FE compressed map; display adjacency and runtime execution unproven",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
-          "in_emulator_display_observed_in_this_audit": false
+          "in_emulator_display_observed_in_this_audit": false,
+          "scene_FE_compressed_map_glyph_proof": {
+            "original_ROM_SHA256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "scene_id": "0xFE",
+            "compressed_ROM_stream_offset": "0x142865",
+            "compressed_source_scene_pointer_site": "0x0DAF86",
+            "metatile_asset_source": "0x1B1526",
+            "background_bitmap_source": "0x014000",
+            "word_or_fragment_sources": [
+              {
+                "id": "WMG-0011",
+                "word": "SEA",
+                "classification": "separate_colored_word_component",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142AA6",
+                "compressed_ROM_literal_byte_end_exclusive": "0x142AAB",
+                "expanded_tilemap_offset": "0x399",
+                "decoded_metatile_hex": "A2 A3 A4",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "S",
+                    "ROM_byte": "0x142AA6",
+                    "token_start_bit_in_ROM_byte": 7
+                  },
+                  {
+                    "letter": "E",
+                    "ROM_byte": "0x142AA8",
+                    "token_start_bit_in_ROM_byte": 0
+                  },
+                  {
+                    "letter": "A",
+                    "ROM_byte": "0x142AA9",
+                    "token_start_bit_in_ROM_byte": 1
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              },
+              {
+                "id": "WMG-0011",
+                "word": "PALACE",
+                "classification": "separate_colored_word_component",
+                "compressed_tilemap_asset": "0x142865–0x142ADA",
+                "compressed_ROM_literal_byte_start": "0x142AB0",
+                "compressed_ROM_literal_byte_end_exclusive": "0x142AB8",
+                "expanded_tilemap_offset": "0x3AA",
+                "decoded_metatile_hex": "A5 A4 A6 A4 A7 A3",
+                "glyph_literal_token_starts": [
+                  {
+                    "letter": "P",
+                    "ROM_byte": "0x142AB0",
+                    "token_start_bit_in_ROM_byte": 7
+                  },
+                  {
+                    "letter": "A",
+                    "ROM_byte": "0x142AB2",
+                    "token_start_bit_in_ROM_byte": 0
+                  },
+                  {
+                    "letter": "L",
+                    "ROM_byte": "0x142AB3",
+                    "token_start_bit_in_ROM_byte": 1
+                  },
+                  {
+                    "letter": "A",
+                    "ROM_byte": "0x142AB4",
+                    "token_start_bit_in_ROM_byte": 2
+                  },
+                  {
+                    "letter": "C",
+                    "ROM_byte": "0x142AB5",
+                    "token_start_bit_in_ROM_byte": 3
+                  },
+                  {
+                    "letter": "E",
+                    "ROM_byte": "0x142AB6",
+                    "token_start_bit_in_ROM_byte": 4
+                  }
+                ],
+                "all_glyphs_are_immediate_LZ_literal_tokens": true,
+                "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+              }
+            ],
+            "native_emu_render_event_observed": false,
+            "all_source_offsets_are_original_ROM_bit_exact": true,
+            "complete_screen_label_reconstruction_proven": false,
+            "caution": "SEA and PALACE are exact separate colored word graphics, not a contiguous scene text run. Rendering them together as one label was not verified."
+          }
         },
         {
           "id": "WMG-0012",
@@ -19666,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v38",
+  "version": "v39",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -19708,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T02:14:33.032Z",
+    "last_updated_utc": "2026-11-07T02:52:14.907Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -19743,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries across 18 sections. v38 proves 37 ROM table selectors for the original Japanese world-map label overlay resolve to all 35 existing PLC text blocks, including three aliases to DAO at 0x03B0F0, and traces selector assignment from $0642/$0644 via $0D6E/$0D6F to text renderer $82:8000, buffer $7EA000–$7EA7FF, and 2,048-byte VRAM $4400 upload call sites. This is separate from 22 English graphical landscape labels, of which PYRAMID and short ambiguous MU have static map metatile matches, and 20 remain without full static source matches; ITEM/PLAYER/ENEMY tile ownership also unresolved. No emulator frames executed. 1,688 direct text source ranges/windows and six compound records remain as before.",
+    "completion_state": "1,720 retained text/graphical label entries across 18 sections (unchanged). v39 reconstructs a second colored world-map metatile alphabet (S/E/A/P/L/C at IDs A2-A7), statically proves separate SEA and PALACE words, identifies CRED/MOU/NTAIN as only fragment candidates of SACRED MOUNTAIN, and traces their compressed-map glyph IDs and prior PYRAMID/MU to exact original ROM literal-token bit positions. The 20 world-map labels without complete contiguous static source remain unresolved as whole-screen strings; SEA PALACE has both separate source words but no demonstrated joint placement. Runtime proof still zero native SNES frames; UI ITEM/PLAYER/ENEMY 3 label tile arrangements still unresolved. Existing 1,688 direct source text spans/windows and six compound records unchanged; compressed source provenance does not equal a contiguous ROM text offset.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -19791,7 +20095,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "v38: Original-Japanese world-map conditional name dispatcher decoded at 0x03A3D6; 37 selector records at 0x03AF1C–0x03AF8B resolve to all 35 existing PLC Japanese place-name text blocks, with two upload paths from $7EA000 to VRAM $4400. This proves Japanese map overlay dispatch/addressability, not the 20 still-unmatched complete Latin world-map graphic label sequences. Native emulator rendering and individual English glyph ownership remain unresolved."
+        "status": "v39: Original JP scene-FE word encoding deepened: SEA and PALACE proven separately as colored metatile sequences A2 A3 A4 and A5 A4 A6 A4 A7 A3 at expanded offsets 0x399 and 0x3AA; all individual glyphs traced to exact Quintet-LZ 9-bit literal token ROM bit sources. SACRED MOUNTAIN fragments CRED/MOU/NTAIN also byte/bit-traced, not full label proof. PYRAMID and ambiguous short MU retroactively bit-traced. Eighteen other labels have no >=3 glyph matches across the two known encodings in the scene-FE decoded map; all 22 still lack native runtime tile/VRAM capture."
       },
       {
         "id": "R8",
@@ -48848,6 +49152,370 @@
         "english_graphical_label_sources_newly_resolved": 0,
         "master_entries_preserved": 1720
       }
+    },
+    "original_ROM_english_worldmap_colored_glyph_and_bit_provenance_2026_11_06": {
+      "local_date": "2026-11-06",
+      "authority": "Original headerless Japanese 2MiB SFC ROM; SHA256 verified",
+      "ROM_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "original_rom_bytes": 2097152,
+      "verified_asset_sources": {
+        "scene_id": "0xFE",
+        "pointer_site": "0x0DAF86",
+        "tilemap_compressed": "0x142865–0x142ADA",
+        "tilemap_expanded_bytes": 1028,
+        "tilemap_expanded_sha256": "fbe3141b5bc1fb61a4a9459660866cccf1b46b660560a5631650d6f7afb4a9c7",
+        "metatile_descriptors_compressed": "0x1B1526–0x1B1A28",
+        "metatiles_expanded_bytes": 2048,
+        "metatiles_expanded_sha256": "23b9670f539257f7a165a7a85df4694963d361839a99f552fc788f0bc9aef15b",
+        "source_bitmap_compressed": "0x014000–0x015A68",
+        "bitmap_expanded_bytes": 8192,
+        "bitmap_expanded_sha256": "6bcda9a47061ebbc231a2b592d7e8088728e6afbaa5d093e25ba85b142cfb868"
+      },
+      "encoding_class": "Two graphical metatile alphabets: existing black A-Z E0-F9 and newly proven SEA PALACE colored six-character set A2-A7.",
+      "new_colored_glyph_metatile_definitions": [
+        {
+          "letter": "S",
+          "metatile_id": "0xA2",
+          "expanded_metatile_descriptor_offset": "0x510",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x146F",
+            "0x143F",
+            "0x147F"
+          ]
+        },
+        {
+          "letter": "E",
+          "metatile_id": "0xA3",
+          "expanded_metatile_descriptor_offset": "0x518",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x148D",
+            "0x143F",
+            "0x149D"
+          ]
+        },
+        {
+          "letter": "A",
+          "metatile_id": "0xA4",
+          "expanded_metatile_descriptor_offset": "0x520",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x148E",
+            "0x143F",
+            "0x149E"
+          ]
+        },
+        {
+          "letter": "P",
+          "metatile_id": "0xA5",
+          "expanded_metatile_descriptor_offset": "0x528",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x148F",
+            "0x143F",
+            "0x149F"
+          ]
+        },
+        {
+          "letter": "L",
+          "metatile_id": "0xA6",
+          "expanded_metatile_descriptor_offset": "0x530",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x1497",
+            "0x143F",
+            "0x1498"
+          ]
+        },
+        {
+          "letter": "C",
+          "metatile_id": "0xA7",
+          "expanded_metatile_descriptor_offset": "0x538",
+          "four_8x8_tile_descriptors": [
+            "0x142F",
+            "0x1499",
+            "0x143F",
+            "0x149A"
+          ]
+        }
+      ],
+      "word_or_fragment_sources": [
+        {
+          "id": "WMG-0001",
+          "word": "PYRAMID",
+          "classification": "distinctive_exact_complete_word",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x1428D2",
+          "compressed_ROM_literal_byte_end_exclusive": "0x1428DB",
+          "expanded_tilemap_offset": "0x0B7",
+          "decoded_metatile_hex": "EF F8 F1 E0 EC E8 E3",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "P",
+              "ROM_byte": "0x1428D2",
+              "token_start_bit_in_ROM_byte": 7
+            },
+            {
+              "letter": "Y",
+              "ROM_byte": "0x1428D4",
+              "token_start_bit_in_ROM_byte": 0
+            },
+            {
+              "letter": "R",
+              "ROM_byte": "0x1428D5",
+              "token_start_bit_in_ROM_byte": 1
+            },
+            {
+              "letter": "A",
+              "ROM_byte": "0x1428D6",
+              "token_start_bit_in_ROM_byte": 2
+            },
+            {
+              "letter": "M",
+              "ROM_byte": "0x1428D7",
+              "token_start_bit_in_ROM_byte": 3
+            },
+            {
+              "letter": "I",
+              "ROM_byte": "0x1428D8",
+              "token_start_bit_in_ROM_byte": 4
+            },
+            {
+              "letter": "D",
+              "ROM_byte": "0x1428D9",
+              "token_start_bit_in_ROM_byte": 5
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0010",
+          "word": "MU",
+          "classification": "ambiguous_two_letter_match",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142A99",
+          "compressed_ROM_literal_byte_end_exclusive": "0x142A9C",
+          "expanded_tilemap_offset": "0x385",
+          "decoded_metatile_hex": "EC F4",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "M",
+              "ROM_byte": "0x142A99",
+              "token_start_bit_in_ROM_byte": 4
+            },
+            {
+              "letter": "U",
+              "ROM_byte": "0x142A9A",
+              "token_start_bit_in_ROM_byte": 5
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0011",
+          "word": "SEA",
+          "classification": "separate_colored_word_component",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142AA6",
+          "compressed_ROM_literal_byte_end_exclusive": "0x142AAB",
+          "expanded_tilemap_offset": "0x399",
+          "decoded_metatile_hex": "A2 A3 A4",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "S",
+              "ROM_byte": "0x142AA6",
+              "token_start_bit_in_ROM_byte": 7
+            },
+            {
+              "letter": "E",
+              "ROM_byte": "0x142AA8",
+              "token_start_bit_in_ROM_byte": 0
+            },
+            {
+              "letter": "A",
+              "ROM_byte": "0x142AA9",
+              "token_start_bit_in_ROM_byte": 1
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0011",
+          "word": "PALACE",
+          "classification": "separate_colored_word_component",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142AB0",
+          "compressed_ROM_literal_byte_end_exclusive": "0x142AB8",
+          "expanded_tilemap_offset": "0x3AA",
+          "decoded_metatile_hex": "A5 A4 A6 A4 A7 A3",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "P",
+              "ROM_byte": "0x142AB0",
+              "token_start_bit_in_ROM_byte": 7
+            },
+            {
+              "letter": "A",
+              "ROM_byte": "0x142AB2",
+              "token_start_bit_in_ROM_byte": 0
+            },
+            {
+              "letter": "L",
+              "ROM_byte": "0x142AB3",
+              "token_start_bit_in_ROM_byte": 1
+            },
+            {
+              "letter": "A",
+              "ROM_byte": "0x142AB4",
+              "token_start_bit_in_ROM_byte": 2
+            },
+            {
+              "letter": "C",
+              "ROM_byte": "0x142AB5",
+              "token_start_bit_in_ROM_byte": 3
+            },
+            {
+              "letter": "E",
+              "ROM_byte": "0x142AB6",
+              "token_start_bit_in_ROM_byte": 4
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0005",
+          "word": "CRED",
+          "classification": "candidate_black_font_fragment_only",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142A19",
+          "compressed_ROM_literal_byte_end_exclusive": "0x142A1E",
+          "expanded_tilemap_offset": "0x2B3",
+          "decoded_metatile_hex": "E2 F1 E4 E3",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "C",
+              "ROM_byte": "0x142A19",
+              "token_start_bit_in_ROM_byte": 2
+            },
+            {
+              "letter": "R",
+              "ROM_byte": "0x142A1A",
+              "token_start_bit_in_ROM_byte": 3
+            },
+            {
+              "letter": "E",
+              "ROM_byte": "0x142A1B",
+              "token_start_bit_in_ROM_byte": 4
+            },
+            {
+              "letter": "D",
+              "ROM_byte": "0x142A1C",
+              "token_start_bit_in_ROM_byte": 5
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0005",
+          "word": "MOU",
+          "classification": "candidate_black_font_fragment_only",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142989",
+          "compressed_ROM_literal_byte_end_exclusive": "0x14298D",
+          "expanded_tilemap_offset": "0x1D0",
+          "decoded_metatile_hex": "EC EE F4",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "M",
+              "ROM_byte": "0x142989",
+              "token_start_bit_in_ROM_byte": 3
+            },
+            {
+              "letter": "O",
+              "ROM_byte": "0x14298A",
+              "token_start_bit_in_ROM_byte": 4
+            },
+            {
+              "letter": "U",
+              "ROM_byte": "0x14298B",
+              "token_start_bit_in_ROM_byte": 5
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        },
+        {
+          "id": "WMG-0005",
+          "word": "NTAIN",
+          "classification": "candidate_black_font_fragment_only",
+          "compressed_tilemap_asset": "0x142865–0x142ADA",
+          "compressed_ROM_literal_byte_start": "0x142A24",
+          "compressed_ROM_literal_byte_end_exclusive": "0x142A2B",
+          "expanded_tilemap_offset": "0x2C3",
+          "decoded_metatile_hex": "ED F3 E0 E8 ED",
+          "glyph_literal_token_starts": [
+            {
+              "letter": "N",
+              "ROM_byte": "0x142A24",
+              "token_start_bit_in_ROM_byte": 7
+            },
+            {
+              "letter": "T",
+              "ROM_byte": "0x142A26",
+              "token_start_bit_in_ROM_byte": 0
+            },
+            {
+              "letter": "A",
+              "ROM_byte": "0x142A27",
+              "token_start_bit_in_ROM_byte": 1
+            },
+            {
+              "letter": "I",
+              "ROM_byte": "0x142A28",
+              "token_start_bit_in_ROM_byte": 2
+            },
+            {
+              "letter": "N",
+              "ROM_byte": "0x142A29",
+              "token_start_bit_in_ROM_byte": 3
+            }
+          ],
+          "all_glyphs_are_immediate_LZ_literal_tokens": true,
+          "note": "Literal token comprises one control bit and eight data bits; source may cross byte boundaries. Compressed bytes are not contiguous plain-text character encoding."
+        }
+      ],
+      "method": "Independently recomputed Quintet LZ stream from exact SHA-matched original ROM; compared 1028 expanded bytes, 2048-byte metatiles and 8192-byte 4bpp bitmap to the earlier independent decodes; tracked each 9-bit literal instruction's exact original-ROM bit position; rendered original-world-map tile layout visually for SEA/PALACE; searched both known metatile alphabets for all 22 recorded world-map label spellings using uninterrupted same-row matches.",
+      "original_ROM_pointer_bytes_checked": [
+        "65 28 D4 (tilemap 0x142865)",
+        "26 15 DB (metatiles 0x1B1526)",
+        "00 40 C1 (bitmap 0x014000)"
+      ],
+      "single_source_complete_distinctive_word_count": 1,
+      "distinctive_word": "WMG-0001/PYRAMID",
+      "short_full_match_unattributed_to_display": "WMG-0010/MU",
+      "additional_label_with_all_words_present_but_noncontiguous": "WMG-0011/SEA PALACE",
+      "candidate_partial_only_label": "WMG-0005/SACRED MOUNTAIN",
+      "no_three_glyph_contiguous_fragments_in_the_two_encoding_sets": 18,
+      "full_English_map_displayed_label_attribution_newly_runtime_verified": 0,
+      "new_distinct_player_facing_text_entries": 0,
+      "source_proof_limitations": [
+        "Proven compressed ROM literal tokens produce the given tilemap IDs. They do not prove tile/sprite placement into VRAM at runtime.",
+        "SEA and PALACE are independently contiguous, but not one contiguous complete label; their spatial/temporal relationship is unknown.",
+        "CRED/MOU/NTAIN are partial matches only; no claim that complete SACRED MOUNTAIN is sourced from these segments.",
+        "No native SNES emulator installed or executed in this environment. No PPU screenshot or VRAM capture observed.",
+        "The 1,028-byte tilemap layout has an unresolved 0-versus-4-byte alignment for a canonical 32-by-32 arrangement; expanded byte indices and bit-level ROM origins are unaffected."
+      ],
+      "next_targets": [
+        "Identify the scene FE runtime tilemap expansion/VRAM map transfer loop and compare its glyph-word placements with independent frames.",
+        "Trace noncontiguous/conditional graphics overlays for the remaining English names rather than assuming the Japanese text dispatcher produces them.",
+        "Run original Japanese ROM in instrumented SNES emulator and capture all 22 label glyph VRAM addresses/tile metadata and 3 UI labels."
+      ]
     }
   }
 }
