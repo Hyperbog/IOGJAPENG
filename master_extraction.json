@@ -19970,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v40",
+  "version": "v41",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T03:14:44.562Z",
+    "last_updated_utc": "2026-11-07T17:33:23.549Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -49948,6 +49948,206 @@
         "limitations": "These are limited row/column and block-order hypotheses over 2 known glyph encodings. They do not prove ROM runtime layout, cover all alternate sources, or exclude sprite/overlay lettering."
       },
       "next_required_proof": "Instrument original JP ROM scene 0xFA and 0xFE loads in working SNES emulator: capture decompression destination for $D4:2865, every BG/Mode7 VRAM tilemap write, sprites/OAM, Mode7 transform matrix, and independent screenshot for each label. Capture VRAM $4400 Japanese name overlay separately."
+    },
+    "original_JP_scene_FA_FE_card_interpreter_and_bitmap_projection_2026_11_07": {
+      "date": "2026-11-07",
+      "input_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "evidence_class": "Original ROM scene-metadata card interpreter, independent bitstream decompressor, independent planar-4bpp glyph pixel decoding. This is NOT native 65816 CPU/PPU execution or a VRAM/video capture.",
+      "decoded_record_addresses_and_settings": {
+        "0xFA": {
+          "rom_start": "0x0DAEBD",
+          "rom_end_exclusive": "0x0DAEF1",
+          "ppu_setting_index": "0x08",
+          "ppu_setting_rom_offset": "0x0180AA",
+          "ppu_BGMode_register_site": "0x0180B0",
+          "ppu_BGMode_value": "0x09",
+          "BG_mode": 1,
+          "ppumode_bg3_priority": true,
+          "cards_in_order": [
+            [
+              "0x0DAEBF",
+              "0x02",
+              "PPU #08"
+            ],
+            [
+              "0x0DAEC1",
+              "0x11",
+              "music 00 at $D7:6E23"
+            ],
+            [
+              "0x0DAEC7",
+              "0x11",
+              "music 12 at $D6:37AE"
+            ],
+            [
+              "0x0DAECD",
+              "0x03",
+              "BG tile bitmap $C1:4000"
+            ],
+            [
+              "0x0DAED5",
+              "0x04",
+              "BG palette $DF:2300"
+            ],
+            [
+              "0x0DAEDC",
+              "0x05",
+              "metatiles $DB:1526 layer 1"
+            ],
+            [
+              "0x0DAEE4",
+              "0x06",
+              "tilemap $D4:2865 layer 1"
+            ],
+            [
+              "0x0DAEE9",
+              "0x04",
+              "additional palette $DE:515E"
+            ],
+            [
+              "0x0DAEF0",
+              "0x00",
+              "end"
+            ]
+          ]
+        },
+        "0xFE": {
+          "rom_start": "0x0DAF6A",
+          "rom_end_exclusive": "0x0DAFA7",
+          "ppu_setting_index": "0x19",
+          "ppu_setting_rom_offset": "0x018154",
+          "ppu_BGMode_register_site": "0x01815A",
+          "ppu_BGMode_value": "0x07",
+          "BG_mode": 7,
+          "cards_in_order": [
+            [
+              "0x0DAF6C",
+              "0x02",
+              "PPU #19"
+            ],
+            [
+              "0x0DAF6E",
+              "0x11",
+              "music 12 at $D6:37AE"
+            ],
+            [
+              "0x0DAF74",
+              "0x05",
+              "metatiles $DB:1526 layer 1"
+            ],
+            [
+              "0x0DAF7C",
+              "0x03",
+              "BG tile bitmap $C1:4000"
+            ],
+            [
+              "0x0DAF84",
+              "0x06",
+              "tilemap $D4:2865 layer 1"
+            ],
+            [
+              "0x0DAF89",
+              "0x04",
+              "BG palette $DF:2300"
+            ],
+            [
+              "0x0DAF90",
+              "0x03",
+              "sprite bitmap $CF:0000"
+            ],
+            [
+              "0x0DAF98",
+              "0x04",
+              "sprite palette $DF:23E0"
+            ],
+            [
+              "0x0DAF9F",
+              "0x10",
+              "spriteset $D5:1279"
+            ],
+            [
+              "0x0DAFA6",
+              "0x00",
+              "end"
+            ]
+          ]
+        }
+      },
+      "same_map_layer_asset_proven_in_both_scenes": {
+        "graphic_tiles": {
+          "compressed_rom_offset": "0x014000",
+          "expanded_bytes": 8192,
+          "sha256": "6bcda9a47061ebbc231a2b592d7e8088728e6afbaa5d093e25ba85b142cfb868"
+        },
+        "metatiles": {
+          "compressed_rom_offset": "0x1B1526",
+          "expanded_bytes": 2048,
+          "sha256": "23b9670f539257f7a165a7a85df4694963d361839a99f552fc788f0bc9aef15b"
+        },
+        "tilemap": {
+          "compressed_rom_offset": "0x142865",
+          "expanded_bytes": 1028,
+          "sha256": "fbe3141b5bc1fb61a4a9459660866cccf1b46b660560a5631650d6f7afb4a9c7"
+        }
+      },
+      "FE_additional_sources_confirmed": {
+        "sprite_bitmap": {
+          "compressed_rom_offset": "0x0F0000",
+          "expanded_bytes": 8192,
+          "sha256": "19ab63b1e7af0bff777c52a1fcc9d48d6466b23aa64b136e3234305730d0b5fb"
+        },
+        "sprite_definitions": {
+          "compressed_rom_offset": "0x151279",
+          "expanded_bytes": 4664,
+          "sha256": "a35d4fcb49edb07f91ea734938192726300f3f5b1049c59e2b10d144306a91b2"
+        }
+      },
+      "independent_graphical_metatile_glyph_pixel_decoding": {
+        "method": "SNES planar 4bpp 8x8 tile decode of 0x014000-expanded source; four word descriptors per 16x16 metatile at 0x1B1526-expanded source; exact tilemap offsets independently verified against 0x142865-expanded source",
+        "exact_matched_spans": [
+          {
+            "name": "PYRAMID",
+            "decoded_tilemap_offset": "0x0B7",
+            "metatile_indices": "EF F8 F1 E0 EC E8 E3",
+            "status": "distinctive full source word, not verified in live VRAM"
+          },
+          {
+            "name": "MU",
+            "decoded_tilemap_offset": "0x385",
+            "metatile_indices": "EC F4",
+            "status": "ambiguous two-letter candidate"
+          },
+          {
+            "name": "SEA",
+            "decoded_tilemap_offset": "0x399",
+            "metatile_indices": "A2 A3 A4",
+            "status": "separate colored source word"
+          },
+          {
+            "name": "PALACE",
+            "decoded_tilemap_offset": "0x3AA",
+            "metatile_indices": "A5 A4 A6 A4 A7 A3",
+            "status": "separate colored source word; runtime adjacency not verified"
+          }
+        ],
+        "bitmap_graphical_quadrants": "Per-glyph four descriptors and bitmap offsets decoded independently; not claimed as observed live memory",
+        "putative_4bpp_vram_formula": "If BG graphic bytes are DMA-loaded contiguously beginning at VRAM word 0x2000, tile index N begins at word 0x2000+16*N; this is a conditional projection, not a runtime observation."
+      },
+      "execution_truth": {
+        "interpreted_rom_scene_card_records": 2,
+        "original_ROM_LZ_assets_with_SHA256_verified": 5,
+        "native_SNES_65816_executed": false,
+        "original_sceneFA_CPU_instructions_executed": false,
+        "original_sceneFE_CPU_instructions_executed": false,
+        "observed_PPU_register_writes": 0,
+        "observed_VRAM_bytes": 0,
+        "observed_OAM_bytes": 0,
+        "captured_emulator_frames": 0,
+        "worldmap_label_runtime_VRAM_address_confirmations": 0,
+        "full_22_English_label_ownership_completed": false
+      },
+      "remaining": "Use a working SNES CPU+PPU emulator to execute scene FA and FE on original JP ROM, log $2115/$2116/$2118-9, DMA $420B and HDMA $420C, plus WRAM staging and $4400 Japanese overlay; dump complete VRAM/OAM and independent PPU frame at label-bearing scenes. Do not confuse static bitmaps or hypothetical VRAM word positions with captured runtime values.",
+      "preservation_policy": "No dialogue/label/source entries added, removed, or changed; original 1720 entries retained."
     }
   }
 }
