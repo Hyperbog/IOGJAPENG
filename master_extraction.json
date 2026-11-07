@@ -19970,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v41",
+  "version": "v42",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T17:33:23.549Z",
+    "last_updated_utc": "2026-11-07T18:48:45.119Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -50148,6 +50148,44 @@
       },
       "remaining": "Use a working SNES CPU+PPU emulator to execute scene FA and FE on original JP ROM, log $2115/$2116/$2118-9, DMA $420B and HDMA $420C, plus WRAM staging and $4400 Japanese overlay; dump complete VRAM/OAM and independent PPU frame at label-bearing scenes. Do not confuse static bitmaps or hypothetical VRAM word positions with captured runtime values.",
       "preservation_policy": "No dialogue/label/source entries added, removed, or changed; original 1720 entries retained."
+    },
+    "scene_FA_FE_native_capture_readiness_2026_11_07": {
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "stage": "Native 65816 execution / actual raw VRAM-OAM capture and per-label validation",
+      "completed_from_original_rom": "Independently re-verified v41 source extraction; decompressed graphic/metatile/tilemap SHA256 checks pass; binary pixel and glyph tilemap matching analyzer built and tested.",
+      "emulator_runtime_check": "No installed SNES-native emulator, Libretro core or PPU executable found in current environment; external downloading blocked. Therefore original game scene execution could NOT be performed.",
+      "current_capture_data_present": false,
+      "native_ROM_CPU_instructions_executed": 0,
+      "genuine_VRAM_capture_count": 0,
+      "genuine_PPU_frame_count": 0,
+      "genuine_OAM_capture_count": 0,
+      "individually_attributed_Roman_worldmap_runtime_labels": 0,
+      "source_fragments_awaiting_PPU_confirmation": [
+        "PYRAMID",
+        "MU",
+        "SEA",
+        "PALACE"
+      ],
+      "remaining_22_Roman_worldmap_labels_runtime_addresses_null": true,
+      "source_4bpp_to_mode7_hardware_format_caveat": "Mode7 VRAM 0x0000-0x3FFF words: low bytes are a 128x128 tilemap and high bytes are 256 chunky 8bpp tiles. Original 4bpp bitmap may be transformed; 4bpp hashes cannot be equated to Mode7 raw VRAM without native capture.",
+      "validation_artifacts": {
+        "local_tool": "gaia_fa_fe_capture_attributor.py",
+        "tool_sha256": "c0ec5b3fee36c8e38c990371557454959bb63b94671514d14a6816fd81de5936",
+        "protocol": "gaia_fa_fe_capture_protocol.md",
+        "protocol_sha256": "461a8fc2642093102f631fcf5c037a8bd1da5f3fd00bc54a8c48c720b2a9411a",
+        "local_zip": "gaia_fa_fe_capture_preparation.zip",
+        "zip_sha256": "30524ef1a1c32f439d0f7e630ab29acac71b615561522cb4c6c0771e1d00510d",
+        "synthetic_test_results": {
+          "mode1_2d_tilemap": true,
+          "mode7_2d_tilemap": true,
+          "mode7_source_pixel_fingerprint": true
+        },
+        "synthetic_tests_must_not_be_confused_with_capture": true,
+        "local_artifacts_are_not_new_repository_master_files": true
+      },
+      "required_next_evidence": "Native emulator frame with original ROM SHA, DMA and VRAM write log, raw 65536-byte VRAM, OAM and CGRAM dumps and PPU regs, plus screenshots for each dynamic label/scene. Then run capture analyzer and check label visibility/ownership against trace.",
+      "delta_to_player_facing_entries": 0,
+      "invariant_retained_entries": 1720
     }
   }
 }
