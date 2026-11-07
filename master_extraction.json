@@ -48815,7 +48815,7 @@
         "selector_invoke_B_rom": "0x03A35C",
         "lookup_subroutine_rom": "0x03A3D6",
         "lookup_cpu_address": "$83:A3D6",
-        "table_compare_opcode_site": "0x03A3E3",
+        "table_compare_opcode_site": "0x03A3E7",
         "table_pointer_decode_opcode_site": "0x03A3F3",
         "text_renderer_JSR_to_JSL_site": "0x03A3F6",
         "text_renderer_cpu_address": "$82:8000",
@@ -48829,7 +48829,8 @@
         "copy_opcode_bytes": "02 4F 00 A0 7E 00 44 00 08",
         "VRAM_target_word_address": "$4400",
         "transfer_length_bytes": 2048,
-        "meaning": "The ROM data path converts a selected Japanese location-name text stream to graphic tiles in $7EA000, then copies that buffer to VRAM. The copy is an overlay glyph-graphics upload, not proof of English world-map landscape tilemap composition."
+        "meaning": "The ROM data path converts a selected Japanese location-name text stream to graphic tiles in $7EA000, then copies that buffer to VRAM. The copy is an overlay glyph-graphics upload, not proof of English world-map landscape tilemap composition.",
+        "table_entry_read_opcode_site": "0x03A3E2"
       },
       "negative_scope": {
         "remaining_English_graphic_label_count_without_full_decompressed_map_tile_sequences": 20,
