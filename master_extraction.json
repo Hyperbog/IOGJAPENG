@@ -18635,7 +18635,7 @@
       ]
     }
   ],
-  "version": "v34",
+  "version": "v35",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18712,7 +18712,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible Japanese entries. v34 attributes 9/9 opening narration and 5/5 title-screen overlay text records to original Japanese ROM byte ranges; recomputed original title logo LZ and 4bpp decompression confirms prior logo source. Original JP font bitmap at 0x13597E independently decompressed (4096 bytes), but no exact ITEM/PLAYER/ENEMY UI label tilemap source established. 1,688 direct byte-range/window annotations plus 6 compound ability instruction records (1,694 with direct ROM byte-source attribution), 26 remaining without direct contiguous source attribution (22 world map graphic labels; 2 screen labels; 1 UI label; 1 title-logo graphic that separately has ROM asset proof). Zero native SNES emulator frames observed.",
+    "completion_state": "1,720 retained player-visible Japanese entries. v34 attributes 9/9 opening narration and 5/5 title-screen overlay text records to original Japanese ROM byte ranges; recomputed original title logo LZ and 4bpp decompression confirms prior logo source. Original JP font bitmap at 0x13597E independently decompressed (4096 bytes), but no exact ITEM/PLAYER/ENEMY UI label tilemap source established. 1,688 direct byte-range/window annotations plus 6 compound ability instruction records (1,694 with direct ROM byte-source attribution), 26 remaining without direct contiguous source attribution (22 world map graphic labels; 2 screen labels; 1 UI label; 1 title-logo graphic that separately has ROM asset proof). Zero native SNES emulator frames observed. v35 cross-checks font source 0x13597E and both scene-descriptor pointers (scenes 0x00 and 0xF0), and newly identifies a separate Latin/numeric tile-font at 0x1A182C via scene 0xF7. No ITEM/PLAYER/ENEMY tilemap ownership and no English world-map label ROM tilemap source proven; 22 world labels and 3 UI labels remain unresolved.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -18760,7 +18760,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "Original-Japanese sprite-rip labels remain in master; direct compressed ROM map/tilemap source NOT discovered. Source 0x17A4F2 is scene 0x82 architectural/Great Wall content, not the global map. 97 scene-indexed bitmap assets triaged; 20 longer labels absent as full contiguous sequences in 3 text encodings."
+        "status": "Original-Japanese sprite-rip labels remain in master; direct compressed ROM map/tilemap source NOT discovered. Source 0x17A4F2 is scene 0x82 architectural/Great Wall content, not the global map. 97 scene-indexed bitmap assets triaged; 20 longer labels absent as full contiguous sequences in 3 text encodings. v35: original ROM letter-font candidate 0x1A182C maps to scene 0xF7, not established as overworld; 21/22 labels absent as exact ASCII strings, with five ambiguous two-byte MU hits. 0/22 source tilemaps proven."
       },
       {
         "id": "R8",
@@ -18768,7 +18768,7 @@
         "known_units": 1,
         "unit": "screenshot/transcript-corroborated UI word",
         "kind": "ROM graphics pointer and emulator verification",
-        "status": "Transcribed from source Japanese playthrough; no ROM-source offset or locally executed PPU capture."
+        "status": "Transcribed from source Japanese playthrough; no ROM-source offset or locally executed PPU capture. v35: compressed bitmap font 0x13597E has confirmed 24-bit source references at 0x0D8008 and 0x0DAC88; still no ITEM tile-index layout or PPU render evidence."
       },
       {
         "id": "R9",
@@ -47086,6 +47086,103 @@
       "native_emulator_frames_observed": 0,
       "new_distinct_text_entries": 0,
       "new_direct_source_attributions": 14
+    },
+    "graphical_ui_tilemap_and_worldmap_label_scan_2026_11_06": {
+      "local_date": "2026-11-06",
+      "method": "Original 2MiB Japanese HiROM byte scan, exact compressed asset decompression using Quintet LZ, 24-bit HiROM scene descriptor pointer resolution, font 4bpp atlas inspection, exact ASCII-byte search over entire ROM. Static only; no emulator frame or VRAM read.",
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "original_rom_bytes": 2097152,
+      "raw_ui_graphics_window": {
+        "start": "0x000000",
+        "end_exclusive": "0x001C00",
+        "classification": "4bpp-compatible raw HUD/frame/icon/digit graphic material by static atlas preview; specific ITEM/PLAYER/ENEMY glyph arrangement and renderer call sites not established",
+        "label_tilemap_resolved": false
+      },
+      "confirmed_compressed_font_assets": [
+        {
+          "rom_start": "0x13597E",
+          "rom_end_exclusive": "0x136407",
+          "compressed_bytes": 2697,
+          "decompressed_bytes": 4096,
+          "decompressed_sha256": "023c6f1c5c0ac311bf90a592a79b61b30a5d78f0169269845a92cbeda61adedb",
+          "verified_scene_metadata_pointer_sites": [
+            {
+              "rom_offset": "0x0D8008",
+              "bytes": "7E 59 D3",
+              "scene_id": "0x00",
+              "pointer_target": "0x13597E"
+            },
+            {
+              "rom_offset": "0x0DAC88",
+              "bytes": "7E 59 D3",
+              "scene_id": "0xF0",
+              "pointer_target": "0x13597E"
+            }
+          ],
+          "font_bitmap_source_verified": true,
+          "specific_label_layout_verified": false
+        },
+        {
+          "rom_start": "0x1A182C",
+          "rom_end_exclusive": "0x1A1E1A",
+          "compressed_bytes": 1518,
+          "decompressed_bytes": 4096,
+          "decompressed_sha256": "06a280d885dacca2608740e9b7635a37200ddc4e033c82fc98221db878bb7158",
+          "verified_scene_metadata_pointer_sites": [
+            {
+              "rom_offset": "0x0DAE32",
+              "bytes": "2C 18 DA",
+              "scene_id": "0xF7",
+              "pointer_target": "0x1A182C"
+            }
+          ],
+          "classification": "English and numeral glyph-like tiles visible in 4bpp decompression; scene 0xF7 asset, not proven world-map font",
+          "specific_label_layout_verified": false
+        }
+      ],
+      "ascii_full_rom_scan": {
+        "labels_checked": 22,
+        "world_map_labels_with_no_contiguous_exact_ascii": 21,
+        "ambiguous_short_label": "MU",
+        "mu_2byte_exact_ascii_hits": [
+          "0x0D4F34",
+          "0x0F4F20",
+          "0x127958",
+          "0x127965",
+          "0x1710D7"
+        ],
+        "note": "Two-byte MU hits do not prove text or map ownership; 21 full multi-character strings have no contiguous ASCII bytes in entire ROM.",
+        "ui_ascii_patterns": {
+          "ITEM": 0,
+          "PLAYER": 0,
+          "ENEMY": 0
+        }
+      },
+      "source_ownership": {
+        "worldmap_graphic_labels_total": 22,
+        "worldmap_graphic_labels_source_tilemaps_proven": 0,
+        "ui_graphic_labels_under_review": [
+          "UI-0031",
+          "LBL-0001",
+          "LBL-0002"
+        ],
+        "ui_graphic_label_tilemaps_proven": 0,
+        "new_original_rom_graphic_font_asset_identified": 1,
+        "new_player_visible_text_entries": 0,
+        "new_label_to_tilemap_attributions": 0
+      },
+      "limitations": [
+        "Font glyph-source pointer is not a source for a complete displayed word without tile-index layout and execution trace.",
+        "Scene 0xF7 lettering atlas is not attributed to the world-map simply because it has Latin letters.",
+        "Graphics may be assembled as individual character tiles in RAM, including via compressed bitmaps; zero contiguous ASCII string matches cannot exclude them.",
+        "Native SNES execution, VRAM/CGRAM snapshots and source-to-screen matching remain absent."
+      ],
+      "next_proof_targets": [
+        "Identify graphics/font DMA sources in original JP mode-7 overworld and BG3/UI loaders.",
+        "Trace destination tilemap VRAM writes and UI tile-index sequences for ITEM/PLAYER/ENEMY.",
+        "Match 22 graphic spellings to decoded original map tile bitmaps and original ROM pointers.",
+        "Validate graphics events with native emulator frames, not symbolic pointers alone."
+      ]
     }
   }
 }
