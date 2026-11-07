@@ -18635,7 +18635,7 @@
       ]
     }
   ],
-  "version": "v35",
+  "version": "v36",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18677,7 +18677,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-06",
+    "last_updated_utc": "2026-11-07T01:15:49.044Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -18712,7 +18712,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible Japanese entries. v34 attributes 9/9 opening narration and 5/5 title-screen overlay text records to original Japanese ROM byte ranges; recomputed original title logo LZ and 4bpp decompression confirms prior logo source. Original JP font bitmap at 0x13597E independently decompressed (4096 bytes), but no exact ITEM/PLAYER/ENEMY UI label tilemap source established. 1,688 direct byte-range/window annotations plus 6 compound ability instruction records (1,694 with direct ROM byte-source attribution), 26 remaining without direct contiguous source attribution (22 world map graphic labels; 2 screen labels; 1 UI label; 1 title-logo graphic that separately has ROM asset proof). Zero native SNES emulator frames observed. v35 cross-checks font source 0x13597E and both scene-descriptor pointers (scenes 0x00 and 0xF0), and newly identifies a separate Latin/numeric tile-font at 0x1A182C via scene 0xF7. No ITEM/PLAYER/ENEMY tilemap ownership and no English world-map label ROM tilemap source proven; 22 world labels and 3 UI labels remain unresolved.",
+    "completion_state": "1,720 retained Japanese player-facing entries across 18 sections. v36 newly proves original-ROM Mode 7 world-map owner scene 0xFE and its shared background graphics 0x014000, metatile descriptors 0x1B1526, tilemap 0x142865, sprite assets, and palettes; traces BG3 HUD scripts $81E482/$81E4A4. Five compressed asset streams independently decompressed and checked. Individual ROM tile/glyph sequences of 22 English world-map labels and ITEM/PLAYER/ENEMY UI label arrangements remain unproven. The title logo 0x1980A2 retains separate ROM graphical asset proof. 1,688 direct text ranges/windows + 6 compound source records remain unchanged; 26 records without contiguous textual source offsets, including graphics-only entries, remain. No native SNES emulator frame observed.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -18760,7 +18760,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "Original-Japanese sprite-rip labels remain in master; direct compressed ROM map/tilemap source NOT discovered. Source 0x17A4F2 is scene 0x82 architectural/Great Wall content, not the global map. 97 scene-indexed bitmap assets triaged; 20 longer labels absent as full contiguous sequences in 3 text encodings. v35: original ROM letter-font candidate 0x1A182C maps to scene 0xF7, not established as overworld; 21/22 labels absent as exact ASCII strings, with five ambiguous two-byte MU hits. 0/22 source tilemaps proven."
+        "status": "v36: Mode 7 world-map scene 0xFE proven from original Japanese ROM metadata/PPU mode byte/actor code. Original ROM BG bitmap 0x014000, metatile source 0x1B1526, tilemap 0x142865, palettes and sprites reconstructed and stream-hashed. This establishes shared scene asset ownership, NOT the individual tile/glyph sequences for 22 transcribed labels. Runtime rendering remains unobserved."
       },
       {
         "id": "R8",
@@ -18768,7 +18768,7 @@
         "known_units": 1,
         "unit": "screenshot/transcript-corroborated UI word",
         "kind": "ROM graphics pointer and emulator verification",
-        "status": "Transcribed from source Japanese playthrough; no ROM-source offset or locally executed PPU capture. v35: compressed bitmap font 0x13597E has confirmed 24-bit source references at 0x0D8008 and 0x0DAC88; still no ITEM tile-index layout or PPU render evidence."
+        "status": "v36: Two original ROM general BG3/HUD script dispatches at 0x008285 and 0x008297 lead to 0x01E482 and 0x01E4A4 and emit tile IDs, but neither proves the location of ITEM, PLAYER or ENEMY lettering. Native VRAM tilemap/PPU capture remains required."
       },
       {
         "id": "R9",
@@ -47183,6 +47183,141 @@
         "Match 22 graphic spellings to decoded original map tile bitmaps and original ROM pointers.",
         "Validate graphics events with native emulator frames, not symbolic pointers alone."
       ]
+    },
+    "mode7_world_map_asset_and_bg3_pointer_trace_2026_11_06": {
+      "date": "2026-11-06",
+      "scope": "Original-Japanese Mode 7 world-map scene graphics ownership and general BG3 script call-site tracing. Static ROM only.",
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "rom_size_bytes": 2097152,
+      "independent_exact_original_rom_literal_assertions_passed": 16,
+      "method": "Scene metadata and actor pointer byte checks; PPU setting mode-byte check; original Quintet LZ decompression and SHA-256 of five assets; static SNES 4bpp and metatile rendering; COP BD / COP 4F site matching; no native emulator execution.",
+      "mode7_world_map_owner": {
+        "scene_id": "0xFE",
+        "scene_descriptor_rom_start": "0x0DAF6A",
+        "scene_descriptor_end_exclusive": "0x0DAFA7",
+        "ppu_setting_index": "0x19",
+        "ppu_setting_index_site": "0x0DAF6D",
+        "ppu_setting_pointer_site": "0x018032",
+        "ppu_setting_record_rom_offset": "0x018154",
+        "ppu_mode_value": "0x07",
+        "ppu_mode_byte_rom_offset": "0x01815A",
+        "actor_header_pointer_site": "0x0CE569",
+        "actor_header_pointer_bytes": "06 A0 83",
+        "actor_header_rom_offset": "0x03A006",
+        "actor_entry_code_rom_offset": "0x03A009",
+        "mode7_selector_store_site": "0x03A68E",
+        "mode7_selector_store_bytes": "8D 1A 21",
+        "mode7_selector_register": "$211A",
+        "evidence": "Scene FE explicitly selects PPU mode 7 and has actor entry in world-map movement controller code using $7E0D54/$7E0D56 and mode-7 registers."
+      },
+      "original_JP_graphics_assets": [
+        {
+          "name": "BG map graphics and glyphs",
+          "rom_start": "0x014000",
+          "end_exclusive": "0x015A68",
+          "expanded_bytes": 8192,
+          "expanded_sha256": "6bcda9a47061ebbc231a2b592d7e8088728e6afbaa5d093e25ba85b142cfb868",
+          "pointer_site": "0x0DAF80",
+          "pointer_bytes": "00 40 C1",
+          "scene_card": "03",
+          "status": "Scene-FE-owned ROM bitmap; English capital glyphs observed in decompressed tile atlas."
+        },
+        {
+          "name": "Background metatile definitions",
+          "rom_start": "0x1B1526",
+          "end_exclusive": "0x1B1A28",
+          "expanded_bytes": 2048,
+          "expanded_sha256": "23b9670f539257f7a165a7a85df4694963d361839a99f552fc788f0bc9aef15b",
+          "pointer_site": "0x0DAF79",
+          "pointer_bytes": "26 15 DB",
+          "scene_card": "05",
+          "status": "256 8-byte 16x16 metatile descriptors; used in original-JP static map rendering."
+        },
+        {
+          "name": "World-map tilemap data",
+          "rom_start": "0x142865",
+          "end_exclusive": "0x142ADA",
+          "expanded_bytes": 1028,
+          "expanded_sha256": "fbe3141b5bc1fb61a4a9459660866cccf1b46b660560a5631650d6f7afb4a9c7",
+          "pointer_site": "0x0DAF86",
+          "pointer_bytes": "65 28 D4",
+          "scene_card": "06",
+          "status": "Scene-FE-owned compressed tilemap; yields recognizable geographic lettering in static tile reconstruction; per-label tile positions not yet adjudicated."
+        },
+        {
+          "name": "World-map actor/sprite graphics",
+          "rom_start": "0x0F0000",
+          "end_exclusive": "0x0F15EA",
+          "expanded_bytes": 8192,
+          "expanded_sha256": "19ab63b1e7af0bff777c52a1fcc9d48d6466b23aa64b136e3234305730d0b5fb",
+          "pointer_site": "0x0DAF94",
+          "pointer_bytes": "00 00 CF",
+          "scene_card": "03",
+          "status": "Scene-FE-owned sprite graphics; not a proof of any specific label."
+        },
+        {
+          "name": "World-map sprite-set definitions",
+          "rom_start": "0x151279",
+          "end_exclusive": "0x151BAA",
+          "expanded_bytes": 4664,
+          "expanded_sha256": "a35d4fcb49edb07f91ea734938192726300f3f5b1049c59e2b10d144306a91b2",
+          "pointer_site": "0x0DAFA3",
+          "pointer_bytes": "79 12 D5",
+          "scene_card": "10",
+          "status": "Source verified; sprite label ownership not established."
+        }
+      ],
+      "uncompressed_palette_pointer_sites": [
+        {
+          "site": "0x0DAF8D",
+          "source": "0x1F2300",
+          "bytes": "00 23 DF",
+          "purpose": "Background palette"
+        },
+        {
+          "site": "0x0DAF9C",
+          "source": "0x1F23E0",
+          "bytes": "E0 23 DF",
+          "purpose": "Sprite palette"
+        }
+      ],
+      "runtime_code_traces": {
+        "mode7_source_ram_to_vram_sites": [
+          "0x03A0C5",
+          "0x03A35F"
+        ],
+        "cop4f_bytes": "02 4F 00 A0 7E 00 44 00 08",
+        "source_ram": "$7EA000",
+        "vram_word_address": "$4400",
+        "transfer_size_bytes": 2048,
+        "caveat": "A world-map-controller transfer from RAM to VRAM; not a ROM source for any one printed word."
+      },
+      "bg3_hud_layout_sources": [
+        {
+          "cop_bd_site": "0x008285",
+          "pointer": "$81E482",
+          "source_rom_offset": "0x01E482",
+          "script_head_hex": "01 48 00 03 14 0C 01 02 03 04 05 FF",
+          "interpretation": "Set BG3 target-tile address 0x0048, mask 0x14, emit tile IDs 1–5."
+        },
+        {
+          "cop_bd_site": "0x008297",
+          "pointer": "$81E4A4",
+          "source_rom_offset": "0x01E4A4",
+          "script_head_hex": "03 14 01 6C 00 0C 08 09 0A 0B 0C FF",
+          "interpretation": "Set mask 0x14 and target 0x006C, then emit tile IDs 8–12."
+        }
+      ],
+      "previously_verified_ui_scripts": "$81E76A at ROM 0x01E76A retains the existing PAUSE/FORCE literal provenance; not a new entry.",
+      "source_proof_limits": {
+        "shared_scene_level_worldmap_asset_chain_verified": true,
+        "individual_worldmap_label_to_metatile_or_glyph_sequences_proven": 0,
+        "worldmap_label_records_retained": 22,
+        "ITEM_PLAYER_ENEMY_tilemap_ownership_resolved": false,
+        "native_emulator_frames_observed": 0,
+        "static_tilemap_render_caveat": "The 32x32 metatile reconstruction yields geographical lettering, but Mode 7 runtime remapping, sprite composition, and each label's exact sequence are not verified. No claim of a fully accurate emulator frame.",
+        "SNES_architecture_note": "Standard PPU Mode 7 does not display BG3; BG3 scripts examined separately belong to the 2D HUD/menu architecture."
+      }
     }
   }
 }
