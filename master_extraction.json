@@ -11955,7 +11955,34 @@
           "table_slot": 1,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x01"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF1C"
+            ],
+            "resolved_text_rom_offset": "0x03AF8C",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "サウスケープ",
@@ -11968,7 +11995,34 @@
           "table_slot": 2,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x06"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF1F"
+            ],
+            "resolved_text_rom_offset": "0x03AF95",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "エドワード城",
@@ -11981,7 +12035,34 @@
           "table_slot": 3,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x0A"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF22"
+            ],
+            "resolved_text_rom_offset": "0x03AF9E",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "イトリー族の村",
@@ -11994,7 +12075,34 @@
           "table_slot": 4,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x15"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF25"
+            ],
+            "resolved_text_rom_offset": "0x03AFA8",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "イトリー族の村",
@@ -12007,7 +12115,34 @@
           "table_slot": 5,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x17"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF28"
+            ],
+            "resolved_text_rom_offset": "0x03AFB4",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "月の種族のすみか",
@@ -12020,7 +12155,34 @@
           "table_slot": 6,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x1A"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF2B"
+            ],
+            "resolved_text_rom_offset": "0x03AFC0",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "インカのイセキ",
@@ -12033,7 +12195,34 @@
           "table_slot": 7,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x1C"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF2E"
+            ],
+            "resolved_text_rom_offset": "0x03AFCC",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ダイヤモンドコースト",
@@ -12046,7 +12235,34 @@
           "table_slot": 8,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x30"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF31"
+            ],
+            "resolved_text_rom_offset": "0x03AFD8",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ダイヤモンドコースト",
@@ -12059,7 +12275,34 @@
           "table_slot": 9,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x31"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF34"
+            ],
+            "resolved_text_rom_offset": "0x03AFE5",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "花の都フリージア",
@@ -12072,7 +12315,34 @@
           "table_slot": 10,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x32"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF37"
+            ],
+            "resolved_text_rom_offset": "0x03AFF2",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "花の都フリージア",
@@ -12085,7 +12355,34 @@
           "table_slot": 11,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x39"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF3A"
+            ],
+            "resolved_text_rom_offset": "0x03AFFF",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ダイヤモンド鉱山",
@@ -12098,7 +12395,34 @@
           "table_slot": 12,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x3E"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF3D"
+            ],
+            "resolved_text_rom_offset": "0x03B00C",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ニールの小屋",
@@ -12111,7 +12435,34 @@
           "table_slot": 13,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x49"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF40"
+            ],
+            "resolved_text_rom_offset": "0x03B019",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ナスカの地上絵",
@@ -12124,7 +12475,34 @@
           "table_slot": 14,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x4B"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF43"
+            ],
+            "resolved_text_rom_offset": "0x03B024",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ムー大陸",
@@ -12137,7 +12515,34 @@
           "table_slot": 15,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x67"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF46"
+            ],
+            "resolved_text_rom_offset": "0x03B031",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "海底どうくつ",
@@ -12150,7 +12555,34 @@
           "table_slot": 16,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x68"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF49"
+            ],
+            "resolved_text_rom_offset": "0x03B03A",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "だ天使の町",
@@ -12163,7 +12595,34 @@
           "table_slot": 17,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x69"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF4C"
+            ],
+            "resolved_text_rom_offset": "0x03B043",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "だ天使の町",
@@ -12176,7 +12635,34 @@
           "table_slot": 18,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x6A"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF4F"
+            ],
+            "resolved_text_rom_offset": "0x03B04C",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "水上都市ウォータミア",
@@ -12189,7 +12675,34 @@
           "table_slot": 19,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x78"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF52"
+            ],
+            "resolved_text_rom_offset": "0x03B055",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "水上都市ウォータミア",
@@ -12202,7 +12715,34 @@
           "table_slot": 20,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x79"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF55"
+            ],
+            "resolved_text_rom_offset": "0x03B066",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "万里の長城",
@@ -12215,7 +12755,34 @@
           "table_slot": 21,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x82"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF58"
+            ],
+            "resolved_text_rom_offset": "0x03B077",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "大都市エウロ",
@@ -12228,7 +12795,34 @@
           "table_slot": 22,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x91"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF5B"
+            ],
+            "resolved_text_rom_offset": "0x03B081",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "大都市エウロ",
@@ -12241,7 +12835,34 @@
           "table_slot": 23,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x95"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF5E"
+            ],
+            "resolved_text_rom_offset": "0x03B08D",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "大都市エウロ",
@@ -12254,7 +12875,34 @@
           "table_slot": 24,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x96"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF61"
+            ],
+            "resolved_text_rom_offset": "0x03B099",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "山の聖域",
@@ -12267,7 +12915,34 @@
           "table_slot": 25,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0x9F"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF64"
+            ],
+            "resolved_text_rom_offset": "0x03B0A5",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "山の聖域",
@@ -12280,7 +12955,34 @@
           "table_slot": 26,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xA0"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF67"
+            ],
+            "resolved_text_rom_offset": "0x03B0AD",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "原住民の村落",
@@ -12293,7 +12995,34 @@
           "table_slot": 27,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xAC"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF6A"
+            ],
+            "resolved_text_rom_offset": "0x03B0B5",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "原住民の村落",
@@ -12306,7 +13035,34 @@
           "table_slot": 28,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xAD"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF6D"
+            ],
+            "resolved_text_rom_offset": "0x03B0C1",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "原住民の村落",
@@ -12319,7 +13075,34 @@
           "table_slot": 29,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xAE"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF70"
+            ],
+            "resolved_text_rom_offset": "0x03B0CD",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "アンコールワット",
@@ -12332,7 +13115,34 @@
           "table_slot": 30,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xB0"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF73"
+            ],
+            "resolved_text_rom_offset": "0x03B0D9",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "さばくの町 ダオ",
@@ -12345,7 +13155,34 @@
           "table_slot": 31,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xC3"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF76"
+            ],
+            "resolved_text_rom_offset": "0x03B0E4",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "さばくの町 ダオ",
@@ -12362,7 +13199,38 @@
           "additional_table_alias_slots": [
             33,
             34
-          ]
+          ],
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xC4",
+              "0xC5",
+              "0xC8"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF79",
+              "0x03AF7C",
+              "0x03AF7F"
+            ],
+            "resolved_text_rom_offset": "0x03B0F0",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "ピラミッド",
@@ -12375,7 +13243,34 @@
           "table_slot": 35,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xCC"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF82"
+            ],
+            "resolved_text_rom_offset": "0x03B0FC",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "バベル上空",
@@ -12388,7 +13283,34 @@
           "table_slot": 36,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xDC"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF85"
+            ],
+            "resolved_text_rom_offset": "0x03B104",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         },
         {
           "text": "バベルの塔",
@@ -12401,7 +13323,34 @@
           "table_slot": 37,
           "terminator_hex": "C0",
           "byte_verified_against_japanese_rom": true,
-          "gameplay_reachability": "not individually traced"
+          "gameplay_reachability": "not individually traced",
+          "mode7_location_name_dispatch": {
+            "original_japanese_rom_table": "0x03AF1C–0x03AF8B",
+            "selector_values": [
+              "0xDE"
+            ],
+            "selector_table_entry_offsets": [
+              "0x03AF88"
+            ],
+            "resolved_text_rom_offset": "0x03B10E",
+            "selector_lookup_code_rom_offset": "0x03A3D6",
+            "text_renderer_cpu_entry": "$82:8000",
+            "text_renderer_rom_offset": "0x028000",
+            "render_buffer_wram": "$7EA000–$7EA7FF",
+            "vram_transfer_sites": [
+              "0x03A0C5",
+              "0x03A35F"
+            ],
+            "vram_destination_word_address": "$4400",
+            "transfer_size_bytes": 2048,
+            "selector_source_RAM": [
+              "$0D6E",
+              "$0D6F"
+            ],
+            "static_source_to_renderer_verified": true,
+            "native_scene_execution_or_vram_capture_verified": false,
+            "provenance_note": "Original ROM selector table targets this existing Japanese location-name block; renderer builds glyph tiles in WRAM then transfers to VRAM. This is distinct from the 22 English graphic lettering entries."
+          }
         }
       ]
     },
@@ -18717,7 +19666,7 @@
       ]
     }
   ],
-  "version": "v37",
+  "version": "v38",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18759,7 +19708,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T01:35:00Z",
+    "last_updated_utc": "2026-11-07T02:14:33.032Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -18794,7 +19743,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained entries and 18 sections. v37 reconstructs all 26 world-map uppercase glyph metatiles and locates two word-like sequences in the original-JP scene FE decompressed map: distinctive PYRAMID (7 glyphs), plus ambiguous two-glyph MU. 20 other complete English world-map labels remain without contiguous static tilemap sequence. The 3 graphical UI label arrangements ITEM/PLAYER/ENEMY remain unproven. Original title logo compressed-graphic provenance retained. 1,688 direct text ranges/windows plus 6 compound source records remain. No native SNES emulator frame observed; no full graphical/runtime coverage claim.",
+    "completion_state": "1,720 retained player-visible entries across 18 sections. v38 proves 37 ROM table selectors for the original Japanese world-map label overlay resolve to all 35 existing PLC text blocks, including three aliases to DAO at 0x03B0F0, and traces selector assignment from $0642/$0644 via $0D6E/$0D6F to text renderer $82:8000, buffer $7EA000–$7EA7FF, and 2,048-byte VRAM $4400 upload call sites. This is separate from 22 English graphical landscape labels, of which PYRAMID and short ambiguous MU have static map metatile matches, and 20 remain without full static source matches; ITEM/PLAYER/ENEMY tile ownership also unresolved. No emulator frames executed. 1,688 direct text source ranges/windows and six compound records remain as before.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -18842,7 +19791,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "v37: Scene FE original-JP compressed glyph atlas verified for 26 uppercase letters (metatile E0..F9), with source graphics 0x014000, metatile definitions 0x1B1526 and map 0x142865. Exact contiguous metatile sequence PYRAMID at decompressed index 0x0B7; MU at index 0x385 (2 characters, individual place-label identity still ambiguous). Other 20 listed complete world-map labels not found as contiguous metatile sequences in this static decoded tilemap. Runtime placement, dynamic map overlays, and VRAM render not observed."
+        "status": "v38: Original-Japanese world-map conditional name dispatcher decoded at 0x03A3D6; 37 selector records at 0x03AF1C–0x03AF8B resolve to all 35 existing PLC Japanese place-name text blocks, with two upload paths from $7EA000 to VRAM $4400. This proves Japanese map overlay dispatch/addressability, not the 20 still-unmatched complete Latin world-map graphic label sequences. Native emulator rendering and individual English glyph ownership remain unresolved."
       },
       {
         "id": "R8",
@@ -47637,6 +48586,267 @@
       "new_extracted_distinct_player_visible_text_entries": 0,
       "existing_entries_annotated_with_new_graphics_provenance": 2,
       "stored_proof": "Repository master only; locally rendered glyph atlas and two-word visual proof are optional supporting artifacts, not added to repository."
+    },
+    "original_jp_worldmap_conditional_location_render_and_vram_trace_2026_11_06": {
+      "local_date": "2026-11-06",
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "method": "Original 2 MiB Japanese SFC ROM verified and exact matching of CPU opcode bytes, 37 case-selector records, 35 unique text pointers, and renderer/VRAM transfer instruction patterns. Not a native SNES emulator trace.",
+      "exact_ROM_instruction_patterns_checked": 11,
+      "dispatch_table_rom_range": "0x03AF1C–0x03AF8C",
+      "dispatch_table_sha256": "81176e5751dc1665f8403b9cb55bca24654a54e2a3e5b5f36988959a5ecf3968",
+      "dispatch_table_entry_format": "[1-byte selector][little-endian 16-bit text source CPU address in $83 bank], repeated until 0x00 sentinel at 0x03AF8B",
+      "dispatch_table_rows": 37,
+      "distinct_original_ROM_Japanese_place_name_sources": 35,
+      "source_links_all_match_master_plc_records": true,
+      "selector_text_targets": [
+        {
+          "selector": "0x01",
+          "table_entry_rom_offset": "0x03AF1C",
+          "text_source_rom_offset": "0x03AF8C"
+        },
+        {
+          "selector": "0x06",
+          "table_entry_rom_offset": "0x03AF1F",
+          "text_source_rom_offset": "0x03AF95"
+        },
+        {
+          "selector": "0x0A",
+          "table_entry_rom_offset": "0x03AF22",
+          "text_source_rom_offset": "0x03AF9E"
+        },
+        {
+          "selector": "0x15",
+          "table_entry_rom_offset": "0x03AF25",
+          "text_source_rom_offset": "0x03AFA8"
+        },
+        {
+          "selector": "0x17",
+          "table_entry_rom_offset": "0x03AF28",
+          "text_source_rom_offset": "0x03AFB4"
+        },
+        {
+          "selector": "0x1A",
+          "table_entry_rom_offset": "0x03AF2B",
+          "text_source_rom_offset": "0x03AFC0"
+        },
+        {
+          "selector": "0x1C",
+          "table_entry_rom_offset": "0x03AF2E",
+          "text_source_rom_offset": "0x03AFCC"
+        },
+        {
+          "selector": "0x30",
+          "table_entry_rom_offset": "0x03AF31",
+          "text_source_rom_offset": "0x03AFD8"
+        },
+        {
+          "selector": "0x31",
+          "table_entry_rom_offset": "0x03AF34",
+          "text_source_rom_offset": "0x03AFE5"
+        },
+        {
+          "selector": "0x32",
+          "table_entry_rom_offset": "0x03AF37",
+          "text_source_rom_offset": "0x03AFF2"
+        },
+        {
+          "selector": "0x39",
+          "table_entry_rom_offset": "0x03AF3A",
+          "text_source_rom_offset": "0x03AFFF"
+        },
+        {
+          "selector": "0x3E",
+          "table_entry_rom_offset": "0x03AF3D",
+          "text_source_rom_offset": "0x03B00C"
+        },
+        {
+          "selector": "0x49",
+          "table_entry_rom_offset": "0x03AF40",
+          "text_source_rom_offset": "0x03B019"
+        },
+        {
+          "selector": "0x4B",
+          "table_entry_rom_offset": "0x03AF43",
+          "text_source_rom_offset": "0x03B024"
+        },
+        {
+          "selector": "0x67",
+          "table_entry_rom_offset": "0x03AF46",
+          "text_source_rom_offset": "0x03B031"
+        },
+        {
+          "selector": "0x68",
+          "table_entry_rom_offset": "0x03AF49",
+          "text_source_rom_offset": "0x03B03A"
+        },
+        {
+          "selector": "0x69",
+          "table_entry_rom_offset": "0x03AF4C",
+          "text_source_rom_offset": "0x03B043"
+        },
+        {
+          "selector": "0x6A",
+          "table_entry_rom_offset": "0x03AF4F",
+          "text_source_rom_offset": "0x03B04C"
+        },
+        {
+          "selector": "0x78",
+          "table_entry_rom_offset": "0x03AF52",
+          "text_source_rom_offset": "0x03B055"
+        },
+        {
+          "selector": "0x79",
+          "table_entry_rom_offset": "0x03AF55",
+          "text_source_rom_offset": "0x03B066"
+        },
+        {
+          "selector": "0x82",
+          "table_entry_rom_offset": "0x03AF58",
+          "text_source_rom_offset": "0x03B077"
+        },
+        {
+          "selector": "0x91",
+          "table_entry_rom_offset": "0x03AF5B",
+          "text_source_rom_offset": "0x03B081"
+        },
+        {
+          "selector": "0x95",
+          "table_entry_rom_offset": "0x03AF5E",
+          "text_source_rom_offset": "0x03B08D"
+        },
+        {
+          "selector": "0x96",
+          "table_entry_rom_offset": "0x03AF61",
+          "text_source_rom_offset": "0x03B099"
+        },
+        {
+          "selector": "0x9F",
+          "table_entry_rom_offset": "0x03AF64",
+          "text_source_rom_offset": "0x03B0A5"
+        },
+        {
+          "selector": "0xA0",
+          "table_entry_rom_offset": "0x03AF67",
+          "text_source_rom_offset": "0x03B0AD"
+        },
+        {
+          "selector": "0xAC",
+          "table_entry_rom_offset": "0x03AF6A",
+          "text_source_rom_offset": "0x03B0B5"
+        },
+        {
+          "selector": "0xAD",
+          "table_entry_rom_offset": "0x03AF6D",
+          "text_source_rom_offset": "0x03B0C1"
+        },
+        {
+          "selector": "0xAE",
+          "table_entry_rom_offset": "0x03AF70",
+          "text_source_rom_offset": "0x03B0CD"
+        },
+        {
+          "selector": "0xB0",
+          "table_entry_rom_offset": "0x03AF73",
+          "text_source_rom_offset": "0x03B0D9"
+        },
+        {
+          "selector": "0xC3",
+          "table_entry_rom_offset": "0x03AF76",
+          "text_source_rom_offset": "0x03B0E4"
+        },
+        {
+          "selector": "0xC4",
+          "table_entry_rom_offset": "0x03AF79",
+          "text_source_rom_offset": "0x03B0F0"
+        },
+        {
+          "selector": "0xC5",
+          "table_entry_rom_offset": "0x03AF7C",
+          "text_source_rom_offset": "0x03B0F0"
+        },
+        {
+          "selector": "0xC8",
+          "table_entry_rom_offset": "0x03AF7F",
+          "text_source_rom_offset": "0x03B0F0"
+        },
+        {
+          "selector": "0xCC",
+          "table_entry_rom_offset": "0x03AF82",
+          "text_source_rom_offset": "0x03B0FC"
+        },
+        {
+          "selector": "0xDC",
+          "table_entry_rom_offset": "0x03AF85",
+          "text_source_rom_offset": "0x03B104"
+        },
+        {
+          "selector": "0xDE",
+          "table_entry_rom_offset": "0x03AF88",
+          "text_source_rom_offset": "0x03B10E"
+        }
+      ],
+      "shared_source_selectors": {
+        "shared_text_rom_offset": "0x03B0F0",
+        "selectors": [
+          "0xC4",
+          "0xC5",
+          "0xC8"
+        ],
+        "description": "Three selectors share one DAO location-name script; not three separate text blocks."
+      },
+      "branch_and_ownership_trace": {
+        "map_transition_condition_rom": "0x03D719",
+        "condition": "OR $0D52 with $0D53; branch if zero to alternate selector assignment",
+        "first_path_rom": [
+          "0x03D73A",
+          "0x03D740"
+        ],
+        "first_path": "$0642 -> $0D6E and $0644 -> $0D6F",
+        "alternate_path_rom": [
+          "0x03D74A",
+          "0x03D750"
+        ],
+        "alternate_path": "$0644 -> $0D6E, $0D6F cleared",
+        "selector_A_read_rom": "0x03A0B9",
+        "selector_A_source_RAM": "$0D6F",
+        "selector_B_read_rom": "0x03A353",
+        "selector_B_source_RAM": "$0D6E",
+        "selector_invoke_A_rom": "0x03A0C2",
+        "selector_invoke_B_rom": "0x03A35C",
+        "lookup_subroutine_rom": "0x03A3D6",
+        "lookup_cpu_address": "$83:A3D6",
+        "table_compare_opcode_site": "0x03A3E3",
+        "table_pointer_decode_opcode_site": "0x03A3F3",
+        "text_renderer_JSR_to_JSL_site": "0x03A3F6",
+        "text_renderer_cpu_address": "$82:8000",
+        "text_renderer_ROM_offset": "0x028000",
+        "zeroing_Wram_destination": "$7EA000–$7EA7FF",
+        "initial_renderer_clear_pattern_rom": "0x028011–0x028037",
+        "renderer_target_buffer_ptr_setup_rom": "0x02803E",
+        "renderer_text_source_read_rom": "0x02804F",
+        "copy_A_rom": "0x03A0C5",
+        "copy_B_rom": "0x03A35F",
+        "copy_opcode_bytes": "02 4F 00 A0 7E 00 44 00 08",
+        "VRAM_target_word_address": "$4400",
+        "transfer_length_bytes": 2048,
+        "meaning": "The ROM data path converts a selected Japanese location-name text stream to graphic tiles in $7EA000, then copies that buffer to VRAM. The copy is an overlay glyph-graphics upload, not proof of English world-map landscape tilemap composition."
+      },
+      "negative_scope": {
+        "remaining_English_graphic_label_count_without_full_decompressed_map_tile_sequences": 20,
+        "English_22_label_table_proven_to_use_this_dispatch": false,
+        "no_English_label_ownership_inferred": true,
+        "no_runtime_vram_capture": true,
+        "ROM_only_code_path_verified": true,
+        "zero_native_snes_emulator_frames_observed": true,
+        "caution": "35 addressable Japanese name records are established, but not all 37 runtime selectors and their visibility have been exercised. Searching raw bytes cannot rule out graphics in other source blocks."
+      },
+      "result": {
+        "new_distinct_player_visible_entries": 0,
+        "existing_PLC_entries_new_dispatch_annotations": 35,
+        "original_japanese_scene_worldmap_label_sources_resolved_at_dispatch_level": 35,
+        "english_graphical_label_sources_newly_resolved": 0,
+        "master_entries_preserved": 1720
+      }
     }
   }
 }
