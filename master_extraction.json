@@ -18207,10 +18207,53 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "evidence_class": "visual_asset_verified; exact_original_JP_ROM_decompressed_scene_FE_metatile_sequence_verified; runtime_VRAM_render_not_verified",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
-          "in_emulator_display_observed_in_this_audit": false
+          "in_emulator_display_observed_in_this_audit": false,
+          "graphical_rom_metatile_source": {
+            "scene_id": "0xFE",
+            "original_jp_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "compressed_tilemap_source_start": "0x142865",
+            "compressed_tilemap_end_exclusive": "0x142ADA",
+            "tilemap_expanded_bytes": 1028,
+            "metatile_asset_source_start": "0x1B1526",
+            "background_glyph_asset_source_start": "0x014000",
+            "source_pointer_site": "0x0DAF86",
+            "pointer_bytes": "65 28 D4",
+            "encoding": "A-Z map to metatile indices 0xE0–0xF9, with 8x8 top and bottom tiles in each 16x16 metatile",
+            "normal_ASCII_text_in_ROM": false,
+            "original_ROM_asset_source_verified": true,
+            "emulator_render_observed": false,
+            "placement_in_actual_game_not_verified": true,
+            "match_class": "exact_distinctive_seven_glyph_source",
+            "decoded_tilemap_start_index": 183,
+            "decoded_tilemap_end_exclusive": 190,
+            "decoded_tilemap_offset": "0x0B7",
+            "decoded_source_hex": "EFF8F1E0ECE8E3",
+            "letter_tile_IDs": [
+              "0xEF",
+              "0xF8",
+              "0xF1",
+              "0xE0",
+              "0xEC",
+              "0xE8",
+              "0xE3"
+            ],
+            "candidate_32_column_coordinates": [
+              {
+                "data_start_index": 0,
+                "row": 5,
+                "column": 23
+              },
+              {
+                "data_start_index": 4,
+                "row": 5,
+                "column": 19
+              }
+            ],
+            "coordinates_unresolved": true
+          }
         },
         {
           "id": "WMG-0002",
@@ -18387,10 +18430,49 @@
             1024
           ],
           "provenance": "Manual transcription from full-resolution Japanese-version sprite-map rip; verified absent as exact text from v21 master before insertion.",
-          "evidence_class": "visual_asset_verified; ROM-address_and_runtime_read_not_proven",
+          "evidence_class": "visual_asset_verified; exact_2glyph_original_JP_ROM_scene_FE_sequence_matched_but_label_identity_ambiguous; runtime_render_not_verified",
           "original_rom_byte_offset": null,
           "original_rom_byte_verified": false,
-          "in_emulator_display_observed_in_this_audit": false
+          "in_emulator_display_observed_in_this_audit": false,
+          "graphical_rom_metatile_source": {
+            "scene_id": "0xFE",
+            "original_jp_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+            "compressed_tilemap_source_start": "0x142865",
+            "compressed_tilemap_end_exclusive": "0x142ADA",
+            "tilemap_expanded_bytes": 1028,
+            "metatile_asset_source_start": "0x1B1526",
+            "background_glyph_asset_source_start": "0x014000",
+            "source_pointer_site": "0x0DAF86",
+            "pointer_bytes": "65 28 D4",
+            "encoding": "A-Z map to metatile indices 0xE0–0xF9, with 8x8 top and bottom tiles in each 16x16 metatile",
+            "normal_ASCII_text_in_ROM": false,
+            "original_ROM_asset_source_verified": true,
+            "emulator_render_observed": false,
+            "placement_in_actual_game_not_verified": true,
+            "match_class": "exact_two_glyph_sequence_ambiguous_label_identity",
+            "decoded_tilemap_start_index": 901,
+            "decoded_tilemap_end_exclusive": 903,
+            "decoded_tilemap_offset": "0x385",
+            "decoded_source_hex": "ECF4",
+            "letter_tile_IDs": [
+              "0xEC",
+              "0xF4"
+            ],
+            "candidate_32_column_coordinates": [
+              {
+                "data_start_index": 0,
+                "row": 28,
+                "column": 5
+              },
+              {
+                "data_start_index": 4,
+                "row": 28,
+                "column": 1
+              }
+            ],
+            "coordinates_unresolved": true,
+            "identity_warning": "Two matching glyphs are not sufficient to prove ownership of map's location label without map placement/render trace."
+          }
         },
         {
           "id": "WMG-0011",
@@ -18635,7 +18717,7 @@
       ]
     }
   ],
-  "version": "v36",
+  "version": "v37",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -18677,7 +18759,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-07T01:15:49.044Z",
+    "last_updated_utc": "2026-11-07T01:35:00Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -18712,7 +18794,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained Japanese player-facing entries across 18 sections. v36 newly proves original-ROM Mode 7 world-map owner scene 0xFE and its shared background graphics 0x014000, metatile descriptors 0x1B1526, tilemap 0x142865, sprite assets, and palettes; traces BG3 HUD scripts $81E482/$81E4A4. Five compressed asset streams independently decompressed and checked. Individual ROM tile/glyph sequences of 22 English world-map labels and ITEM/PLAYER/ENEMY UI label arrangements remain unproven. The title logo 0x1980A2 retains separate ROM graphical asset proof. 1,688 direct text ranges/windows + 6 compound source records remain unchanged; 26 records without contiguous textual source offsets, including graphics-only entries, remain. No native SNES emulator frame observed.",
+    "completion_state": "1,720 retained entries and 18 sections. v37 reconstructs all 26 world-map uppercase glyph metatiles and locates two word-like sequences in the original-JP scene FE decompressed map: distinctive PYRAMID (7 glyphs), plus ambiguous two-glyph MU. 20 other complete English world-map labels remain without contiguous static tilemap sequence. The 3 graphical UI label arrangements ITEM/PLAYER/ENEMY remain unproven. Original title logo compressed-graphic provenance retained. 1,688 direct text ranges/windows plus 6 compound source records remain. No native SNES emulator frame observed; no full graphical/runtime coverage claim.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -18760,7 +18842,7 @@
         "known_units": 22,
         "unit": "image-verified world-map label records",
         "kind": "ROM graphics decompilation plus conditional runtime rendering verification",
-        "status": "v36: Mode 7 world-map scene 0xFE proven from original Japanese ROM metadata/PPU mode byte/actor code. Original ROM BG bitmap 0x014000, metatile source 0x1B1526, tilemap 0x142865, palettes and sprites reconstructed and stream-hashed. This establishes shared scene asset ownership, NOT the individual tile/glyph sequences for 22 transcribed labels. Runtime rendering remains unobserved."
+        "status": "v37: Scene FE original-JP compressed glyph atlas verified for 26 uppercase letters (metatile E0..F9), with source graphics 0x014000, metatile definitions 0x1B1526 and map 0x142865. Exact contiguous metatile sequence PYRAMID at decompressed index 0x0B7; MU at index 0x385 (2 characters, individual place-label identity still ambiguous). Other 20 listed complete world-map labels not found as contiguous metatile sequences in this static decoded tilemap. Runtime placement, dynamic map overlays, and VRAM render not observed."
       },
       {
         "id": "R8",
@@ -47318,6 +47400,243 @@
         "static_tilemap_render_caveat": "The 32x32 metatile reconstruction yields geographical lettering, but Mode 7 runtime remapping, sprite composition, and each label's exact sequence are not verified. No claim of a fully accurate emulator frame.",
         "SNES_architecture_note": "Standard PPU Mode 7 does not display BG3; BG3 scripts examined separately belong to the 2D HUD/menu architecture."
       }
+    },
+    "worldmap_label_glyph_to_metatile_static_matching_2026_11_06": {
+      "date_local": "2026-11-06",
+      "method": "Verified 2 MiB original-JP ROM SHA-256; independently decompressed scene FE graphics 0x014000 (8192 bytes), metatile source 0x1B1526 (2048 bytes), and map 0x142865 (1028 bytes) with Quintet LZ; checked all 26 metatile definitions exact, and searched 22 listed map labels as contiguous metatile-ID sequences in 32-column map payload under both 0- and 4-byte possible alignment. No SNES emulator.",
+      "rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "scene_id": "0xFE",
+      "letter_metatile_mapping": "A-Z -> metatile ID 0xE0..0xF9 (letter ordinal + 0xE0)",
+      "metatile_definition_formula": "For ordinal 0..25, descriptor words at 8*(0xE0+ordinal) = 0x1001, 0x04C0+ordinal (0..15) else 0x04E0+(ordinal-16), 0x1011, 0x04D0+ordinal (0..15) else 0x04F0+(ordinal-16)",
+      "letter_glyph_ROM_source": "0x014000",
+      "glyph_metatile_ROM_source": "0x1B1526",
+      "compressed_map_ROM_source": "0x142865",
+      "scene_pointer_site": "0x0DAF86",
+      "font_26_glyphs_verified": true,
+      "font_mapping": [
+        {
+          "letter": "A",
+          "metatile_id": "0xE0",
+          "upper_8x8_tile_id": "0xC0",
+          "lower_8x8_tile_id": "0xD0",
+          "metatile_decompressed_byte_offset": "0x700"
+        },
+        {
+          "letter": "B",
+          "metatile_id": "0xE1",
+          "upper_8x8_tile_id": "0xC1",
+          "lower_8x8_tile_id": "0xD1",
+          "metatile_decompressed_byte_offset": "0x708"
+        },
+        {
+          "letter": "C",
+          "metatile_id": "0xE2",
+          "upper_8x8_tile_id": "0xC2",
+          "lower_8x8_tile_id": "0xD2",
+          "metatile_decompressed_byte_offset": "0x710"
+        },
+        {
+          "letter": "D",
+          "metatile_id": "0xE3",
+          "upper_8x8_tile_id": "0xC3",
+          "lower_8x8_tile_id": "0xD3",
+          "metatile_decompressed_byte_offset": "0x718"
+        },
+        {
+          "letter": "E",
+          "metatile_id": "0xE4",
+          "upper_8x8_tile_id": "0xC4",
+          "lower_8x8_tile_id": "0xD4",
+          "metatile_decompressed_byte_offset": "0x720"
+        },
+        {
+          "letter": "F",
+          "metatile_id": "0xE5",
+          "upper_8x8_tile_id": "0xC5",
+          "lower_8x8_tile_id": "0xD5",
+          "metatile_decompressed_byte_offset": "0x728"
+        },
+        {
+          "letter": "G",
+          "metatile_id": "0xE6",
+          "upper_8x8_tile_id": "0xC6",
+          "lower_8x8_tile_id": "0xD6",
+          "metatile_decompressed_byte_offset": "0x730"
+        },
+        {
+          "letter": "H",
+          "metatile_id": "0xE7",
+          "upper_8x8_tile_id": "0xC7",
+          "lower_8x8_tile_id": "0xD7",
+          "metatile_decompressed_byte_offset": "0x738"
+        },
+        {
+          "letter": "I",
+          "metatile_id": "0xE8",
+          "upper_8x8_tile_id": "0xC8",
+          "lower_8x8_tile_id": "0xD8",
+          "metatile_decompressed_byte_offset": "0x740"
+        },
+        {
+          "letter": "J",
+          "metatile_id": "0xE9",
+          "upper_8x8_tile_id": "0xC9",
+          "lower_8x8_tile_id": "0xD9",
+          "metatile_decompressed_byte_offset": "0x748"
+        },
+        {
+          "letter": "K",
+          "metatile_id": "0xEA",
+          "upper_8x8_tile_id": "0xCA",
+          "lower_8x8_tile_id": "0xDA",
+          "metatile_decompressed_byte_offset": "0x750"
+        },
+        {
+          "letter": "L",
+          "metatile_id": "0xEB",
+          "upper_8x8_tile_id": "0xCB",
+          "lower_8x8_tile_id": "0xDB",
+          "metatile_decompressed_byte_offset": "0x758"
+        },
+        {
+          "letter": "M",
+          "metatile_id": "0xEC",
+          "upper_8x8_tile_id": "0xCC",
+          "lower_8x8_tile_id": "0xDC",
+          "metatile_decompressed_byte_offset": "0x760"
+        },
+        {
+          "letter": "N",
+          "metatile_id": "0xED",
+          "upper_8x8_tile_id": "0xCD",
+          "lower_8x8_tile_id": "0xDD",
+          "metatile_decompressed_byte_offset": "0x768"
+        },
+        {
+          "letter": "O",
+          "metatile_id": "0xEE",
+          "upper_8x8_tile_id": "0xCE",
+          "lower_8x8_tile_id": "0xDE",
+          "metatile_decompressed_byte_offset": "0x770"
+        },
+        {
+          "letter": "P",
+          "metatile_id": "0xEF",
+          "upper_8x8_tile_id": "0xCF",
+          "lower_8x8_tile_id": "0xDF",
+          "metatile_decompressed_byte_offset": "0x778"
+        },
+        {
+          "letter": "Q",
+          "metatile_id": "0xF0",
+          "upper_8x8_tile_id": "0xE0",
+          "lower_8x8_tile_id": "0xF0",
+          "metatile_decompressed_byte_offset": "0x780"
+        },
+        {
+          "letter": "R",
+          "metatile_id": "0xF1",
+          "upper_8x8_tile_id": "0xE1",
+          "lower_8x8_tile_id": "0xF1",
+          "metatile_decompressed_byte_offset": "0x788"
+        },
+        {
+          "letter": "S",
+          "metatile_id": "0xF2",
+          "upper_8x8_tile_id": "0xE2",
+          "lower_8x8_tile_id": "0xF2",
+          "metatile_decompressed_byte_offset": "0x790"
+        },
+        {
+          "letter": "T",
+          "metatile_id": "0xF3",
+          "upper_8x8_tile_id": "0xE3",
+          "lower_8x8_tile_id": "0xF3",
+          "metatile_decompressed_byte_offset": "0x798"
+        },
+        {
+          "letter": "U",
+          "metatile_id": "0xF4",
+          "upper_8x8_tile_id": "0xE4",
+          "lower_8x8_tile_id": "0xF4",
+          "metatile_decompressed_byte_offset": "0x7A0"
+        },
+        {
+          "letter": "V",
+          "metatile_id": "0xF5",
+          "upper_8x8_tile_id": "0xE5",
+          "lower_8x8_tile_id": "0xF5",
+          "metatile_decompressed_byte_offset": "0x7A8"
+        },
+        {
+          "letter": "W",
+          "metatile_id": "0xF6",
+          "upper_8x8_tile_id": "0xE6",
+          "lower_8x8_tile_id": "0xF6",
+          "metatile_decompressed_byte_offset": "0x7B0"
+        },
+        {
+          "letter": "X",
+          "metatile_id": "0xF7",
+          "upper_8x8_tile_id": "0xE7",
+          "lower_8x8_tile_id": "0xF7",
+          "metatile_decompressed_byte_offset": "0x7B8"
+        },
+        {
+          "letter": "Y",
+          "metatile_id": "0xF8",
+          "upper_8x8_tile_id": "0xE8",
+          "lower_8x8_tile_id": "0xF8",
+          "metatile_decompressed_byte_offset": "0x7C0"
+        },
+        {
+          "letter": "Z",
+          "metatile_id": "0xF9",
+          "upper_8x8_tile_id": "0xE9",
+          "lower_8x8_tile_id": "0xF9",
+          "metatile_decompressed_byte_offset": "0x7C8"
+        }
+      ],
+      "full_label_matches": [
+        {
+          "id": "WMG-0001",
+          "text": "PYRAMID",
+          "match_class": "distinctive_exact_7_letter_metatile_sequence",
+          "decoded_index": 183,
+          "decoded_hex": "EF F8 F1 E0 EC E8 E3",
+          "corroborates_graphics_source": true,
+          "onscreen_render_proven": false
+        },
+        {
+          "id": "WMG-0010",
+          "text": "MU",
+          "match_class": "exact_2_letter_metatile_sequence_not_unique_proof_of_location_identity",
+          "decoded_index": 901,
+          "decoded_hex": "EC F4",
+          "corroborates_graphics_source": true,
+          "onscreen_render_proven": false
+        }
+      ],
+      "other_full_label_matches": 0,
+      "remaining_worldmap_labels_without_contiguous_metatile_matches": 20,
+      "partial_unattributed_ascii_fragments_in_decoded_map": [
+        "YRAMI",
+        "SAA",
+        "MOU",
+        "CRED",
+        "NTAIN"
+      ],
+      "fragment_note": "Fragments do not establish corresponding individual complete place labels and must not be silently converted into source attribution.",
+      "raw_ROM_tile_index_scan_note": "DAO metatile-ID bytes E3 E0 EE occur once at ROM 0x0F93E8 but the 3-byte hit has no verified graphics loader link and is NOT attributed to WMG-0002. MU raw 2-byte matches also ambiguous.",
+      "map_data_start_ambiguity": "Decoded tilemap is 1028 bytes. Whether first four expanded bytes are overhead is not verified. Both offsets 0 and 4 contain same byte-index matches but different 32-column XY coordinates. No game-screen positions claimed.",
+      "scope_limitations": [
+        "22 spellings are preserved from Japanese-version graphical rip; only two contiguous source spellings found in the scene-FE decoded static tilemap, of which MU is too short to uniquely identify screen-label ownership.",
+        "Font/word construction does not prove every word uses these same glyphs in every location or branch.",
+        "No native SNES frame, VRAM dump, or world-map RAM patch tracing is provided here."
+      ],
+      "new_extracted_distinct_player_visible_text_entries": 0,
+      "existing_entries_annotated_with_new_graphics_provenance": 2,
+      "stored_proof": "Repository master only; locally rendered glyph atlas and two-word visual proof are optional supporting artifacts, not added to repository."
     }
   }
 }
