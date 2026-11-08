@@ -19970,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v44",
+  "version": "v45",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-08T10:52:53Z",
+    "last_updated_utc": "2026-11-08T11:05:17.862Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained. v44: Confirmed Libretro Snes9x public source exports 64 KiB raw VRAM (retro memory 3) and 128 KiB WRAM (retro memory 2). Developed 229-line headless ctypes frontend and passed mock-only capture integration. Compiled native core unavailable here due blocked GitHub DNS. Native scene FA/FE CPU frames and exact label VRAM/OAM remain unobserved; all 1720 entries retained.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained. v44: Confirmed Libretro Snes9x public source exports 64 KiB raw VRAM (retro memory 3) and 128 KiB WRAM (retro memory 2). Developed 229-line headless ctypes frontend and passed mock-only capture integration. Compiled native core unavailable here due blocked GitHub DNS. Native scene FA/FE CPU frames and exact label VRAM/OAM remain unobserved; all 1720 entries retained. v45: Original JP ROM header verified as Fast HiROM; upstream SNESRecomp has game-neutral interpreter and snesref Libretro reference with patched Snes9x PPU/OAM/VRAM dump support. Public Babel Recomp native port uses USA ROM only, not original JP ROM. Added source-verified snesref capture recipe (local only); no original JP emulation or runtime label VRAM attributions obtained; 1720 entries preserved.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -50276,6 +50276,73 @@
       },
       "source_inventory_unchanged": true,
       "original_1720_entries_preserved": true
+    },
+    "snesrecomp_snesref_native_capture_feasibility_2026_11_08": {
+      "date": "2026-11-08",
+      "source_verification_type": "Direct inspection of RetroPortingToolKit/snesrecomp docs and PPU/interpreter code and mrOt4/babel-recomp README through connected GitHub; ROM header and SHA-256 checked locally",
+      "source_ROM_original_JP_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "ROM_size": 2097152,
+      "observed_JP_ROM_cart_header": {
+        "location": "0xFFC0",
+        "rom_title": "GAIA GENSOUKI 1 JPN",
+        "map_mode_byte": "0x31",
+        "reset_vector": "0x8000",
+        "interpreted_mapping": "Fast HiROM"
+      },
+      "source_repositories": {
+        "recompiler": "https://github.com/RetroPortingToolKit/snesrecomp",
+        "source_guide": "https://github.com/RetroPortingToolKit/snesrecomp/blob/main/docs/GETTING_STARTED.md",
+        "reference_frontend": "https://github.com/RetroPortingToolKit/snesrecomp/blob/main/tools/snesref/README.md",
+        "internal_reference": "https://github.com/RetroPortingToolKit/snesrecomp/blob/main/cosim/ref_driver.c",
+        "example_game_port": "https://github.com/mrOt4/babel-recomp"
+      },
+      "original_JP_direct_port_found": false,
+      "known_US_port": {
+        "name": "Babel Recomp",
+        "supports_original_JP_ROM": false,
+        "accepted_US_ROM_sha256": "32adc048fd89228a4310c03df243e83de7d436cdb2460b4cc83ade20d359b2bd",
+        "runtime_claim": "Upstream reports complete US-ROM run and Mode7 world map; not independently reproduced in this audit",
+        "compatibility_warning": "Game-specific port enforces USA ROM identity. Its native completion does not validate Japanese code, scene offsets, script paths or VRAM layout."
+      },
+      "compatibility_analysis": {
+        "framework_supports_HiROM": true,
+        "framework_interpreter_fallback": true,
+        "framework_is_drop_in_emulator": false,
+        "game_neutral_cosim_ref": "smw_cosim_ref uses interpreter 65816 and shared runner hardware, can execute a supplied ROM in development use, but is not independent PPU reference and must be built",
+        "key_preferred_capture": "tools/snesref is a standalone Libretro frontend using independent SNES core",
+        "source_verified_snesref_outputs": [
+          "framebuffer BMP and BGRX",
+          "WRAM 131072 bytes",
+          "VRAM 65536 bytes",
+          "optional SRAM",
+          "patched Snes9x CGRAM 512 bytes",
+          "patched Snes9x OAM 544 bytes",
+          "patched Snes9x PPU register metadata",
+          "patched Snes9x PPU register write TSV including CPU/DMA/HDMA origin"
+        ],
+        "debug_patch_path": "tools/snesref/patches/snes9x-snesref-debug-exports.patch",
+        "required_upstream_snes9x_patch_base": "b5cc765",
+        "scripted_dump_grammar": "SNESREF_SCRIPT: until <WRAMaddr> == <hexval> <timeout>; wait N; dump <tag>; quit",
+        "rom_variant_constraint": "Run the original Japanese ROM, not Babel Recomp's USA ROM"
+      },
+      "local_recipe": {
+        "zip": "gaia_snesref_capture_recipe.zip",
+        "zip_sha256": "e7ea5978fe18fa613aeeff1239a62a9f56d42c874ba5fc4f506ecbf219e5931a",
+        "source_readme": "gaia_snesref_capture/README.md",
+        "candidate_scene_scripts": [
+          "gaia_snesref_capture/scene_FA_candidate.txt",
+          "gaia_snesref_capture/scene_FE_candidate.txt"
+        ],
+        "selector_guess": "JP $7E:0644 may reflect scene id but is NOT proven; derived from independent US RAM map. Require screenshot, PPU mode, and loader trace confirmation."
+      },
+      "no_native_ROM_CPU_executed": true,
+      "original_JP_game_frame_dumps": 0,
+      "original_JP_genuine_VRAM_dumps": 0,
+      "original_JP_genuine_OAM_dumps": 0,
+      "original_JP_genuine_PPU_register_logs": 0,
+      "english_map_labels_with_runtime_provenance": 0,
+      "preserved_player_visible_records": 1720,
+      "source_proof_limit": "Host unable to clone github.com (DNS resolution failure), no compiled Snes9x or SNESRecomp runtime obtained. This entry verifies available upstream code and capture strategy, not real game execution."
     }
   }
 }
