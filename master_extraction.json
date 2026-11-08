@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-08T00:00:00Z",
+    "last_updated_utc": "2026-11-08T10:52:53Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
