@@ -17090,7 +17090,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x01",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0002",
@@ -17123,7 +17126,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x02",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0003",
@@ -17156,7 +17162,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x03",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0004",
@@ -17189,7 +17198,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x04",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0005",
@@ -17222,7 +17234,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x05",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0006",
@@ -17255,7 +17270,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x06",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0007",
@@ -17288,7 +17306,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x0A",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0008",
@@ -17321,7 +17342,10 @@
             "span_length_bytes": 13,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x0B",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0009",
@@ -17354,7 +17378,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x0D",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0010",
@@ -17387,7 +17414,10 @@
             "span_length_bytes": 12,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x15",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0011",
@@ -17420,7 +17450,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x17",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0012",
@@ -17453,7 +17486,10 @@
             "span_length_bytes": 12,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x1A",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0013",
@@ -17486,7 +17522,10 @@
             "span_length_bytes": 16,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x1C",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0014",
@@ -17519,7 +17558,10 @@
             "span_length_bytes": 11,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x1D",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0015",
@@ -17552,7 +17594,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x32",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0016",
@@ -17585,7 +17630,10 @@
             "span_length_bytes": 13,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x35",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0017",
@@ -17618,7 +17666,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x3C",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0018",
@@ -17651,7 +17702,10 @@
             "span_length_bytes": 13,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x3E",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0019",
@@ -17684,7 +17738,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x45",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0020",
@@ -17717,7 +17774,10 @@
             "span_length_bytes": 11,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x49",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0021",
@@ -17750,7 +17810,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x4B",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0022",
@@ -17783,7 +17846,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x4C",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0023",
@@ -17816,7 +17882,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x4D",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0024",
@@ -17849,7 +17918,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x4E",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0025",
@@ -17882,7 +17954,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x4F",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0026",
@@ -17915,7 +17990,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x50",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0027",
@@ -17948,7 +18026,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x51",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0028",
@@ -17981,7 +18062,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x52",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0029",
@@ -18014,7 +18098,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x53",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0030",
@@ -18047,7 +18134,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x54",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0031",
@@ -18080,7 +18170,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x5F",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0032",
@@ -18113,7 +18206,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x63",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0033",
@@ -18146,7 +18242,10 @@
             "span_length_bytes": 11,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x68",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0034",
@@ -18179,7 +18278,10 @@
             "span_length_bytes": 9,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x6B",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0035",
@@ -18212,7 +18314,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x71",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0036",
@@ -18245,7 +18350,10 @@
             "span_length_bytes": 17,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x78",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0037",
@@ -18278,7 +18386,10 @@
             "span_length_bytes": 6,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x7B",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0038",
@@ -18311,7 +18422,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x82",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0039",
@@ -18344,7 +18458,10 @@
             "span_length_bytes": 13,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x91",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0040",
@@ -18377,7 +18494,10 @@
             "span_length_bytes": 16,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x94",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0041",
@@ -18410,7 +18530,10 @@
             "span_length_bytes": 12,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x95",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0042",
@@ -18443,7 +18566,10 @@
             "span_length_bytes": 7,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0x9D",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0043",
@@ -18476,7 +18602,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xA0",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0044",
@@ -18509,7 +18638,10 @@
             "span_length_bytes": 15,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xB0",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0045",
@@ -18542,7 +18674,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xB1",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0046",
@@ -18575,7 +18710,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xB7",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0047",
@@ -18608,7 +18746,10 @@
             "span_length_bytes": 14,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xBA",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0048",
@@ -18641,7 +18782,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xBB",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0049",
@@ -18674,7 +18818,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xBC",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0050",
@@ -18707,7 +18854,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xBD",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0051",
@@ -18740,7 +18890,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xBE",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0052",
@@ -18773,7 +18926,10 @@
             "span_length_bytes": 12,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xC3",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0053",
@@ -18806,7 +18962,10 @@
             "span_length_bytes": 8,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xCC",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0054",
@@ -18839,7 +18998,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xE6",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0055",
@@ -18872,7 +19034,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xEB",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0056",
@@ -18905,7 +19070,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xEC",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0057",
@@ -18938,7 +19106,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xED",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0058",
@@ -18971,7 +19142,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xEE",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0059",
@@ -19004,7 +19178,10 @@
             "span_length_bytes": 10,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xEF",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0060",
@@ -19037,7 +19214,10 @@
             "span_length_bytes": 7,
             "original_rom_verified_in_current_session": true,
             "runtime_display_observed": false
-          }
+          },
+          "scene_actor_table_map_id": "0xF1",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0061",
@@ -19069,7 +19249,10 @@
             "screenshot_proof": null,
             "observed_scene": null,
             "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
-          }
+          },
+          "scene_actor_table_map_id": "0x08",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0062",
@@ -19101,7 +19284,10 @@
             "screenshot_proof": null,
             "observed_scene": null,
             "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
-          }
+          },
+          "scene_actor_table_map_id": "0x96",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         },
         {
           "id": "AREA-0063",
@@ -19133,7 +19319,10 @@
             "screenshot_proof": null,
             "observed_scene": null,
             "acceptance_test": "Track text source during an area transition and capture map name and PC/frame."
-          }
+          },
+          "scene_actor_table_map_id": "0xB6",
+          "scene_actor_table": "0x0C8000",
+          "scene_map_id_provenance": "Original JP ROM actor-list walker: scene ID index -> 16-bit bank-$0C pointer -> 7/9-byte actor records -> $FF terminator -> exact area-title ROM offset. This is source ownership, not execution proof."
         }
       ]
     },
@@ -19970,7 +20159,7 @@
       ]
     }
   ],
-  "version": "v45",
+  "version": "v46",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20201,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-08T11:05:17.862Z",
+    "last_updated_utc": "2026-11-08T16:00:00Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20236,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained. v44: Confirmed Libretro Snes9x public source exports 64 KiB raw VRAM (retro memory 3) and 128 KiB WRAM (retro memory 2). Developed 229-line headless ctypes frontend and passed mock-only capture integration. Compiled native core unavailable here due blocked GitHub DNS. Native scene FA/FE CPU frames and exact label VRAM/OAM remain unobserved; all 1720 entries retained. v45: Original JP ROM header verified as Fast HiROM; upstream SNESRecomp has game-neutral interpreter and snesref Libretro reference with patched Snes9x PPU/OAM/VRAM dump support. Public Babel Recomp native port uses USA ROM only, not original JP ROM. Added source-verified snesref capture recipe (local only); no original JP emulation or runtime label VRAM attributions obtained; 1720 entries preserved.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained. v44: Confirmed Libretro Snes9x public source exports 64 KiB raw VRAM (retro memory 3) and 128 KiB WRAM (retro memory 2). Developed 229-line headless ctypes frontend and passed mock-only capture integration. Compiled native core unavailable here due blocked GitHub DNS. Native scene FA/FE CPU frames and exact label VRAM/OAM remain unobserved; all 1720 entries retained. v45: Original JP ROM header verified as Fast HiROM; upstream SNESRecomp has game-neutral interpreter and snesref Libretro reference with patched Snes9x PPU/OAM/VRAM dump support. Public Babel Recomp native port uses USA ROM only, not original JP ROM. Added source-verified snesref capture recipe (local only); no original JP emulation or runtime label VRAM attributions obtained; 1720 entries preserved. v46: Source-audited Babel Recomp framework/text/graphics/patching architecture; independently applied scene actor-list walk to exact original JP ROM at 0x0C8000, attributing scene-map IDs to all 63 existing AREA records (0 unmatched); remaining 179 actor-list-end candidates are NOT claimed as extra text. US 16-byte text-engine signature absent and all 10 US widescreen patch immediate values mismatched. No native game execution/VRAM captures. 1720 player-visible entries unchanged.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -50343,6 +50532,136 @@
       "english_map_labels_with_runtime_provenance": 0,
       "preserved_player_visible_records": 1720,
       "source_proof_limit": "Host unable to clone github.com (DNS resolution failure), no compiled Snes9x or SNESRecomp runtime obtained. This entry verifies available upstream code and capture strategy, not real game execution."
+    },
+    "babel_recomp_full_codebase_audit_and_jp_area_owner_2026_11_08": {
+      "date": "2026-11-08",
+      "source_repository": "https://github.com/mrOt4/babel-recomp",
+      "revision": "main (source inspected November 8, 2026)",
+      "verification_class": "GitHub connector source audit plus independent original Japanese ROM byte scan and actor-table walk; no native SNES execution.",
+      "original_jp_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "upstream_usa_rom_sha256": "32adc048fd89228a4310c03df243e83de7d436cdb2460b4cc83ade20d359b2bd",
+      "upstream_rom_region": "USA, not Japanese; engine entry signature and hard-coded code offsets cannot be trusted on JP",
+      "source_inventory": {
+        "github_tree_entries": 1395,
+        "github_file_entries": 1212,
+        "game_src_files": 25,
+        "bank_cfg_files": 12,
+        "declared_bank_cfg_functions": 8987,
+        "source_structure_records": {
+          "S": 1438,
+          "T": 8,
+          "A": 241,
+          "P": 8,
+          "F": 3,
+          "N": 1,
+          "Q": 10,
+          "Z": 1,
+          "E": 1
+        },
+        "source_structure_role": "USA release map, not JP"
+      },
+      "key_code_reuse": {
+        "original_text_engine": "src/iog_text.c: COP BF/COP 6B WideString; dictionary expansion LU1/LU2; reference graph JMP/PRT/ADR and ordered dynamic-programming ROM alignment",
+        "original_ascii_engine": "COP BD menu and ability strings, pointer table and drawn HUD tile run reconstruction in AddAscii",
+        "sprite_map_names": "AddSprites uses [selector, pointer16] table and relocates place names; USA 0x03B1D4 versus original JP 0x03AF1C",
+        "scene_titles": "SceneTitle actor-list algorithm directly tested on original JP 0x0C8000 table and exactly matches all 63 currently retained area titles",
+        "font": "0x2000-byte decompress-and-patch BG3 font; current mapping is European/USA and requires JP research",
+        "virtual_banks": "A0-AE:8000-FFFF, 15 virtual banks; language bank overlays and 5-byte PRT/RET redirection; not presently validated on JP",
+        "renderer": "src/game_rtl.c 65816 interpreter fallback, master-clock deadline, NMI/IRQ handling, DMA/HDMA line rasterization; native recompile optional",
+        "graphical_overlay": "src/iog_widescreen.c Mode7 wide presentation and BG3 HUD split; all ten USA byte-specific culling patch sites fail JP comparison",
+        "companion_screen": "src/iog_companion.c speculative in-game menu execution followed by rollback and native-ROM BG3 font copying, applicable as a verification design",
+        "helper_mods": "src/iog_mods.c, iog_inventory.c, iog_ngplus.c, iog_randomizer.c, iog_ips.c, iog_msu.c are USA WRAM/offset dependent, reference only",
+        "host": "src/main.c and CMakeLists.txt use shared snesrecomp runner and recomp-ui, with snesrecomp interpreter-only CMake option default ON"
+      },
+      "original_jp_scene_actor_walk": {
+        "actor_pointer_table_rom": "0x0C8000",
+        "table_entries_scanned": 256,
+        "actor_list_walk_method": "for map ID 0x00..0xFF, read LE16 at 0x0C8000+2*map; actor list address in 0x0C bank; each actor is 7 bytes or 9 if seventh byte is nonzero; stop at 0xFF; next offset is candidate title",
+        "safely_terminated_scene_lists": 256,
+        "unique_post_actor_candidate_offsets": 242,
+        "original_master_area_titles_confirmed_scene_owner": 63,
+        "existing_area_title_offsets_unmatched": 0,
+        "other_candidate_offsets_without_existing_AREA_records": 179,
+        "warning": "Do NOT count 179 other candidate offsets as newly discovered dialogue or missing on-screen text. Many are blank/control-bearing or other scene data, and visibility/terminator semantics require independent proof.",
+        "added_fields_to_existing_records": [
+          "scene_actor_table_map_id",
+          "scene_actor_table",
+          "scene_map_id_provenance"
+        ],
+        "sample_matches": {
+          "0x01": "0x0C831E",
+          "0x0A": "0x0C85EF",
+          "0x15": "0x0C8B34",
+          "0x5F": "0x0CA7B1",
+          "0xB0": "0x0CCB5F",
+          "0xCC": "0x0CD510"
+        }
+      },
+      "compatibility_blockers": {
+        "original_jp_absent_usa_text_engine_signature": "08 0B DA A9 00 00 5B AE 98 09 E2 20 B9 00 00 C9 (no exact matches in original JP 2MiB ROM)",
+        "sprite_lookup_signature_found_original_jp_at": "0x03A3D6",
+        "usa_widescreen_patch_sites_tested": 10,
+        "usa_widescreen_patch_sites_matching_jp": 0,
+        "sites_and_jp_16bit_values": [
+          [
+            "0x03C617",
+            "0xC8C8"
+          ],
+          [
+            "0x03C61A",
+            "0xC0C8"
+          ],
+          [
+            "0x03C62A",
+            "0x60AB"
+          ],
+          [
+            "0x03C62D",
+            "0xE080"
+          ],
+          [
+            "0x03C729",
+            "0x0004"
+          ],
+          [
+            "0x03C8E5",
+            "0xF000"
+          ],
+          [
+            "0x03C8EA",
+            "0x7F00"
+          ],
+          [
+            "0x03C9C2",
+            "0xF000"
+          ],
+          [
+            "0x03C9C7",
+            "0x80CF"
+          ],
+          [
+            "0x03C7BE",
+            "0x85FF"
+          ]
+        ],
+        "original_jp_raw_opcode_marker_counts": {
+          "02 BF": 1441,
+          "02 6B": 30,
+          "02 BD": 93,
+          "02 4F": 84
+        },
+        "raw_opcode_caution": "Binary signature hits may include data/non-executable bytes; not proof of reachable call sites, and no runtime trace obtained."
+      },
+      "claimed_native_execution_frames": 0,
+      "observed_genuine_scene_FA_FE_VRAM": 0,
+      "newly_distinct_player_facing_entries": 0,
+      "preserved_player_facing_entries": 1720,
+      "next_stages": [
+        "Reconstruct original JP text engine signature/dictionary and per-branch reference graph using Babel algorithm",
+        "Confirm runtime scene title visibility and additional post-actor candidates",
+        "Instrument authentic JP mode7/VRAM/OAM writes using snesref or adapted interpreter",
+        "Build English-only JP asset overlay without carrying USA ROM offsets"
+      ]
     }
   }
 }
