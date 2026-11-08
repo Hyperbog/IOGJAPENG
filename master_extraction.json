@@ -19970,7 +19970,7 @@
       ]
     }
   ],
-  "version": "v43",
+  "version": "v44",
   "audit_notes": {
     "inline_menu_records_checked": 15,
     "new_distinct_ui_records": 20,
@@ -20012,7 +20012,7 @@
     "canonical_branch": "main",
     "canonical_path": "master_extraction.json",
     "storage_policy": "Update this single file in place on main. Do not maintain separate versioned extraction files or branches.",
-    "last_updated_utc": "2026-11-08T10:23:00Z",
+    "last_updated_utc": "2026-11-08T00:00:00Z",
     "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
     "inventory": {
       "entries": 1720,
@@ -20047,7 +20047,7 @@
       "entries_without_verified_original_ROM_source_provenance": 26,
       "source_offset_inventory_correction": "v34: Nine original-ROM opening narrative script blocks (0x09AE42–0x09B035) and five title-overlay font-encoded literal spans (0x01DA06–0x01DA61) attributed. 1,688 direct ROM byte spans/windows and 6 compound ability instruction records. 26 records lack contiguous original-ROM text-source attribution; one of these (title logo) has independently verified compressed graphic provenance."
     },
-    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained.",
+    "completion_state": "1,720 retained player-visible entries (18 sections); v40 additionally verifies original Japanese scenes 0xFA and 0xFE share the same three compressed geographic ROM assets, and separates Mode7 matrix/HDMA coefficient data from video tilemap staging and from the Japanese generated-name glyph overlay at VRAM $4400. 28 executable opcode patterns independently read from original ROM; the general metatile expansion stage is traced, but scene-FE execution and exact Roman-label VRAM base/tile sequence are NOT proven. Static fragments remain as v39: distinctive PYRAMID, short MU, separately colored SEA/PALACE, partial SACRED/MOUNTAIN, other 18 records unsourced at contiguous 3+ metatile level. Exact per-label runtime VRAM attribution remains 0/22; no native SNES frames captured; 3 UI graphical labels remain unresolved. All prior 1,688 direct byte source spans plus six compound records preserved. v41: Original-ROM FA/FE scene-card order (9/10 cards including terminators) independently interpreted and PPU BGMODE values (Mode 1 vs 7) verified, with exact LZ hashes and pixel-level glyph projection. No SNES CPU execution or runtime VRAM/OAM/frame capture; all 22 English labels retain prior runtime-verification status. v42: Native execution attempted but impossible here (no SNES emulator/core and network downloads unavailable); constructed and verified separate VRAM capture attribution analyzer with synthetic Mode1 and Mode7 tests. Zero true ROM CPU instructions, PPU frames, VRAM/OAM captures, and Roman label runtime attributions observed; no new player-visible entries. v43: Native SNES core still unavailable in this execution environment. Prepared/tested 167-line BizHawk Lua raw-memory capture harness and revalidated ROM identity; local synthetic test files were discarded. Zero genuine emulator frames or VRAM/OAM dumps; zero newly attributed English labels; 1720 entries retained. v44: Confirmed Libretro Snes9x public source exports 64 KiB raw VRAM (retro memory 3) and 128 KiB WRAM (retro memory 2). Developed 229-line headless ctypes frontend and passed mock-only capture integration. Compiled native core unavailable here due blocked GitHub DNS. Native scene FA/FE CPU frames and exact label VRAM/OAM remain unobserved; all 1720 entries retained.",
     "exact_known_remaining_work": [
       {
         "id": "R1",
@@ -50228,6 +50228,54 @@
       "new_player_facing_text_entries": 0,
       "number_of_unchanged_player_facing_records": 1720,
       "next_required_proof": "Run original ROM to scene FA and FE in native emulator; capture in-game frames and raw VRAM/OAM/CGRAM, PPU state, DMA events; run existing attribution script then adjudicate each of 22 English world-map labels and Japanese $4400 overlay separately."
+    },
+    "libretro_snes9x_direct_vram_api_instrumentation_2026_11_08": {
+      "date": "2026-11-08",
+      "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+      "source_repository": "https://github.com/libretro/snes9x",
+      "source_commit": "fae2fea08f74180759ef540ee94259213f503480",
+      "source_file": "libretro/libretro.cpp",
+      "source_verification_class": "Direct GitHub connector read of Libretro Snes9x source at master; independently read memory API constants from libretro/libretro.h. No native core execution in this environment.",
+      "confirmed_api": {
+        "retro_get_memory_data(RETRO_MEMORY_VIDEO_RAM /* 3 */)": "Memory.VRAM pointer",
+        "retro_get_memory_size(RETRO_MEMORY_VIDEO_RAM /* 3 */)": "65536 bytes",
+        "retro_get_memory_data(RETRO_MEMORY_SYSTEM_RAM /* 2 */)": "Memory.RAM pointer",
+        "retro_get_memory_size(RETRO_MEMORY_SYSTEM_RAM /* 2 */)": "131072 bytes",
+        "retro_serialize": "uses S9xFreezeGameMem for core savestates",
+        "retro_unserialize": "uses S9xUnfreezeGameMem"
+      },
+      "key_conclusion": "Snes9x Libretro core has a native direct-VRAM export; a frontend can capture original game VRAM if compiled core is present and correct scene executed. Does NOT expose exact PPU/OAM/DMA state through these two memory-memory methods.",
+      "libretro_native_capture_frontend": {
+        "filename": "gaia_libretro_capture.py",
+        "sha256": "2efedaa14f04ac153d84ad9ed423c07c3ed39acfda874c34d5314a506c9e0a4d",
+        "lines": 229,
+        "program_type": "Python 3 ctypes headless Libretro frontend; verifies original ROM SHA; advances core frames with optional scheduled buttons/raw same-core state; records true VRAM/WRAM memory interfaces, PNG callback and manifest per selected frame.",
+        "source_checked_python_compilation": true,
+        "mock_shared_library_compiled_and_tested": true,
+        "mock_core_test_results": {
+          "mock_frames_emulated": 2,
+          "mock_VRAM_bytes": 65536,
+          "mock_WRAM_bytes": 131072,
+          "mock_PNGs_generated": 2,
+          "mock_RGB_pixel_sample": "00FF00",
+          "source_of_test_memory": "purpose-built mock, not Snes9x"
+        },
+        "artifact_zip": "gaia_libretro_direct_vram_capture_kit.zip",
+        "artifact_zip_sha256": "41e90b66f6c30ff6aeaa9d496c8ae2ef1372d5c98af77fe7fda0e595eac2fe00",
+        "not_in_repository": "Standalone toolkit is local only; the repository remains a single master JSON."
+      },
+      "runtime_block": {
+        "installed_original_snes9x_core": false,
+        "core_build_attempt": "Could not clone GitHub repository with container git due DNS resolution failure; GitHub connector provides source-readable text, not a directly usable compiled binary.",
+        "full_original_65816_emulator_instructions_executed": 0,
+        "authentic_FA_VRAM_dumps": 0,
+        "authentic_FE_VRAM_dumps": 0,
+        "real_FA_FE_screenshots": 0,
+        "confirmed_english_label_runtime_attributions": 0,
+        "route_to_completion": "Build Libretro Snes9x on a network-accessible Linux host, use frontend with original ROM and a corroborated scene FA/FE state, then analyze raw 65536-byte VRAM and screenshot. Supplement OAM/PPU register and DMA logging from emulator debugger."
+      },
+      "source_inventory_unchanged": true,
+      "original_1720_entries_preserved": true
     }
   }
 }
