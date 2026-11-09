@@ -1,0 +1,35 @@
+{
+  "schema": "jp_native_integration_validation_v1",
+  "date_utc": "2026-11-09",
+  "original_rom_sha256": "7c0380753f976a8e41de92dc78ac76e413e97f0d8610c2d65b0ac31ff24676d0",
+  "original_rom_size": 2097152,
+  "original_rom_crc32": "b344e9a0",
+  "tests": {
+    "corrected_cop_frame_fixture": "pass",
+    "live_c5_selector_synthetic_fixture": "pass",
+    "raw_ppu_serialization_66592_bytes": "pass synthetic only",
+    "strict_c_compilation": "pass",
+    "adapter_header_stubs_compilation": "pass (not full upstream link)",
+    "scaffold_guard_and_idempotency": "pass synthetic upstream scaffold",
+    "capture_audit_and_synthetic_rejection": "pass",
+    "build_script_shell_syntax": "pass",
+    "native_japanese_executable_build": "blocked - missing full SNESRecomp checkout and dependencies",
+    "original_rom_emulated_cpu_execution": "not performed",
+    "original_game_vram_capture": "not performed"
+  },
+  "synthetic_fixture": {
+    "schema": "jp_capture_audit_v1",
+    "provenance": "synthetic_fixture",
+    "frame_snapshots_verified": 1,
+    "cop_events": 1,
+    "unique_executed_cop_patterns": 1,
+    "conditional_branch_events": 1,
+    "distinct_selected_branches": 1,
+    "handler_events": 1,
+    "vram_sha256_by_frame": {
+      "frame_000000.ppu.bin": "a0e11ffee4b0ec114789970a5ffbd4fd64c6a17554f9e40d42b9605d6b0e7f72"
+    },
+    "note": "Checksums validate captured files, not emulator fidelity."
+  },
+  "note": "No ROM, reconstructed game graphics, or original-game VRAM is included."
+}
